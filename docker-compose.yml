@@ -16,11 +16,11 @@ services:
     image: adminer
     restart: always
     ports:
-      - "8080:8080"
+      - "8082:8080" # Changed port to 8082
     environment:
       - ADMINER_DEFAULT_SERVER=psql
-    # networks:
-    #   - maestro_traefik
+    networks:
+      - maestro_traefik
 
   mongo:
     container_name: mongo
@@ -52,6 +52,7 @@ services:
     environment:
       - MONGO_URL=mongodb://mongo:27017
       - DOCKER=True
+      - DEBUG=TRUE
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.issues-db-api.rule=Host(`maestro.localhost`)"
@@ -60,7 +61,8 @@ services:
       - "traefik.http.routers.issues-db-api.tls=true"
       - "traefik.http.routers.issues-db-api.middlewares=issues-db-api"
       - "traefik.http.middlewares.issues-db-api.stripprefix.prefixes=/issues-db-api"
-
+    volumes:
+      - ./issues-db-api/:/python-docker
   backup-issues-db:
     container_name: backup-issues-db
     build: ./backup/
