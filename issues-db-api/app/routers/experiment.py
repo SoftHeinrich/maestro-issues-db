@@ -2,7 +2,7 @@ import json
 import os
 from fastapi import APIRouter, HTTPException, status
 from pydantic import BaseModel
-from typing import Any, Dict
+from typing import Any, Dict, List
 
 router = APIRouter(tags=["experiment"])
 
@@ -11,12 +11,16 @@ class MtrNo(BaseModel):
     MtrNo: str
 
 
+class Rating(BaseModel):
+    issue_id: str
+    rating: str
+
 class SaveResult(BaseModel):
     matriculationNumber: str
     taskId: str
     questionKey: str
     searchQuery: str
-    ratings: Dict[str, str]
+    ratings: List[Rating]
 
 
 def load_experiment_data() -> Dict[str, Any]:
@@ -72,6 +76,52 @@ def get_experiment_tasks(request_data: MtrNo):
     return response
 
 
+# @router.post("/submit-ratings")
+# def save_result(result_data: SaveResult):
+#     data = load_experiment_data()
+
+#     # Get the student data section
+#     student_data = data.setdefault("student_data", {})
+#     matriculation_number = result_data.matriculationNumber
+
+#     # Ensure student exists in the data
+#     if matriculation_number not in student_data:
+#         raise HTTPException(
+#             status_code=status.HTTP_404_NOT_FOUND,
+#             detail=f"No student data found for Matriculation Number: {matriculation_number}"
+#         )
+    
+    
+#     student = student_data[matriculation_number]
+    
+    
+#     # Add the result to the solutions
+#     task_id = result_data.taskId
+#     question_key = result_data.questionKey
+#     search_query = result_data.searchQuery
+#     ratings = result_data.ratings
+
+#     solution = {
+#         "taskId": task_id,
+#         "questionKey": question_key,
+#         "searchQuery": search_query,
+#         "ratings": ratings
+#     }
+    
+#     # Append the solution to the student's task solutions
+#     for task in student["tasks"]:
+#         # find the task
+#         if task["taskName"] == task_id:
+#             task["solutions"].setdefault(question_key,[]).append(solution)
+#             # task.setdefault("solutions", {}).append(solution)
+#             break
+
+    
+
+#     # Save updated data back to the JSON file
+#     save_experiment_data(data)
+
+#     return {"message": "Result saved successfully"}
 @router.post("/submit-ratings")
 def save_result(result_data: SaveResult):
     data = load_experiment_data()
@@ -87,15 +137,15 @@ def save_result(result_data: SaveResult):
             detail=f"No student data found for Matriculation Number: {matriculation_number}"
         )
     
-    
     student = student_data[matriculation_number]
-    
     
     # Add the result to the solutions
     task_id = result_data.taskId
     question_key = result_data.questionKey
     search_query = result_data.searchQuery
-    ratings = result_data.ratings
+
+    # Convert `Rating` objects to dictionaries for serialization
+    ratings = [{"issue_id": rating.issue_id, "rating": rating.rating} for rating in result_data.ratings]
 
     solution = {
         "taskId": task_id,
@@ -108,13 +158,10 @@ def save_result(result_data: SaveResult):
     for task in student["tasks"]:
         # find the task
         if task["taskName"] == task_id:
-            task["solutions"].setdefault(question_key,[]).append(solution)
-            # task.setdefault("solutions", {}).append(solution)
+            task["solutions"].setdefault(question_key, []).append(solution)
             break
-
-    
 
     # Save updated data back to the JSON file
     save_experiment_data(data)
 
-    return {"message": "Result saved successfully"}
+    return {"success": "Result saved successfully"}
