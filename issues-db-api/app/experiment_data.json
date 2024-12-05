@@ -1,301 +1,118 @@
 {
-    "student_data": {
-        "6987090": {
-            "tasks": [
-                {
-                    "taskName": "jQuery",
-                    "rerank_engine": true,
-                    "solutions": {
-                        "question1": [
-                            {
-                                "taskId": "jQuery",
-                                "questionKey": "question1",
-                                "searchQuery": "task",
-                                "ratings": {
-                                    "Apache-12730694": "0",
-                                    "Apache-12716957": "3",
-                                    "Apache-12772631": "0",
-                                    "Apache-12864085": "2",
-                                    "Apache-12848443": "3",
-                                    "Apache-12758702": "3",
-                                    "Apache-12944379": "5",
-                                    "Apache-12682310": "3",
-                                    "Apache-12966003": "4",
-                                    "Apache-12682884": "4"
-                                }
-                            },
-                            {
-                                "taskId": "jQuery",
-                                "questionKey": "question1",
-                                "searchQuery": "123",
-                                "ratings": {
-                                    "Apache-12681971": "2",
-                                    "Apache-12735086": "5",
-                                    "Apache-12856418": "2",
-                                    "Apache-12702100": "5",
-                                    "Apache-12707079": "3",
-                                    "Apache-12756071": "5",
-                                    "Apache-12682327": "0",
-                                    "Apache-12710907": "3",
-                                    "Apache-13122420": "2",
-                                    "Apache-12914113": "3"
-                                }
-                            }
-                        ],
-                        "question2": [
-                            {
-                                "taskId": "jQuery",
-                                "questionKey": "question2",
-                                "searchQuery": "432",
-                                "ratings": {
-                                    "Apache-12782790": "4"
-                                }
-                            },
-                            {
-                                "taskId": "jQuery",
-                                "questionKey": "question2",
-                                "searchQuery": "lot",
-                                "ratings": {}
-                            }
-                        ],
-                        "question3": [
-                            {
-                                "taskId": "jQuery",
-                                "questionKey": "question3",
-                                "searchQuery": "abc",
-                                "ratings": {
-                                    "Apache-12743967": "2",
-                                    "Apache-12732273": "4",
-                                    "Apache-12670624": "4",
-                                    "Apache-12765565": "4",
-                                    "Apache-12666525": "3",
-                                    "Apache-12682002": "4",
-                                    "Apache-12786051": "3",
-                                    "Apache-12668676": "2",
-                                    "Apache-12845216": "3",
-                                    "Apache-12692866": "2"
-                                }
-                            },
-                            {
-                                "taskId": "jQuery",
-                                "questionKey": "question3",
-                                "searchQuery": "abc",
-                                "ratings": {
-                                    "Apache-12743967": "2",
-                                    "Apache-12732273": "4",
-                                    "Apache-12670624": "4",
-                                    "Apache-12765565": "4",
-                                    "Apache-12666525": "3",
-                                    "Apache-12682002": "4",
-                                    "Apache-12786051": "3",
-                                    "Apache-12668676": "2",
-                                    "Apache-12845216": "3",
-                                    "Apache-12692866": "2"
-                                }
-                            }
-                        ],
-                        "question4": [
-                            {
-                                "taskId": "jQuery",
-                                "questionKey": "question4",
-                                "searchQuery": "abc",
-                                "ratings": {
-                                    "Apache-12743967": "2",
-                                    "Apache-12732273": "2",
-                                    "Apache-12670624": "3",
-                                    "Apache-12765565": "4",
-                                    "Apache-12666525": "3",
-                                    "Apache-12682002": "3",
-                                    "Apache-12786051": "4",
-                                    "Apache-12668676": "1",
-                                    "Apache-12845216": "1",
-                                    "Apache-12692866": "2"
-                                }
-                            }
-                        ]
-                    }
-                },
-                {
-                    "taskName": "Portability in Hadoop HDFS",
-                    "rerank_engine": false,
-                    "solutions": {
-                        "question1": [
-                            {
-                                "taskId": "Portability in Hadoop HDFS",
-                                "questionKey": "question1",
-                                "searchQuery": "thats it",
-                                "ratings": {
-                                    "Apache-12919590": "3",
-                                    "Apache-12755617": "3",
-                                    "Apache-12781753": "3",
-                                    "Apache-12638492": "4",
-                                    "Apache-12922666": "4",
-                                    "Apache-12772428": "4",
-                                    "Apache-12864131": "5",
-                                    "Apache-12755086": "2",
-                                    "Apache-12641236": "1",
-                                    "Apache-12783518": "3"
-                                }
-                            }
-                        ]
-                    }
-                }
-            ]
+  "student_data": {
+    "6987090": {
+      "tasks": [
+        {
+          "taskName": "jQuery",
+          "rerank_engine": true,
+          "solutions": {}
         },
-        "6987091": {
-            "tasks": [
-                {
-                    "taskName": "jQuery",
-                    "rerank_engine": true,
-                    "solutions": {
-                        "question1": [
-                            {
-                                "taskId": "jQuery",
-                                "questionKey": "question1",
-                                "searchQuery": "task",
-                                "ratings": {
-                                    "Apache-12730694": "3",
-                                    "Apache-12716957": "2"
-                                }
-                            },
-                            {
-                                "taskId": "jQuery",
-                                "questionKey": "question1",
-                                "searchQuery": "123",
-                                "ratings": {}
-                            },
-                            {
-                                "taskId": "jQuery",
-                                "questionKey": "question1",
-                                "searchQuery": "123",
-                                "ratings": {}
-                            },
-                            {
-                                "taskId": "jQuery",
-                                "questionKey": "question1",
-                                "searchQuery": "123",
-                                "ratings": {
-                                    "Apache-12681971": "4",
-                                    "Apache-12735086": "4",
-                                    "Apache-12856418": "5",
-                                    "Apache-12702100": "5",
-                                    "Apache-12756071": "5",
-                                    "Apache-12682327": "4",
-                                    "Apache-12710907": "4"
-                                }
-                            },
-                            {
-                                "taskId": "jQuery",
-                                "questionKey": "question1",
-                                "searchQuery": "123",
-                                "ratings": {
-                                    "Apache-12681971": "4",
-                                    "Apache-12735086": "4",
-                                    "Apache-12856418": "5",
-                                    "Apache-12702100": "5",
-                                    "Apache-12756071": "5",
-                                    "Apache-12682327": "4",
-                                    "Apache-12710907": "4",
-                                    "Apache-12914113": "4",
-                                    "Apache-13122420": "5",
-                                    "Apache-12707079": "5"
-                                }
-                            }
-                        ]
-                    }
-                }
-            ]
+        {
+          "taskName": "Portability in Hadoop HDFS",
+          "rerank_engine": false,
+          "solutions": {}
         }
+      ]
     },
-    "task_details": {
-        "jQuery": {
-            "description": "As a developer, your task is to understand the jQuery component in Hadoop HDFS.\nYou want to explore its functionality and grasp its inner workings from components, connectors, and architectural solutions.\n\n",
-            "questions": {
-                "question1": {
-                    "type": "existence",
-                    "description": "What are the components and connectors of jQuery, and what is the rationale behind the design decisions?\n\n",
-                    "design_decision": {
-                        "existence": true
-                    }
-                },
-                "question2": {
-                    "type": "property",
-                    "description": "What quality attributes are considered in the design of jQuery?\n\n",
-                    "design_decision": {
-                        "property": true
-                    }
-                },
-                "question3": {
-                    "type": "property",
-                    "description": "What architectural tactics used to satisfy the found quality attributes in jQuery?\n\n",
-                    "design_decision": {
-                        "property": true
-                    }
-                },
-                "question4": {
-                    "type": "property",
-                    "description": "What architectural patterns are implemented in jQuery?\n\n",
-                    "design_decision": {
-                        "property": true
-                    }
-                },
-                "question5": {
-                    "type": "executive",
-                    "description": "What are the technologies applied in jQuery, and what is the rationale behind the design decisions?\n\n",
-                    "design_decision": {
-                        "executive": true
-                    }
-                }
-            },
-            "task_details": "Instructions:\n* Use the specific search engines for the questions to search for answers.\n* Execute at least two queries to find answers for each question.",
-            "Likert Scale": {
-                "5": "Very Relevant",
-                "4": "Relevant",
-                "3": "Distantly Relevant",
-                "2": "Less Relevant",
-                "1": "Not Relevant"
-            }
-        },
-        "Portability in Hadoop HDFS": {
-            "description": "Portability is a key feature of Hadoop HDFS.\nUnderstanding how this feature is designed in HDFS will provide insight into how HDFS can be extended for future design decisions.\nYou are tasked with exploring the architectural decisions that enable portability in Hadoop HDFS.\n\n",
-            "questions": {
-                "question1": {
-                    "type": "existence",
-                    "description": "What components in HDFS contribute to its portability?\n\n",
-                    "design_decision": {
-                        "existence": true
-                    }
-                },
-                "question2": {
-                    "type": "property",
-                    "description": "What architectural tactics are employed in HDFS to ensure portability?\n\n",
-                    "design_decision": {
-                        "property": true
-                    }
-                },
-                "question3": {
-                    "type": "property",
-                    "description": "What architectural patterns are applied to achieve portability in HDFS?\n\n",
-                    "design_decision": {
-                        "property": true
-                    }
-                },
-                "question4": {
-                    "type": "executive",
-                    "description": "Which tools and technologies are integrated into HDFS to ensure portability?\n\n",
-                    "design_decision": {
-                        "executive": true
-                    }
-                }
-            },
-            "task_details": "Instructions:\n* Use the specific search engines for the questions to search for answers.\n* Execute at least two queries to find answers for each question.",
-            "Likert Scale": {
-                "5": "Very Relevant",
-                "4": "Relevant",
-                "3": "Distantly Relevant",
-                "2": "Less Relevant",
-                "1": "Not Relevant"
-            }
+    "6987091": {
+      "tasks": [
+        {
+          "taskName": "jQuery",
+          "rerank_engine": true,
+          "solutions": {}
         }
+      ]
     }
+  },
+  "task_details": {
+    "jQuery": {
+      "description": "As a developer, your task is to understand the jQuery component in Hadoop HDFS.\nYou want to explore its functionality and grasp its inner workings from components, connectors, and architectural solutions.\n\n",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of jQuery, and what is the rationale behind the design decisions?\n\n",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What quality attributes are considered in the design of jQuery?\n\n",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics used to satisfy the found quality attributes in jQuery?\n\n",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "property",
+          "description": "What architectural patterns are implemented in jQuery?\n\n",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question5": {
+          "type": "executive",
+          "description": "What are the technologies applied in jQuery, and what is the rationale behind the design decisions?\n\n",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      },
+      "task_details": "Instructions:\n* Use the specific search engines for the questions to search for answers.\n* Execute at least two queries to find answers for each question.",
+      "Likert Scale": {
+        "5": "Very Relevant",
+        "4": "Relevant",
+        "3": "Distantly Relevant",
+        "2": "Less Relevant",
+        "1": "Not Relevant"
+      }
+    },
+    "Portability in Hadoop HDFS": {
+      "description": "Portability is a key feature of Hadoop HDFS.\nUnderstanding how this feature is designed in HDFS will provide insight into how HDFS can be extended for future design decisions.\nYou are tasked with exploring the architectural decisions that enable portability in Hadoop HDFS.\n\n",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What components in HDFS contribute to its portability?\n\n",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics are employed in HDFS to ensure portability?\n\n",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural patterns are applied to achieve portability in HDFS?\n\n",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which tools and technologies are integrated into HDFS to ensure portability?\n\n",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      },
+      "task_details": "Instructions:\n* Use the specific search engines for the questions to search for answers.\n* Execute at least two queries to find answers for each question.",
+      "Likert Scale": {
+        "5": "Very Relevant",
+        "4": "Relevant",
+        "3": "Distantly Relevant",
+        "2": "Less Relevant",
+        "1": "Not Relevant"
+      }
+    }
+  }
 }
