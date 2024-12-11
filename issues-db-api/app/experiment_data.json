@@ -5,11 +5,14 @@
         {
           "taskName": "jQuery",
           "rerank_engine": true,
+          "gpt": true,
           "solutions": {}
         },
         {
           "taskName": "Portability in Hadoop HDFS",
           "rerank_engine": false,
+          "gpt": false,
+
           "solutions": {}
         }
       ]
@@ -19,6 +22,7 @@
         {
           "taskName": "jQuery",
           "rerank_engine": true,
+          "gpt": true,
           "solutions": {}
         }
       ]

@@ -12,3 +12,5 @@ coverage==7.2.7
 requests==2.31.0
 jira==3.5.2
 websockets==11.0.3
+openai
+python-dotenv

@@ -1,15 +1,20 @@
 import json
 import os
+from shutil import copyfile
+from dotenv import load_dotenv
 from fastapi import APIRouter, HTTPException, status
 from pydantic import BaseModel
 from typing import Any, Dict, List
+from openai import OpenAI
+
+
+load_dotenv()
+api_key = os.getenv("OPEN_AI_API_KEY", "")
 
 router = APIRouter(tags=["experiment"])
 
-
 class MtrNo(BaseModel):
     MtrNo: str
-
 
 class Rating(BaseModel):
     issue_id: str
@@ -22,22 +27,45 @@ class SaveResult(BaseModel):
     searchQuery: str
     ratings: List[Rating]
 
+def get_experiment_file_path() -> str:
+    current_directory = os.path.dirname(os.path.abspath(__file__))
+    return os.path.join(current_directory, "..", "experiment_data.json")
+
+def create_backup(file_path: str) -> None:
+    backup_path = f"{file_path}.bak"
+    copyfile(file_path, backup_path)
 
 def load_experiment_data() -> Dict[str, Any]:
-    # Get the directory of the current file and construct the path to experiment_data.json
-    current_directory = os.path.dirname(os.path.abspath(__file__))
-    file_path = os.path.join(current_directory, "..", "experiment_data.json")
+    file_path = get_experiment_file_path()
     with open(file_path, "r") as file:
         return json.load(file)
 
-
 def save_experiment_data(data: Dict[str, Any]) -> None:
-    # Get the directory of the current file and construct the path to experiment_data.json
-    current_directory = os.path.dirname(os.path.abspath(__file__))
-    file_path = os.path.join(current_directory, "..", "experiment_data.json")
+    file_path = get_experiment_file_path()
+
+    # Create a backup before saving
+    create_backup(file_path)
+
+    # Save the updated data
     with open(file_path, "w") as file:
         json.dump(data, file, indent=4)
 
+def validate_result_data(result_data: SaveResult, experiment_data: Dict[str, Any]) -> bool:
+    student_data = experiment_data.get("student_data", {})
+    matriculation_number = result_data.matriculationNumber
+
+    # Ensure the student exists
+    if matriculation_number not in student_data:
+        return False
+
+    student = student_data[matriculation_number]
+
+    # Ensure the task exists
+    task_names = [task["taskName"] for task in student["tasks"]]
+    if result_data.taskId not in task_names:
+        return False
+
+    return True
 
 @router.post("/tasks")
 def get_experiment_tasks(request_data: MtrNo):
@@ -60,6 +88,7 @@ def get_experiment_tasks(request_data: MtrNo):
         task_info = {
             "taskName": task_name,
             "rerank_engine": task["rerank_engine"],
+            "gpt": task["gpt"],
             "solutions": task["solutions"]
         }
 
@@ -75,70 +104,23 @@ def get_experiment_tasks(request_data: MtrNo):
 
     return response
 
-
-# @router.post("/submit-ratings")
-# def save_result(result_data: SaveResult):
-#     data = load_experiment_data()
-
-#     # Get the student data section
-#     student_data = data.setdefault("student_data", {})
-#     matriculation_number = result_data.matriculationNumber
-
-#     # Ensure student exists in the data
-#     if matriculation_number not in student_data:
-#         raise HTTPException(
-#             status_code=status.HTTP_404_NOT_FOUND,
-#             detail=f"No student data found for Matriculation Number: {matriculation_number}"
-#         )
-    
-    
-#     student = student_data[matriculation_number]
-    
-    
-#     # Add the result to the solutions
-#     task_id = result_data.taskId
-#     question_key = result_data.questionKey
-#     search_query = result_data.searchQuery
-#     ratings = result_data.ratings
-
-#     solution = {
-#         "taskId": task_id,
-#         "questionKey": question_key,
-#         "searchQuery": search_query,
-#         "ratings": ratings
-#     }
-    
-#     # Append the solution to the student's task solutions
-#     for task in student["tasks"]:
-#         # find the task
-#         if task["taskName"] == task_id:
-#             task["solutions"].setdefault(question_key,[]).append(solution)
-#             # task.setdefault("solutions", {}).append(solution)
-#             break
-
-    
-
-#     # Save updated data back to the JSON file
-#     save_experiment_data(data)
-
-#     return {"message": "Result saved successfully"}
 @router.post("/submit-ratings")
 def save_result(result_data: SaveResult):
     data = load_experiment_data()
 
+    # Validate data before saving
+    if not validate_result_data(result_data, data):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Invalid data. Unable to save results."
+        )
+
     # Get the student data section
-    student_data = data.setdefault("student_data", {})
+    student_data = data["student_data"]
     matriculation_number = result_data.matriculationNumber
 
-    # Ensure student exists in the data
-    if matriculation_number not in student_data:
-        raise HTTPException(
-            status_code=status.HTTP_404_NOT_FOUND,
-            detail=f"No student data found for Matriculation Number: {matriculation_number}"
-        )
-    
     student = student_data[matriculation_number]
-    
+
     # Add the result to the solutions
     task_id = result_data.taskId
     question_key = result_data.questionKey
@@ -153,10 +135,9 @@ def save_result(result_data: SaveResult):
         "searchQuery": search_query,
         "ratings": ratings
     }
-    
+
     # Append the solution to the student's task solutions
     for task in student["tasks"]:
-        # find the task
         if task["taskName"] == task_id:
             task["solutions"].setdefault(question_key, []).append(solution)
             break
@@ -165,3 +146,42 @@ def save_result(result_data: SaveResult):
     save_experiment_data(data)
 
     return {"success": "Result saved successfully"}
+
+
+
+
+
+class GPT4Request(BaseModel):
+    prompt: str
+
+
+@router.post("/gpt4-response")
+def fetch_gpt4_response(request: GPT4Request):
+    
+    try:
+        client = OpenAI(
+            api_key=api_key
+        )
+
+        chat_completion = client.chat.completions.create(
+            messages=[
+                {
+                    "role": "user",
+                    "content": request.prompt + " Can you give us a list of the most useful 5 keywords to search for issues in the issue tracker of Hadoop HDFS that answer the provided question. Please provide only the list of keywords without duplication separated by a space. do not provide any other text.",
+                }
+            ],
+            model="gpt-4o",
+        )
+        
+        # Can you give us a ranked list of the ten most relevant issues in the issue tracker of Hadoop HDFS to answer this question. Please provide only the ranked list of issues as a list of issue IDs from Hadoop HDFS separated by commas. do not provide any other text.
+        
+        # Extract and return the assistant's reply
+        answer = chat_completion.choices[0].message.content
+        # return answer
+        return {"answer": answer}
+    
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"An error occurred: {e}",
+        )
