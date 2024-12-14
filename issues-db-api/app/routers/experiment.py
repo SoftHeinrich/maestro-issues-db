@@ -1,5 +1,6 @@
 import json
 import os
+from datetime import datetime
 from shutil import copyfile
 from dotenv import load_dotenv
 from fastapi import APIRouter, HTTPException, status
@@ -71,7 +72,7 @@ def validate_result_data(result_data: SaveResult, experiment_data: Dict[str, Any
 def get_experiment_tasks(request_data: MtrNo):
     mtr_no = request_data.MtrNo
     data = load_experiment_data()
-
+    
     # Finding the experiment data for the provided MtrNo
     student_data = data.get("student_data", {})
     if mtr_no not in student_data:
@@ -84,6 +85,7 @@ def get_experiment_tasks(request_data: MtrNo):
 
     response = []
     for task in experiment_data["tasks"]:
+        print("fetching tasks ",task)
         task_name = task["taskName"]
         task_info = {
             "taskName": task_name,
@@ -97,8 +99,8 @@ def get_experiment_tasks(request_data: MtrNo):
         if task_details:
             task_info["description"] = task_details.get("description")
             task_info["questions"] = task_details.get("questions")
-            task_info["task_details"] = task_details.get("task_details")
-            task_info["lekert_scale"] = task_details.get("Likert Scale")
+            task_info["task_details"] = data.get("task_details", {}).get("task_details")
+            task_info["lekert_scale"] = data.get("task_details", {}).get("Likert Scale")
 
         response.append(task_info)
 
@@ -173,15 +175,45 @@ def fetch_gpt4_response(request: GPT4Request):
             model="gpt-4o",
         )
         
-        # Can you give us a ranked list of the ten most relevant issues in the issue tracker of Hadoop HDFS to answer this question. Please provide only the ranked list of issues as a list of issue IDs from Hadoop HDFS separated by commas. do not provide any other text.
-        
-        # Extract and return the assistant's reply
-        answer = chat_completion.choices[0].message.content
-        # return answer
+        # Extract the assistant's reply
+        answer = chat_completion.choices[0].message.content.strip()
+        print(answer)
+
+        # Validate the response
+        keywords = answer.split()
+        if (len(keywords) >= 5 and len(keywords) <= 10)  or any(not keyword.isalpha() for keyword in keywords):
+            raise ValueError("failed to fetch the results")
+
         return {"answer": answer}
     
     except Exception as e:
-        raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail=f"An error occurred: {e}",
-        )
+        return {"detail":f"An error occurred: {e}"}
+
+
+class LogEntry(BaseModel):
+    level: str
+    message: str
+    timestamp: str
+
+# New endpoint for storing logs
+@router.post("/logs")
+def save_log(log_entry: LogEntry):
+    current_date = datetime.now().strftime("%Y-%m-%d")
+    log_file_name = f"logs_{current_date}.log"
+    log_file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), log_file_name)
+
+    # Load existing logs
+    if os.path.exists(log_file_path):
+        with open(log_file_path, "r") as file:
+            logs = json.load(file)
+    else:
+        logs = []
+
+    # Append new log entry
+    logs.append(log_entry.dict())
+
+    # Save logs back to file
+    with open(log_file_path, "w") as file:
+        json.dump(logs, file, indent=4)
+
+    return {"success": "Log saved successfully"}
