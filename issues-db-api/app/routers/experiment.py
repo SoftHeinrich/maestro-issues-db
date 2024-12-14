@@ -36,6 +36,17 @@ def create_backup(file_path: str) -> None:
     backup_path = f"{file_path}.bak"
     copyfile(file_path, backup_path)
 
+def validate_json(data: Any) -> bool:
+    """
+    Validates if the given data can be converted to a JSON string.
+    Returns True if valid, False otherwise.
+    """
+    try:
+        json.dumps(data)
+        return True
+    except (TypeError, ValueError):
+        return False
+
 def load_experiment_data() -> Dict[str, Any]:
     file_path = get_experiment_file_path()
     with open(file_path, "r") as file:
@@ -46,6 +57,13 @@ def save_experiment_data(data: Dict[str, Any]) -> None:
 
     # Create a backup before saving
     create_backup(file_path)
+
+    # Validate JSON before saving
+    if not validate_json(data):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Invalid data. Unable to save results."
+        )
 
     # Save the updated data
     with open(file_path, "w") as file:
@@ -85,7 +103,6 @@ def get_experiment_tasks(request_data: MtrNo):
 
     response = []
     for task in experiment_data["tasks"]:
-        print("fetching tasks ",task)
         task_name = task["taskName"]
         task_info = {
             "taskName": task_name,
@@ -181,7 +198,7 @@ def fetch_gpt4_response(request: GPT4Request):
 
         # Validate the response
         keywords = answer.split()
-        if (len(keywords) >= 5 and len(keywords) <= 10)  or any(not keyword.isalpha() for keyword in keywords):
+        if (len(keywords) < 5 or len(keywords) > 10)  or any(not keyword.isalpha() for keyword in keywords):
             raise ValueError("failed to fetch the results")
 
         return {"answer": answer}
@@ -205,12 +222,22 @@ def save_log(log_entry: LogEntry):
     # Load existing logs
     if os.path.exists(log_file_path):
         with open(log_file_path, "r") as file:
-            logs = json.load(file)
+            try:
+                logs = json.load(file)
+            except json.JSONDecodeError:
+                logs = []
     else:
         logs = []
 
     # Append new log entry
     logs.append(log_entry.dict())
+
+    # Validate JSON before saving
+    if not validate_json(logs):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Invalid log data. Cannot save."
+        )
 
     # Save logs back to file
     with open(log_file_path, "w") as file:
