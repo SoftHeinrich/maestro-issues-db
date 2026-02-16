@@ -30,6 +30,27 @@ def _update_manual_label(issue_id: str, update: dict):
         raise issue_not_found_exception(issue_id)
 
 
+class LabelsBatchIn(BaseModel):
+    issue_ids: list[str]
+
+
+@router.post("/labels-batch")
+def get_labels_batch(request: LabelsBatchIn):
+    """Return existence/property/executive labels for a batch of issue IDs."""
+    labels = {}
+    issues = issue_labels_collection.find(
+        {"_id": {"$in": request.issue_ids}},
+        ["_id", "existence", "property", "executive"],
+    )
+    for issue in issues:
+        labels[issue["_id"]] = {
+            "existence": issue.get("existence"),
+            "property": issue.get("property"),
+            "executive": issue.get("executive"),
+        }
+    return {"labels": labels}
+
+
 @router.post("/{issue_id}/mark-review")
 def mark_review(issue_id: str, token=Depends(validate_token)):
     _update_manual_label(issue_id, {"$addToSet": {"tags": "needs-review"}})
