@@ -13,8 +13,9 @@ def setup_db():
     })
     projects_collection.insert_one({
         '_id': 'Apache-YARN',
-        'repo': 'Apache',
-        'project': 'YARN'
+        'ecosystem': 'Apache',
+        'key': 'YARN',
+        'additional_properties': {},
     })
 
 

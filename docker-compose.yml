@@ -1,7 +1,7 @@
 version: "3.1"
 services:
   psql:
-    image: postgres
+    image: postgres:16
     restart: always
     ports:
       - "5432:5432"
@@ -16,6 +16,7 @@ services:
     container_name: mongo
     image: mongo
     restart: always
+    command: ["mongod", "--wiredTigerCacheSizeGB", "2"]
     ports:
       - "27017:27017"
     volumes:

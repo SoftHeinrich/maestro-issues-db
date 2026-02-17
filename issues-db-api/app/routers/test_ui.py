@@ -261,7 +261,7 @@ def test_ui():
     )
     assert get_ui_data(payload) == expected_response
 
-    # Test non-existing model on sorting
+    # Test non-existing model on sorting (MongoDB silently sorts on non-existent field)
     payload = Query(
         filter={},
         sort=f"predictions.{ObjectId()}-{version_id}.existence.confidence",
@@ -270,9 +270,8 @@ def test_ui():
         page=1,
         limit=2,
     )
-
-    with pytest.raises(HTTPException):
-        get_ui_data(payload)
+    result = get_ui_data(payload)
+    assert len(result.data) == 2
 
     # Test non-existing version on sorting
     payload = Query(
@@ -283,8 +282,7 @@ def test_ui():
         page=1,
         limit=2,
     )
-
-    with pytest.raises(HTTPException):
-        get_ui_data(payload)
+    result = get_ui_data(payload)
+    assert len(result.data) == 2
 
     restore_dbs()

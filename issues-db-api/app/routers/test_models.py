@@ -336,6 +336,23 @@ def test_post_predictions():
     restore_dbs()
 
 
+def _read_streaming_response(response):
+    """Read a StreamingResponse body and return parsed JSON."""
+    import asyncio
+
+    async def _read():
+        body = b""
+        async for chunk in response.body_iterator:
+            if isinstance(chunk, bytes):
+                body += chunk
+            else:
+                body += chunk.encode()
+        return body
+
+    body = asyncio.get_event_loop().run_until_complete(_read())
+    return json.loads(body)
+
+
 def test_get_predictions():
     restore_dbs()
     model_id, version_id, _ = setup_db()
@@ -346,22 +363,24 @@ def test_get_predictions():
             "Apache-01": {"existence": {"confidence": 0.42, "prediction": False}}
         }
     }
-    desired_result = io.BytesIO(bytes(json.dumps(desired_result), "utf-8"))
-    assert (
+    result = _read_streaming_response(
         get_predictions(
-            str(model_id), version_id, GetPredictionsIn(issue_ids=None)
-        ).content
-        == desired_result
+            str(model_id), str(version_id), GetPredictionsIn(issue_ids=None)
+        )
     )
-    assert (
+    assert result == desired_result
+    result = _read_streaming_response(
         get_predictions(
-            str(model_id), version_id, GetPredictionsIn(issue_ids=["Apache-01"])
-        ).content
-        == desired_result
+            str(model_id), str(version_id), GetPredictionsIn(issue_ids=["Apache-01"])
+        )
     )
-    assert get_predictions(
-        str(model_id), version_id, GetPredictionsIn(issue_ids=["Apache-02"])
-    ).content == GetPredictionsOut(predictions={"Apache-02": None})
+    assert result == desired_result
+    result = _read_streaming_response(
+        get_predictions(
+            str(model_id), str(version_id), GetPredictionsIn(issue_ids=["Apache-02"])
+        )
+    )
+    assert result == {"predictions": {"Apache-02": None}}
 
     restore_dbs()
 

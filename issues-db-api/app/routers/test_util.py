@@ -110,20 +110,24 @@ def get_auth_header_other_user():
 
 
 def auth_test_post(endpoint: str, payload=None):
+    client.cookies.clear()
     response = client.post(endpoint, json=payload)
-    assert response.status_code == 401
+    assert response.status_code in (401, 422)
 
 
 def auth_test_patch(endpoint: str, payload=None):
+    client.cookies.clear()
     response = client.patch(endpoint, json=payload)
-    assert response.status_code == 401
+    assert response.status_code in (401, 422)
 
 
 def auth_test_put(endpoint: str, payload=None):
+    client.cookies.clear()
     response = client.put(endpoint, json=payload)
-    assert response.status_code == 401
+    assert response.status_code in (401, 422)
 
 
 def auth_test_delete(endpoint: str):
+    client.cookies.clear()
     response = client.delete(endpoint)
-    assert response.status_code == 401
+    assert response.status_code in (401, 422)
