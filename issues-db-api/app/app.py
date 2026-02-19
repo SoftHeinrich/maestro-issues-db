@@ -16,6 +16,7 @@ from .routers import (
     statistics,
     bulk,
     files,
+    experiment,
 )
 from .streaming import ui_updates
 import uvicorn
@@ -46,6 +47,7 @@ app.include_router(statistics.router)
 app.include_router(tags.router)
 app.include_router(ui.router)
 app.include_router(ui_updates.router)
+app.include_router(experiment.router)
 
 
 def run_app():
