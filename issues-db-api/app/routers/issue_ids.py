@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 from app.dependencies import issue_labels_collection, jira_repos_db
 from app.exceptions import repo_not_found_exception, issue_not_found_exception
 
@@ -10,22 +10,21 @@ router = APIRouter(
 
 
 class IssueIdsIn(BaseModel):
-    filter: dict
-
-    class Config:
-        schema_extra = {
-            "example": {
-                "filter": {
-                    "$and": [
-                        {"tags": {"$eq": "tag1"}},
-                        {"$or": [
-                            {"tags": {"$ne": "tag2"}},
-                            {"tags": {"$eq": "tag3"}}
-                        ]}
-                    ]
-                }
+    model_config = ConfigDict(json_schema_extra={
+        "example": {
+            "filter": {
+                "$and": [
+                    {"tags": {"$eq": "tag1"}},
+                    {"$or": [
+                        {"tags": {"$ne": "tag2"}},
+                        {"tags": {"$eq": "tag3"}}
+                    ]}
+                ]
             }
         }
+    })
+
+    filter: dict
 
 
 class IssueIdsOut(BaseModel):

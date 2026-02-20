@@ -346,22 +346,16 @@ def test_get_predictions():
             "Apache-01": {"existence": {"confidence": 0.42, "prediction": False}}
         }
     }
-    desired_result = io.BytesIO(bytes(json.dumps(desired_result), "utf-8"))
-    assert (
-        get_predictions(
-            str(model_id), version_id, GetPredictionsIn(issue_ids=None)
-        ).content
-        == desired_result
-    )
-    assert (
-        get_predictions(
-            str(model_id), version_id, GetPredictionsIn(issue_ids=["Apache-01"])
-        ).content
-        == desired_result
-    )
-    assert get_predictions(
-        str(model_id), version_id, GetPredictionsIn(issue_ids=["Apache-02"])
-    ).content == GetPredictionsOut(predictions={"Apache-02": None})
+    url = f"/models/{model_id}/versions/{version_id}/predictions"
+
+    response = client.request("GET", url, json={"issue_ids": None})
+    assert json.loads(response.content) == desired_result
+
+    response = client.request("GET", url, json={"issue_ids": ["Apache-01"]})
+    assert json.loads(response.content) == desired_result
+
+    response = client.request("GET", url, json={"issue_ids": ["Apache-02"]})
+    assert json.loads(response.content) == {"predictions": {"Apache-02": None}}
 
     restore_dbs()
 

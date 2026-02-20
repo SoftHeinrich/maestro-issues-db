@@ -12,7 +12,7 @@ from app.routers.issues import _update_manual_label
 from app.streaming import ui_updates
 from bson import ObjectId
 from fastapi import APIRouter, Depends
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 router = APIRouter(prefix="/manual-labels", tags=["manual-labels"])
 
@@ -28,16 +28,15 @@ class Label(typing.TypedDict):
 
 
 class ManualLabelsOut(BaseModel):
-    manual_labels: dict[str, Label]
-
-    class Config:
-        schema_extra = {
-            "example": {
-                "manual_labels": {
-                    "issue_id": {"existence": True, "property": True, "executive": True}
-                }
+    model_config = ConfigDict(json_schema_extra={
+        "example": {
+            "manual_labels": {
+                "issue_id": {"existence": True, "property": True, "executive": True}
             }
         }
+    })
+
+    manual_labels: dict[str, Label]
 
 
 class CommentIn(BaseModel):
@@ -45,14 +44,13 @@ class CommentIn(BaseModel):
 
 
 class CommentsOut(BaseModel):
-    comments: dict[str, dict[str, str]]
-
-    class Config:
-        schema_extra = {
-            "example": {
-                "comments": {"comment_id": {"author": "username", "comment": "string"}}
-            }
+    model_config = ConfigDict(json_schema_extra={
+        "example": {
+            "comments": {"comment_id": {"author": "username", "comment": "string"}}
         }
+    })
+
+    comments: dict[str, dict[str, str]]
 
 
 class CommentIdOut(BaseModel):

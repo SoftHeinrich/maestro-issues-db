@@ -32,13 +32,13 @@ def test_get_issue_ids():
     setup_db()
 
     # Test two matches
-    assert get_issue_ids(IssueIdsIn(filter={'tags': 'Tag-01'})) == {'issue_ids': ['Apache-01', 'Apache-02']}
+    assert get_issue_ids(IssueIdsIn(filter={'tags': 'Tag-01'})).model_dump() == {'issue_ids': ['Apache-01', 'Apache-02']}
 
     # Test one match
-    assert get_issue_ids(IssueIdsIn(filter={'tags': 'Tag-02'})) == {'issue_ids': ['Apache-02']}
+    assert get_issue_ids(IssueIdsIn(filter={'tags': 'Tag-02'})).model_dump() == {'issue_ids': ['Apache-02']}
 
     # Test no matches
-    assert get_issue_ids(IssueIdsIn(filter={'tags': 'Tag-03'})) == {'issue_ids': []}
+    assert get_issue_ids(IssueIdsIn(filter={'tags': 'Tag-03'})).model_dump() == {'issue_ids': []}
 
     restore_dbs()
 

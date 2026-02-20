@@ -174,10 +174,10 @@ def submit_results(session_id: str, req: SubmitResultsRequest):
 
     if session["experiment_type"] == "single":
         search_entry["system"] = req.system
-        search_entry["results"] = [r.dict() for r in (req.results or [])]
+        search_entry["results"] = [r.model_dump() for r in (req.results or [])]
     else:  # dual
-        search_entry["results_left"] = [r.dict() for r in (req.results_left or [])]
-        search_entry["results_right"] = [r.dict() for r in (req.results_right or [])]
+        search_entry["results_left"] = [r.model_dump() for r in (req.results_left or [])]
+        search_entry["results_right"] = [r.model_dump() for r in (req.results_right or [])]
 
     db["experiment_sessions"].update_one(
         {"_id": ObjectId(session_id)},

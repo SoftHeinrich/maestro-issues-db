@@ -42,7 +42,8 @@ def restore_dbs():
     users_collection.drop()
     issue_labels_collection.drop()
     models_collection.drop()
-    jira_repos_db["Apache"].drop()
+    for collection_name in jira_repos_db.list_collection_names():
+        jira_repos_db[collection_name].drop()
     repo_info_collection.drop()
     projects_collection.drop()
     tags_collection.drop()

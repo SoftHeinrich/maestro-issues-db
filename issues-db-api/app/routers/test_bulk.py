@@ -78,7 +78,7 @@ def test_get_issue_ids_from_keys():
 
     # Get issue_ids from issue_keys
     payload = IssueKeysIn(issue_keys=['Apache-YARN-9230'])
-    assert get_issue_ids_from_keys(payload) == {'issue_ids': {'Apache-YARN-9230': 'Apache-13211409'}}
+    assert get_issue_ids_from_keys(payload).model_dump() == {'issue_ids': {'Apache-YARN-9230': 'Apache-13211409'}}
 
     # Unknown repo
     with pytest.raises(HTTPException):
