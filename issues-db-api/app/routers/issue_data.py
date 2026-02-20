@@ -2,7 +2,7 @@ import typing
 import json
 from fastapi import APIRouter
 from fastapi.responses import StreamingResponse
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 from app.dependencies import jira_repos_db, repo_info_collection
 from app.exceptions import (
     get_attr_required_exception,
@@ -36,16 +36,15 @@ class IssueDataIn(BaseModel):
 
 
 class IssueDataOut(BaseModel):
-    data: dict[str, dict[str, typing.Any]]
-
-    class Config:
-        schema_extra = {
-            "example": {
-                "data": {
-                    "issue_id": {"attribute_name": "attribute_value (can be any type)"}
-                }
+    model_config = ConfigDict(json_schema_extra={
+        "example": {
+            "data": {
+                "issue_id": {"attribute_name": "attribute_value (can be any type)"}
             }
         }
+    })
+
+    data: dict[str, dict[str, typing.Any]]
 
 
 def streaming_issue_data(request: IssueDataIn):

@@ -1,15 +1,17 @@
 import json
+
 from fastapi import HTTPException
 import pytest
 
 from app.dependencies import jira_repos_db, repo_info_collection
-from .issue_data import IssueDataIn, streaming_issue_data
+from .issue_data import streaming_issue_data, get_issue_data, IssueDataIn
 from .test_util import restore_dbs
 
 
-def _consume_stream(request):
-    """Consume the streaming generator and return parsed JSON."""
-    return json.loads("".join(streaming_issue_data(request)))
+def _get_streaming_json(request):
+    """Consume streaming_issue_data generator and parse as JSON."""
+    body = "".join(streaming_issue_data(request))
+    return json.loads(body)
 
 
 def setup_db():
@@ -36,12 +38,11 @@ def test_issue_data_endpoint():
     restore_dbs()
     setup_db()
 
-    result = _consume_stream(
+    assert _get_streaming_json(
         IssueDataIn(
             issue_ids=["Apache-13211409"], attributes=["key", "link", "summary"]
         )
-    )
-    assert result == {
+    ) == {
         "data": {
             "Apache-13211409": {
                 "key": "YARN-9230",
@@ -53,17 +54,16 @@ def test_issue_data_endpoint():
 
     # Test attribute not found
     with pytest.raises(HTTPException):
-        _consume_stream(
+        _get_streaming_json(
             IssueDataIn(
                 issue_ids=["Apache-13211409"], attributes=["non-existing-attribute"]
             )
         )
 
     # Test parent attribute
-    result = _consume_stream(
+    assert _get_streaming_json(
         IssueDataIn(issue_ids=["Apache-13211409"], attributes=["parent"])
-    )
-    assert result == {
+    ) == {
         "data": {
             "Apache-13211409": {
                 "parent": None,
@@ -73,9 +73,7 @@ def test_issue_data_endpoint():
 
     # Test non-existing issue
     with pytest.raises(HTTPException):
-        _consume_stream(
-            IssueDataIn(issue_ids=["Apache-0"], attributes=["key"])
-        )
+        _get_streaming_json(IssueDataIn(issue_ids=["Apache-0"], attributes=["key"]))
 
     # Test key is None
     jira_repos_db["Apache"].insert_one(
@@ -86,19 +84,16 @@ def test_issue_data_endpoint():
         }
     )
     with pytest.raises(HTTPException):
-        _consume_stream(
-            IssueDataIn(issue_ids=["Apache-13211410"], attributes=["key"])
-        )
+        _get_streaming_json(IssueDataIn(issue_ids=["Apache-13211410"], attributes=["key"]))
 
     # Test default value
-    result = _consume_stream(
+    assert _get_streaming_json(
         IssueDataIn(issue_ids=["Apache-13211410"], attributes=["summary"])
-    )
-    assert result == {"data": {"Apache-13211410": {"summary": ""}}}
+    ) == {"data": {"Apache-13211410": {"summary": ""}}}
 
     # Test required attribute
     with pytest.raises(HTTPException):
-        _consume_stream(
+        _get_streaming_json(
             IssueDataIn(issue_ids=["Apache-13211410"], attributes=["required_attr"])
         )
 
@@ -118,7 +113,7 @@ def test_issue_data_endpoint():
         }
     )
     with pytest.raises(HTTPException):
-        _consume_stream(
+        _get_streaming_json(
             IssueDataIn(issue_ids=["Apache-13211409"], attributes=["summary"])
         )
 

@@ -23,7 +23,7 @@ def test_get_manual_labels():
     setup_db()
 
     # Get label
-    assert get_manual_labels(ManualLabelsIn(issue_ids=['Apache-01'])) == {
+    assert get_manual_labels(ManualLabelsIn(issue_ids=['Apache-01'])).model_dump() == {
         'manual_labels': {
             'Apache-01': {
                 'existence': False,

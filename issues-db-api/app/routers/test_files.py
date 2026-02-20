@@ -27,14 +27,14 @@ def test_get_files():
     restore_dbs()
     file_id = setup_db()
 
-    assert get_files(Category(category=None)) == [
+    assert [f.model_dump() for f in get_files(Category(category=None))] == [
         {
             "file_id": str(file_id),
             "description": "Description of file",
             "category": "cat1",
         }
     ]
-    assert get_files(Category(category="cat1")) == [
+    assert [f.model_dump() for f in get_files(Category(category="cat1"))] == [
         {
             "file_id": str(file_id),
             "description": "Description of file",

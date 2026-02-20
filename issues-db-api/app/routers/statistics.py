@@ -31,7 +31,7 @@ class Statistic(BaseModel):
 
 
 class Statistics(BaseModel):
-    data = dict[str, Statistic]
+    data: dict[str, Statistic]
 
 
 def get_value(fields, path):

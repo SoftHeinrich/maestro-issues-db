@@ -199,7 +199,7 @@ def test_ui():
         page=1,
         limit=2,
     )
-    assert get_ui_data(payload) == expected_response
+    assert get_ui_data(payload).model_dump() == expected_response
 
     # Test sort descending
     expected_response = {"data": [response_issue2, response_issue1], "total_pages": 1}
@@ -211,7 +211,7 @@ def test_ui():
         page=1,
         limit=2,
     )
-    assert get_ui_data(payload) == expected_response
+    assert get_ui_data(payload).model_dump() == expected_response
 
     # Test no sort
     expected_response = {"data": [response_issue1, response_issue2], "total_pages": 1}
@@ -223,7 +223,7 @@ def test_ui():
         page=1,
         limit=2,
     )
-    assert get_ui_data(payload) == expected_response
+    assert get_ui_data(payload).model_dump() == expected_response
 
     # Test filter
     expected_response = {"data": [response_issue1], "total_pages": 1}
@@ -235,7 +235,7 @@ def test_ui():
         page=1,
         limit=2,
     )
-    assert get_ui_data(payload) == expected_response
+    assert get_ui_data(payload).model_dump() == expected_response
 
     # Test page and limit
     expected_response = {"data": [response_issue1], "total_pages": 2}
@@ -247,7 +247,7 @@ def test_ui():
         page=1,
         limit=1,
     )
-    assert get_ui_data(payload) == expected_response
+    assert get_ui_data(payload).model_dump() == expected_response
 
     # Test second page
     expected_response = {"data": [response_issue2], "total_pages": 2}
@@ -259,7 +259,7 @@ def test_ui():
         page=2,
         limit=1,
     )
-    assert get_ui_data(payload) == expected_response
+    assert get_ui_data(payload).model_dump() == expected_response
 
     # Test non-existing model on sorting (MongoDB silently sorts on non-existent field)
     payload = Query(

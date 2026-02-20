@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from .routers import (
     tags,
     issue_data,
@@ -15,11 +16,20 @@ from .routers import (
     statistics,
     bulk,
     files,
+    experiment,
 )
 from .streaming import ui_updates
 import uvicorn
 
 app = FastAPI(root_path="/issues-db-api")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origin_regex=r"https?://.*",
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 app.include_router(authentication.router)
 app.include_router(bulk.router)
@@ -37,6 +47,7 @@ app.include_router(statistics.router)
 app.include_router(tags.router)
 app.include_router(ui.router)
 app.include_router(ui_updates.router)
+app.include_router(experiment.router)
 
 
 def run_app():

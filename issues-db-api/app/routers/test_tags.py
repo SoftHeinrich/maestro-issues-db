@@ -18,12 +18,7 @@ def setup_db():
         {"_id": "tag", "description": "text", "type": "manual-tag"}
     )
     projects_collection.insert_one(
-        {
-            "_id": "Apache-HADOOP",
-            "ecosystem": "Apache",
-            "key": "HADOOP",
-            "additional_properties": {},
-        }
+        {"_id": "Apache-HADOOP", "ecosystem": "Apache", "key": "HADOOP", "additional_properties": {}}
     )
 
 
@@ -71,12 +66,7 @@ def test_create_tag():
 
     # Tag in projects collection
     projects_collection.insert_one(
-        {
-            "_id": "Apache-YARN",
-            "ecosystem": "Apache",
-            "key": "YARN",
-            "additional_properties": {},
-        }
+        {"_id": "Apache-YARN", "ecosystem": "Apache", "key": "YARN", "additional_properties": {}}
     )
     payload = {"tag": "Apache-YARN", "description": "text"}
     assert client.post("/tags", headers=headers, json=payload).status_code == 409

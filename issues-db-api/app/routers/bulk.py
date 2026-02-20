@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Depends, HTTPException
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 from app.dependencies import issue_labels_collection, tags_collection, jira_repos_db
 from app.routers.authentication import validate_token
 from app.exceptions import (
@@ -22,17 +22,15 @@ class AddTagsIn(BaseModel):
 
 
 class IssueKeysIn(BaseModel):
-    issue_keys: list[str]
+    model_config = ConfigDict(json_schema_extra={"example": {"issue_keys": ["repo_name-issue_key"]}})
 
-    class Config:
-        schema_extra = {"example": {"issue_keys": ["repo_name-issue_key"]}}
+    issue_keys: list[str]
 
 
 class IssueIdsOut(BaseModel):
-    issue_ids: dict[str, str]
+    model_config = ConfigDict(json_schema_extra={"example": {"issue_ids": {"repo_name-issue_key": "issue_id"}}})
 
-    class Config:
-        schema_extra = {"example": {"issue_ids": {"repo_name-issue_key": "issue_id"}}}
+    issue_ids: dict[str, str]
 
 
 class TagsIn(BaseModel):

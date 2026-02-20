@@ -15,7 +15,7 @@ def setup_db():
         '_id': 'Apache-YARN',
         'ecosystem': 'Apache',
         'key': 'YARN',
-        'additional_properties': {},
+        'additional_properties': {}
     })
 
 

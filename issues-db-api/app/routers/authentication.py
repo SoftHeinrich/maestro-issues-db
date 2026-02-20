@@ -133,7 +133,7 @@ def login_for_access_token(response: Response, form_data: OAuth2PasswordRequestF
     response.set_cookie(key="access_token",
                         value=f"bearer {access_token}",
                         httponly=True,
-                        secure=False,
+                        secure=True,
                         samesite="none")
     return {"access_token": access_token, "token_type": "bearer", "username": username}
 
@@ -149,7 +149,7 @@ def refresh_token(response: Response, token=Depends(validate_token)):
     response.set_cookie(key="access_token",
                         value=f"bearer {access_token}",
                         httponly=True,
-                        secure=False,
+                        secure=True,
                         samesite="none")
     return {"access_token": access_token, "token_type": "bearer", "username": token["username"]}
 

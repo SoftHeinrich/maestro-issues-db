@@ -16,14 +16,16 @@ from app.util import read_file_in_chunks
 from bson import ObjectId
 from fastapi import APIRouter, UploadFile, Form, Depends, HTTPException
 from fastapi.responses import StreamingResponse
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict, Field
 
 router = APIRouter(prefix="/models", tags=["models"])
 
 
 class PostModelIn(BaseModel):
-    model_config: dict
-    model_name: typing.Optional[str]
+    model_config = ConfigDict(populate_by_name=True)
+
+    ml_config: dict = Field(alias="model_config")
+    model_name: typing.Optional[str] = None
 
 
 class PostModelOut(BaseModel):
@@ -31,14 +33,18 @@ class PostModelOut(BaseModel):
 
 
 class GetModelOut(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
     model_id: str
-    model_name: typing.Optional[str]
-    model_config: dict
+    model_name: typing.Optional[str] = None
+    ml_config: dict = Field(alias="model_config")
 
 
 class UpdateModelIn(BaseModel):
-    model_name: typing.Optional[str]
-    model_config: typing.Optional[dict]
+    model_config = ConfigDict(populate_by_name=True)
+
+    model_name: typing.Optional[str] = None
+    ml_config: typing.Optional[dict] = Field(default=None, alias="model_config")
 
 
 class SimpleModelOut(BaseModel):
@@ -64,14 +70,13 @@ class PerformanceDescriptionOut(BaseModel):
 
 
 class PerformancesOut(BaseModel):
-    performances: list[PerformanceDescriptionOut]
-
-    class Config:
-        schema_extra = {
-            "example": {
-                "performances": [{"performance_id": "string", "description": "string"}]
-            }
+    model_config = ConfigDict(json_schema_extra={
+        "example": {
+            "performances": [{"performance_id": "string", "description": "string"}]
         }
+    })
+
+    performances: list[PerformanceDescriptionOut]
 
 
 class PerformanceOut(BaseModel):
@@ -86,16 +91,15 @@ class Prediction(BaseModel):
 
 
 class PostPredictionsIn(BaseModel):
-    predictions: dict[str, dict[str, Prediction]]
-
-    class Config:
-        schema_extra = {
-            "example": {
-                "predictions": {
-                    "issue_id": {"existence": {"prediction": True, "confidence": 0.42}}
-                }
+    model_config = ConfigDict(json_schema_extra={
+        "example": {
+            "predictions": {
+                "issue_id": {"existence": {"prediction": True, "confidence": 0.42}}
             }
         }
+    })
+
+    predictions: dict[str, dict[str, Prediction]]
 
 
 class GetPredictionsIn(BaseModel):
@@ -103,16 +107,15 @@ class GetPredictionsIn(BaseModel):
 
 
 class GetPredictionsOut(BaseModel):
-    predictions: dict[str, dict[str, Prediction] | None]
-
-    class Config:
-        schema_extra = {
-            "example": {
-                "predictions": {
-                    "issue_id": {"existence": {"prediction": True, "confidence": 0.42}}
-                }
+    model_config = ConfigDict(json_schema_extra={
+        "example": {
+            "predictions": {
+                "issue_id": {"existence": {"prediction": True, "confidence": 0.42}}
             }
         }
+    })
+
+    predictions: dict[str, dict[str, Prediction] | None]
 
 
 class VersionOut(BaseModel):
@@ -187,7 +190,7 @@ def create_model(request: PostModelIn, token=Depends(validate_token)):
     _id = models_collection.insert_one(
         {
             "name": "" if request.model_name is None else request.model_name,
-            "config": request.model_config,
+            "config": request.ml_config,
             "versions": {},
             "performances": {},
         }
@@ -202,7 +205,7 @@ def get_model(model_id: str):
     """
     model = _get_model(model_id, ["name", "config"])
     return GetModelOut(
-        model_id=model_id, model_name=model["name"], model_config=model["config"]
+        model_id=model_id, model_name=model["name"], ml_config=model["config"]
     )
 
 
@@ -214,8 +217,8 @@ def update_model(model_id: str, request: UpdateModelIn, token=Depends(validate_t
     updated_info = dict()
     if request.model_name is not None:
         updated_info["name"] = request.model_name
-    if request.model_config is not None:
-        updated_info["config"] = request.model_config
+    if request.ml_config is not None:
+        updated_info["config"] = request.ml_config
     _update_model(model_id, {"$set": updated_info})
 
 

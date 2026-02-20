@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 from app.dependencies import (
     issue_labels_collection,
     jira_repos_db,
@@ -19,24 +19,23 @@ router = APIRouter(prefix="/ui", tags=["ui"])
 
 
 class Query(BaseModel):
+    model_config = ConfigDict(json_schema_extra={
+        "example": {
+            "filter": "object",
+            "sort": "predictions.model_id-version_id.existence",
+            "sort_ascending": True,
+            "models": ["model_id-version_id"],
+            "page": 42,
+            "limit": 42,
+        }
+    })
+
     filter: dict
     sort: str | None
     sort_ascending: bool
     models: list[str]
     page: int
     limit: int
-
-    class Config:
-        schema_extra = {
-            "example": {
-                "filter": "object",
-                "sort": "predictions.model_id-version_id.existence",
-                "sort_ascending": True,
-                "models": ["model_id-version_id"],
-                "page": 42,
-                "limit": 42,
-            }
-        }
 
 
 class ManualLabel(BaseModel):
@@ -58,41 +57,40 @@ class UIData(BaseModel):
 
 
 class UIDataOut(BaseModel):
+    model_config = ConfigDict(json_schema_extra={
+        "example": {
+            "data": [
+                {
+                    "issue_id": "string",
+                    "issue_link": "string",
+                    "issue_key": "string",
+                    "summary": "string",
+                    "description": "string",
+                    "manual_label": {
+                        "existence": True,
+                        "property": False,
+                        "executive": True,
+                    },
+                    "predictions": {
+                        "model_id-version_id": {
+                            "existence": {"prediction": False, "confidence": 0.42}
+                        }
+                    },
+                    "tags": ["example-tag"],
+                    "comments": {
+                        "comment_id": {
+                            "author": "username",
+                            "comment": "sample comment",
+                        }
+                    },
+                }
+            ],
+            "total_pages": 42,
+        }
+    })
+
     data: list[UIData]
     total_pages: int
-
-    class Config:
-        schema_extra = {
-            "example": {
-                "data": [
-                    {
-                        "issue_id": "string",
-                        "issue_link": "string",
-                        "issue_key": "string",
-                        "summary": "string",
-                        "description": "string",
-                        "manual_label": {
-                            "existence": True,
-                            "property": False,
-                            "executive": True,
-                        },
-                        "predictions": {
-                            "model_id-version_id": {
-                                "existence": {"prediction": False, "confidence": 0.42}
-                            }
-                        },
-                        "tags": ["example-tag"],
-                        "comments": {
-                            "comment_id": {
-                                "author": "username",
-                                "comment": "sample comment",
-                            }
-                        },
-                    }
-                ],
-                "total_pages": 42,
-            }
-        }
 
 
 @router.post("", response_model=UIDataOut)
@@ -113,6 +111,19 @@ def get_ui_data(request: Query):
             raise model_not_found_exception(model_id)
         if version_id not in db_model["versions"]:
             raise version_not_found_exception(version_id, model_id)
+
+    if request.sort is not None and request.sort.startswith("predictions."):
+        sort_parts = request.sort.split(".")
+        if len(sort_parts) >= 2:
+            sort_model = sort_parts[1]
+            if len(sort_model.split("-")) == 2:
+                sort_model_id = sort_model.split("-")[0]
+                sort_version_id = sort_model.split("-")[1]
+                db_model = models_collection.find_one({"_id": ObjectId(sort_model_id)})
+                if db_model is None:
+                    raise model_not_found_exception(sort_model_id)
+                if sort_version_id not in db_model["versions"]:
+                    raise version_not_found_exception(sort_version_id, sort_model_id)
 
     if request.sort is not None:
         sort_direction = 1 if request.sort_ascending else -1
