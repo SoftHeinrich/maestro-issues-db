@@ -135,3 +135,6 @@ server.crt
 server.key
 fullchain.pem
 privkey.pem
+
+*experiment_*.json*
+postgres-data/

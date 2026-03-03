@@ -49,10 +49,10 @@ app.include_router(ui.router)
 app.include_router(ui_updates.router)
 app.include_router(experiment.router)
 
-
 def run_app():
     uvicorn.run(
-        app,
+        "app.app:app",
         host="0.0.0.0",
         port=8000,
+        reload=True
     )

@@ -28,7 +28,7 @@ services:
   mongo:
     container_name: mongo
     image: mongo
-    restart: always
+    # restart: always
     ports:
       - "27017:27017"
     volumes:
@@ -38,7 +38,7 @@ services:
 
   mongo-express:
     image: mongo-express
-    restart: always
+    # restart: always
     ports:
       - "8081:8081"
     networks:
@@ -55,6 +55,7 @@ services:
     environment:
       - MONGO_URL=mongodb://mongo:27017
       - DOCKER=True
+      - DEBUG=TRUE
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.issues-db-api.rule=Host(`maestro.localhost`)"
@@ -63,7 +64,8 @@ services:
       - "traefik.http.routers.issues-db-api.tls=true"
       - "traefik.http.routers.issues-db-api.middlewares=issues-db-api"
       - "traefik.http.middlewares.issues-db-api.stripprefix.prefixes=/issues-db-api"
-
+    volumes:
+      - ./issues-db-api/:/python-docker
   backup-issues-db:
     container_name: backup-issues-db
     build: ./backup/
