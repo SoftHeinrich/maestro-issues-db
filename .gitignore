@@ -138,3 +138,8 @@ privkey.pem
 
 *experiment_*.json*
 postgres-data/
+
+# Large data dumps (downloaded from Zenodo)
+*.archive
+*.sql.gz
+*.archive.part

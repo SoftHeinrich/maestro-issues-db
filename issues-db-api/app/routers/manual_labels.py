@@ -1,4 +1,5 @@
 import typing
+import typing_extensions
 
 from app.dependencies import issue_labels_collection
 from app.exceptions import (
@@ -21,7 +22,7 @@ class ManualLabelsIn(BaseModel):
     issue_ids: list[str]
 
 
-class Label(typing.TypedDict):
+class Label(typing_extensions.TypedDict):
     existence: bool | None
     property: bool | None
     executive: bool | None
