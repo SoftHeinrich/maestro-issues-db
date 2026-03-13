@@ -1,6 +1,6 @@
 import json
 
-from app.dependencies import jira_repos_db, statistics_collection
+from app.dependencies import jira_repos_db, statistics_collection, active_ecosystems
 from app.routers.authentication import validate_token
 from fastapi import APIRouter, Depends
 from fastapi.responses import StreamingResponse
@@ -68,7 +68,7 @@ def get_statistics(request: Filter):
 
 @router.post("/calculate")
 def calculate_statistics(token=Depends(validate_token)):
-    for repo in jira_repos_db.list_collection_names():
+    for repo in active_ecosystems:
         for issue in jira_repos_db[repo].find({}):
             issue_type = get_value(issue["fields"], "issuetype/name")
             resolution = get_value(issue["fields"], "resolution/name")

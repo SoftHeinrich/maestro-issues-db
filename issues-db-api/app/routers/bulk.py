@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel, ConfigDict
-from app.dependencies import issue_labels_collection, tags_collection, jira_repos_db
+from app.dependencies import issue_labels_collection, tags_collection, jira_repos_db, active_ecosystems
 from app.routers.authentication import validate_token
 from app.exceptions import (
     illegal_tags_insertion_exception,
@@ -75,7 +75,7 @@ def get_issue_ids_from_keys(request: IssueKeysIn):
     for issue_key in request.issue_keys:
         repo = issue_key.split("-")[0]
         key = "-".join(issue_key.split("-")[1:])
-        if repo not in jira_repos_db.list_collection_names():
+        if repo not in active_ecosystems:
             raise repo_not_found_exception(repo)
         if repo not in issues:
             issues[repo] = []

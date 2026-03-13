@@ -11,6 +11,7 @@ Also includes legacy file-based endpoints from Ajay's experiment (POST /tasks,
 POST /submit-ratings, POST /gpt4-response, POST /logs).
 """
 
+import hashlib
 import json
 import os
 import random
@@ -48,6 +49,12 @@ def _load_task_definitions():
         return None
     with open(config_path) as f:
         return json.load(f)
+
+
+def _config_hash(data: dict) -> str:
+    """SHA-256 hash of JSON-serialized config for versioning."""
+    raw = json.dumps(data, sort_keys=True, ensure_ascii=True)
+    return hashlib.sha256(raw.encode()).hexdigest()[:16]
 
 
 # --- Models (MongoDB-based) ---
@@ -128,6 +135,7 @@ def create_session(req: CreateSessionRequest):
         "participant_id": req.participant_id,
         "experiment_type": req.experiment_type,
         "created_at": datetime.utcnow().isoformat(),
+        "config_hash": _config_hash(task_defs),
         "system_assignments": system_assignments,
         "tasks": tasks,
         "searches": [],
@@ -246,9 +254,11 @@ def export_data():
     db = _get_db()
     sessions = list(db["experiment_sessions"].find({}))
 
+    task_defs = _load_task_definitions()
     export = {
         "sessions": [_serialize_session(s) for s in sessions],
         "exported_at": datetime.utcnow().isoformat(),
+        "current_config_hash": _config_hash(task_defs) if task_defs else None,
     }
     return export
 
@@ -270,7 +280,7 @@ class MtrNo(BaseModel):
 
 class LegacyRating(BaseModel):
     issue_id: str
-    rating: str
+    rating: Any
 
 class SaveResult(BaseModel):
     matriculationNumber: str
@@ -348,17 +358,25 @@ def get_experiment_tasks(request_data: MtrNo):
         task_name = task["taskName"]
         task_info = {
             "taskName": task_name,
-            "rerank_engine": task["rerank_engine"],
-            "gpt": task["gpt"],
-            "solutions": task["solutions"]
+            "engine": task.get("engine", "pylucene"),
+            "rerank_engine": task.get("rerank_engine", False),
+            "gpt": task.get("gpt", False),
+            "solutions": task.get("solutions", {})
         }
 
-        task_details = data.get("task_details", {}).get(task_name)
+        top_level = data.get("task_details", {})
+        task_details = top_level.get(task_name)
         if task_details:
             task_info["description"] = task_details.get("description")
             task_info["questions"] = task_details.get("questions")
-            task_info["task_details"] = data.get("task_details", {}).get("task_details")
-            task_info["lekert_scale"] = data.get("task_details", {}).get("Likert Scale")
+            task_info["task_details"] = (
+                task_details.get("task_details")
+                or top_level.get("task_details")
+            )
+            task_info["lekert_scale"] = (
+                task_details.get("Likert Scale")
+                or top_level.get("Likert Scale")
+            )
 
         response.append(task_info)
 
@@ -383,12 +401,21 @@ def save_result(result_data: SaveResult):
     task_id = result_data.taskId
     question_key = result_data.questionKey
     search_query = result_data.searchQuery
-    ratings = [{"issue_id": r.issue_id, "rating": r.rating} for r in result_data.ratings]
+    ratings = [{"issue_id": r.issue_id, "rating": str(r.rating)} for r in result_data.ratings]
+
+    # Find the task to record engine used
+    engine = "pylucene"
+    for task in student["tasks"]:
+        if task["taskName"] == task_id:
+            engine = task.get("engine", "pylucene")
+            break
 
     solution = {
         "taskId": task_id,
         "questionKey": question_key,
         "searchQuery": search_query,
+        "engine": engine,
+        "config_hash": _config_hash(data),
         "ratings": ratings
     }
 

@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from pydantic import BaseModel, ConfigDict
-from app.dependencies import issue_labels_collection, jira_repos_db
+from app.dependencies import issue_labels_collection, jira_repos_db, active_ecosystems
 from app.exceptions import repo_not_found_exception, issue_not_found_exception
 
 router = APIRouter(
@@ -51,7 +51,7 @@ def get_issue_ids(request: IssueIdsIn):
 
 @router.get('/{repo_name}/{issue_key}', response_model=IssueIdOut)
 def get_issue_id_from_key(repo_name: str, issue_key: str):
-    if repo_name not in jira_repos_db.list_collection_names():
+    if repo_name not in active_ecosystems:
         raise repo_not_found_exception(repo_name)
     issue = jira_repos_db[repo_name].find_one({'key': issue_key})
     if issue is None:

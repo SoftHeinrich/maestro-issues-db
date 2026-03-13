@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
-from app.dependencies import jira_repos_db, projects_collection
+from app.dependencies import jira_repos_db, projects_collection, active_ecosystems
 
 router = APIRouter(prefix="/repos", tags=["repos"])
 
@@ -15,7 +15,7 @@ class Projects(BaseModel):
 
 @router.get("")
 def get_jira_repos() -> Repos:
-    return Repos(repos=jira_repos_db.list_collection_names())
+    return Repos(repos=list(active_ecosystems))
 
 
 @router.get("/{repo_name}/projects")

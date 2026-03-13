@@ -1,4 +1,4 @@
-from app.dependencies import jira_repos_db, projects_collection, issue_labels_collection
+from app.dependencies import jira_repos_db, projects_collection, issue_labels_collection, active_ecosystems
 from app.routers.authentication import validate_token
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel
@@ -28,7 +28,7 @@ def fix_tags():
         tags_to_remove = tags_to_remove.union(set(tags))
 
     # Find tags to add and remove
-    for ecosystem in jira_repos_db.list_collection_names():
+    for ecosystem in active_ecosystems:
         for issue in jira_repos_db[ecosystem].find({}):
             key = issue["key"].split("-")[0]
             if f"{ecosystem}-{key}" not in tags_per_project:
@@ -48,7 +48,7 @@ def fix_tags():
     )
 
     # Add new tags
-    for ecosystem in jira_repos_db.list_collection_names():
+    for ecosystem in active_ecosystems:
         for issue in jira_repos_db[ecosystem].find({}):
             key = issue["key"].split("-")[0]
             issue_labels_collection.update_one(
@@ -84,7 +84,7 @@ def delete_tags(project):
 
 
 def add_tags(project):
-    if project["ecosystem"] not in jira_repos_db.list_collection_names():
+    if project["ecosystem"] not in active_ecosystems:
         raise HTTPException(
             status_code=404, detail=f"ecosystem {project['ecosystem']} does not exist"
         )

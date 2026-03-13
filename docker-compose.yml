@@ -28,7 +28,8 @@ services:
   mongo:
     container_name: mongo
     image: mongo
-    # restart: always
+    restart: always
+    command: --wiredTigerCacheSizeGB 1
     ports:
       - "27017:27017"
     volumes:
@@ -38,7 +39,7 @@ services:
 
   mongo-express:
     image: mongo-express
-    # restart: always
+    restart: always
     ports:
       - "8081:8081"
     networks:
@@ -52,6 +53,8 @@ services:
       - "8000:8000"
     networks:
       - maestro_traefik
+    env_file:
+      - ../archRag/.env
     environment:
       - MONGO_URL=mongodb://mongo:27017
       - DOCKER=True

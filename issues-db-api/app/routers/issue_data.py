@@ -3,7 +3,7 @@ import json
 from fastapi import APIRouter
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, ConfigDict
-from app.dependencies import jira_repos_db, repo_info_collection
+from app.dependencies import jira_repos_db, repo_info_collection, active_ecosystems
 from app.exceptions import (
     get_attr_required_exception,
     duplicate_issue_exception,
@@ -51,7 +51,7 @@ def streaming_issue_data(request: IssueDataIn):
     yield '{"data": {'
     # Collect the ids belonging to each Jira repo
     ids = dict()
-    for jira_name in jira_repos_db.list_collection_names():
+    for jira_name in active_ecosystems:
         ids[jira_name] = []
     for issue_id in request.issue_ids:
         split_id = issue_id.split("-")
@@ -59,7 +59,7 @@ def streaming_issue_data(request: IssueDataIn):
         ids[split_id[0]].append(split_id[1])
 
     first_item = True
-    for jira_name in jira_repos_db.list_collection_names():
+    for jira_name in active_ecosystems:
         issues = jira_repos_db[jira_name].find(
             {"id": {"$in": ids[jira_name]}},
             ["id", "key"]
