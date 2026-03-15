@@ -1,0 +1,1156 @@
+{
+    "student_data": {
+        "st3180": {
+            "tasks": [
+                {
+                    "taskName": "Component DataNode",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Rack Awareness",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component Tools",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Recoverability",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st9427": {
+            "tasks": [
+                {
+                    "taskName": "Component NameNode",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Safe Mode",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component Qjournal",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement File Permissions and Security",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st0563": {
+            "tasks": [
+                {
+                    "taskName": "Requirement Rack Awareness",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component DataNode",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Recoverability",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component BlockManagement",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st7149": {
+            "tasks": [
+                {
+                    "taskName": "Requirement Safe Mode",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component NameNode",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Scalability",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component DiskBalancer",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st2018": {
+            "tasks": [
+                {
+                    "taskName": "Component DiskBalancer",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Scalability",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component DataNode",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Rack Awareness",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st4390": {
+            "tasks": [
+                {
+                    "taskName": "Component BlockManagement",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement File Permissions and Security",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component NameNode",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Safe Mode",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st8756": {
+            "tasks": [
+                {
+                    "taskName": "Requirement Scalability",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component DiskBalancer",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Rack Awareness",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component Qjournal",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st6231": {
+            "tasks": [
+                {
+                    "taskName": "Requirement File Permissions and Security",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component BlockManagement",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Safe Mode",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component Tools",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st9904": {
+            "tasks": [
+                {
+                    "taskName": "Component Tools",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Upgrade and Rollback",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component DiskBalancer",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Scalability",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st1472": {
+            "tasks": [
+                {
+                    "taskName": "Component Qjournal",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Recoverability",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component BlockManagement",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Upgrade and Rollback",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st5003": {
+            "tasks": [
+                {
+                    "taskName": "Requirement Upgrade and Rollback",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component Qjournal",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement File Permissions and Security",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component DataNode",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st2546": {
+            "tasks": [
+                {
+                    "taskName": "Requirement Recoverability",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component Tools",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Upgrade and Rollback",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component NameNode",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st7789": {
+            "tasks": [
+                {
+                    "taskName": "Component DataNode",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Rack Awareness",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component Tools",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Recoverability",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st6601": {
+            "tasks": [
+                {
+                    "taskName": "Component NameNode",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Safe Mode",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component Qjournal",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement File Permissions and Security",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st3017": {
+            "tasks": [
+                {
+                    "taskName": "Requirement Rack Awareness",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component DataNode",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Recoverability",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component BlockManagement",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st8934": {
+            "tasks": [
+                {
+                    "taskName": "Requirement Safe Mode",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component NameNode",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Scalability",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component DiskBalancer",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st0458": {
+            "tasks": [
+                {
+                    "taskName": "Component DiskBalancer",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Scalability",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component DataNode",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Rack Awareness",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st7165": {
+            "tasks": [
+                {
+                    "taskName": "Component BlockManagement",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement File Permissions and Security",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component NameNode",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Safe Mode",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st1092": {
+            "tasks": [
+                {
+                    "taskName": "Requirement Scalability",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component DiskBalancer",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Rack Awareness",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component Qjournal",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st8593": {
+            "tasks": [
+                {
+                    "taskName": "Requirement File Permissions and Security",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component BlockManagement",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Safe Mode",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component Tools",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st3476": {
+            "tasks": [
+                {
+                    "taskName": "Component Tools",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Upgrade and Rollback",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component DiskBalancer",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Scalability",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st9210": {
+            "tasks": [
+                {
+                    "taskName": "Component Qjournal",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Recoverability",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component BlockManagement",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Upgrade and Rollback",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st4805": {
+            "tasks": [
+                {
+                    "taskName": "Requirement Upgrade and Rollback",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component Qjournal",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement File Permissions and Security",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component DataNode",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st0371": {
+            "tasks": [
+                {
+                    "taskName": "Requirement Recoverability",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component Tools",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement Upgrade and Rollback",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component NameNode",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                }
+            ]
+        },
+        "st6348": {
+            "tasks": [
+                {
+                    "taskName": "Requirement Upgrade and Rollback",
+                    "rerank_engine": false,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component Qjournal",
+                    "rerank_engine": true,
+                    "gpt": true,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Requirement File Permissions and Security",
+                    "rerank_engine": true,
+                    "gpt": false,
+                    "solutions": {}
+                },
+                {
+                    "taskName": "Component DiskBalancer",
+                    "rerank_engine": false,
+                    "gpt": true,
+                    "solutions": {}
+                }
+            ]
+        }
+    },
+    "task_details": {
+        "Component DataNode": {
+            "description": "As a developer delving into Hadoop HDFS internals, your task is to understand the design decisions behind the DataNode component. You aim to learn its functionality and grasp its inner workings from components, connectors, and architectural solutions.\n\n",
+            "questions": {
+                "question1": {
+                    "type": "existence",
+                    "description": "What are the components and connectors of DataNode, and what is the rationale behind the design decisions on components and connectors?\n\n",
+                    "design_decision": {
+                        "existence": true
+                    }
+                },
+                "question2": {
+                    "type": "property",
+                    "description": "What quality attributes are considered in the design of DataNode?\n\n",
+                    "design_decision": {
+                        "property": true
+                    }
+                },
+                "question3": {
+                    "type": "property",
+                    "description": "What architectural tactics or patterns used to satisfy the found quality attributes in DataNode?\n\n",
+                    "design_decision": {
+                        "property": true
+                    }
+                },
+                "question4": {
+                    "type": "executive",
+                    "description": "What are the technologies applied in the DataNode, and what is the rationale behind selecting these technologies?\n\n",
+                    "design_decision": {
+                        "executive": true
+                    }
+                }
+            },
+            "Likert Scale": {
+                "5": "Very relevant (5): The issue contains sufficient information to answer the entire question.",
+                "4": "Relevant (4): The issue contains information to answer part of the question.",
+                "3": "Distantly relevant (3): The issue does not contain information to answer the question. But the content of the issue is related and helps to refine the search.",
+                "2": "Less relevant (2): The issue does not contain information to answer the question. But the content of the issue can be related to the question.",
+                "1": "Not relevant (1): The issue has no relation to the question."
+            },
+            "task_details": "Brief Instructions:\n\nFor each of the following questions:\n\n\t\tExecute at least two queries or questions to find answers for each question.\n\tYou can either ask questions or write keywords to search for issues.\nEvaluate the relevance of each found issue to the question based on the following Likert scale:\nVery relevant (5): The issue contains sufficient information to answer the entire question.\nRelevant (4): The issue contains information to answer part of thequestion.\nDistantly relevant (3): The issue does not contain information to answer the question. But the content of the issue is related and help to refine the search.\nLess relevant (2): The issue does not contain information to answer the question. But the content of the issue can be related to the question.\nNot relevant (1): The issue has no relation to the question.\nPlease record textual segments (e.g., sentences) from issues that help to answer a question in the results sheet. Also, record their issue IDs and locations.\n"
+        },
+        "Component NameNode": {
+            "description": "As a developer, your task is to understand the design decisions behind the NameNode component in Hadoop HDFS. You want to explore its functionality and grasp its inner workings, including its components, connectors, and architectural solutions.\n\n",
+            "questions": {
+                "question1": {
+                    "type": "existence",
+                    "description": "What are the components and connectors of NameNode, and what is the rationale behind the design decisions on components and connectors?\n\n",
+                    "design_decision": {
+                        "existence": true
+                    }
+                },
+                "question2": {
+                    "type": "property",
+                    "description": "Which quality attributes are considered in the design of NameNode?\n\n",
+                    "design_decision": {
+                        "property": true
+                    }
+                },
+                "question3": {
+                    "type": "property",
+                    "description": "Which architectural tactics or patterns are employed to satisfy the found quality attributes in NameNode?\n\n",
+                    "design_decision": {
+                        "property": true
+                    }
+                },
+                "question4": {
+                    "type": "executive",
+                    "description": "What technologies are used by NameNode, and what is the rationale behind selecting these technologies?\n\n",
+                    "design_decision": {
+                        "executive": true
+                    }
+                }
+            },
+            "task_details": "Instructions:\n* Use the specific search engines for the questions to search for answers.\n* Execute at least two queries to find answers for each question.\n",
+            "Likert Scale": {
+                "1": "Not Relevant",
+                "2": "Less Relevant",
+                "3": "Distantly Relevant",
+                "4": "Relevant",
+                "5": "Very Relevant"
+            }
+        },
+        "Component DiskBalancer": {
+            "description": "As a developer, your task is to examine the DiskBalancer component in Hadoop HDFS and understand the design decisions behind it. It helps redistribute data across disks on DataNodes to achieve better balance and utilization.\n\n",
+            "questions": {
+                "question1": {
+                    "type": "existence",
+                    "description": "What are the components and connectors of DiskBalancer, and what is the rationale behind the design decisions on components and connectors?\n\n",
+                    "design_decision": {
+                        "existence": true
+                    }
+                },
+                "question2": {
+                    "type": "property",
+                    "description": "Which quality attributes are considered in the design of the DiskBalancer component?\n\n",
+                    "design_decision": {
+                        "property": true
+                    }
+                },
+                "question3": {
+                    "type": "property",
+                    "description": "What architectural tactics or patterns are utilized within DiskBalancer?\n\n",
+                    "design_decision": {
+                        "property": true
+                    }
+                },
+                "question4": {
+                    "type": "executive",
+                    "description": "What technologies are utilized within DiskBalancer, and what is the rationale behind selecting these technologies?\n\n",
+                    "design_decision": {
+                        "executive": true
+                    }
+                }
+            },
+            "task_details": "Instructions:\n* Use the specific search engines for the questions to search for answers.\n* Execute at least two queries to find answers for each question.\n",
+            "Likert Scale": {
+                "1": "Not Relevant",
+                "2": "Less Relevant",
+                "3": "Distantly Relevant",
+                "4": "Relevant",
+                "5": "Very Relevant"
+            }
+        },
+        "Component BlockManagement": {
+            "description": "As a developer, your task is to examine the BlockManagement component in Hadoop HDFS and understand the design decisions behind it. This component is responsible for handling the organization and management of data blocks in the system.\n\n",
+            "questions": {
+                "question1": {
+                    "type": "existence",
+                    "description": "What are the components and connectors of BlockManagement, and what is the rationale behind the design decisions on components and connectors?\n\n",
+                    "design_decision": {
+                        "existence": true
+                    }
+                },
+                "question2": {
+                    "type": "property",
+                    "description": "Which quality attributes are considered in the design of the BlockManagement component?\n\n",
+                    "design_decision": {
+                        "property": true
+                    }
+                },
+                "question3": {
+                    "type": "property",
+                    "description": "What architectural tactics or patterns are utilized within BlockManagement?\n\n",
+                    "design_decision": {
+                        "property": true
+                    }
+                },
+                "question4": {
+                    "type": "executive",
+                    "description": "What technologies are utilized within BlockManagement, and what is the rationale behind selecting these technologies?\n\n",
+                    "design_decision": {
+                        "executive": true
+                    }
+                }
+            },
+            "task_details": "Instructions:\n* Use the specific search engines for the questions to search for answers.\n* Execute at least two queries to find answers for each question.\n",
+            "Likert Scale": {
+                "1": "Not Relevant",
+                "2": "Less Relevant",
+                "3": "Distantly Relevant",
+                "4": "Relevant",
+                "5": "Very Relevant"
+            }
+        },
+        "Component Tools": {
+            "description": "As a developer, your task is to understand the design decisions behind the Tools component in Hadoop HDFS. You want to explore its functionality and grasp its inner workings, including its components, connectors, and architectural solutions.\n\n",
+            "questions": {
+                "question1": {
+                    "type": "existence",
+                    "description": "What are the components and connectors of Tools, and what is the rationale behind the design decisions on components and connectors?\n\n",
+                    "design_decision": {
+                        "existence": true
+                    }
+                },
+                "question2": {
+                    "type": "property",
+                    "description": "Which quality attributes are considered in the design of Tools?\n\n",
+                    "design_decision": {
+                        "property": true
+                    }
+                },
+                "question3": {
+                    "type": "property",
+                    "description": "Which architectural tactics or patterns are employed to satisfy the found quality attributes in Tools?\n\n",
+                    "design_decision": {
+                        "property": true
+                    }
+                },
+                "question4": {
+                    "type": "executive",
+                    "description": "What technologies are used by Tools, and what is the rationale behind selecting these technologies?\n\n",
+                    "design_decision": {
+                        "executive": true
+                    }
+                }
+            },
+            "task_details": "Instructions:\n* Use the specific search engines for the questions to search for answers.\n* Execute at least two queries to find answers for each question.\n",
+            "Likert Scale": {
+                "1": "Not Relevant",
+                "2": "Less Relevant",
+                "3": "Distantly Relevant",
+                "4": "Relevant",
+                "5": "Very Relevant"
+            }
+        },
+        "Component Qjournal": {
+            "description": "As a developer, your task is to understand the design decision behind the Qjournal component in Hadoop HDFS. You want to explore its functionality and grasp its inner workings from components, connectors, and architectural solutions.\n\n",
+            "questions": {
+                "question1": {
+                    "type": "existence",
+                    "description": "What are the components and connectors of Qjournal, and what is the rationale behind the design decisions on components and connectors?\n\n",
+                    "design_decision": {
+                        "existence": true
+                    }
+                },
+                "question2": {
+                    "type": "property",
+                    "description": "What quality attributes are considered in the design of Qjournal?\n\n",
+                    "design_decision": {
+                        "property": true
+                    }
+                },
+                "question3": {
+                    "type": "property",
+                    "description": "What architectural tactics or patterns used to satisfy the found quality attributes in Qjournal?\n\n",
+                    "design_decision": {
+                        "property": true
+                    }
+                },
+                "question4": {
+                    "type": "executive",
+                    "description": "What are the technologies applied in Qjournal, and what is the rationale behind selecting these technologies?\n\n",
+                    "design_decision": {
+                        "executive": true
+                    }
+                }
+            },
+            "task_details": "Instructions:\n* Use the specific search engines for the questions to search for answers.\n* Execute at least two queries to find answers for each question.\n",
+            "Likert Scale": {
+                "1": "Not Relevant",
+                "2": "Less Relevant",
+                "3": "Distantly Relevant",
+                "4": "Relevant",
+                "5": "Very Relevant"
+            }
+        },
+        "Requirement File Permissions and Security": {
+            "description": "File Permissions and Security is an important requirement of Hadoop HDFS. Understanding how this requirement is achieved in HDFS will provide insight into how File Permissions and Security is handled in HDFS. Your task is to explore the architectural design decisions that achieve File Permissions and Security in Hadoop HDFS.\n\n",
+            "questions": {
+                "question1": {
+                    "type": "existence",
+                    "description": "What are the architectural components and connectors in HDFS that achieve File Permissions and Security?\n\n",
+                    "design_decision": {
+                        "existence": true
+                    }
+                },
+                "question2": {
+                    "type": "property",
+                    "description": "What architectural tactics and patterns are implemented in HDFS to achieve File Permissions and Security?\n\n",
+                    "design_decision": {
+                        "property": true
+                    }
+                },
+                "question3": {
+                    "type": "executive",
+                    "description": "Which tools and technologies are integrated to handle HDFS File Permissions and Security?\n\n",
+                    "design_decision": {
+                        "executive": true
+                    }
+                }
+            },
+            "task_details": "Instructions:\n* Use the specific search engines for the questions to search for answers.\n* Execute at least two queries to find answers for each question.\n",
+            "Likert Scale": {
+                "1": "Not Relevant",
+                "2": "Less Relevant",
+                "3": "Distantly Relevant",
+                "4": "Relevant",
+                "5": "Very Relevant"
+            }
+        },
+        "Requirement Recoverability": {
+            "description": "Recoverability is an important requirement of Hadoop HDFS. Your task is to explore the architectural design decisions that achieve Recoverability in HDFS. Understanding these decisions will provide insight into how Recoverability is added in HDFS.\n\n",
+            "questions": {
+                "question1": {
+                    "type": "existence",
+                    "description": "What are the architectural components and connectors in HDFS that are responsible for Recoverability?\n\n",
+                    "design_decision": {
+                        "existence": true
+                    }
+                },
+                "question2": {
+                    "type": "property",
+                    "description": "What architectural tactics and patterns are implemented in HDFS to achieve Recoverability?\n\n",
+                    "design_decision": {
+                        "property": true
+                    }
+                },
+                "question3": {
+                    "type": "executive",
+                    "description": "Which technologies have been utilized to make HDFS recoverable?\n\n",
+                    "design_decision": {
+                        "executive": true
+                    }
+                }
+            },
+            "task_details": "Instructions:\n* Use the specific search engines for the questions to search for answers.\n* Execute at least two queries to find answers for each question.\n",
+            "Likert Scale": {
+                "1": "Not Relevant",
+                "2": "Less Relevant",
+                "3": "Distantly Relevant",
+                "4": "Relevant",
+                "5": "Very Relevant"
+            }
+        },
+        "Requirement Scalability": {
+            "description": "Scalability is a key feature of Hadoop HDFS. Understanding how this feature is designed in HDFS will provide insight into how HDFS can be extended for future design decisions. You are tasked with exploring the architectural decisions that enable Scalability in Hadoop HDFS.\n\n",
+            "questions": {
+                "question1": {
+                    "type": "existence",
+                    "description": "What components and connectors in HDFS contribute to its Scalability?\n\n",
+                    "design_decision": {
+                        "existence": true
+                    }
+                },
+                "question2": {
+                    "type": "property",
+                    "description": "What architectural tactics and patterns are implemented in HDFS to ensure Scalability?\n\n",
+                    "design_decision": {
+                        "property": true
+                    }
+                },
+                "question3": {
+                    "type": "executive",
+                    "description": "Which tools and technologies are integrated into HDFS to ensure Scalability?\n\n",
+                    "design_decision": {
+                        "executive": true
+                    }
+                }
+            },
+            "task_details": "Instructions:\n* Use the specific search engines for the questions to search for answers.\n* Execute at least two queries to find answers for each question.\n",
+            "Likert Scale": {
+                "1": "Not Relevant",
+                "2": "Less Relevant",
+                "3": "Distantly Relevant",
+                "4": "Relevant",
+                "5": "Very Relevant"
+            }
+        },
+        "Requirement Rack Awareness": {
+            "description": "Typically large Hadoop clusters are arranged in racks. Rack Awareness is an important requirement of Hadoop HDFS. Your task is to explore the architectural decisions that are made for Rack Awareness within HDFS.\n\n",
+            "questions": {
+                "question1": {
+                    "type": "existence",
+                    "description": "What are the architectural components and connectors in HDFS that are responsible for Rack Awareness?\n\n",
+                    "design_decision": {
+                        "existence": true
+                    }
+                },
+                "question2": {
+                    "type": "property",
+                    "description": "What architectural tactics and patterns are decided in HDFS to implement Rack Awareness?\n\n",
+                    "design_decision": {
+                        "property": true
+                    }
+                },
+                "question3": {
+                    "type": "executive",
+                    "description": "What technologies have been integrated into HDFS to achieve Rack Awareness?\n\n",
+                    "design_decision": {
+                        "executive": true
+                    }
+                }
+            },
+            "task_details": "Instructions:\n* Use the specific search engines for the questions to search for answers.\n* Execute at least two queries to find answers for each question.\n",
+            "Likert Scale": {
+                "1": "Not Relevant",
+                "2": "Less Relevant",
+                "3": "Distantly Relevant",
+                "4": "Relevant",
+                "5": "Very Relevant"
+            }
+        },
+        "Requirement Safe Mode": {
+            "description": "Safe mode is an important requirement of Hadoop HDFS. Your task is to explore the architectural decisions that are made to achieve Safe mode within HDFS.\n\n",
+            "questions": {
+                "question1": {
+                    "type": "existence",
+                    "description": "What are the architectural components and connectors in HDFS that are responsible for Safe mode?\n\n",
+                    "design_decision": {
+                        "existence": true
+                    }
+                },
+                "question2": {
+                    "type": "property",
+                    "description": "What architectural tactics and patterns are implemented in HDFS to achieve Safe mode?\n\n",
+                    "design_decision": {
+                        "property": true
+                    }
+                },
+                "question3": {
+                    "type": "executive",
+                    "description": "What technologies have been integrated into HDFS to achieve Safe mode?\n\n",
+                    "design_decision": {
+                        "executive": true
+                    }
+                }
+            },
+            "task_details": "Instructions:\n* Use the specific search engines for the questions to search for answers.\n* Execute at least two queries to find answers for each question.\n",
+            "Likert Scale": {
+                "1": "Not Relevant",
+                "2": "Less Relevant",
+                "3": "Distantly Relevant",
+                "4": "Relevant",
+                "5": "Very Relevant"
+            }
+        },
+        "Requirement Upgrade and Rollback": {
+            "description": "Upgrade and Rollback is a key requirement of Hadoop HDFS. Your task is to explore the architectural decisions that are made to enable Upgrade and Rollback within HDFS.\n\n",
+            "questions": {
+                "question1": {
+                    "type": "existence",
+                    "description": "What are the architectural components and connectors in HDFS that are responsible for achieving Upgrade and Rollback?\n\n",
+                    "design_decision": {
+                        "existence": true
+                    }
+                },
+                "question2": {
+                    "type": "property",
+                    "description": "What architectural tactics and patterns are implemented in HDFS to achieve Upgrade and Rollback?\n\n",
+                    "design_decision": {
+                        "property": true
+                    }
+                },
+                "question3": {
+                    "type": "executive",
+                    "description": "Which tools and technologies are integrated into HDFS to implement Upgrade and Rollback?\n\n",
+                    "design_decision": {
+                        "executive": true
+                    }
+                }
+            },
+            "task_details": "Instructions:\n* Use the specific search engines for the questions to search for answers.\n* Execute at least two queries to find answers for each question.\n",
+            "Likert Scale": {
+                "1": "Not Relevant",
+                "2": "Less Relevant",
+                "3": "Distantly Relevant",
+                "4": "Relevant",
+                "5": "Very Relevant"
+            }
+        }
+    }
+}

@@ -137,6 +137,8 @@ fullchain.pem
 privkey.pem
 
 *experiment_*.json*
+!issues-db-api/app/experiment_data.json
+!issues-db-api/app/experiment_tasks.json
 postgres-data/
 
 # Large data dumps (downloaded from Zenodo)
