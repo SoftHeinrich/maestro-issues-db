@@ -353,14 +353,14 @@ def get_experiment_tasks(request_data: MtrNo):
 
     experiment_data = student_data[mtr_no]
 
+    debug = data.get("debug", False)
+
     response = []
     for task in experiment_data["tasks"]:
         task_name = task["taskName"]
+        per_question_config = task.get("questions", {})
         task_info = {
             "taskName": task_name,
-            "engine": task.get("engine", "pylucene"),
-            "rerank_engine": task.get("rerank_engine", False),
-            "gpt": task.get("gpt", False),
             "solutions": task.get("solutions", {})
         }
 
@@ -368,7 +368,16 @@ def get_experiment_tasks(request_data: MtrNo):
         task_details = top_level.get(task_name)
         if task_details:
             task_info["description"] = task_details.get("description")
-            task_info["questions"] = task_details.get("questions")
+            # Merge per-question config (engine, rerank_engine, gpt) into each question object
+            questions = {}
+            for qkey, qval in (task_details.get("questions") or {}).items():
+                q = dict(qval)
+                q_config = per_question_config.get(qkey, {})
+                q["engine"] = q_config.get("engine", "pylucene")
+                q["rerank_engine"] = q_config.get("rerank_engine", False)
+                q["gpt"] = q_config.get("gpt", False)
+                questions[qkey] = q
+            task_info["questions"] = questions
             task_info["task_details"] = (
                 task_details.get("task_details")
                 or top_level.get("task_details")
@@ -380,7 +389,7 @@ def get_experiment_tasks(request_data: MtrNo):
 
         response.append(task_info)
 
-    return response
+    return {"debug": debug, "tasks": response}
 
 
 @router.post("/submit-ratings")
@@ -403,11 +412,16 @@ def save_result(result_data: SaveResult):
     search_query = result_data.searchQuery
     ratings = [{"issue_id": r.issue_id, "rating": str(r.rating)} for r in result_data.ratings]
 
-    # Find the task to record engine used
+    # Find the task and per-question config to record engine used
     engine = "pylucene"
+    rerank_engine = False
+    gpt = False
     for task in student["tasks"]:
         if task["taskName"] == task_id:
-            engine = task.get("engine", "pylucene")
+            q_config = task.get("questions", {}).get(question_key, {})
+            engine = q_config.get("engine", "pylucene")
+            rerank_engine = q_config.get("rerank_engine", False)
+            gpt = q_config.get("gpt", False)
             break
 
     solution = {
@@ -415,6 +429,8 @@ def save_result(result_data: SaveResult):
         "questionKey": question_key,
         "searchQuery": search_query,
         "engine": engine,
+        "rerank_engine": rerank_engine,
+        "gpt": gpt,
         "config_hash": _config_hash(data),
         "ratings": ratings
     }
