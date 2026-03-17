@@ -54,6 +54,8 @@ services:
     dns:
       - 8.8.8.8
       - 8.8.4.4
+    extra_hosts:
+      - "api.openai.com:162.159.140.245"
     networks:
       - maestro_traefik
     env_file:
