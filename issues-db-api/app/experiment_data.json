@@ -1,5 +1,5 @@
 {
-    "debug": false,
+    "debug": true,
     "student_data": {
         "st3180": {
             "tasks": [
@@ -96,6 +96,54 @@
                             "gpt": false
                         }
                     }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
                 }
             ]
         },
@@ -189,6 +237,54 @@
                             "gpt": true
                         },
                         "question3": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
                             "engine": "pylucene",
                             "rerank_engine": false,
                             "gpt": true
@@ -292,6 +388,54 @@
                             "gpt": true
                         }
                     }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
                 }
             ]
         },
@@ -388,6 +532,54 @@
                             "engine": "pylucene",
                             "rerank_engine": true,
                             "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
                         }
                     }
                 }
@@ -488,6 +680,54 @@
                             "gpt": false
                         }
                     }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
                 }
             ]
         },
@@ -586,6 +826,54 @@
                             "gpt": false
                         }
                     }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
                 }
             ]
         },
@@ -679,6 +967,54 @@
                             "gpt": false
                         },
                         "question4": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
                             "engine": "pylucene",
                             "rerank_engine": false,
                             "gpt": true
@@ -782,6 +1118,54 @@
                             "gpt": false
                         }
                     }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
                 }
             ]
         },
@@ -878,6 +1262,54 @@
                             "engine": "pylucene",
                             "rerank_engine": false,
                             "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
                         }
                     }
                 }
@@ -978,6 +1410,54 @@
                             "gpt": false
                         }
                     }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
                 }
             ]
         },
@@ -1074,6 +1554,54 @@
                             "engine": "archrag",
                             "rerank_engine": false,
                             "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
                         }
                     }
                 }
@@ -1174,6 +1702,54 @@
                             "gpt": false
                         }
                     }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
                 }
             ]
         },
@@ -1270,6 +1846,54 @@
                             "engine": "archrag",
                             "rerank_engine": false,
                             "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
                         }
                     }
                 }
@@ -1370,6 +1994,54 @@
                             "gpt": false
                         }
                     }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
                 }
             ]
         },
@@ -1468,6 +2140,54 @@
                             "gpt": false
                         }
                     }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
                 }
             ]
         },
@@ -1561,6 +2281,54 @@
                             "gpt": true
                         },
                         "question4": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
                             "engine": "pylucene",
                             "rerank_engine": false,
                             "gpt": true
@@ -1664,6 +2432,54 @@
                             "gpt": true
                         }
                     }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
                 }
             ]
         },
@@ -1757,6 +2573,54 @@
                             "gpt": false
                         },
                         "question3": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
                             "engine": "pylucene",
                             "rerank_engine": false,
                             "gpt": true
@@ -1860,6 +2724,54 @@
                             "gpt": false
                         }
                     }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
                 }
             ]
         },
@@ -1956,6 +2868,54 @@
                             "engine": "pylucene",
                             "rerank_engine": false,
                             "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
                         }
                     }
                 }
@@ -2056,6 +3016,54 @@
                             "gpt": false
                         }
                     }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
                 }
             ]
         },
@@ -2149,6 +3157,54 @@
                             "gpt": false
                         },
                         "question3": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
                             "engine": "pylucene",
                             "rerank_engine": false,
                             "gpt": true
@@ -2252,6 +3308,54 @@
                             "gpt": false
                         }
                     }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
                 }
             ]
         },
@@ -2348,6 +3452,54 @@
                             "engine": "pylucene",
                             "rerank_engine": true,
                             "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
                         }
                     }
                 }
@@ -2448,6 +3600,54 @@
                             "gpt": false
                         }
                     }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
                 }
             ]
         },
@@ -2544,6 +3744,158 @@
                             "engine": "pylucene",
                             "rerank_engine": false,
                             "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                }
+            ]
+        },
+        "test002": {
+            "tasks": [
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": true
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": true
+                        }
+                    }
+                }
+            ]
+        },
+        "test003": {
+            "tasks": [
+                {
+                    "taskName": "Test Task A - DataNode Overview",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task B - HDFS Security",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": true,
+                            "gpt": true
+                        },
+                        "question2": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        }
+                    }
+                },
+                {
+                    "taskName": "Test Task C - Scalability",
+                    "solutions": {},
+                    "questions": {
+                        "question1": {
+                            "engine": "pylucene",
+                            "rerank_engine": false,
+                            "gpt": false
+                        },
+                        "question2": {
+                            "engine": "archrag",
+                            "rerank_engine": false,
+                            "gpt": false
                         }
                     }
                 }
@@ -3000,6 +4352,87 @@
                 "4": "Relevant",
                 "5": "Very Relevant"
             }
+        },
+        "Test Task A - DataNode Overview": {
+            "description": "TEST TASK: This is a test task for system validation. Explore the DataNode component in Hadoop HDFS.\n\n",
+            "questions": {
+                "question1": {
+                    "type": "existence",
+                    "description": "TEST: What are the main components of DataNode?\n\n",
+                    "design_decision": {
+                        "existence": true
+                    }
+                },
+                "question2": {
+                    "type": "property",
+                    "description": "TEST: What quality attributes matter for DataNode?\n\n",
+                    "design_decision": {
+                        "property": true
+                    }
+                }
+            },
+            "Likert Scale": {
+                "5": "Very relevant (5): The issue contains sufficient information to answer the entire question.",
+                "4": "Relevant (4): The issue contains information to answer part of the question.",
+                "3": "Distantly relevant (3): The issue does not contain information to answer the question. But the content of the issue is related and helps to refine the search.",
+                "2": "Less relevant (2): The issue does not contain information to answer the question. But the content of the issue can be related to the question.",
+                "1": "Not relevant (1): The issue has no relation to the question."
+            },
+            "task_details": "TEST TASK: Execute at least one query per question. Rate the relevance of results.\n"
+        },
+        "Test Task B - HDFS Security": {
+            "description": "TEST TASK: This is a test task for system validation. Explore security-related design decisions in HDFS.\n\n",
+            "questions": {
+                "question1": {
+                    "type": "existence",
+                    "description": "TEST: What components handle file permissions in HDFS?\n\n",
+                    "design_decision": {
+                        "existence": true
+                    }
+                },
+                "question2": {
+                    "type": "executive",
+                    "description": "TEST: What technologies are used for HDFS security?\n\n",
+                    "design_decision": {
+                        "executive": true
+                    }
+                }
+            },
+            "Likert Scale": {
+                "5": "Very relevant (5): The issue contains sufficient information to answer the entire question.",
+                "4": "Relevant (4): The issue contains information to answer part of the question.",
+                "3": "Distantly relevant (3): The issue does not contain information to answer the question. But the content of the issue is related and helps to refine the search.",
+                "2": "Less relevant (2): The issue does not contain information to answer the question. But the content of the issue can be related to the question.",
+                "1": "Not relevant (1): The issue has no relation to the question."
+            },
+            "task_details": "TEST TASK: Execute at least one query per question. Rate the relevance of results.\n"
+        },
+        "Test Task C - Scalability": {
+            "description": "TEST TASK: This is a test task for system validation. Explore scalability design decisions in HDFS.\n\n",
+            "questions": {
+                "question1": {
+                    "type": "property",
+                    "description": "TEST: What architectural patterns ensure HDFS scalability?\n\n",
+                    "design_decision": {
+                        "property": true
+                    }
+                },
+                "question2": {
+                    "type": "executive",
+                    "description": "TEST: What technologies support HDFS scalability?\n\n",
+                    "design_decision": {
+                        "executive": true
+                    }
+                }
+            },
+            "Likert Scale": {
+                "5": "Very relevant (5): The issue contains sufficient information to answer the entire question.",
+                "4": "Relevant (4): The issue contains information to answer part of the question.",
+                "3": "Distantly relevant (3): The issue does not contain information to answer the question. But the content of the issue is related and helps to refine the search.",
+                "2": "Less relevant (2): The issue does not contain information to answer the question. But the content of the issue can be related to the question.",
+                "1": "Not relevant (1): The issue has no relation to the question."
+            },
+            "task_details": "TEST TASK: Execute at least one query per question. Rate the relevance of results.\n"
         }
     }
 }
