@@ -23,7 +23,7 @@ from .routers import (
 from .streaming import ui_updates
 import uvicorn
 
-CORS_ORIGINS = os.environ.get("CORS_ORIGINS", "https://maestro.localhost:4269").split(",")
+CORS_ORIGINS = os.environ.get("CORS_ORIGINS", "https://maestro.localhost:4269,https://localhost:4269,https://127.0.0.1:4269").split(",")
 
 app = FastAPI(root_path="/issues-db-api")
 
