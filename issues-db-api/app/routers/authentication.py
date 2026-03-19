@@ -13,7 +13,7 @@ from pymongo.errors import DuplicateKeyError
 from typing import Optional, Dict
 
 ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 1440
+ACCESS_TOKEN_EXPIRE_MINUTES = 120
 
 
 class OAuth2PasswordBearerWithCookie(OAuth2):

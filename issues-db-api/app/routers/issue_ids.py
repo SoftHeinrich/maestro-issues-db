@@ -2,6 +2,7 @@ from fastapi import APIRouter
 from pydantic import BaseModel, ConfigDict
 from app.dependencies import issue_labels_collection, jira_repos_db, active_ecosystems
 from app.exceptions import repo_not_found_exception, issue_not_found_exception
+from app.sanitize import sanitize_mongo_filter
 
 router = APIRouter(
     prefix='/issue-ids',
@@ -42,8 +43,9 @@ def get_issue_ids(request: IssueIdsIn):
     the provided filtering options. These filtering options are
     given in the body of the request.
     """
+    safe_filter = sanitize_mongo_filter(request.filter)
     issues = issue_labels_collection.find(
-        request.filter,
+        safe_filter,
         ['_id']
     )
     return IssueIdsOut(issue_ids=[issue['_id'] for issue in issues])

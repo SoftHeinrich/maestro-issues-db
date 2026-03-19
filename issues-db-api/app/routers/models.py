@@ -288,7 +288,7 @@ def replace_model_version_file(
     model_id: str,
     version_id: str,
     file: UploadFile = Form(),
-    # token=Depends(validate_token),
+    token=Depends(validate_token),
 ):
     """
     Upload a new version for the given model-id.

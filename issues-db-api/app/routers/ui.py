@@ -12,6 +12,7 @@ from app.exceptions import (
     model_not_found_exception,
     version_not_found_exception,
 )
+from app.sanitize import sanitize_mongo_filter
 from bson import ObjectId
 import math
 
@@ -97,8 +98,9 @@ class UIDataOut(BaseModel):
 def get_ui_data(request: Query):
     page = request.page - 1
     limit = request.limit
+    safe_filter = sanitize_mongo_filter(request.filter)
     total_pages = math.ceil(
-        issue_labels_collection.count_documents(request.filter) / limit
+        issue_labels_collection.count_documents(safe_filter) / limit
     )
 
     for model in request.models:
@@ -128,14 +130,14 @@ def get_ui_data(request: Query):
     if request.sort is not None:
         sort_direction = 1 if request.sort_ascending else -1
         issues = (
-            issue_labels_collection.find(request.filter)
+            issue_labels_collection.find(safe_filter)
             .sort(request.sort, sort_direction)
             .skip(page * limit)
             .limit(limit)
         )
     else:
         issues = (
-            issue_labels_collection.find(request.filter).skip(page * limit).limit(limit)
+            issue_labels_collection.find(safe_filter).skip(page * limit).limit(limit)
         )
 
     response = []

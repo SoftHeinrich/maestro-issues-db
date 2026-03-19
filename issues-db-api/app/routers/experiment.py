@@ -19,10 +19,11 @@ from datetime import datetime
 from shutil import copyfile
 
 from dotenv import load_dotenv
-from fastapi import APIRouter, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, status
 from pydantic import BaseModel
 from typing import Any, Dict, List, Optional
 from pymongo import MongoClient
+from app.routers.authentication import validate_token
 
 load_dotenv()
 
@@ -57,6 +58,36 @@ def _config_hash(data: dict) -> str:
     return hashlib.sha256(raw.encode()).hexdigest()[:16]
 
 
+def _validate_gpt_caller(session_id: str | None, mtr_no: str | None):
+    """Reject GPT requests that lack a valid session_id or MtrNo."""
+    from bson import ObjectId
+
+    # Try session_id first
+    if session_id:
+        db = _get_db()
+        try:
+            session = db["experiment_sessions"].find_one({"_id": ObjectId(session_id)}, {"_id": 1})
+        except Exception:
+            session = None
+        if session is not None:
+            return
+
+    # Try MtrNo against legacy experiment data
+    if mtr_no:
+        try:
+            data = _load_experiment_data()
+            student_data = data.get("student_data", {})
+            if mtr_no in student_data:
+                return
+        except Exception:
+            pass
+
+    raise HTTPException(
+        status_code=400,
+        detail="A valid session_id or MtrNo is required to use this endpoint.",
+    )
+
+
 # --- Models (MongoDB-based) ---
 
 class CreateSessionRequest(BaseModel):
@@ -81,6 +112,8 @@ class SubmitResultsRequest(BaseModel):
 class GPTKeywordsRequest(BaseModel):
     prompt: str
     project_name: str = "Hadoop HDFS"
+    session_id: Optional[str] = None
+    MtrNo: Optional[str] = None
 
 
 # --- MongoDB-based endpoints ---
@@ -201,6 +234,8 @@ def submit_results(session_id: str, req: SubmitResultsRequest):
 @router.post("/gpt-keywords")
 def gpt_keywords(req: GPTKeywordsRequest):
     """Extract search keywords using GPT-4o."""
+    # Rate check: require a valid session_id or MtrNo
+    _validate_gpt_caller(req.session_id, req.MtrNo)
     if not OPENAI_API_KEY:
         raise HTTPException(500, "OpenAI API key not configured")
 
@@ -249,7 +284,7 @@ def list_tasks():
 
 
 @router.get("/export")
-def export_data():
+def export_data(token=Depends(validate_token)):
     """Export all experiment data as JSON for evaluation."""
     db = _get_db()
     sessions = list(db["experiment_sessions"].find({}))
@@ -446,11 +481,15 @@ def save_result(result_data: SaveResult):
 
 class GPT4Request(BaseModel):
     prompt: str
+    session_id: Optional[str] = None
+    MtrNo: Optional[str] = None
 
 
 @router.post("/gpt4-response")
 def fetch_gpt4_response(request: GPT4Request):
     """Legacy GPT-4 keyword extraction endpoint."""
+    # Rate check: require a valid session_id or MtrNo
+    _validate_gpt_caller(request.session_id, request.MtrNo)
     api_key = OPENAI_API_KEY
     if not api_key:
         return {"detail": "OpenAI API key not configured"}

@@ -1,3 +1,5 @@
+import os
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from .routers import (
@@ -21,11 +23,13 @@ from .routers import (
 from .streaming import ui_updates
 import uvicorn
 
+CORS_ORIGINS = os.environ.get("CORS_ORIGINS", "https://maestro.localhost:4269").split(",")
+
 app = FastAPI(root_path="/issues-db-api")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origin_regex=r"https?://.*",
+    allow_origins=CORS_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
