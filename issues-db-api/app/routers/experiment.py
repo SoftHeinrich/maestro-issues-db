@@ -15,6 +15,8 @@ import hashlib
 import json
 import os
 import random
+import tempfile
+import threading
 from datetime import datetime
 from shutil import copyfile
 
@@ -312,6 +314,7 @@ def _serialize_session(session):
 
 class MtrNo(BaseModel):
     MtrNo: str
+    password: Optional[str] = None
 
 class LegacyRating(BaseModel):
     issue_id: str
@@ -323,6 +326,9 @@ class SaveResult(BaseModel):
     questionKey: str
     searchQuery: str
     ratings: List[LegacyRating]
+
+
+_experiment_lock = threading.Lock()
 
 
 def _get_experiment_file_path() -> str:
@@ -357,8 +363,16 @@ def _save_experiment_data(data: Dict[str, Any]) -> None:
             status_code=status.HTTP_400_BAD_REQUEST,
             detail="Invalid data. Unable to save results."
         )
-    with open(file_path, "w") as file:
-        json.dump(data, file, indent=4)
+    # Atomic write: write to temp file then rename to prevent corruption
+    dir_name = os.path.dirname(file_path)
+    fd, tmp_path = tempfile.mkstemp(dir=dir_name, suffix=".tmp")
+    try:
+        with os.fdopen(fd, "w") as tmp_file:
+            json.dump(data, tmp_file, indent=4)
+        os.replace(tmp_path, file_path)
+    except BaseException:
+        os.unlink(tmp_path)
+        raise
 
 
 def _validate_result_data(result_data: SaveResult, experiment_data: Dict[str, Any]) -> bool:
@@ -385,6 +399,16 @@ def get_experiment_tasks(request_data: MtrNo):
             status_code=status.HTTP_404_NOT_FOUND,
             detail=f"No experiment data found for MtrNo: {mtr_no}"
         )
+
+    # Password check
+    passwords = data.get("passwords", {})
+    expected_pw = passwords.get(mtr_no)
+    if expected_pw is not None:
+        if request_data.password != expected_pw:
+            raise HTTPException(
+                status_code=status.HTTP_401_UNAUTHORIZED,
+                detail="Invalid password"
+            )
 
     experiment_data = student_data[mtr_no]
 
@@ -430,52 +454,53 @@ def get_experiment_tasks(request_data: MtrNo):
 @router.post("/submit-ratings")
 def save_result(result_data: SaveResult):
     """Submit ratings for a legacy file-based experiment."""
-    data = _load_experiment_data()
+    with _experiment_lock:
+        data = _load_experiment_data()
 
-    if not _validate_result_data(result_data, data):
-        raise HTTPException(
-            status_code=status.HTTP_400_BAD_REQUEST,
-            detail="Invalid data. Unable to save results."
-        )
+        if not _validate_result_data(result_data, data):
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="Invalid data. Unable to save results."
+            )
 
-    student_data = data["student_data"]
-    matriculation_number = result_data.matriculationNumber
-    student = student_data[matriculation_number]
+        student_data = data["student_data"]
+        matriculation_number = result_data.matriculationNumber
+        student = student_data[matriculation_number]
 
-    task_id = result_data.taskId
-    question_key = result_data.questionKey
-    search_query = result_data.searchQuery
-    ratings = [{"issue_id": r.issue_id, "rating": str(r.rating)} for r in result_data.ratings]
+        task_id = result_data.taskId
+        question_key = result_data.questionKey
+        search_query = result_data.searchQuery
+        ratings = [{"issue_id": r.issue_id, "rating": str(r.rating)} for r in result_data.ratings]
 
-    # Find the task and per-question config to record engine used
-    engine = "pylucene"
-    rerank_engine = False
-    gpt = False
-    for task in student["tasks"]:
-        if task["taskName"] == task_id:
-            q_config = task.get("questions", {}).get(question_key, {})
-            engine = q_config.get("engine", "pylucene")
-            rerank_engine = q_config.get("rerank_engine", False)
-            gpt = q_config.get("gpt", False)
-            break
+        # Find the task and per-question config to record engine used
+        engine = "pylucene"
+        rerank_engine = False
+        gpt = False
+        for task in student["tasks"]:
+            if task["taskName"] == task_id:
+                q_config = task.get("questions", {}).get(question_key, {})
+                engine = q_config.get("engine", "pylucene")
+                rerank_engine = q_config.get("rerank_engine", False)
+                gpt = q_config.get("gpt", False)
+                break
 
-    solution = {
-        "taskId": task_id,
-        "questionKey": question_key,
-        "searchQuery": search_query,
-        "engine": engine,
-        "rerank_engine": rerank_engine,
-        "gpt": gpt,
-        "config_hash": _config_hash(data),
-        "ratings": ratings
-    }
+        solution = {
+            "taskId": task_id,
+            "questionKey": question_key,
+            "searchQuery": search_query,
+            "engine": engine,
+            "rerank_engine": rerank_engine,
+            "gpt": gpt,
+            "config_hash": _config_hash(data),
+            "ratings": ratings
+        }
 
-    for task in student["tasks"]:
-        if task["taskName"] == task_id:
-            task["solutions"].setdefault(question_key, []).append(solution)
-            break
+        for task in student["tasks"]:
+            if task["taskName"] == task_id:
+                task["solutions"].setdefault(question_key, []).append(solution)
+                break
 
-    _save_experiment_data(data)
+        _save_experiment_data(data)
     return {"success": "Result saved successfully"}
 
 
