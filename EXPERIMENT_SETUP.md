@@ -38,10 +38,20 @@ Questions map to ADD classification dimensions used for reranking:
 | `property` | `{"property": true}` | Quality attributes and tactics |
 | `executive` | `{"executive": true}` | Technologies and rationales |
 
+### Debug Mode
+
+Set `"debug": true` in `experiment_data.json` to show which search engine each question uses. A badge appears on the experiment page ("DEBUG ON" / "DEBUG OFF"). When debug is on, each question and result shows its engine (e.g., "archrag", "pylucene + rerank"). **Disable for real experiments** to keep the system blinded.
+
+### Authentication
+
+Each student has a password stored in the `passwords` field of `experiment_data.json`. The `/experiment/tasks` endpoint checks the password before returning tasks. The UI shows a login form with User ID and Password fields, and a Logout button to end the session.
+
+For testing, set passwords equal to student IDs. **Change before real experiments.**
+
 ### Experiment Flow
 
 ```
-Student enters ID → Gets assigned tasks → For each task:
+Student enters ID + password → Gets assigned tasks → For each task:
   → Reads task description and question
   → Enters search query (optionally processed by GPT-4)
   → Views 10 search results with comments
@@ -72,29 +82,21 @@ Edit the file at `maestro-issues-db/issues-db-api/app/experiment_data.json`:
 
 ```json
 {
+    "debug": false,
+    "passwords": {
+        "student001": "secure-password-1",
+        "student002": "secure-password-2"
+    },
     "student_data": {
         "student001": {
             "tasks": [
                 {
                     "taskName": "Component DataNode",
-                    "engine": "pylucene",
-                    "rerank_engine": true,
-                    "gpt": false,
-                    "solutions": {}
-                },
-                {
-                    "taskName": "Component NameNode",
-                    "engine": "archrag",
-                    "rerank_engine": false,
-                    "gpt": false,
-                    "solutions": {}
-                },
-                {
-                    "taskName": "Requirement Scalability",
-                    "engine": "pylucene",
-                    "rerank_engine": false,
-                    "gpt": true,
-                    "solutions": {}
+                    "solutions": {},
+                    "questions": {
+                        "question1": { "engine": "pylucene", "rerank_engine": true, "gpt": false },
+                        "question2": { "engine": "archrag", "rerank_engine": false, "gpt": false }
+                    }
                 }
             ]
         },
@@ -102,17 +104,11 @@ Edit the file at `maestro-issues-db/issues-db-api/app/experiment_data.json`:
             "tasks": [
                 {
                     "taskName": "Component DataNode",
-                    "engine": "archrag",
-                    "rerank_engine": false,
-                    "gpt": false,
-                    "solutions": {}
-                },
-                {
-                    "taskName": "Component NameNode",
-                    "engine": "pylucene",
-                    "rerank_engine": true,
-                    "gpt": false,
-                    "solutions": {}
+                    "solutions": {},
+                    "questions": {
+                        "question1": { "engine": "archrag", "rerank_engine": false, "gpt": false },
+                        "question2": { "engine": "pylucene", "rerank_engine": false, "gpt": true }
+                    }
                 }
             ]
         }
@@ -124,16 +120,12 @@ Edit the file at `maestro-issues-db/issues-db-api/app/experiment_data.json`:
                 "question1": {
                     "type": "existence",
                     "description": "What are the components and connectors of DataNode?",
-                    "design_decision": {
-                        "existence": true
-                    }
+                    "design_decision": { "existence": true }
                 },
                 "question2": {
                     "type": "property",
                     "description": "What quality attributes are considered in DataNode?",
-                    "design_decision": {
-                        "property": true
-                    }
+                    "design_decision": { "property": true }
                 }
             },
             "task_details": "Instructions:\n* Execute at least two queries per question.",
@@ -199,24 +191,44 @@ The API reads `experiment_data.json` on each request, so a restart isn't strictl
 
 ### 6. Verify Setup
 
-Test that a student can fetch their tasks:
+Test that a student can log in and fetch their tasks:
 
 ```bash
 curl -s -X POST https://maestro.localhost:4269/issues-db-api/experiment/tasks \
   -H "Content-Type: application/json" \
-  -d '{"MtrNo": "student001"}' | python3 -m json.tool
+  -d '{"MtrNo": "student001", "password": "secure-password-1"}' | python3 -m json.tool
 ```
 
-### 7. Students Access the Experiment
+Wrong password returns 401:
+```bash
+curl -s -X POST https://maestro.localhost:4269/issues-db-api/experiment/tasks \
+  -H "Content-Type: application/json" \
+  -d '{"MtrNo": "student001", "password": "wrong"}'
+# {"detail":"Invalid password"}
+```
+
+### 7. Run Concurrency Tests
+
+Before running real experiments, verify concurrent submissions work:
+
+```bash
+cd maestro-issues-db
+python test_concurrent_ratings.py
+```
+
+This runs 10 tests (up to 30 concurrent threads) verifying no data loss or file corruption.
+
+### 8. Students Access the Experiment
 
 Students navigate to: `https://maestro.localhost:4269/archui/experiment`
 
-1. Enter their student ID (matriculation number)
-2. Click "Get Tasks"
+1. Enter their student ID and password
+2. Click "Login"
 3. Click "Attempt" next to each question
 4. Search, rate results, submit
+5. Use "Logout" button when done
 
-### 8. Collect Results
+### 9. Collect Results
 
 Results are saved back to `experiment_data.json` in the `solutions` field of each task. To export:
 
@@ -232,18 +244,23 @@ cat maestro-issues-db/issues-db-api/app/experiment_data.json
 
 | File | Location | Purpose |
 |------|----------|---------|
-| `experiment_data.json` | `issues-db-api/app/` | Student assignments and collected ratings |
+| `experiment_data.json` | `issues-db-api/app/` | Student assignments, passwords, and collected ratings |
 | `experiment_tasks.json` | `issues-db-api/app/` | Full task/question definitions (12 tasks) |
-| `experiment.py` | `issues-db-api/app/routers/` | Backend API endpoints |
-| `experiment.tsx` | `maestro-ArchUI/src/routes/` | Task listing UI |
-| `experiment_search.tsx` | `maestro-ArchUI/src/routes/` | Search and rating UI |
+| `experiment.py` | `issues-db-api/app/routers/` | Backend API endpoints (with concurrency locking) |
+| `experiment.tsx` | `maestro-ArchUI/src/routes/` | Task listing UI (login, debug badge, logout) |
+| `experiment_search.tsx` | `maestro-ArchUI/src/routes/` | Search and rating UI (progress bar, back-to-top) |
+| `test_concurrent_ratings.py` | `maestro-issues-db/` | Concurrent submission stress tests (10 tests) |
 
 ## Troubleshooting
 
 | Problem | Cause | Fix |
 |---------|-------|-----|
 | "No experiment data found for MtrNo" | Student ID not in `experiment_data.json` | Add the student ID to `student_data` |
-| "An error occurred while fetching search results" | GPT-4 API key missing or invalid | Set `OPENAI_API_KEY` in `archRag/.env` |
+| "Invalid password" | Wrong password or password not set | Check `passwords` field in `experiment_data.json` |
+| "An error occurred while fetching search results" (GPT questions) | GPT-4 API key missing, or `MtrNo` not sent | Set `OPENAI_API_KEY` in `archRag/.env`; ensure frontend sends `MtrNo` |
+| archRag search returns no results | OpenAI API key empty in container | Ensure `archRag/.env` has the key and `docker-compose.yml` has `env_file: .env` |
 | "PyLucene index not built" | Index needs to be created first | Go to Search page, select model+project, click "Generate Index" |
 | Search returns no results | Index doesn't cover the selected project | Rebuild index with Apache/HDFS selected |
 | "Model was not found" | MongoDB missing BERT model data | Restore from `mongodump-MiningDesignDecisions-lite.archive` |
+| Ratings lost under concurrent use | Old bug (fixed) — no file locking | Update to latest code; verify with `python test_concurrent_ratings.py` |
+| experiment_data.json corrupted | Old bug (fixed) — non-atomic write | Restore from `.bak` file; update to latest code with atomic writes |
