@@ -118,7 +118,7 @@ docker cp mongo:mongodump-MiningDesignDecisions.archive ./mongodump-MiningDesign
 ### Known Issues
 
 - **passlib/bcrypt incompatibility**: passlib 1.7.4 + bcrypt 5.x crashes. `bcrypt==4.1.3` is pinned in `issues-db-api/requirements.txt`.
-- **PostgreSQL version**: Pinned to `postgres:16`. Version 18+ changed data directory format.
+- **PostgreSQL version**: Pinned to `postgres:17`. Version 18+ changed data directory format.
 
 ## API Documentation
 

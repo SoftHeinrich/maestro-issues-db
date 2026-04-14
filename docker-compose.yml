@@ -2,7 +2,7 @@ version: "3.1"
 services:
   psql:
     container_name: psql
-    image: postgres:16
+    image: postgres:17
     restart: always
     environment:
       - POSTGRES_DB=${POSTGRES_DB}
@@ -38,6 +38,7 @@ services:
     image: mongo-express
     restart: always
     environment:
+      - ME_CONFIG_MONGODB_URL=${MONGO_URL}
       - ME_CONFIG_MONGODB_ADMINUSERNAME=${MONGO_USER}
       - ME_CONFIG_MONGODB_ADMINPASSWORD=${MONGO_PASSWORD}
     networks:
@@ -59,12 +60,12 @@ services:
       - ../.env
     environment:
       - MONGO_URL=${MONGO_URL}
+      - CORS_ORIGINS=${CORS_ORIGINS:-https://maestro.localhost:4269}
       - DOCKER=True
       - DEBUG=FALSE
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.issues-db-api.rule=Host(`maestro.localhost`)"
-      - "traefik.http.routers.issues-db-api.rule=PathPrefix(`/issues-db-api`)"
+      - "traefik.http.routers.issues-db-api.rule=Host(`${MAESTRO_HOST:-maestro.localhost}`) && PathPrefix(`/issues-db-api`)"
       - "traefik.http.routers.issues-db-api.entrypoints=websecure"
       - "traefik.http.routers.issues-db-api.tls=true"
       - "traefik.http.routers.issues-db-api.middlewares=issues-db-api"
