@@ -1,12 +1,4 @@
 {
-  "task_details": "Brief Instructions:\n\nFor each of the following questions:\n\n\t\tExecute at least two queries or questions to find answers for each question.\n\tYou can either ask questions or write keywords to search for issues.\nEvaluate the relevance of each found issue to the question based on the following Likert scale:\nVery relevant (5): The issue contains sufficient information to answer the entire question.\nRelevant (4): The issue contains information to answer part of thequestion.\nDistantly relevant (3): The issue does not contain information to answer the question. But the content of the issue is related and help to refine the search.\nLess relevant (2): The issue does not contain information to answer the question. But the content of the issue can be related to the question.\nNot relevant (1): The issue has no relation to the question.\nPlease record textual segments (e.g., sentences) from issues that help to answer a question in the results sheet. Also, record their issue IDs and locations.\n",
-  "Likert Scale": {
-    "5": "Very relevant (5): The issue contains sufficient information to answer the entire question.",
-    "4": "Relevant (4): The issue contains information to answer part of the question.",
-    "3": "Distantly relevant (3): The issue does not contain information to answer the question. But the content of the issue is related and helps to refine the search.",
-    "2": "Less relevant (2): The issue does not contain information to answer the question. But the content of the issue can be related to the question.",
-    "1": "Not relevant (1): The issue has no relation to the question."
-  },
   "Component DataNode": {
     "description": "As a developer delving into Hadoop HDFS internals, your task is to understand the design decisions behind the DataNode component. You aim to learn its functionality and grasp its inner workings from components, connectors, and architectural solutions.\n\n",
     "questions": {
@@ -38,7 +30,15 @@
           "executive": true
         }
       }
-    }
+    },
+    "Likert Scale": {
+      "5": "Very relevant (5): The issue contains sufficient information to answer the entire question.",
+      "4": "Relevant (4): The issue contains information to answer part of the question.",
+      "3": "Distantly relevant (3): The issue does not contain information to answer the question. But the content of the issue is related and helps to refine the search.",
+      "2": "Less relevant (2): The issue does not contain information to answer the question. But the content of the issue can be related to the question.",
+      "1": "Not relevant (1): The issue has no relation to the question."
+    },
+    "task_details": "Brief Instructions:\n\nFor each of the following questions:\n\n\t\tExecute at least two queries or questions to find answers for each question.\n\tYou can either ask questions or write keywords to search for issues.\nEvaluate the relevance of each found issue to the question based on the following Likert scale:\nVery relevant (5): The issue contains sufficient information to answer the entire question.\nRelevant (4): The issue contains information to answer part of thequestion.\nDistantly relevant (3): The issue does not contain information to answer the question. But the content of the issue is related and help to refine the search.\nLess relevant (2): The issue does not contain information to answer the question. But the content of the issue can be related to the question.\nNot relevant (1): The issue has no relation to the question.\nPlease record textual segments (e.g., sentences) from issues that help to answer a question in the results sheet. Also, record their issue IDs and locations.\n"
   },
   "Component NameNode": {
     "description": "As a developer, your task is to understand the design decisions behind the NameNode component in Hadoop HDFS. You want to explore its functionality and grasp its inner workings, including its components, connectors, and architectural solutions.\n\n",
@@ -448,5 +448,86 @@
       "4": "Relevant",
       "5": "Very Relevant"
     }
+  },
+  "Test Task A - DataNode Overview": {
+    "description": "TEST TASK: This is a test task for system validation. Explore the DataNode component in Hadoop HDFS.\n\n",
+    "questions": {
+      "question1": {
+        "type": "existence",
+        "description": "TEST: What are the main components of DataNode?\n\n",
+        "design_decision": {
+          "existence": true
+        }
+      },
+      "question2": {
+        "type": "property",
+        "description": "TEST: What quality attributes matter for DataNode?\n\n",
+        "design_decision": {
+          "property": true
+        }
+      }
+    },
+    "Likert Scale": {
+      "5": "Very relevant (5): The issue contains sufficient information to answer the entire question.",
+      "4": "Relevant (4): The issue contains information to answer part of the question.",
+      "3": "Distantly relevant (3): The issue does not contain information to answer the question. But the content of the issue is related and helps to refine the search.",
+      "2": "Less relevant (2): The issue does not contain information to answer the question. But the content of the issue can be related to the question.",
+      "1": "Not relevant (1): The issue has no relation to the question."
+    },
+    "task_details": "TEST TASK: Execute at least one query per question. Rate the relevance of results.\n"
+  },
+  "Test Task B - HDFS Security": {
+    "description": "TEST TASK: This is a test task for system validation. Explore security-related design decisions in HDFS.\n\n",
+    "questions": {
+      "question1": {
+        "type": "existence",
+        "description": "TEST: What components handle file permissions in HDFS?\n\n",
+        "design_decision": {
+          "existence": true
+        }
+      },
+      "question2": {
+        "type": "executive",
+        "description": "TEST: What technologies are used for HDFS security?\n\n",
+        "design_decision": {
+          "executive": true
+        }
+      }
+    },
+    "Likert Scale": {
+      "5": "Very relevant (5): The issue contains sufficient information to answer the entire question.",
+      "4": "Relevant (4): The issue contains information to answer part of the question.",
+      "3": "Distantly relevant (3): The issue does not contain information to answer the question. But the content of the issue is related and helps to refine the search.",
+      "2": "Less relevant (2): The issue does not contain information to answer the question. But the content of the issue can be related to the question.",
+      "1": "Not relevant (1): The issue has no relation to the question."
+    },
+    "task_details": "TEST TASK: Execute at least one query per question. Rate the relevance of results.\n"
+  },
+  "Test Task C - Scalability": {
+    "description": "TEST TASK: This is a test task for system validation. Explore scalability design decisions in HDFS.\n\n",
+    "questions": {
+      "question1": {
+        "type": "property",
+        "description": "TEST: What architectural patterns ensure HDFS scalability?\n\n",
+        "design_decision": {
+          "property": true
+        }
+      },
+      "question2": {
+        "type": "executive",
+        "description": "TEST: What technologies support HDFS scalability?\n\n",
+        "design_decision": {
+          "executive": true
+        }
+      }
+    },
+    "Likert Scale": {
+      "5": "Very relevant (5): The issue contains sufficient information to answer the entire question.",
+      "4": "Relevant (4): The issue contains information to answer part of the question.",
+      "3": "Distantly relevant (3): The issue does not contain information to answer the question. But the content of the issue is related and helps to refine the search.",
+      "2": "Less relevant (2): The issue does not contain information to answer the question. But the content of the issue can be related to the question.",
+      "1": "Not relevant (1): The issue has no relation to the question."
+    },
+    "task_details": "TEST TASK: Execute at least one query per question. Rate the relevance of results.\n"
   }
 }

@@ -1,5 +1,5 @@
 {
     "ecosystems": ["Apache"],
-    "projects": ["HDFS"],
+    "projects": ["HDFS", "TIKA", "LUCENE", "JCLOUDS", "MAPREDUCE", "YARN"],
     "model_id": "648ee4526b3fde4b1b33e099"
 }

@@ -1,17 +1,29 @@
 """
-End-to-end test for the experiment system.
+Project-selection end-to-end test for the legacy experiment flow.
 
-Tests the full flow: fetch tasks → search (PyLucene + archRag) → submit ratings.
-Uses the cleaned experiment_data.json generated from toolkit data13 results.
+Flow:
+1. Discover available experiment projects.
+2. Fetch Lucene mock tasks from the project-specific config.
+3. Run one PyLucene search and one archRag search.
+4. Submit ratings back into the Lucene project config.
+5. Verify the saved metadata is still scoped to the selected project.
 
-Run: python3 test_experiment_e2e.py
-Requires: All Maestro services running (issues-db-api, pylucene, archrag)
+Run:
+    python3 test_experiment_e2e.py
+
+Requires:
+    - Traefik, issues-db-api, search-engine, archrag running
+    - project config at issues-db-api/app/experiment_configs/Apache/LUCENE/experiment_data.json
+    - matching PyLucene index and archRag store for LUCENE
 """
 
 import json
-import sys
-import time
+from pathlib import Path
+
 import requests
+import urllib3
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 BASE = "https://maestro.localhost:4269"
 API = f"{BASE}/issues-db-api"
@@ -19,9 +31,17 @@ SEARCH_ENGINE = f"{BASE}/search-engine"
 ARCHRAG = f"{BASE}/archrag"
 VERIFY_SSL = False
 
-# Suppress InsecureRequestWarning
-import urllib3
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+ROOT = Path(__file__).resolve().parent
+APP_DIR = ROOT / "issues-db-api" / "app"
+PROJECT_CONFIG_DIR = APP_DIR / "experiment_configs" / "Apache" / "LUCENE"
+PROJECT_DATA = PROJECT_CONFIG_DIR / "experiment_data.json"
+PROJECT_QUERIES = PROJECT_CONFIG_DIR / "experiment_queries.json"
+
+TEST_REPO = "Apache"
+TEST_PROJECT = "LUCENE"
+TEST_PROJECT_NAME = "Apache Lucene"
+TEST_STUDENT = "mock_lucene_001"
+TEST_TASK = "Component IndexWriter"
 
 passed = 0
 failed = 0
@@ -35,485 +55,184 @@ def check(name, condition, detail=""):
         print(f"  ✓ {name}")
     else:
         failed += 1
-        msg = f"  ✗ {name}: {detail}"
-        print(msg)
-        errors.append(msg)
+        message = f"  ✗ {name}: {detail}"
+        print(message)
+        errors.append(message)
 
 
 def section(title):
-    print(f"\n{'='*60}")
+    print(f"\n{'=' * 60}")
     print(f"  {title}")
-    print(f"{'='*60}")
+    print(f"{'=' * 60}")
 
 
-# ---------------------------------------------------------------
-# 1. Service health checks
-# ---------------------------------------------------------------
-section("1. Service Health Checks")
+def request_json(method, url, **kwargs):
+    response = requests.request(method, url, verify=VERIFY_SSL, timeout=120, **kwargs)
+    try:
+        payload = response.json()
+    except Exception:
+        payload = None
+    return response, payload
 
-r = requests.get(f"{API}/models", verify=VERIFY_SSL)
-check("Issues DB API reachable", r.status_code == 200, f"status={r.status_code}")
 
-r = requests.get(f"{SEARCH_ENGINE}/index-status", verify=VERIFY_SSL)
-check("PyLucene reachable via Traefik", r.status_code == 200, f"status={r.status_code}")
+def find_question(task, engine):
+    for qkey, question in task["questions"].items():
+        if question["engine"] == engine:
+            return qkey, question
+    raise RuntimeError(f"No {engine} question found in task {task['taskName']}")
 
-r = requests.get(f"{ARCHRAG}/health", verify=VERIFY_SSL)
-check("archRag reachable via Traefik", r.status_code == 200, f"status={r.status_code}")
-data = r.json()
-check("archRag store loaded", data.get("store_loaded") is True, str(data))
 
-r = requests.get(f"{API}/models/648ee4526b3fde4b1b33e099/versions", verify=VERIFY_SSL)
-check("BERT model exists", r.status_code == 200, f"status={r.status_code}")
+def pylucene_request_for(question, query_spec):
+    if question.get("rerank_engine"):
+        return query_spec["pylucene_rerank_request"]
+    return query_spec["pylucene_request"]
 
-# ---------------------------------------------------------------
-# 2. Load experiment data and validate structure
-# ---------------------------------------------------------------
-section("2. Experiment Data Validation")
 
-with open("issues-db-api/app/experiment_data.json") as f:
-    exp_data = json.load(f)
-
-students = exp_data.get("student_data", {})
-task_defs = exp_data.get("task_details", {})
-check("experiment_data.json has student_data", len(students) > 0, f"count={len(students)}")
-check("experiment_data.json has task_details", len(task_defs) > 0, f"count={len(task_defs)}")
-
-# Validate all task names referenced by students exist in task_details
-all_task_names = set()
-for sid, student in students.items():
-    for task in student["tasks"]:
-        all_task_names.add(task["taskName"])
-
-missing_tasks = all_task_names - set(task_defs.keys())
-check("All student tasks have definitions", len(missing_tasks) == 0,
-      f"missing: {missing_tasks}")
-
-# Validate all tasks have empty solutions (clean state)
-all_clean = all(
-    all(len(t.get("solutions", {})) == 0 for t in s["tasks"])
-    for s in students.values()
-)
-check("All solutions are empty (clean experiment)", all_clean)
-
-# Validate each task_detail has questions
-for tname, tdef in task_defs.items():
-    qs = tdef.get("questions", {})
-    check(f"Task '{tname}' has questions", len(qs) > 0, f"count={len(qs)}")
-
-# ---------------------------------------------------------------
-# 3. Fetch tasks for a student (legacy endpoint)
-# ---------------------------------------------------------------
-section("3. Fetch Tasks for Student")
-
-test_student = list(students.keys())[0]
-r = requests.post(f"{API}/experiment/tasks",
-                   json={"MtrNo": test_student}, verify=VERIFY_SSL)
-check(f"GET tasks for '{test_student}'", r.status_code == 200, f"status={r.status_code}")
-
-tasks = r.json()
-check("Response is a list of tasks", isinstance(tasks, list) and len(tasks) > 0,
-      f"type={type(tasks)}, len={len(tasks) if isinstance(tasks, list) else 'N/A'}")
-
-# Validate task structure
-task = tasks[0]
-check("Task has 'taskName'", "taskName" in task)
-check("Task has 'engine'", "engine" in task)
-check("Task has 'description'", "description" in task and task["description"])
-check("Task has 'questions'", "questions" in task and len(task["questions"]) > 0)
-check("Task has 'lekert_scale'", "lekert_scale" in task and task["lekert_scale"])
-check("Task has 'solutions' (empty)", "solutions" in task and len(task["solutions"]) == 0)
-
-# Validate engine values
-engines_used = set(t["engine"] for t in tasks if "engine" in t)
-check("Engines are valid", engines_used <= {"pylucene", "archrag"},
-      f"engines={engines_used}")
-
-# Test non-existent student
-r = requests.post(f"{API}/experiment/tasks",
-                   json={"MtrNo": "nonexistent999"}, verify=VERIFY_SSL)
-check("404 for unknown student", r.status_code == 404)
-
-# ---------------------------------------------------------------
-# 4. PyLucene search (as experiment would)
-# ---------------------------------------------------------------
-section("4. PyLucene Search")
-
-# Find a pylucene task
-pylucene_task = None
-pylucene_student = None
-for sid, student in students.items():
-    for t in student["tasks"]:
-        if t.get("engine") == "pylucene" or "engine" not in t:
-            pylucene_student = sid
-            pylucene_task = t
-            break
-    if pylucene_task:
-        break
-
-if pylucene_task:
-    task_name = pylucene_task["taskName"]
-    task_def = task_defs[task_name]
-    first_q = list(task_def["questions"].keys())[0]
-    question = task_def["questions"][first_q]
-
-    # Build predictions from design_decision
-    dd = question.get("design_decision", {})
-    rerank = pylucene_task.get("rerank_engine", False)
-    predictions = {
-        "existence": dd.get("existence") if rerank else None,
-        "executive": dd.get("executive") if rerank else None,
-        "property": dd.get("property") if rerank else None,
-    }
-
-    search_body = {
-        "database_url": "http://issues-db-api:8000",
-        "model_id": "648ee4526b3fde4b1b33e099",
-        "version_id": "648f1f6f6b3fde4b1b3429cf",
-        "repos_and_projects": {"Apache": ["HDFS"]},
-        "query": "DataNode components architecture",
-        "num_results": 10,
-        "predictions": predictions,
-    }
-
-    r = requests.post(f"{SEARCH_ENGINE}/search", json=search_body, verify=VERIFY_SSL)
-    check("PyLucene search succeeds", r.status_code == 200, f"status={r.status_code}")
-
-    data = r.json()
-    check("PyLucene result is 'done'", data.get("result") == "done", data.get("result"))
-
-    results = data.get("payload", [])
-    check("PyLucene returns results", len(results) > 0, f"count={len(results)}")
-
-    if results:
-        r0 = results[0]
-        check("Result has issue_key", "issue_key" in r0, str(r0.keys()))
-        check("Result has issue_id", "issue_id" in r0)
-        check("Result has summary", "summary" in r0)
-        check("Result has description", "description" in r0)
-        check("Result has comments (list)", isinstance(r0.get("comments"), list))
-
-        # Check comments format if present
-        has_comments = any(len(r.get("comments", [])) > 0 for r in results)
-        if has_comments:
-            for r in results:
-                if r.get("comments"):
-                    c = r["comments"][0]
-                    check("Comment is a tuple/list of 5+ fields",
-                          isinstance(c, list) and len(c) >= 5,
-                          f"type={type(c)}, len={len(c) if isinstance(c, list) else 'N/A'}")
-                    break
-    pylucene_results = results
-else:
-    print("  (!) No pylucene task found, skipping")
-    pylucene_results = []
-
-# ---------------------------------------------------------------
-# 5. archRag search (as experiment would)
-# ---------------------------------------------------------------
-section("5. archRag Search")
-
-archrag_task = None
-archrag_student = None
-for sid, student in students.items():
-    for t in student["tasks"]:
-        if t.get("engine") == "archrag":
-            archrag_student = sid
-            archrag_task = t
-            break
-    if archrag_task:
-        break
-
-if archrag_task:
-    search_body = {
-        "query": "NameNode components architecture",
-        "num_results": 10,
-    }
-
-    r = requests.post(f"{ARCHRAG}/search", json=search_body, verify=VERIFY_SSL)
-    check("archRag search succeeds", r.status_code == 200, f"status={r.status_code}")
-
-    data = r.json()
-    check("archRag result is 'done'", data.get("result") == "done", data.get("result"))
-
-    results = data.get("payload", [])
-    check("archRag returns results", len(results) > 0, f"count={len(results)}")
-
-    if results:
-        r0 = results[0]
-        check("Result has issue_key", "issue_key" in r0)
-        check("Result has summary", "summary" in r0)
-        check("Result has description", "description" in r0)
-        check("Result has comments (list)", isinstance(r0.get("comments"), list))
-        check("Result has snippets", isinstance(r0.get("snippets"), list))
-
-        # Check comments format matches PyLucene
-        has_comments = any(len(r.get("comments", [])) > 0 for r in results)
-        if has_comments:
-            for r in results:
-                if r.get("comments"):
-                    c = r["comments"][0]
-                    check("archRag comment format matches PyLucene (list of 5+ fields)",
-                          isinstance(c, list) and len(c) >= 5,
-                          f"type={type(c)}, len={len(c) if isinstance(c, list) else 'N/A'}")
-                    break
-        else:
-            print("  (i) No comments in top results (some issues have none)")
-
-    archrag_results = results
-else:
-    print("  (!) No archrag task found, skipping")
-    archrag_results = []
-
-# ---------------------------------------------------------------
-# 6. GPT-4 keyword extraction
-# ---------------------------------------------------------------
-section("6. GPT-4 Keyword Extraction")
-
-# Find a GPT task
-gpt_task = None
-for sid, student in students.items():
-    for t in student["tasks"]:
-        if t.get("gpt"):
-            gpt_task = t
-            break
-    if gpt_task:
-        break
-
-if gpt_task:
-    r = requests.post(f"{API}/experiment/gpt4-response",
-                      json={"prompt": "What components handle data replication in HDFS?"},
-                      verify=VERIFY_SSL)
-    check("GPT-4 endpoint responds", r.status_code == 200, f"status={r.status_code}")
-
-    data = r.json()
-    has_answer = "answer" in data
-    check("GPT-4 returns keywords", has_answer, str(data)[:200])
-
-    if has_answer:
-        keywords = data["answer"].split()
-        check("GPT-4 returns 5-10 keywords", 5 <= len(keywords) <= 10,
-              f"got {len(keywords)}: {data['answer']}")
-else:
-    print("  (i) No GPT task found in experiment data")
-
-# ---------------------------------------------------------------
-# 7. Submit ratings (PyLucene task)
-# ---------------------------------------------------------------
-section("7. Submit Ratings - PyLucene")
-
-if pylucene_results and pylucene_student and pylucene_task:
-    task_name = pylucene_task["taskName"]
-    task_def = task_defs[task_name]
-    first_q = list(task_def["questions"].keys())[0]
-
-    # Create ratings for all results
+def submit_ratings(task_name, question_key, query, results):
     ratings = [
-        {"issue_id": r["issue_id"], "rating": str(3)}
-        for r in pylucene_results[:10]
-        if r.get("issue_id")
+        {"issue_id": str(item["issue_id"]), "rating": 4}
+        for item in results[: min(5, len(results))]
     ]
-
-    submit_body = {
-        "matriculationNumber": pylucene_student,
-        "taskId": task_name,
-        "questionKey": first_q,
-        "searchQuery": "DataNode components architecture",
-        "ratings": ratings,
-    }
-
-    r = requests.post(f"{API}/experiment/submit-ratings",
-                      json=submit_body, verify=VERIFY_SSL)
-    check("Submit PyLucene ratings succeeds", r.status_code == 200,
-          f"status={r.status_code}, body={r.text[:200]}")
-
-    data = r.json()
-    check("Response confirms success", "success" in data or data.get("success"),
-          str(data))
-
-    # Verify ratings were saved
-    r = requests.post(f"{API}/experiment/tasks",
-                      json={"MtrNo": pylucene_student}, verify=VERIFY_SSL)
-    tasks_after = r.json()
-    saved_task = next((t for t in tasks_after if t["taskName"] == task_name), None)
-    check("Task found after submission", saved_task is not None)
-
-    if saved_task:
-        solutions = saved_task.get("solutions", {})
-        check("Solutions populated for question",
-              first_q in solutions and len(solutions[first_q]) > 0,
-              f"solutions keys: {list(solutions.keys())}")
-
-        if first_q in solutions and solutions[first_q]:
-            sol = solutions[first_q][0]
-            check("Solution has searchQuery", sol.get("searchQuery") == "DataNode components architecture")
-            check("Solution has ratings", len(sol.get("ratings", [])) > 0)
-            check("Solution has engine", "engine" in sol)
-else:
-    print("  (!) Skipped - no pylucene results available")
-
-# ---------------------------------------------------------------
-# 8. Submit ratings - archRag task
-# ---------------------------------------------------------------
-section("8. Submit Ratings - archRag")
-
-if archrag_results and archrag_student and archrag_task:
-    task_name = archrag_task["taskName"]
-    task_def = task_defs[task_name]
-    first_q = list(task_def["questions"].keys())[0]
-
-    ratings = [
-        {"issue_id": r["issue_id"], "rating": str(4)}
-        for r in archrag_results[:10]
-        if r.get("issue_id")
-    ]
-
-    submit_body = {
-        "matriculationNumber": archrag_student,
-        "taskId": task_name,
-        "questionKey": first_q,
-        "searchQuery": "NameNode components architecture",
-        "ratings": ratings,
-    }
-
-    r = requests.post(f"{API}/experiment/submit-ratings",
-                      json=submit_body, verify=VERIFY_SSL)
-    check("Submit archRag ratings succeeds", r.status_code == 200,
-          f"status={r.status_code}, body={r.text[:200]}")
-
-    # Verify
-    r = requests.post(f"{API}/experiment/tasks",
-                      json={"MtrNo": archrag_student}, verify=VERIFY_SSL)
-    tasks_after = r.json()
-    saved_task = next((t for t in tasks_after if t["taskName"] == task_name), None)
-    if saved_task:
-        solutions = saved_task.get("solutions", {})
-        check("archRag ratings saved",
-              first_q in solutions and len(solutions[first_q]) > 0)
-else:
-    print("  (!) Skipped - no archrag results available")
-
-# ---------------------------------------------------------------
-# 9. Submit second attempt (experiment requires ≥2 queries)
-# ---------------------------------------------------------------
-section("9. Second Search Attempt")
-
-if pylucene_results and pylucene_student and pylucene_task:
-    task_name = pylucene_task["taskName"]
-    task_def = task_defs[task_name]
-    first_q = list(task_def["questions"].keys())[0]
-
-    # Search with different query
-    dd = task_def["questions"][first_q].get("design_decision", {})
-    rerank = pylucene_task.get("rerank_engine", False)
-    search_body = {
-        "database_url": "http://issues-db-api:8000",
-        "model_id": "648ee4526b3fde4b1b33e099",
-        "version_id": "648f1f6f6b3fde4b1b3429cf",
-        "repos_and_projects": {"Apache": ["HDFS"]},
-        "query": "DataNode design decisions rationale",
-        "num_results": 10,
-        "predictions": {
-            "existence": dd.get("existence") if rerank else None,
-            "executive": dd.get("executive") if rerank else None,
-            "property": dd.get("property") if rerank else None,
+    response, payload = request_json(
+        "POST",
+        f"{API}/experiment/submit-ratings",
+        json={
+            "matriculationNumber": TEST_STUDENT,
+            "taskId": task_name,
+            "questionKey": question_key,
+            "searchQuery": query,
+            "repo": TEST_REPO,
+            "project": TEST_PROJECT,
+            "ratings": ratings,
         },
-    }
+    )
+    check(f"submit ratings for {task_name}/{question_key}", response.status_code == 200, payload)
 
-    r = requests.post(f"{SEARCH_ENGINE}/search", json=search_body, verify=VERIFY_SSL)
-    check("Second search succeeds", r.status_code == 200)
 
-    results2 = r.json().get("payload", [])
-    ratings2 = [
-        {"issue_id": r["issue_id"], "rating": str(2)}
-        for r in results2[:10]
-        if r.get("issue_id")
+def main():
+    if not PROJECT_DATA.exists() or not PROJECT_QUERIES.exists():
+        raise SystemExit(
+            "Generate project configs first with issues-db-api/app/generate_mock_experiment_configs.py"
+        )
+
+    with open(PROJECT_QUERIES, "r") as handle:
+        project_queries = json.load(handle)["tasks"]
+
+    section("1. Service Health Checks")
+    response, payload = request_json("GET", f"{API}/models")
+    check("issues-db-api reachable", response.status_code == 200, response.status_code)
+
+    response, payload = request_json("GET", f"{SEARCH_ENGINE}/index-status")
+    check("search-engine reachable", response.status_code == 200, response.status_code)
+
+    response, payload = request_json("GET", f"{ARCHRAG}/health")
+    check("archrag reachable", response.status_code == 200, response.status_code)
+    check("archrag has a loaded or cached store", bool(payload and payload.get("store_loaded")), payload)
+
+    section("2. Discover Projects")
+    response, payload = request_json("GET", f"{API}/experiment/projects")
+    check("project list endpoint works", response.status_code == 200, payload)
+    check("project list shape", isinstance(payload, dict) and "projects" in payload, payload)
+    lucene_project = next(
+        (item for item in payload["projects"] if item["repo"] == TEST_REPO and item["project"] == TEST_PROJECT),
+        None,
+    )
+    check("Lucene project is selectable", lucene_project is not None, payload)
+
+    section("3. Fetch Project Tasks")
+    response, payload = request_json(
+        "POST",
+        f"{API}/experiment/tasks",
+        json={
+            "MtrNo": TEST_STUDENT,
+            "password": TEST_STUDENT,
+            "repo": TEST_REPO,
+            "project": TEST_PROJECT,
+        },
+    )
+    check("project-scoped login works", response.status_code == 200, payload)
+    check("tasks response shape", isinstance(payload, dict) and "tasks" in payload, payload)
+    check("response repo matches selection", payload.get("repo") == TEST_REPO, payload)
+    check("response project matches selection", payload.get("project") == TEST_PROJECT, payload)
+    check("response project_name matches selection", payload.get("project_name") == TEST_PROJECT_NAME, payload)
+
+    tasks = payload["tasks"]
+    lucene_task = next(task for task in tasks if task["taskName"] == TEST_TASK)
+    check("task has repo metadata", lucene_task.get("repo") == TEST_REPO, lucene_task)
+    check("task has project metadata", lucene_task.get("project") == TEST_PROJECT, lucene_task)
+
+    pylucene_qkey, pylucene_question = find_question(lucene_task, "pylucene")
+    archrag_qkey, archrag_question = find_question(lucene_task, "archrag")
+    pylucene_query_spec = project_queries[lucene_task["taskName"]]["questions"][pylucene_qkey]
+    archrag_query_spec = project_queries[lucene_task["taskName"]]["questions"][archrag_qkey]
+
+    section("4. PyLucene Search")
+    response, payload = request_json(
+        "POST",
+        f"{SEARCH_ENGINE}/search",
+        json=pylucene_request_for(pylucene_question, pylucene_query_spec),
+    )
+    check("pylucene search status", response.status_code == 200, payload)
+    check("pylucene search result", payload and payload.get("result") == "done", payload)
+    pylucene_results = (payload or {}).get("payload", [])
+    check("pylucene returns results", len(pylucene_results) > 0, len(pylucene_results))
+
+    section("5. archRag Search")
+    response, payload = request_json(
+        "POST",
+        f"{ARCHRAG}/search",
+        json=archrag_query_spec["archrag_request"],
+    )
+    check("archrag search status", response.status_code == 200, payload)
+    check("archrag search result", payload and payload.get("result") == "done", payload)
+    archrag_results = (payload or {}).get("payload", [])
+    check("archrag returns results", len(archrag_results) > 0, len(archrag_results))
+
+    section("6. Submit Ratings")
+    submit_ratings(
+        lucene_task["taskName"],
+        pylucene_qkey,
+        pylucene_query_spec["query"],
+        pylucene_results,
+    )
+    submit_ratings(
+        lucene_task["taskName"],
+        archrag_qkey,
+        archrag_query_spec["query"],
+        archrag_results,
+    )
+
+    response, payload = request_json(
+        "POST",
+        f"{API}/experiment/tasks",
+        json={
+            "MtrNo": TEST_STUDENT,
+            "password": TEST_STUDENT,
+            "repo": TEST_REPO,
+            "project": TEST_PROJECT,
+        },
+    )
+    refreshed_task = next(task for task in payload["tasks"] if task["taskName"] == lucene_task["taskName"])
+    matching = [
+        item for item in refreshed_task["solutions"][pylucene_qkey]
+        if item.get("searchQuery") == pylucene_query_spec["query"]
     ]
+    check("saved solution is returned", len(matching) > 0, refreshed_task["solutions"][pylucene_qkey])
+    saved = matching[-1]
+    check("saved solution keeps repo", saved.get("repo") == TEST_REPO, saved)
+    check("saved solution keeps project", saved.get("project") == TEST_PROJECT, saved)
+    check("saved solution keeps project_name", saved.get("project_name") == TEST_PROJECT_NAME, saved)
+    check("saved solution keeps engine", saved.get("engine") == pylucene_question["engine"], saved)
 
-    submit_body = {
-        "matriculationNumber": pylucene_student,
-        "taskId": task_name,
-        "questionKey": first_q,
-        "searchQuery": "DataNode design decisions rationale",
-        "ratings": ratings2,
-    }
+    section("Summary")
+    print(f"Passed: {passed}")
+    print(f"Failed: {failed}")
+    if errors:
+        print("\nErrors:")
+        for error in errors:
+            print(error)
+        raise SystemExit(1)
 
-    r = requests.post(f"{API}/experiment/submit-ratings",
-                      json=submit_body, verify=VERIFY_SSL)
-    check("Submit second attempt ratings", r.status_code == 200)
 
-    # Verify 2 solutions now
-    r = requests.post(f"{API}/experiment/tasks",
-                      json={"MtrNo": pylucene_student}, verify=VERIFY_SSL)
-    tasks_after = r.json()
-    saved_task = next((t for t in tasks_after if t["taskName"] == task_name), None)
-    if saved_task:
-        solutions = saved_task.get("solutions", {}).get(first_q, [])
-        check("Two attempts saved for question", len(solutions) == 2,
-              f"count={len(solutions)}")
-
-# ---------------------------------------------------------------
-# 10. Logging endpoint
-# ---------------------------------------------------------------
-section("10. Logging")
-
-r = requests.post(f"{API}/experiment/logs",
-                  json={
-                      "level": "info",
-                      "message": "E2E test log entry",
-                      "timestamp": "2026-03-14T12:00:00Z",
-                  }, verify=VERIFY_SSL)
-check("Log endpoint works", r.status_code == 200, f"status={r.status_code}")
-
-# ---------------------------------------------------------------
-# 11. Cross-student isolation
-# ---------------------------------------------------------------
-section("11. Cross-Student Isolation")
-
-student2 = list(students.keys())[1]
-r = requests.post(f"{API}/experiment/tasks",
-                  json={"MtrNo": student2}, verify=VERIFY_SSL)
-check(f"Fetch tasks for different student '{student2}'", r.status_code == 200)
-
-tasks2 = r.json()
-all_empty = all(
-    len(t.get("solutions", {})) == 0
-    for t in tasks2
-)
-check("Other student's solutions are still empty", all_empty)
-
-# ---------------------------------------------------------------
-# 12. Cleanup - restore clean experiment data
-# ---------------------------------------------------------------
-section("12. Cleanup")
-
-# Reload original clean data and restore
-with open("issues-db-api/app/experiment_data.json") as f:
-    current = json.load(f)
-
-for sid, student in current["student_data"].items():
-    for task in student["tasks"]:
-        task["solutions"] = {}
-
-with open("issues-db-api/app/experiment_data.json", "w") as f:
-    json.dump(current, f, indent=4)
-
-# Verify cleanup
-r = requests.post(f"{API}/experiment/tasks",
-                  json={"MtrNo": test_student}, verify=VERIFY_SSL)
-tasks_clean = r.json()
-all_clean_after = all(len(t.get("solutions", {})) == 0 for t in tasks_clean)
-check("Experiment data cleaned up", all_clean_after)
-
-# ---------------------------------------------------------------
-# Summary
-# ---------------------------------------------------------------
-print(f"\n{'='*60}")
-print(f"  RESULTS: {passed} passed, {failed} failed")
-print(f"{'='*60}")
-
-if errors:
-    print("\nFailed tests:")
-    for e in errors:
-        print(e)
-
-sys.exit(0 if failed == 0 else 1)
+if __name__ == "__main__":
+    main()

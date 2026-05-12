@@ -15,10 +15,7 @@ import hashlib
 import json
 import os
 import random
-import tempfile
-import threading
 from datetime import datetime
-from shutil import copyfile
 
 from dotenv import load_dotenv
 from fastapi import APIRouter, Depends, HTTPException, status
@@ -33,13 +30,107 @@ router = APIRouter(prefix="/experiment", tags=["experiment"])
 
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb://localhost:27017")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", os.environ.get("OPEN_AI_API_KEY", ""))
+LOCAL_PROXY_URL = os.environ.get("ISSUES_DB_LOCAL_PROXY_URL", "http://host.docker.internal:18118").strip()
+PROXY_STATE_PATH = os.environ.get(
+    "ISSUES_DB_PROXY_STATE_PATH",
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "runtime", "proxy_settings.json"),
+)
+NO_PROXY_VALUE = os.environ.get(
+    "NO_PROXY",
+    "127.0.0.1,localhost,::1,issues-db-api,psql,mongo,dl-manager,archrag",
+)
+_PROXY_ENV_KEYS = [
+    "HTTP_PROXY",
+    "HTTPS_PROXY",
+    "ALL_PROXY",
+    "http_proxy",
+    "https_proxy",
+    "all_proxy",
+]
+_proxy_enabled = False
+_proxy_url = LOCAL_PROXY_URL
 
 SYSTEMS = ["pylucene_rerank", "archrag"]
+DEFAULT_EXPERIMENT_REPO = "Apache"
+DEFAULT_EXPERIMENT_PROJECT = "HDFS"
+
+PROJECT_DISPLAY_NAMES = {
+    ("Apache", "HDFS"): "Hadoop HDFS",
+    ("Apache", "TIKA"): "Apache Tika",
+    ("Apache", "LUCENE"): "Apache Lucene",
+    ("Apache", "JCLOUDS"): "Apache jclouds",
+    ("Apache", "MAPREDUCE"): "Apache MapReduce",
+    ("Apache", "YARN"): "Apache YARN",
+}
 
 
 def _get_db():
     client = MongoClient(MONGO_URL)
     return client["MaestroExperiment"]
+
+
+def _legacy_results_collection():
+    collection = _get_db()["legacy_experiment_results"]
+    collection.create_index(
+        [
+            ("repo", 1),
+            ("project", 1),
+            ("matriculationNumber", 1),
+            ("taskId", 1),
+            ("questionKey", 1),
+            ("created_at", 1),
+        ],
+        name="legacy_lookup_idx",
+    )
+    return collection
+
+
+def _read_proxy_state() -> dict | None:
+    if not os.path.exists(PROXY_STATE_PATH):
+        return None
+    try:
+        with open(PROXY_STATE_PATH, "r") as handle:
+            return json.load(handle)
+    except Exception:
+        return None
+
+
+def _write_proxy_state(enabled: bool, proxy_url: str) -> None:
+    try:
+        os.makedirs(os.path.dirname(PROXY_STATE_PATH), exist_ok=True)
+        with open(PROXY_STATE_PATH, "w") as handle:
+            json.dump({"enabled": enabled, "proxy_url": proxy_url}, handle, indent=2)
+    except Exception:
+        pass
+
+
+def _apply_proxy_settings(enabled: bool, proxy_url: str, persist: bool = False) -> None:
+    global _proxy_enabled, _proxy_url
+    normalized_url = (proxy_url or LOCAL_PROXY_URL).strip() or LOCAL_PROXY_URL
+
+    if enabled:
+        for env_key in _PROXY_ENV_KEYS:
+            os.environ[env_key] = normalized_url
+        os.environ["NO_PROXY"] = NO_PROXY_VALUE
+        os.environ["no_proxy"] = NO_PROXY_VALUE
+    else:
+        for env_key in _PROXY_ENV_KEYS:
+            os.environ.pop(env_key, None)
+
+    _proxy_enabled = enabled
+    _proxy_url = normalized_url
+
+    if persist:
+        _write_proxy_state(enabled, normalized_url)
+
+
+_stored_proxy_state = _read_proxy_state()
+if _stored_proxy_state is not None:
+    _apply_proxy_settings(
+        bool(_stored_proxy_state.get("enabled", False)),
+        str(_stored_proxy_state.get("proxy_url", LOCAL_PROXY_URL)),
+        persist=False,
+    )
 
 
 def _load_task_definitions():
@@ -54,13 +145,154 @@ def _load_task_definitions():
         return json.load(f)
 
 
+def _normalize_experiment_selection(
+    repo: Optional[str] = None,
+    project: Optional[str] = None,
+) -> tuple[str, str]:
+    selected_repo = (repo or DEFAULT_EXPERIMENT_REPO).strip() or DEFAULT_EXPERIMENT_REPO
+    selected_project = (project or DEFAULT_EXPERIMENT_PROJECT).strip().upper() or DEFAULT_EXPERIMENT_PROJECT
+    return selected_repo, selected_project
+
+
+def _experiment_configs_dir() -> str:
+    return os.path.join(
+        os.path.dirname(os.path.abspath(__file__)),
+        "..",
+        "experiment_configs",
+    )
+
+
+def _find_experiment_file_path(
+    repo: Optional[str] = None,
+    project: Optional[str] = None,
+) -> Optional[str]:
+    selected_repo, selected_project = _normalize_experiment_selection(repo, project)
+    config_path = os.path.join(
+        _experiment_configs_dir(),
+        selected_repo,
+        selected_project,
+        "experiment_data.json",
+    )
+    if os.path.exists(config_path):
+        return config_path
+
+    legacy_path = os.path.join(
+        os.path.dirname(os.path.abspath(__file__)),
+        "..",
+        "experiment_data.json",
+    )
+    if (
+        selected_repo == DEFAULT_EXPERIMENT_REPO
+        and selected_project == DEFAULT_EXPERIMENT_PROJECT
+        and os.path.exists(legacy_path)
+    ):
+        return legacy_path
+    return None
+
+
+def _list_available_experiment_projects() -> List[Dict[str, str]]:
+    items: List[Dict[str, str]] = []
+    configs_dir = _experiment_configs_dir()
+    if os.path.isdir(configs_dir):
+        for repo_name in sorted(os.listdir(configs_dir)):
+            repo_dir = os.path.join(configs_dir, repo_name)
+            if not os.path.isdir(repo_dir):
+                continue
+            for project_name in sorted(os.listdir(repo_dir)):
+                project_dir = os.path.join(repo_dir, project_name)
+                config_path = os.path.join(project_dir, "experiment_data.json")
+                if not os.path.isfile(config_path):
+                    continue
+                project_display_name = _default_project_name(repo_name, project_name)
+                try:
+                    with open(config_path, "r") as handle:
+                        payload = json.load(handle)
+                    project_display_name = payload.get("project_name", project_display_name)
+                except Exception:
+                    pass
+                items.append({
+                    "repo": repo_name,
+                    "project": project_name,
+                    "project_name": project_display_name,
+                })
+
+    default_item = {
+        "repo": DEFAULT_EXPERIMENT_REPO,
+        "project": DEFAULT_EXPERIMENT_PROJECT,
+        "project_name": _default_project_name(DEFAULT_EXPERIMENT_REPO, DEFAULT_EXPERIMENT_PROJECT),
+    }
+    if not any(
+        item["repo"] == default_item["repo"] and item["project"] == default_item["project"]
+        for item in items
+    ) and _find_experiment_file_path(DEFAULT_EXPERIMENT_REPO, DEFAULT_EXPERIMENT_PROJECT):
+        items.insert(0, default_item)
+
+    return items
+
+
+def _default_project_name(repo: str, project: str) -> str:
+    return PROJECT_DISPLAY_NAMES.get((repo, project), f"{repo} {project}".strip())
+
+
+def _load_legacy_task_definitions(experiment_data: Dict[str, Any]) -> Dict[str, Any]:
+    """Prefer bundled task definitions, fall back to legacy in-file definitions."""
+    bundled = _load_task_definitions() or {}
+    legacy = experiment_data.get("task_details", {})
+
+    if not bundled:
+        return legacy
+    if not legacy:
+        return bundled
+
+    merged = dict(bundled)
+    for key, value in legacy.items():
+        if key not in merged:
+            merged[key] = value
+    return merged
+
+
+def _resolve_project_context(
+    task_assignment: Dict[str, Any],
+    task_definition: Dict[str, Any] | None,
+    question_definition: Dict[str, Any] | None,
+) -> Dict[str, str]:
+    repo = (
+        (question_definition or {}).get("repo")
+        or (task_definition or {}).get("repo")
+        or task_assignment.get("repo")
+        or "Apache"
+    )
+    project = (
+        (question_definition or {}).get("project")
+        or (task_definition or {}).get("project")
+        or task_assignment.get("project")
+        or "HDFS"
+    )
+    project_name = (
+        (question_definition or {}).get("project_name")
+        or (task_definition or {}).get("project_name")
+        or task_assignment.get("project_name")
+        or _default_project_name(repo, project)
+    )
+    return {
+        "repo": repo,
+        "project": project,
+        "project_name": project_name,
+    }
+
+
 def _config_hash(data: dict) -> str:
     """SHA-256 hash of JSON-serialized config for versioning."""
     raw = json.dumps(data, sort_keys=True, ensure_ascii=True)
     return hashlib.sha256(raw.encode()).hexdigest()[:16]
 
 
-def _validate_gpt_caller(session_id: str | None, mtr_no: str | None):
+def _validate_gpt_caller(
+    session_id: str | None,
+    mtr_no: str | None,
+    repo: Optional[str] = None,
+    project: Optional[str] = None,
+):
     """Reject GPT requests that lack a valid session_id or MtrNo."""
     from bson import ObjectId
 
@@ -77,7 +309,7 @@ def _validate_gpt_caller(session_id: str | None, mtr_no: str | None):
     # Try MtrNo against legacy experiment data
     if mtr_no:
         try:
-            data = _load_experiment_data()
+            data = _load_experiment_data(repo=repo, project=project)
             student_data = data.get("student_data", {})
             if mtr_no in student_data:
                 return
@@ -114,8 +346,15 @@ class SubmitResultsRequest(BaseModel):
 class GPTKeywordsRequest(BaseModel):
     prompt: str
     project_name: str = "Hadoop HDFS"
+    repo: Optional[str] = None
+    project: Optional[str] = None
     session_id: Optional[str] = None
     MtrNo: Optional[str] = None
+
+
+class ProxySettingsUpdate(BaseModel):
+    enabled: bool
+    proxy_url: Optional[str] = None
 
 
 # --- MongoDB-based endpoints ---
@@ -237,7 +476,12 @@ def submit_results(session_id: str, req: SubmitResultsRequest):
 def gpt_keywords(req: GPTKeywordsRequest):
     """Extract search keywords using GPT-4o."""
     # Rate check: require a valid session_id or MtrNo
-    _validate_gpt_caller(req.session_id, req.MtrNo)
+    _validate_gpt_caller(
+        req.session_id,
+        req.MtrNo,
+        repo=req.repo,
+        project=req.project,
+    )
     if not OPENAI_API_KEY:
         raise HTTPException(500, "OpenAI API key not configured")
 
@@ -308,6 +552,96 @@ def _serialize_session(session):
     return s
 
 
+def _serialize_legacy_result(row: Dict[str, Any]) -> Dict[str, Any]:
+    item = dict(row)
+    if "_id" in item:
+        item["_id"] = str(item["_id"])
+    created_at = item.get("created_at")
+    if isinstance(created_at, datetime):
+        item["created_at"] = created_at.isoformat()
+    return item
+
+
+@router.get("/projects")
+def list_legacy_experiment_projects():
+    """List legacy experiment projects backed by per-project JSON configs."""
+    projects = _list_available_experiment_projects()
+    return {
+        "projects": projects,
+        "default": {
+            "repo": DEFAULT_EXPERIMENT_REPO,
+            "project": DEFAULT_EXPERIMENT_PROJECT,
+            "project_name": _default_project_name(
+                DEFAULT_EXPERIMENT_REPO,
+                DEFAULT_EXPERIMENT_PROJECT,
+            ),
+        },
+    }
+
+
+@router.get("/proxy-settings")
+def get_proxy_settings():
+    return {
+        "enabled": _proxy_enabled,
+        "proxy_url": _proxy_url,
+        "local_proxy_url": LOCAL_PROXY_URL,
+    }
+
+
+@router.post("/proxy-settings")
+def set_proxy_settings(request: ProxySettingsUpdate):
+    _apply_proxy_settings(
+        enabled=request.enabled,
+        proxy_url=request.proxy_url or LOCAL_PROXY_URL,
+        persist=True,
+    )
+    return {
+        "enabled": _proxy_enabled,
+        "proxy_url": _proxy_url,
+        "local_proxy_url": LOCAL_PROXY_URL,
+    }
+
+
+@router.get("/legacy-results")
+def export_legacy_results(
+    repo: Optional[str] = None,
+    project: Optional[str] = None,
+    matriculation_number: Optional[str] = None,
+    task_id: Optional[str] = None,
+    question_key: Optional[str] = None,
+    limit: int = 1000,
+    token=Depends(validate_token),
+):
+    """Export persisted legacy experiment submissions from MongoDB."""
+    filters: Dict[str, Any] = {}
+    if repo:
+        filters["repo"] = repo
+    if project:
+        filters["project"] = project.upper()
+    if matriculation_number:
+        filters["matriculationNumber"] = matriculation_number
+    if task_id:
+        filters["taskId"] = task_id
+    if question_key:
+        filters["questionKey"] = question_key
+
+    capped_limit = max(1, min(limit, 10000))
+    collection = _legacy_results_collection()
+    total = collection.count_documents(filters)
+    rows = list(
+        collection.find(filters).sort("created_at", 1).limit(capped_limit)
+    )
+
+    return {
+        "exported_at": datetime.utcnow().isoformat(),
+        "filters": filters,
+        "limit": capped_limit,
+        "returned": len(rows),
+        "total": total,
+        "results": [_serialize_legacy_result(row) for row in rows],
+    }
+
+
 # ---------------------------------------------------------------------------
 # Legacy file-based experiment endpoints (from Ajay's branch)
 # ---------------------------------------------------------------------------
@@ -315,6 +649,17 @@ def _serialize_session(session):
 class MtrNo(BaseModel):
     MtrNo: str
     password: Optional[str] = None
+    repo: Optional[str] = None
+    project: Optional[str] = None
+
+
+class GPT4Request(BaseModel):
+    prompt: str
+    project_name: str = "Hadoop HDFS"
+    repo: Optional[str] = None
+    project: Optional[str] = None
+    session_id: Optional[str] = None
+    MtrNo: Optional[str] = None
 
 class LegacyRating(BaseModel):
     issue_id: str
@@ -326,19 +671,22 @@ class SaveResult(BaseModel):
     questionKey: str
     searchQuery: str
     ratings: List[LegacyRating]
+    repo: Optional[str] = None
+    project: Optional[str] = None
 
 
-_experiment_lock = threading.Lock()
-
-
-def _get_experiment_file_path() -> str:
-    current_directory = os.path.dirname(os.path.abspath(__file__))
-    return os.path.join(current_directory, "..", "experiment_data.json")
-
-
-def _create_backup(file_path: str) -> None:
-    backup_path = f"{file_path}.bak"
-    copyfile(file_path, backup_path)
+def _get_experiment_file_path(
+    repo: Optional[str] = None,
+    project: Optional[str] = None,
+) -> str:
+    file_path = _find_experiment_file_path(repo=repo, project=project)
+    if file_path:
+        return file_path
+    selected_repo, selected_project = _normalize_experiment_selection(repo, project)
+    raise HTTPException(
+        status_code=status.HTTP_404_NOT_FOUND,
+        detail=f"No experiment config found for {selected_repo}/{selected_project}",
+    )
 
 
 def _validate_json(data: Any) -> bool:
@@ -349,30 +697,18 @@ def _validate_json(data: Any) -> bool:
         return False
 
 
-def _load_experiment_data() -> Dict[str, Any]:
-    file_path = _get_experiment_file_path()
+def _load_experiment_data(
+    repo: Optional[str] = None,
+    project: Optional[str] = None,
+) -> Dict[str, Any]:
+    file_path = _get_experiment_file_path(repo=repo, project=project)
     with open(file_path, "r") as file:
-        return json.load(file)
-
-
-def _save_experiment_data(data: Dict[str, Any]) -> None:
-    file_path = _get_experiment_file_path()
-    _create_backup(file_path)
-    if not _validate_json(data):
-        raise HTTPException(
-            status_code=status.HTTP_400_BAD_REQUEST,
-            detail="Invalid data. Unable to save results."
-        )
-    # Atomic write: write to temp file then rename to prevent corruption
-    dir_name = os.path.dirname(file_path)
-    fd, tmp_path = tempfile.mkstemp(dir=dir_name, suffix=".tmp")
-    try:
-        with os.fdopen(fd, "w") as tmp_file:
-            json.dump(data, tmp_file, indent=4)
-        os.replace(tmp_path, file_path)
-    except BaseException:
-        os.unlink(tmp_path)
-        raise
+        data = json.load(file)
+    selected_repo, selected_project = _normalize_experiment_selection(repo, project)
+    data.setdefault("repo", selected_repo)
+    data.setdefault("project", selected_project)
+    data.setdefault("project_name", _default_project_name(selected_repo, selected_project))
+    return data
 
 
 def _validate_result_data(result_data: SaveResult, experiment_data: Dict[str, Any]) -> bool:
@@ -387,11 +723,48 @@ def _validate_result_data(result_data: SaveResult, experiment_data: Dict[str, An
     return True
 
 
+def _load_legacy_results(
+    repo: str,
+    project: str,
+    matriculation_number: str,
+) -> Dict[str, Dict[str, List[Dict[str, Any]]]]:
+    rows = _legacy_results_collection().find(
+        {
+            "repo": repo,
+            "project": project,
+            "matriculationNumber": matriculation_number,
+        }
+    ).sort("created_at", 1)
+
+    results: Dict[str, Dict[str, List[Dict[str, Any]]]] = {}
+    for row in rows:
+        task_id = row["taskId"]
+        question_key = row["questionKey"]
+        entry = {k: v for k, v in row.items() if k not in {"_id", "matriculationNumber", "created_at"}}
+        results.setdefault(task_id, {}).setdefault(question_key, []).append(entry)
+    return results
+
+
+def _merge_solutions(
+    base_solutions: Dict[str, List[Dict[str, Any]]] | None,
+    persisted_solutions: Dict[str, List[Dict[str, Any]]] | None,
+) -> Dict[str, List[Dict[str, Any]]]:
+    merged: Dict[str, List[Dict[str, Any]]] = {}
+    for source in (base_solutions or {}, persisted_solutions or {}):
+        for question_key, entries in source.items():
+            merged.setdefault(question_key, []).extend(list(entries))
+    return merged
+
+
 @router.post("/tasks")
 def get_experiment_tasks(request_data: MtrNo):
     """Get tasks assigned to a specific user (by matriculation number)."""
     mtr_no = request_data.MtrNo
-    data = _load_experiment_data()
+    selected_repo, selected_project = _normalize_experiment_selection(
+        request_data.repo,
+        request_data.project,
+    )
+    data = _load_experiment_data(repo=selected_repo, project=selected_project)
 
     student_data = data.get("student_data", {})
     if mtr_no not in student_data:
@@ -413,24 +786,32 @@ def get_experiment_tasks(request_data: MtrNo):
     experiment_data = student_data[mtr_no]
 
     debug = data.get("debug", False)
+    project_name = data.get("project_name", _default_project_name(selected_repo, selected_project))
 
+    task_definitions = _load_legacy_task_definitions(data)
     response = []
+    persisted_results = _load_legacy_results(selected_repo, selected_project, mtr_no)
     for task in experiment_data["tasks"]:
         task_name = task["taskName"]
         per_question_config = task.get("questions", {})
         task_info = {
             "taskName": task_name,
-            "solutions": task.get("solutions", {})
+            "solutions": _merge_solutions(
+                task.get("solutions", {}),
+                persisted_results.get(task_name),
+            ),
         }
 
-        top_level = data.get("task_details", {})
+        top_level = task_definitions
         task_details = top_level.get(task_name)
         if task_details:
+            task_info.update(_resolve_project_context(task, task_details, None))
             task_info["description"] = task_details.get("description")
             # Merge per-question config (engine, rerank_engine, gpt) into each question object
             questions = {}
             for qkey, qval in (task_details.get("questions") or {}).items():
                 q = dict(qval)
+                q.update(_resolve_project_context(task, task_details, qval))
                 q_config = per_question_config.get(qkey, {})
                 q["engine"] = q_config.get("engine", "pylucene")
                 q["rerank_engine"] = q_config.get("rerank_engine", False)
@@ -448,73 +829,92 @@ def get_experiment_tasks(request_data: MtrNo):
 
         response.append(task_info)
 
-    return {"debug": debug, "tasks": response}
+    return {
+        "debug": debug,
+        "repo": selected_repo,
+        "project": selected_project,
+        "project_name": project_name,
+        "tasks": response,
+    }
 
 
 @router.post("/submit-ratings")
 def save_result(result_data: SaveResult):
     """Submit ratings for a legacy file-based experiment."""
-    with _experiment_lock:
-        data = _load_experiment_data()
+    selected_repo, selected_project = _normalize_experiment_selection(
+        result_data.repo,
+        result_data.project,
+    )
+    data = _load_experiment_data(repo=selected_repo, project=selected_project)
 
-        if not _validate_result_data(result_data, data):
-            raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST,
-                detail="Invalid data. Unable to save results."
-            )
+    if not _validate_result_data(result_data, data):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Invalid data. Unable to save results."
+        )
 
-        student_data = data["student_data"]
-        matriculation_number = result_data.matriculationNumber
-        student = student_data[matriculation_number]
+    student_data = data["student_data"]
+    matriculation_number = result_data.matriculationNumber
+    student = student_data[matriculation_number]
 
-        task_id = result_data.taskId
-        question_key = result_data.questionKey
-        search_query = result_data.searchQuery
-        ratings = [{"issue_id": r.issue_id, "rating": str(r.rating)} for r in result_data.ratings]
+    task_id = result_data.taskId
+    question_key = result_data.questionKey
+    search_query = result_data.searchQuery
+    ratings = [{"issue_id": r.issue_id, "rating": str(r.rating)} for r in result_data.ratings]
 
-        # Find the task and per-question config to record engine used
-        engine = "pylucene"
-        rerank_engine = False
-        gpt = False
-        for task in student["tasks"]:
-            if task["taskName"] == task_id:
-                q_config = task.get("questions", {}).get(question_key, {})
-                engine = q_config.get("engine", "pylucene")
-                rerank_engine = q_config.get("rerank_engine", False)
-                gpt = q_config.get("gpt", False)
-                break
+    engine = "pylucene"
+    rerank_engine = False
+    gpt = False
+    task_definitions = _load_legacy_task_definitions(data)
+    project_context = {
+        "repo": selected_repo,
+        "project": selected_project,
+        "project_name": data.get("project_name", _default_project_name(selected_repo, selected_project)),
+    }
+    for task in student["tasks"]:
+        if task["taskName"] == task_id:
+            q_config = task.get("questions", {}).get(question_key, {})
+            task_definition = task_definitions.get(task_id, {})
+            question_definition = (task_definition.get("questions") or {}).get(question_key)
+            if question_definition is None:
+                raise HTTPException(
+                    status_code=status.HTTP_400_BAD_REQUEST,
+                    detail=f"Invalid question key '{question_key}' for task '{task_id}'",
+                )
+            project_context = _resolve_project_context(task, task_definition, question_definition)
+            engine = q_config.get("engine", "pylucene")
+            rerank_engine = q_config.get("rerank_engine", False)
+            gpt = q_config.get("gpt", False)
+            break
 
-        solution = {
-            "taskId": task_id,
-            "questionKey": question_key,
-            "searchQuery": search_query,
-            "engine": engine,
-            "rerank_engine": rerank_engine,
-            "gpt": gpt,
-            "config_hash": _config_hash(data),
-            "ratings": ratings
-        }
-
-        for task in student["tasks"]:
-            if task["taskName"] == task_id:
-                task["solutions"].setdefault(question_key, []).append(solution)
-                break
-
-        _save_experiment_data(data)
+    solution = {
+        "repo": project_context["repo"],
+        "project": project_context["project"],
+        "project_name": project_context["project_name"],
+        "matriculationNumber": matriculation_number,
+        "taskId": task_id,
+        "questionKey": question_key,
+        "searchQuery": search_query,
+        "engine": engine,
+        "rerank_engine": rerank_engine,
+        "gpt": gpt,
+        "config_hash": _config_hash(data),
+        "ratings": ratings,
+        "created_at": datetime.utcnow(),
+    }
+    _legacy_results_collection().insert_one(solution)
     return {"success": "Result saved successfully"}
-
-
-class GPT4Request(BaseModel):
-    prompt: str
-    session_id: Optional[str] = None
-    MtrNo: Optional[str] = None
-
 
 @router.post("/gpt4-response")
 def fetch_gpt4_response(request: GPT4Request):
     """Legacy GPT-4 keyword extraction endpoint."""
     # Rate check: require a valid session_id or MtrNo
-    _validate_gpt_caller(request.session_id, request.MtrNo)
+    _validate_gpt_caller(
+        request.session_id,
+        request.MtrNo,
+        repo=request.repo,
+        project=request.project,
+    )
     api_key = OPENAI_API_KEY
     if not api_key:
         return {"detail": "OpenAI API key not configured"}
@@ -526,7 +926,7 @@ def fetch_gpt4_response(request: GPT4Request):
         chat_completion = client.chat.completions.create(
             messages=[{
                 "role": "user",
-                "content": request.prompt + " Can you give us a list of the most useful 5 keywords to search for issues in the issue tracker of Hadoop HDFS that answer the provided question. Please provide only the list of keywords without duplication separated by a space. do not provide any other text.",
+                "content": request.prompt + f" Can you give us a list of the most useful 5 keywords to search for issues in the issue tracker of {request.project_name} that answer the provided question. Please provide only the list of keywords without duplication separated by a space. do not provide any other text.",
             }],
             model="gpt-4o",
         )
