@@ -46,7 +46,7 @@ This starts:
 | Service | Port | Description |
 |---------|------|-------------|
 | MongoDB | 27017 | Document database |
-| PostgreSQL | 5432 | Relational database (pinned to v16) |
+| PostgreSQL | 5432 | Relational database (defaults to v16, overrideable) |
 | Mongo Express | 8081 | MongoDB web admin |
 | Issues DB API | 8000 | FastAPI backend |
 | Backup | -- | Automated backup service |
@@ -118,7 +118,7 @@ docker cp mongo:mongodump-MiningDesignDecisions.archive ./mongodump-MiningDesign
 ### Known Issues
 
 - **passlib/bcrypt incompatibility**: passlib 1.7.4 + bcrypt 5.x crashes. `bcrypt==4.1.3` is pinned in `issues-db-api/requirements.txt`.
-- **PostgreSQL version**: Pinned to `postgres:17`. Version 18+ changed data directory format.
+- **PostgreSQL version**: Defaults to `postgres:16` via `POSTGRES_IMAGE=${POSTGRES_IMAGE:-postgres:16}`. If an existing `pgdata` volume was initialized by PostgreSQL 17, set `POSTGRES_IMAGE=postgres:17` before starting containers. Version 18+ changed the data directory format again.
 
 ## API Documentation
 
