@@ -1,0 +1,4917 @@
+{
+  "debug": true,
+  "repo": "Apache",
+  "project": "YARN",
+  "project_name": "Apache YARN",
+  "passwords": {
+    "mock_yarn_001": "mock_yarn_001",
+    "mock_yarn_002": "mock_yarn_002",
+    "mock_yarn_003": "mock_yarn_003",
+    "mock_yarn_004": "mock_yarn_004",
+    "mock_yarn_005": "mock_yarn_005",
+    "mock_yarn_006": "mock_yarn_006",
+    "mock_yarn_007": "mock_yarn_007",
+    "mock_yarn_008": "mock_yarn_008",
+    "mock_yarn_009": "mock_yarn_009",
+    "mock_yarn_010": "mock_yarn_010",
+    "mock_yarn_011": "mock_yarn_011",
+    "mock_yarn_012": "mock_yarn_012",
+    "mock_yarn_013": "mock_yarn_013",
+    "mock_yarn_014": "mock_yarn_014",
+    "mock_yarn_015": "mock_yarn_015",
+    "mock_yarn_016": "mock_yarn_016",
+    "mock_yarn_017": "mock_yarn_017",
+    "mock_yarn_018": "mock_yarn_018",
+    "mock_yarn_019": "mock_yarn_019",
+    "mock_yarn_020": "mock_yarn_020",
+    "mock_yarn_021": "mock_yarn_021",
+    "mock_yarn_022": "mock_yarn_022",
+    "mock_yarn_023": "mock_yarn_023",
+    "mock_yarn_024": "mock_yarn_024",
+    "mock_yarn_025": "mock_yarn_025",
+    "mock_yarn_026": "mock_yarn_026",
+    "mock_yarn_027": "mock_yarn_027",
+    "mock_yarn_028": "mock_yarn_028"
+  },
+  "student_data": {
+    "mock_yarn_001": {
+      "tasks": [
+        {
+          "taskName": "Component ResourceManager",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Multi-Tenancy",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Federation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_002": {
+      "tasks": [
+        {
+          "taskName": "Component NodeManager",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Safe Rolling Upgrade",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component ApplicationMaster",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Resource Isolation and Security",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_003": {
+      "tasks": [
+        {
+          "taskName": "Requirement Multi-Tenancy",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component ResourceManager",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Log Aggregation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_004": {
+      "tasks": [
+        {
+          "taskName": "Requirement Safe Rolling Upgrade",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component NodeManager",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Capacity Scheduler",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_005": {
+      "tasks": [
+        {
+          "taskName": "Component Capacity Scheduler",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component ResourceManager",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Multi-Tenancy",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_006": {
+      "tasks": [
+        {
+          "taskName": "Component Log Aggregation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Resource Isolation and Security",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component NodeManager",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Safe Rolling Upgrade",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_007": {
+      "tasks": [
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Capacity Scheduler",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Multi-Tenancy",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component ApplicationMaster",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_008": {
+      "tasks": [
+        {
+          "taskName": "Requirement Resource Isolation and Security",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Log Aggregation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Safe Rolling Upgrade",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Federation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_009": {
+      "tasks": [
+        {
+          "taskName": "Component Federation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scheduling Compatibility",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Capacity Scheduler",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_010": {
+      "tasks": [
+        {
+          "taskName": "Component ApplicationMaster",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Log Aggregation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scheduling Compatibility",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_011": {
+      "tasks": [
+        {
+          "taskName": "Requirement Scheduling Compatibility",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component ApplicationMaster",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Resource Isolation and Security",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component ResourceManager",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_012": {
+      "tasks": [
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Federation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scheduling Compatibility",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component NodeManager",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_013": {
+      "tasks": [
+        {
+          "taskName": "Component ResourceManager",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Multi-Tenancy",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Federation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_014": {
+      "tasks": [
+        {
+          "taskName": "Component NodeManager",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Safe Rolling Upgrade",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component ApplicationMaster",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Resource Isolation and Security",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_015": {
+      "tasks": [
+        {
+          "taskName": "Requirement Multi-Tenancy",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component ResourceManager",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Log Aggregation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_016": {
+      "tasks": [
+        {
+          "taskName": "Requirement Safe Rolling Upgrade",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component NodeManager",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Capacity Scheduler",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_017": {
+      "tasks": [
+        {
+          "taskName": "Component Capacity Scheduler",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component ResourceManager",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Multi-Tenancy",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_018": {
+      "tasks": [
+        {
+          "taskName": "Component Log Aggregation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Resource Isolation and Security",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component NodeManager",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Safe Rolling Upgrade",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_019": {
+      "tasks": [
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Capacity Scheduler",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Multi-Tenancy",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component ApplicationMaster",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_020": {
+      "tasks": [
+        {
+          "taskName": "Requirement Resource Isolation and Security",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Log Aggregation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Safe Rolling Upgrade",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Federation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_021": {
+      "tasks": [
+        {
+          "taskName": "Component Federation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scheduling Compatibility",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Capacity Scheduler",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_022": {
+      "tasks": [
+        {
+          "taskName": "Component ApplicationMaster",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Log Aggregation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scheduling Compatibility",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_023": {
+      "tasks": [
+        {
+          "taskName": "Requirement Scheduling Compatibility",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component ApplicationMaster",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Resource Isolation and Security",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component ResourceManager",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_024": {
+      "tasks": [
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Federation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scheduling Compatibility",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component NodeManager",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_025": {
+      "tasks": [
+        {
+          "taskName": "Requirement Scheduling Compatibility",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component ApplicationMaster",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Resource Isolation and Security",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Capacity Scheduler",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_026": {
+      "tasks": [
+        {
+          "taskName": "Component ResourceManager",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Multi-Tenancy",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Federation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_027": {
+      "tasks": [
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_yarn_028": {
+      "tasks": [
+        {
+          "taskName": "Test Task A - ResourceManager Overview",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - YARN Isolation",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Cluster Scalability",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    }
+  },
+  "task_details": {
+    "task_details": null,
+    "Likert Scale": null,
+    "Component ResourceManager": {
+      "description": "As a developer working on Apache YARN, your task is to understand the design decisions behind the ResourceManager component. You want to study how the ResourceManager coordinates cluster-wide scheduling and allocation and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of ResourceManager, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of ResourceManager?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in ResourceManager to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in ResourceManager, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Component NodeManager": {
+      "description": "As a developer working on Apache YARN, your task is to understand the design decisions behind the NodeManager component. You want to study how the NodeManager launches, monitors, and reports container execution and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of NodeManager, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of NodeManager?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in NodeManager to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in NodeManager, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Component Capacity Scheduler": {
+      "description": "As a developer working on Apache YARN, your task is to understand the design decisions behind the Capacity Scheduler component. You want to study how the Capacity Scheduler organizes queues, quotas, and placement decisions and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of Capacity Scheduler, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of Capacity Scheduler?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Capacity Scheduler to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in Capacity Scheduler, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Component Log Aggregation": {
+      "description": "As a developer working on Apache YARN, your task is to understand the design decisions behind the Log Aggregation component. You want to study how YARN collects and serves container logs across the cluster and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of Log Aggregation, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of Log Aggregation?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Log Aggregation to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in Log Aggregation, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Component Federation": {
+      "description": "As a developer working on Apache YARN, your task is to understand the design decisions behind the Federation component. You want to study how YARN federation splits and coordinates large clusters and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of Federation, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of Federation?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Federation to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in Federation, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Component ApplicationMaster": {
+      "description": "As a developer working on Apache YARN, your task is to understand the design decisions behind the ApplicationMaster component. You want to study how an ApplicationMaster negotiates resources and orchestrates an application and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of ApplicationMaster, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of ApplicationMaster?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in ApplicationMaster to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in ApplicationMaster, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Resource Isolation and Security": {
+      "description": "resource isolation and secure multi-tenant execution are central requirements in Apache YARN. Your task is to explore the architectural decisions that Apache YARN uses to address Resource Isolation and Security.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache YARN that are responsible for Resource Isolation and Security?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache YARN to implement Resource Isolation and Security?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache YARN to achieve Resource Isolation and Security?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Recoverability": {
+      "description": "recoverability from manager and application failures is an important requirement in Apache YARN. Your task is to explore the architectural decisions that Apache YARN uses to address Recoverability.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache YARN that are responsible for Recoverability?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache YARN to implement Recoverability?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache YARN to achieve Recoverability?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Scalability": {
+      "description": "scalability across very large clusters is a key requirement in Apache YARN. Your task is to explore the architectural decisions that Apache YARN uses to address Scalability.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache YARN that are responsible for Scalability?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache YARN to implement Scalability?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache YARN to achieve Scalability?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Multi-Tenancy": {
+      "description": "multi-tenancy and queue fairness are important requirements in Apache YARN. Your task is to explore the architectural decisions that Apache YARN uses to address Multi-Tenancy.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache YARN that are responsible for Multi-Tenancy?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache YARN to implement Multi-Tenancy?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache YARN to achieve Multi-Tenancy?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Safe Rolling Upgrade": {
+      "description": "safe rolling upgrades are an important operational requirement in Apache YARN. Your task is to explore the architectural decisions that Apache YARN uses to address Safe Rolling Upgrade.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache YARN that are responsible for Safe Rolling Upgrade?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache YARN to implement Safe Rolling Upgrade?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache YARN to achieve Safe Rolling Upgrade?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Scheduling Compatibility": {
+      "description": "compatibility across scheduling policies and cluster evolution is a recurring requirement in Apache YARN. Your task is to explore the architectural decisions that Apache YARN uses to address Scheduling Compatibility.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache YARN that are responsible for Scheduling Compatibility?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache YARN to implement Scheduling Compatibility?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache YARN to achieve Scheduling Compatibility?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Test Task A - ResourceManager Overview": {
+      "description": "TEST TASK: This is a test task for system validation. Explore the ResourceManager component in Apache YARN.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "TEST: What are the main components and responsibilities of the ResourceManager?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "TEST: Which quality attributes matter for the ResourceManager?",
+          "design_decision": {
+            "property": true
+          }
+        }
+      }
+    },
+    "Test Task B - YARN Isolation": {
+      "description": "TEST TASK: This is a test task for system validation. Explore resource isolation in YARN in Apache YARN.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "TEST: Which architectural elements support resource isolation and safe execution in YARN?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "TEST: Which quality attributes matter for YARN isolation and security?",
+          "design_decision": {
+            "property": true
+          }
+        }
+      }
+    },
+    "Test Task C - Cluster Scalability": {
+      "description": "TEST TASK: This is a test task for system validation. Explore YARN scalability mechanisms in Apache YARN.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "TEST: Which architectural elements support scalability in YARN?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "TEST: Which quality attributes matter for YARN scalability?",
+          "design_decision": {
+            "property": true
+          }
+        }
+      }
+    }
+  }
+}

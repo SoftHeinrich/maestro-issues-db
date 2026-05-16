@@ -1,0 +1,2179 @@
+{
+  "generated_at": "2026-05-07T08:39:33.486570+00:00",
+  "repo": "Apache",
+  "project": "YARN",
+  "project_name": "Apache YARN",
+  "model_id": "648ee4526b3fde4b1b33e099",
+  "version_id": "648f1f6f6b3fde4b1b3429cf",
+  "tasks": {
+    "Component ResourceManager": {
+      "repo": "Apache",
+      "project": "YARN",
+      "project_name": "Apache YARN",
+      "questions": {
+        "question1": {
+          "query": "YARN Component ResourceManager ResourceManager scheduling allocation cluster resources architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component ResourceManager ResourceManager scheduling allocation cluster resources architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component ResourceManager ResourceManager scheduling allocation cluster resources architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component ResourceManager ResourceManager scheduling allocation cluster resources architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "YARN Component ResourceManager ResourceManager scheduling allocation cluster resources quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component ResourceManager ResourceManager scheduling allocation cluster resources quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component ResourceManager ResourceManager scheduling allocation cluster resources quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component ResourceManager ResourceManager scheduling allocation cluster resources quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "YARN Component ResourceManager ResourceManager scheduling allocation cluster resources quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component ResourceManager ResourceManager scheduling allocation cluster resources quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component ResourceManager ResourceManager scheduling allocation cluster resources quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component ResourceManager ResourceManager scheduling allocation cluster resources quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "YARN Component ResourceManager ResourceManager scheduling allocation cluster resources technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component ResourceManager ResourceManager scheduling allocation cluster resources technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component ResourceManager ResourceManager scheduling allocation cluster resources technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component ResourceManager ResourceManager scheduling allocation cluster resources technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component NodeManager": {
+      "repo": "Apache",
+      "project": "YARN",
+      "project_name": "Apache YARN",
+      "questions": {
+        "question1": {
+          "query": "YARN Component NodeManager NodeManager containers monitoring node execution architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component NodeManager NodeManager containers monitoring node execution architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component NodeManager NodeManager containers monitoring node execution architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component NodeManager NodeManager containers monitoring node execution architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "YARN Component NodeManager NodeManager containers monitoring node execution quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component NodeManager NodeManager containers monitoring node execution quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component NodeManager NodeManager containers monitoring node execution quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component NodeManager NodeManager containers monitoring node execution quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "YARN Component NodeManager NodeManager containers monitoring node execution quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component NodeManager NodeManager containers monitoring node execution quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component NodeManager NodeManager containers monitoring node execution quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component NodeManager NodeManager containers monitoring node execution quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "YARN Component NodeManager NodeManager containers monitoring node execution technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component NodeManager NodeManager containers monitoring node execution technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component NodeManager NodeManager containers monitoring node execution technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component NodeManager NodeManager containers monitoring node execution technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component Capacity Scheduler": {
+      "repo": "Apache",
+      "project": "YARN",
+      "project_name": "Apache YARN",
+      "questions": {
+        "question1": {
+          "query": "YARN Component Capacity Scheduler Capacity Scheduler queues capacity placement multi-tenant architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component Capacity Scheduler Capacity Scheduler queues capacity placement multi-tenant architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Capacity Scheduler Capacity Scheduler queues capacity placement multi-tenant architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Capacity Scheduler Capacity Scheduler queues capacity placement multi-tenant architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "YARN Component Capacity Scheduler Capacity Scheduler queues capacity placement multi-tenant quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component Capacity Scheduler Capacity Scheduler queues capacity placement multi-tenant quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Capacity Scheduler Capacity Scheduler queues capacity placement multi-tenant quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Capacity Scheduler Capacity Scheduler queues capacity placement multi-tenant quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "YARN Component Capacity Scheduler Capacity Scheduler queues capacity placement multi-tenant quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component Capacity Scheduler Capacity Scheduler queues capacity placement multi-tenant quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Capacity Scheduler Capacity Scheduler queues capacity placement multi-tenant quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Capacity Scheduler Capacity Scheduler queues capacity placement multi-tenant quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "YARN Component Capacity Scheduler Capacity Scheduler queues capacity placement multi-tenant technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component Capacity Scheduler Capacity Scheduler queues capacity placement multi-tenant technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Capacity Scheduler Capacity Scheduler queues capacity placement multi-tenant technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Capacity Scheduler Capacity Scheduler queues capacity placement multi-tenant technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component Log Aggregation": {
+      "repo": "Apache",
+      "project": "YARN",
+      "project_name": "Apache YARN",
+      "questions": {
+        "question1": {
+          "query": "YARN Component Log Aggregation log aggregation logs containers storage diagnostics architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component Log Aggregation log aggregation logs containers storage diagnostics architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Log Aggregation log aggregation logs containers storage diagnostics architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Log Aggregation log aggregation logs containers storage diagnostics architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "YARN Component Log Aggregation log aggregation logs containers storage diagnostics quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component Log Aggregation log aggregation logs containers storage diagnostics quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Log Aggregation log aggregation logs containers storage diagnostics quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Log Aggregation log aggregation logs containers storage diagnostics quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "YARN Component Log Aggregation log aggregation logs containers storage diagnostics quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component Log Aggregation log aggregation logs containers storage diagnostics quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Log Aggregation log aggregation logs containers storage diagnostics quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Log Aggregation log aggregation logs containers storage diagnostics quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "YARN Component Log Aggregation log aggregation logs containers storage diagnostics technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component Log Aggregation log aggregation logs containers storage diagnostics technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Log Aggregation log aggregation logs containers storage diagnostics technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Log Aggregation log aggregation logs containers storage diagnostics technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component Federation": {
+      "repo": "Apache",
+      "project": "YARN",
+      "project_name": "Apache YARN",
+      "questions": {
+        "question1": {
+          "query": "YARN Component Federation federation subclusters routing scalability coordination architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component Federation federation subclusters routing scalability coordination architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Federation federation subclusters routing scalability coordination architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Federation federation subclusters routing scalability coordination architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "YARN Component Federation federation subclusters routing scalability coordination quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component Federation federation subclusters routing scalability coordination quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Federation federation subclusters routing scalability coordination quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Federation federation subclusters routing scalability coordination quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "YARN Component Federation federation subclusters routing scalability coordination quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component Federation federation subclusters routing scalability coordination quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Federation federation subclusters routing scalability coordination quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Federation federation subclusters routing scalability coordination quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "YARN Component Federation federation subclusters routing scalability coordination technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component Federation federation subclusters routing scalability coordination technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Federation federation subclusters routing scalability coordination technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component Federation federation subclusters routing scalability coordination technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component ApplicationMaster": {
+      "repo": "Apache",
+      "project": "YARN",
+      "project_name": "Apache YARN",
+      "questions": {
+        "question1": {
+          "query": "YARN Component ApplicationMaster ApplicationMaster resource negotiation containers orchestration application architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component ApplicationMaster ApplicationMaster resource negotiation containers orchestration application architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component ApplicationMaster ApplicationMaster resource negotiation containers orchestration application architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component ApplicationMaster ApplicationMaster resource negotiation containers orchestration application architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "YARN Component ApplicationMaster ApplicationMaster resource negotiation containers orchestration application quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component ApplicationMaster ApplicationMaster resource negotiation containers orchestration application quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component ApplicationMaster ApplicationMaster resource negotiation containers orchestration application quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component ApplicationMaster ApplicationMaster resource negotiation containers orchestration application quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "YARN Component ApplicationMaster ApplicationMaster resource negotiation containers orchestration application quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component ApplicationMaster ApplicationMaster resource negotiation containers orchestration application quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component ApplicationMaster ApplicationMaster resource negotiation containers orchestration application quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component ApplicationMaster ApplicationMaster resource negotiation containers orchestration application quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "YARN Component ApplicationMaster ApplicationMaster resource negotiation containers orchestration application technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Component ApplicationMaster ApplicationMaster resource negotiation containers orchestration application technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component ApplicationMaster ApplicationMaster resource negotiation containers orchestration application technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Component ApplicationMaster ApplicationMaster resource negotiation containers orchestration application technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Resource Isolation and Security": {
+      "repo": "Apache",
+      "project": "YARN",
+      "project_name": "Apache YARN",
+      "questions": {
+        "question1": {
+          "query": "YARN Requirement Resource Isolation and Security resource isolation security containers multi-tenant limits architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Requirement Resource Isolation and Security resource isolation security containers multi-tenant limits architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Resource Isolation and Security resource isolation security containers multi-tenant limits architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Resource Isolation and Security resource isolation security containers multi-tenant limits architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "YARN Requirement Resource Isolation and Security resource isolation security containers multi-tenant limits quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Requirement Resource Isolation and Security resource isolation security containers multi-tenant limits quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Resource Isolation and Security resource isolation security containers multi-tenant limits quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Resource Isolation and Security resource isolation security containers multi-tenant limits quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "YARN Requirement Resource Isolation and Security resource isolation security containers multi-tenant limits technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Requirement Resource Isolation and Security resource isolation security containers multi-tenant limits technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Resource Isolation and Security resource isolation security containers multi-tenant limits technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Resource Isolation and Security resource isolation security containers multi-tenant limits technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Recoverability": {
+      "repo": "Apache",
+      "project": "YARN",
+      "project_name": "Apache YARN",
+      "questions": {
+        "question1": {
+          "query": "YARN Requirement Recoverability recoverability HA failover restart resilience architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Requirement Recoverability recoverability HA failover restart resilience architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Recoverability recoverability HA failover restart resilience architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Recoverability recoverability HA failover restart resilience architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "YARN Requirement Recoverability recoverability HA failover restart resilience quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Requirement Recoverability recoverability HA failover restart resilience quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Recoverability recoverability HA failover restart resilience quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Recoverability recoverability HA failover restart resilience quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "YARN Requirement Recoverability recoverability HA failover restart resilience technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Requirement Recoverability recoverability HA failover restart resilience technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Recoverability recoverability HA failover restart resilience technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Recoverability recoverability HA failover restart resilience technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Scalability": {
+      "repo": "Apache",
+      "project": "YARN",
+      "project_name": "Apache YARN",
+      "questions": {
+        "question1": {
+          "query": "YARN Requirement Scalability scalability large cluster federation throughput resources architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Requirement Scalability scalability large cluster federation throughput resources architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Scalability scalability large cluster federation throughput resources architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Scalability scalability large cluster federation throughput resources architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "YARN Requirement Scalability scalability large cluster federation throughput resources quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Requirement Scalability scalability large cluster federation throughput resources quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Scalability scalability large cluster federation throughput resources quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Scalability scalability large cluster federation throughput resources quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "YARN Requirement Scalability scalability large cluster federation throughput resources technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Requirement Scalability scalability large cluster federation throughput resources technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Scalability scalability large cluster federation throughput resources technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Scalability scalability large cluster federation throughput resources technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Multi-Tenancy": {
+      "repo": "Apache",
+      "project": "YARN",
+      "project_name": "Apache YARN",
+      "questions": {
+        "question1": {
+          "query": "YARN Requirement Multi-Tenancy multi-tenancy queues fairness capacity sharing architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Requirement Multi-Tenancy multi-tenancy queues fairness capacity sharing architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Multi-Tenancy multi-tenancy queues fairness capacity sharing architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Multi-Tenancy multi-tenancy queues fairness capacity sharing architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "YARN Requirement Multi-Tenancy multi-tenancy queues fairness capacity sharing quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Requirement Multi-Tenancy multi-tenancy queues fairness capacity sharing quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Multi-Tenancy multi-tenancy queues fairness capacity sharing quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Multi-Tenancy multi-tenancy queues fairness capacity sharing quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "YARN Requirement Multi-Tenancy multi-tenancy queues fairness capacity sharing technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Requirement Multi-Tenancy multi-tenancy queues fairness capacity sharing technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Multi-Tenancy multi-tenancy queues fairness capacity sharing technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Multi-Tenancy multi-tenancy queues fairness capacity sharing technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Safe Rolling Upgrade": {
+      "repo": "Apache",
+      "project": "YARN",
+      "project_name": "Apache YARN",
+      "questions": {
+        "question1": {
+          "query": "YARN Requirement Safe Rolling Upgrade rolling upgrade safe mode compatibility restart operations architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Requirement Safe Rolling Upgrade rolling upgrade safe mode compatibility restart operations architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Safe Rolling Upgrade rolling upgrade safe mode compatibility restart operations architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Safe Rolling Upgrade rolling upgrade safe mode compatibility restart operations architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "YARN Requirement Safe Rolling Upgrade rolling upgrade safe mode compatibility restart operations quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Requirement Safe Rolling Upgrade rolling upgrade safe mode compatibility restart operations quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Safe Rolling Upgrade rolling upgrade safe mode compatibility restart operations quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Safe Rolling Upgrade rolling upgrade safe mode compatibility restart operations quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "YARN Requirement Safe Rolling Upgrade rolling upgrade safe mode compatibility restart operations technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Requirement Safe Rolling Upgrade rolling upgrade safe mode compatibility restart operations technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Safe Rolling Upgrade rolling upgrade safe mode compatibility restart operations technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Safe Rolling Upgrade rolling upgrade safe mode compatibility restart operations technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Scheduling Compatibility": {
+      "repo": "Apache",
+      "project": "YARN",
+      "project_name": "Apache YARN",
+      "questions": {
+        "question1": {
+          "query": "YARN Requirement Scheduling Compatibility scheduler compatibility policies evolution migration compatibility architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Requirement Scheduling Compatibility scheduler compatibility policies evolution migration compatibility architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Scheduling Compatibility scheduler compatibility policies evolution migration compatibility architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Scheduling Compatibility scheduler compatibility policies evolution migration compatibility architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "YARN Requirement Scheduling Compatibility scheduler compatibility policies evolution migration compatibility quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Requirement Scheduling Compatibility scheduler compatibility policies evolution migration compatibility quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Scheduling Compatibility scheduler compatibility policies evolution migration compatibility quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Scheduling Compatibility scheduler compatibility policies evolution migration compatibility quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "YARN Requirement Scheduling Compatibility scheduler compatibility policies evolution migration compatibility technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Requirement Scheduling Compatibility scheduler compatibility policies evolution migration compatibility technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Scheduling Compatibility scheduler compatibility policies evolution migration compatibility technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Requirement Scheduling Compatibility scheduler compatibility policies evolution migration compatibility technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Test Task A - ResourceManager Overview": {
+      "repo": "Apache",
+      "project": "YARN",
+      "project_name": "Apache YARN",
+      "questions": {
+        "question1": {
+          "query": "YARN Test Task A - ResourceManager Overview ResourceManager architecture components quality architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Test Task A - ResourceManager Overview ResourceManager architecture components quality architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Test Task A - ResourceManager Overview ResourceManager architecture components quality architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Test Task A - ResourceManager Overview ResourceManager architecture components quality architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "YARN Test Task A - ResourceManager Overview ResourceManager architecture components quality quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Test Task A - ResourceManager Overview ResourceManager architecture components quality quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Test Task A - ResourceManager Overview ResourceManager architecture components quality quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Test Task A - ResourceManager Overview ResourceManager architecture components quality quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        }
+      }
+    },
+    "Test Task B - YARN Isolation": {
+      "repo": "Apache",
+      "project": "YARN",
+      "project_name": "Apache YARN",
+      "questions": {
+        "question1": {
+          "query": "YARN Test Task B - YARN Isolation YARN isolation security containers multi-tenant architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Test Task B - YARN Isolation YARN isolation security containers multi-tenant architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Test Task B - YARN Isolation YARN isolation security containers multi-tenant architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Test Task B - YARN Isolation YARN isolation security containers multi-tenant architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "YARN Test Task B - YARN Isolation YARN isolation security containers multi-tenant quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Test Task B - YARN Isolation YARN isolation security containers multi-tenant quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Test Task B - YARN Isolation YARN isolation security containers multi-tenant quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Test Task B - YARN Isolation YARN isolation security containers multi-tenant quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        }
+      }
+    },
+    "Test Task C - Cluster Scalability": {
+      "repo": "Apache",
+      "project": "YARN",
+      "project_name": "Apache YARN",
+      "questions": {
+        "question1": {
+          "query": "YARN Test Task C - Cluster Scalability YARN scalability federation cluster throughput architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Test Task C - Cluster Scalability YARN scalability federation cluster throughput architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Test Task C - Cluster Scalability YARN scalability federation cluster throughput architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Test Task C - Cluster Scalability YARN scalability federation cluster throughput architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "YARN Test Task C - Cluster Scalability YARN scalability federation cluster throughput quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "YARN",
+            "query": "YARN Test Task C - Cluster Scalability YARN scalability federation cluster throughput quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Test Task C - Cluster Scalability YARN scalability federation cluster throughput quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "YARN"
+              ]
+            },
+            "query": "YARN Test Task C - Cluster Scalability YARN scalability federation cluster throughput quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

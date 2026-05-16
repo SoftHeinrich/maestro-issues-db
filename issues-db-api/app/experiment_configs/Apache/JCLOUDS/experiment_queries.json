@@ -1,0 +1,2179 @@
+{
+  "generated_at": "2026-05-07T08:39:33.435765+00:00",
+  "repo": "Apache",
+  "project": "JCLOUDS",
+  "project_name": "Apache jclouds",
+  "model_id": "648ee4526b3fde4b1b33e099",
+  "version_id": "648f1f6f6b3fde4b1b3429cf",
+  "tasks": {
+    "Component BlobStore API": {
+      "repo": "Apache",
+      "project": "JCLOUDS",
+      "project_name": "Apache jclouds",
+      "questions": {
+        "question1": {
+          "query": "JCLOUDS Component BlobStore API BlobStore storage portable API provider object store architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component BlobStore API BlobStore storage portable API provider object store architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component BlobStore API BlobStore storage portable API provider object store architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component BlobStore API BlobStore storage portable API provider object store architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "JCLOUDS Component BlobStore API BlobStore storage portable API provider object store quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component BlobStore API BlobStore storage portable API provider object store quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component BlobStore API BlobStore storage portable API provider object store quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component BlobStore API BlobStore storage portable API provider object store quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "JCLOUDS Component BlobStore API BlobStore storage portable API provider object store quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component BlobStore API BlobStore storage portable API provider object store quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component BlobStore API BlobStore storage portable API provider object store quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component BlobStore API BlobStore storage portable API provider object store quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "JCLOUDS Component BlobStore API BlobStore storage portable API provider object store technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component BlobStore API BlobStore storage portable API provider object store technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component BlobStore API BlobStore storage portable API provider object store technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component BlobStore API BlobStore storage portable API provider object store technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component ComputeService": {
+      "repo": "Apache",
+      "project": "JCLOUDS",
+      "project_name": "Apache jclouds",
+      "questions": {
+        "question1": {
+          "query": "JCLOUDS Component ComputeService ComputeService instances provisioning portable API cloud architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component ComputeService ComputeService instances provisioning portable API cloud architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component ComputeService ComputeService instances provisioning portable API cloud architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component ComputeService ComputeService instances provisioning portable API cloud architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "JCLOUDS Component ComputeService ComputeService instances provisioning portable API cloud quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component ComputeService ComputeService instances provisioning portable API cloud quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component ComputeService ComputeService instances provisioning portable API cloud quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component ComputeService ComputeService instances provisioning portable API cloud quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "JCLOUDS Component ComputeService ComputeService instances provisioning portable API cloud quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component ComputeService ComputeService instances provisioning portable API cloud quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component ComputeService ComputeService instances provisioning portable API cloud quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component ComputeService ComputeService instances provisioning portable API cloud quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "JCLOUDS Component ComputeService ComputeService instances provisioning portable API cloud technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component ComputeService ComputeService instances provisioning portable API cloud technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component ComputeService ComputeService instances provisioning portable API cloud technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component ComputeService ComputeService instances provisioning portable API cloud technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component Retry and Backoff": {
+      "repo": "Apache",
+      "project": "JCLOUDS",
+      "project_name": "Apache jclouds",
+      "questions": {
+        "question1": {
+          "query": "JCLOUDS Component Retry and Backoff retry backoff fallback errors robustness architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component Retry and Backoff retry backoff fallback errors robustness architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Retry and Backoff retry backoff fallback errors robustness architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Retry and Backoff retry backoff fallback errors robustness architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "JCLOUDS Component Retry and Backoff retry backoff fallback errors robustness quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component Retry and Backoff retry backoff fallback errors robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Retry and Backoff retry backoff fallback errors robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Retry and Backoff retry backoff fallback errors robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "JCLOUDS Component Retry and Backoff retry backoff fallback errors robustness quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component Retry and Backoff retry backoff fallback errors robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Retry and Backoff retry backoff fallback errors robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Retry and Backoff retry backoff fallback errors robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "JCLOUDS Component Retry and Backoff retry backoff fallback errors robustness technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component Retry and Backoff retry backoff fallback errors robustness technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Retry and Backoff retry backoff fallback errors robustness technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Retry and Backoff retry backoff fallback errors robustness technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component Provider Metadata": {
+      "repo": "Apache",
+      "project": "JCLOUDS",
+      "project_name": "Apache jclouds",
+      "questions": {
+        "question1": {
+          "query": "JCLOUDS Component Provider Metadata provider metadata capabilities API mapping defaults metadata architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component Provider Metadata provider metadata capabilities API mapping defaults metadata architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Provider Metadata provider metadata capabilities API mapping defaults metadata architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Provider Metadata provider metadata capabilities API mapping defaults metadata architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "JCLOUDS Component Provider Metadata provider metadata capabilities API mapping defaults metadata quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component Provider Metadata provider metadata capabilities API mapping defaults metadata quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Provider Metadata provider metadata capabilities API mapping defaults metadata quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Provider Metadata provider metadata capabilities API mapping defaults metadata quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "JCLOUDS Component Provider Metadata provider metadata capabilities API mapping defaults metadata quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component Provider Metadata provider metadata capabilities API mapping defaults metadata quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Provider Metadata provider metadata capabilities API mapping defaults metadata quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Provider Metadata provider metadata capabilities API mapping defaults metadata quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "JCLOUDS Component Provider Metadata provider metadata capabilities API mapping defaults metadata technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component Provider Metadata provider metadata capabilities API mapping defaults metadata technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Provider Metadata provider metadata capabilities API mapping defaults metadata technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Provider Metadata provider metadata capabilities API mapping defaults metadata technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component Authentication": {
+      "repo": "Apache",
+      "project": "JCLOUDS",
+      "project_name": "Apache jclouds",
+      "questions": {
+        "question1": {
+          "query": "JCLOUDS Component Authentication authentication credentials signing security identity architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component Authentication authentication credentials signing security identity architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Authentication authentication credentials signing security identity architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Authentication authentication credentials signing security identity architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "JCLOUDS Component Authentication authentication credentials signing security identity quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component Authentication authentication credentials signing security identity quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Authentication authentication credentials signing security identity quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Authentication authentication credentials signing security identity quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "JCLOUDS Component Authentication authentication credentials signing security identity quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component Authentication authentication credentials signing security identity quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Authentication authentication credentials signing security identity quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Authentication authentication credentials signing security identity quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "JCLOUDS Component Authentication authentication credentials signing security identity technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component Authentication authentication credentials signing security identity technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Authentication authentication credentials signing security identity technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Authentication authentication credentials signing security identity technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component Endpoint Resolution": {
+      "repo": "Apache",
+      "project": "JCLOUDS",
+      "project_name": "Apache jclouds",
+      "questions": {
+        "question1": {
+          "query": "JCLOUDS Component Endpoint Resolution endpoint region provider resolution location architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component Endpoint Resolution endpoint region provider resolution location architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Endpoint Resolution endpoint region provider resolution location architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Endpoint Resolution endpoint region provider resolution location architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "JCLOUDS Component Endpoint Resolution endpoint region provider resolution location quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component Endpoint Resolution endpoint region provider resolution location quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Endpoint Resolution endpoint region provider resolution location quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Endpoint Resolution endpoint region provider resolution location quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "JCLOUDS Component Endpoint Resolution endpoint region provider resolution location quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component Endpoint Resolution endpoint region provider resolution location quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Endpoint Resolution endpoint region provider resolution location quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Endpoint Resolution endpoint region provider resolution location quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "JCLOUDS Component Endpoint Resolution endpoint region provider resolution location technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Component Endpoint Resolution endpoint region provider resolution location technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Endpoint Resolution endpoint region provider resolution location technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Component Endpoint Resolution endpoint region provider resolution location technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Credential Security": {
+      "repo": "Apache",
+      "project": "JCLOUDS",
+      "project_name": "Apache jclouds",
+      "questions": {
+        "question1": {
+          "query": "JCLOUDS Requirement Credential Security credential security signing secrets authentication access architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Requirement Credential Security credential security signing secrets authentication access architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Credential Security credential security signing secrets authentication access architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Credential Security credential security signing secrets authentication access architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "JCLOUDS Requirement Credential Security credential security signing secrets authentication access quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Requirement Credential Security credential security signing secrets authentication access quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Credential Security credential security signing secrets authentication access quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Credential Security credential security signing secrets authentication access quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "JCLOUDS Requirement Credential Security credential security signing secrets authentication access technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Requirement Credential Security credential security signing secrets authentication access technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Credential Security credential security signing secrets authentication access technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Credential Security credential security signing secrets authentication access technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Recoverability": {
+      "repo": "Apache",
+      "project": "JCLOUDS",
+      "project_name": "Apache jclouds",
+      "questions": {
+        "question1": {
+          "query": "JCLOUDS Requirement Recoverability recoverability timeouts retry provider failure fallback architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Requirement Recoverability recoverability timeouts retry provider failure fallback architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Recoverability recoverability timeouts retry provider failure fallback architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Recoverability recoverability timeouts retry provider failure fallback architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "JCLOUDS Requirement Recoverability recoverability timeouts retry provider failure fallback quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Requirement Recoverability recoverability timeouts retry provider failure fallback quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Recoverability recoverability timeouts retry provider failure fallback quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Recoverability recoverability timeouts retry provider failure fallback quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "JCLOUDS Requirement Recoverability recoverability timeouts retry provider failure fallback technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Requirement Recoverability recoverability timeouts retry provider failure fallback technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Recoverability recoverability timeouts retry provider failure fallback technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Recoverability recoverability timeouts retry provider failure fallback technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Scalability": {
+      "repo": "Apache",
+      "project": "JCLOUDS",
+      "project_name": "Apache jclouds",
+      "questions": {
+        "question1": {
+          "query": "JCLOUDS Requirement Scalability scalability parallel calls cloud resources throughput concurrency architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Requirement Scalability scalability parallel calls cloud resources throughput concurrency architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Scalability scalability parallel calls cloud resources throughput concurrency architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Scalability scalability parallel calls cloud resources throughput concurrency architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "JCLOUDS Requirement Scalability scalability parallel calls cloud resources throughput concurrency quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Requirement Scalability scalability parallel calls cloud resources throughput concurrency quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Scalability scalability parallel calls cloud resources throughput concurrency quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Scalability scalability parallel calls cloud resources throughput concurrency quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "JCLOUDS Requirement Scalability scalability parallel calls cloud resources throughput concurrency technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Requirement Scalability scalability parallel calls cloud resources throughput concurrency technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Scalability scalability parallel calls cloud resources throughput concurrency technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Scalability scalability parallel calls cloud resources throughput concurrency technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Provider Portability": {
+      "repo": "Apache",
+      "project": "JCLOUDS",
+      "project_name": "Apache jclouds",
+      "questions": {
+        "question1": {
+          "query": "JCLOUDS Requirement Provider Portability portability multi-cloud abstraction provider differences compatibility architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Requirement Provider Portability portability multi-cloud abstraction provider differences compatibility architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Provider Portability portability multi-cloud abstraction provider differences compatibility architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Provider Portability portability multi-cloud abstraction provider differences compatibility architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "JCLOUDS Requirement Provider Portability portability multi-cloud abstraction provider differences compatibility quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Requirement Provider Portability portability multi-cloud abstraction provider differences compatibility quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Provider Portability portability multi-cloud abstraction provider differences compatibility quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Provider Portability portability multi-cloud abstraction provider differences compatibility quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "JCLOUDS Requirement Provider Portability portability multi-cloud abstraction provider differences compatibility technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Requirement Provider Portability portability multi-cloud abstraction provider differences compatibility technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Provider Portability portability multi-cloud abstraction provider differences compatibility technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Provider Portability portability multi-cloud abstraction provider differences compatibility technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Safe Defaults": {
+      "repo": "Apache",
+      "project": "JCLOUDS",
+      "project_name": "Apache jclouds",
+      "questions": {
+        "question1": {
+          "query": "JCLOUDS Requirement Safe Defaults safe defaults provider differences validation guardrails consistency architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Requirement Safe Defaults safe defaults provider differences validation guardrails consistency architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Safe Defaults safe defaults provider differences validation guardrails consistency architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Safe Defaults safe defaults provider differences validation guardrails consistency architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "JCLOUDS Requirement Safe Defaults safe defaults provider differences validation guardrails consistency quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Requirement Safe Defaults safe defaults provider differences validation guardrails consistency quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Safe Defaults safe defaults provider differences validation guardrails consistency quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Safe Defaults safe defaults provider differences validation guardrails consistency quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "JCLOUDS Requirement Safe Defaults safe defaults provider differences validation guardrails consistency technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Requirement Safe Defaults safe defaults provider differences validation guardrails consistency technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Safe Defaults safe defaults provider differences validation guardrails consistency technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Safe Defaults safe defaults provider differences validation guardrails consistency technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Upgrade Compatibility": {
+      "repo": "Apache",
+      "project": "JCLOUDS",
+      "project_name": "Apache jclouds",
+      "questions": {
+        "question1": {
+          "query": "JCLOUDS Requirement Upgrade Compatibility upgrade compatibility API version provider changes migration architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Requirement Upgrade Compatibility upgrade compatibility API version provider changes migration architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Upgrade Compatibility upgrade compatibility API version provider changes migration architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Upgrade Compatibility upgrade compatibility API version provider changes migration architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "JCLOUDS Requirement Upgrade Compatibility upgrade compatibility API version provider changes migration quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Requirement Upgrade Compatibility upgrade compatibility API version provider changes migration quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Upgrade Compatibility upgrade compatibility API version provider changes migration quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Upgrade Compatibility upgrade compatibility API version provider changes migration quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "JCLOUDS Requirement Upgrade Compatibility upgrade compatibility API version provider changes migration technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Requirement Upgrade Compatibility upgrade compatibility API version provider changes migration technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Upgrade Compatibility upgrade compatibility API version provider changes migration technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Requirement Upgrade Compatibility upgrade compatibility API version provider changes migration technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Test Task A - BlobStore Overview": {
+      "repo": "Apache",
+      "project": "JCLOUDS",
+      "project_name": "Apache jclouds",
+      "questions": {
+        "question1": {
+          "query": "JCLOUDS Test Task A - BlobStore Overview BlobStore architecture portability components quality architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Test Task A - BlobStore Overview BlobStore architecture portability components quality architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Test Task A - BlobStore Overview BlobStore architecture portability components quality architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Test Task A - BlobStore Overview BlobStore architecture portability components quality architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "JCLOUDS Test Task A - BlobStore Overview BlobStore architecture portability components quality quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Test Task A - BlobStore Overview BlobStore architecture portability components quality quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Test Task A - BlobStore Overview BlobStore architecture portability components quality quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Test Task A - BlobStore Overview BlobStore architecture portability components quality quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        }
+      }
+    },
+    "Test Task B - jclouds Security": {
+      "repo": "Apache",
+      "project": "JCLOUDS",
+      "project_name": "Apache jclouds",
+      "questions": {
+        "question1": {
+          "query": "JCLOUDS Test Task B - jclouds Security jclouds security credentials authentication signing architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Test Task B - jclouds Security jclouds security credentials authentication signing architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Test Task B - jclouds Security jclouds security credentials authentication signing architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Test Task B - jclouds Security jclouds security credentials authentication signing architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "JCLOUDS Test Task B - jclouds Security jclouds security credentials authentication signing quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Test Task B - jclouds Security jclouds security credentials authentication signing quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Test Task B - jclouds Security jclouds security credentials authentication signing quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Test Task B - jclouds Security jclouds security credentials authentication signing quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        }
+      }
+    },
+    "Test Task C - Multi-Cloud Scalability": {
+      "repo": "Apache",
+      "project": "JCLOUDS",
+      "project_name": "Apache jclouds",
+      "questions": {
+        "question1": {
+          "query": "JCLOUDS Test Task C - Multi-Cloud Scalability jclouds scalability multi-cloud throughput concurrency architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Test Task C - Multi-Cloud Scalability jclouds scalability multi-cloud throughput concurrency architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Test Task C - Multi-Cloud Scalability jclouds scalability multi-cloud throughput concurrency architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Test Task C - Multi-Cloud Scalability jclouds scalability multi-cloud throughput concurrency architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "JCLOUDS Test Task C - Multi-Cloud Scalability jclouds scalability multi-cloud throughput concurrency quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "JCLOUDS",
+            "query": "JCLOUDS Test Task C - Multi-Cloud Scalability jclouds scalability multi-cloud throughput concurrency quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Test Task C - Multi-Cloud Scalability jclouds scalability multi-cloud throughput concurrency quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "JCLOUDS"
+              ]
+            },
+            "query": "JCLOUDS Test Task C - Multi-Cloud Scalability jclouds scalability multi-cloud throughput concurrency quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

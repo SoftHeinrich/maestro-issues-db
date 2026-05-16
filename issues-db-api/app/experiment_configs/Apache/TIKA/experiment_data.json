@@ -1,0 +1,4917 @@
+{
+  "debug": true,
+  "repo": "Apache",
+  "project": "TIKA",
+  "project_name": "Apache Tika",
+  "passwords": {
+    "mock_tika_001": "mock_tika_001",
+    "mock_tika_002": "mock_tika_002",
+    "mock_tika_003": "mock_tika_003",
+    "mock_tika_004": "mock_tika_004",
+    "mock_tika_005": "mock_tika_005",
+    "mock_tika_006": "mock_tika_006",
+    "mock_tika_007": "mock_tika_007",
+    "mock_tika_008": "mock_tika_008",
+    "mock_tika_009": "mock_tika_009",
+    "mock_tika_010": "mock_tika_010",
+    "mock_tika_011": "mock_tika_011",
+    "mock_tika_012": "mock_tika_012",
+    "mock_tika_013": "mock_tika_013",
+    "mock_tika_014": "mock_tika_014",
+    "mock_tika_015": "mock_tika_015",
+    "mock_tika_016": "mock_tika_016",
+    "mock_tika_017": "mock_tika_017",
+    "mock_tika_018": "mock_tika_018",
+    "mock_tika_019": "mock_tika_019",
+    "mock_tika_020": "mock_tika_020",
+    "mock_tika_021": "mock_tika_021",
+    "mock_tika_022": "mock_tika_022",
+    "mock_tika_023": "mock_tika_023",
+    "mock_tika_024": "mock_tika_024",
+    "mock_tika_025": "mock_tika_025",
+    "mock_tika_026": "mock_tika_026",
+    "mock_tika_027": "mock_tika_027",
+    "mock_tika_028": "mock_tika_028"
+  },
+  "student_data": {
+    "mock_tika_001": {
+      "tasks": [
+        {
+          "taskName": "Component AutoDetectParser",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Extensibility",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Parser Framework",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_002": {
+      "tasks": [
+        {
+          "taskName": "Component MIME Detection",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Detection Accuracy",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Content Handlers",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Safe Parsing and Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_003": {
+      "tasks": [
+        {
+          "taskName": "Requirement Extensibility",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component AutoDetectParser",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Recursive Metadata Parser",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_004": {
+      "tasks": [
+        {
+          "taskName": "Requirement Detection Accuracy",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component MIME Detection",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component OCR Integration",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_005": {
+      "tasks": [
+        {
+          "taskName": "Component OCR Integration",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component AutoDetectParser",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Extensibility",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_006": {
+      "tasks": [
+        {
+          "taskName": "Component Recursive Metadata Parser",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Safe Parsing and Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component MIME Detection",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Detection Accuracy",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_007": {
+      "tasks": [
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component OCR Integration",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Extensibility",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Content Handlers",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_008": {
+      "tasks": [
+        {
+          "taskName": "Requirement Safe Parsing and Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Recursive Metadata Parser",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Detection Accuracy",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Parser Framework",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_009": {
+      "tasks": [
+        {
+          "taskName": "Component Parser Framework",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Upgrade Compatibility",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component OCR Integration",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_010": {
+      "tasks": [
+        {
+          "taskName": "Component Content Handlers",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Recursive Metadata Parser",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Upgrade Compatibility",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_011": {
+      "tasks": [
+        {
+          "taskName": "Requirement Upgrade Compatibility",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Content Handlers",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Safe Parsing and Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component AutoDetectParser",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_012": {
+      "tasks": [
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Parser Framework",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Upgrade Compatibility",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component MIME Detection",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_013": {
+      "tasks": [
+        {
+          "taskName": "Component AutoDetectParser",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Extensibility",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Parser Framework",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_014": {
+      "tasks": [
+        {
+          "taskName": "Component MIME Detection",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Detection Accuracy",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Content Handlers",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Safe Parsing and Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_015": {
+      "tasks": [
+        {
+          "taskName": "Requirement Extensibility",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component AutoDetectParser",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Recursive Metadata Parser",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_016": {
+      "tasks": [
+        {
+          "taskName": "Requirement Detection Accuracy",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component MIME Detection",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component OCR Integration",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_017": {
+      "tasks": [
+        {
+          "taskName": "Component OCR Integration",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component AutoDetectParser",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Extensibility",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_018": {
+      "tasks": [
+        {
+          "taskName": "Component Recursive Metadata Parser",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Safe Parsing and Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component MIME Detection",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Detection Accuracy",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_019": {
+      "tasks": [
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component OCR Integration",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Extensibility",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Content Handlers",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_020": {
+      "tasks": [
+        {
+          "taskName": "Requirement Safe Parsing and Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Recursive Metadata Parser",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Detection Accuracy",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Parser Framework",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_021": {
+      "tasks": [
+        {
+          "taskName": "Component Parser Framework",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Upgrade Compatibility",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component OCR Integration",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_022": {
+      "tasks": [
+        {
+          "taskName": "Component Content Handlers",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Recursive Metadata Parser",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Upgrade Compatibility",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_023": {
+      "tasks": [
+        {
+          "taskName": "Requirement Upgrade Compatibility",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Content Handlers",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Safe Parsing and Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component AutoDetectParser",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_024": {
+      "tasks": [
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Parser Framework",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Upgrade Compatibility",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component MIME Detection",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_025": {
+      "tasks": [
+        {
+          "taskName": "Requirement Upgrade Compatibility",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Content Handlers",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Safe Parsing and Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component OCR Integration",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_026": {
+      "tasks": [
+        {
+          "taskName": "Component AutoDetectParser",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Extensibility",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Parser Framework",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_027": {
+      "tasks": [
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_tika_028": {
+      "tasks": [
+        {
+          "taskName": "Test Task A - AutoDetectParser Overview",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Tika Security",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Extraction Scalability",
+          "repo": "Apache",
+          "project": "TIKA",
+          "project_name": "Apache Tika",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    }
+  },
+  "task_details": {
+    "task_details": null,
+    "Likert Scale": null,
+    "Component AutoDetectParser": {
+      "description": "As a developer working on Apache Tika, your task is to understand the design decisions behind the AutoDetectParser component. You want to study how AutoDetectParser coordinates detection, parser selection, and extraction flow and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of AutoDetectParser, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of AutoDetectParser?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in AutoDetectParser to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in AutoDetectParser, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Component MIME Detection": {
+      "description": "As a developer working on Apache Tika, your task is to understand the design decisions behind the MIME Detection component. You want to study how Tika detects content types from file signatures, metadata, and parser hints and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of MIME Detection, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of MIME Detection?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in MIME Detection to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in MIME Detection, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Component OCR Integration": {
+      "description": "As a developer working on Apache Tika, your task is to understand the design decisions behind the OCR Integration component. You want to study how Tika invokes OCR tools and integrates extracted text back into the pipeline and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of OCR Integration, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of OCR Integration?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in OCR Integration to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in OCR Integration, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Component Recursive Metadata Parser": {
+      "description": "As a developer working on Apache Tika, your task is to understand the design decisions behind the Recursive Metadata Parser component. You want to study how Tika extracts nested documents and aggregates metadata across embedded resources and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of Recursive Metadata Parser, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of Recursive Metadata Parser?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Recursive Metadata Parser to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in Recursive Metadata Parser, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Component Parser Framework": {
+      "description": "As a developer working on Apache Tika, your task is to understand the design decisions behind the Parser Framework component. You want to study how parser interfaces, delegation, and fallback strategies are organized and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of Parser Framework, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of Parser Framework?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Parser Framework to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in Parser Framework, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Component Content Handlers": {
+      "description": "As a developer working on Apache Tika, your task is to understand the design decisions behind the Content Handlers component. You want to study how content handlers stream, filter, and post-process extracted content and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of Content Handlers, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of Content Handlers?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Content Handlers to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in Content Handlers, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Safe Parsing and Security": {
+      "description": "safe parsing of untrusted documents is a central requirement in Apache Tika. Your task is to explore the architectural decisions that Apache Tika uses to address Safe Parsing and Security.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache Tika that are responsible for Safe Parsing and Security?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache Tika to implement Safe Parsing and Security?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache Tika to achieve Safe Parsing and Security?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Recoverability": {
+      "description": "recoverability from parser failures and malformed content is an important requirement in Apache Tika. Your task is to explore the architectural decisions that Apache Tika uses to address Recoverability.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache Tika that are responsible for Recoverability?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache Tika to implement Recoverability?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache Tika to achieve Recoverability?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Scalability": {
+      "description": "scalability for large document sets and memory-efficient extraction is a key requirement in Apache Tika. Your task is to explore the architectural decisions that Apache Tika uses to address Scalability.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache Tika that are responsible for Scalability?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache Tika to implement Scalability?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache Tika to achieve Scalability?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Extensibility": {
+      "description": "extensibility for adding new parsers and detectors is a recurring requirement in Apache Tika. Your task is to explore the architectural decisions that Apache Tika uses to address Extensibility.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache Tika that are responsible for Extensibility?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache Tika to implement Extensibility?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache Tika to achieve Extensibility?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Detection Accuracy": {
+      "description": "accurate content type detection is a core requirement in Apache Tika. Your task is to explore the architectural decisions that Apache Tika uses to address Detection Accuracy.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache Tika that are responsible for Detection Accuracy?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache Tika to implement Detection Accuracy?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache Tika to achieve Detection Accuracy?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Upgrade Compatibility": {
+      "description": "compatible upgrades across parser dependencies and extraction behavior are an important requirement in Apache Tika. Your task is to explore the architectural decisions that Apache Tika uses to address Upgrade Compatibility.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache Tika that are responsible for Upgrade Compatibility?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache Tika to implement Upgrade Compatibility?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache Tika to achieve Upgrade Compatibility?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Test Task A - AutoDetectParser Overview": {
+      "description": "TEST TASK: This is a test task for system validation. Explore the AutoDetectParser component in Apache Tika.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "TEST: What are the main components and responsibilities of AutoDetectParser?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "TEST: Which quality attributes matter for AutoDetectParser?",
+          "design_decision": {
+            "property": true
+          }
+        }
+      }
+    },
+    "Test Task B - Tika Security": {
+      "description": "TEST TASK: This is a test task for system validation. Explore safe parsing in Tika in Apache Tika.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "TEST: Which architectural elements support safe parsing in Tika?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "TEST: Which quality attributes matter for Tika security and robustness?",
+          "design_decision": {
+            "property": true
+          }
+        }
+      }
+    },
+    "Test Task C - Extraction Scalability": {
+      "description": "TEST TASK: This is a test task for system validation. Explore Tika scalability mechanisms in Apache Tika.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "TEST: Which architectural elements support scalable content extraction in Tika?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "TEST: Which quality attributes matter for scalable extraction in Tika?",
+          "design_decision": {
+            "property": true
+          }
+        }
+      }
+    }
+  }
+}

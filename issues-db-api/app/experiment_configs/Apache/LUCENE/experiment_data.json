@@ -1,0 +1,4917 @@
+{
+  "debug": true,
+  "repo": "Apache",
+  "project": "LUCENE",
+  "project_name": "Apache Lucene",
+  "passwords": {
+    "mock_lucene_001": "mock_lucene_001",
+    "mock_lucene_002": "mock_lucene_002",
+    "mock_lucene_003": "mock_lucene_003",
+    "mock_lucene_004": "mock_lucene_004",
+    "mock_lucene_005": "mock_lucene_005",
+    "mock_lucene_006": "mock_lucene_006",
+    "mock_lucene_007": "mock_lucene_007",
+    "mock_lucene_008": "mock_lucene_008",
+    "mock_lucene_009": "mock_lucene_009",
+    "mock_lucene_010": "mock_lucene_010",
+    "mock_lucene_011": "mock_lucene_011",
+    "mock_lucene_012": "mock_lucene_012",
+    "mock_lucene_013": "mock_lucene_013",
+    "mock_lucene_014": "mock_lucene_014",
+    "mock_lucene_015": "mock_lucene_015",
+    "mock_lucene_016": "mock_lucene_016",
+    "mock_lucene_017": "mock_lucene_017",
+    "mock_lucene_018": "mock_lucene_018",
+    "mock_lucene_019": "mock_lucene_019",
+    "mock_lucene_020": "mock_lucene_020",
+    "mock_lucene_021": "mock_lucene_021",
+    "mock_lucene_022": "mock_lucene_022",
+    "mock_lucene_023": "mock_lucene_023",
+    "mock_lucene_024": "mock_lucene_024",
+    "mock_lucene_025": "mock_lucene_025",
+    "mock_lucene_026": "mock_lucene_026",
+    "mock_lucene_027": "mock_lucene_027",
+    "mock_lucene_028": "mock_lucene_028"
+  },
+  "student_data": {
+    "mock_lucene_001": {
+      "tasks": [
+        {
+          "taskName": "Component IndexWriter",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Near-Real-Time Search",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Analyzer Pipeline",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_002": {
+      "tasks": [
+        {
+          "taskName": "Component Query Parser",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Replication",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Index Integrity and Security",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_003": {
+      "tasks": [
+        {
+          "taskName": "Requirement Near-Real-Time Search",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component IndexWriter",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Block Join",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_004": {
+      "tasks": [
+        {
+          "taskName": "Requirement Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Query Parser",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Merge Policy",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_005": {
+      "tasks": [
+        {
+          "taskName": "Component Merge Policy",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component IndexWriter",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Near-Real-Time Search",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_006": {
+      "tasks": [
+        {
+          "taskName": "Component Block Join",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Index Integrity and Security",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Query Parser",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_007": {
+      "tasks": [
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Merge Policy",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Near-Real-Time Search",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Replication",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_008": {
+      "tasks": [
+        {
+          "taskName": "Requirement Index Integrity and Security",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Block Join",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Analyzer Pipeline",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_009": {
+      "tasks": [
+        {
+          "taskName": "Component Analyzer Pipeline",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Backward Compatibility",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Merge Policy",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_010": {
+      "tasks": [
+        {
+          "taskName": "Component Replication",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Block Join",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Backward Compatibility",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_011": {
+      "tasks": [
+        {
+          "taskName": "Requirement Backward Compatibility",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Replication",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Index Integrity and Security",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component IndexWriter",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_012": {
+      "tasks": [
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Analyzer Pipeline",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Backward Compatibility",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Query Parser",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_013": {
+      "tasks": [
+        {
+          "taskName": "Component IndexWriter",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Near-Real-Time Search",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Analyzer Pipeline",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_014": {
+      "tasks": [
+        {
+          "taskName": "Component Query Parser",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Replication",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Index Integrity and Security",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_015": {
+      "tasks": [
+        {
+          "taskName": "Requirement Near-Real-Time Search",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component IndexWriter",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Block Join",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_016": {
+      "tasks": [
+        {
+          "taskName": "Requirement Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Query Parser",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Merge Policy",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_017": {
+      "tasks": [
+        {
+          "taskName": "Component Merge Policy",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component IndexWriter",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Near-Real-Time Search",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_018": {
+      "tasks": [
+        {
+          "taskName": "Component Block Join",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Index Integrity and Security",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Query Parser",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_019": {
+      "tasks": [
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Merge Policy",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Near-Real-Time Search",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Replication",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_020": {
+      "tasks": [
+        {
+          "taskName": "Requirement Index Integrity and Security",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Block Join",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Analyzer Pipeline",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_021": {
+      "tasks": [
+        {
+          "taskName": "Component Analyzer Pipeline",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Backward Compatibility",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Merge Policy",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_022": {
+      "tasks": [
+        {
+          "taskName": "Component Replication",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Block Join",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Backward Compatibility",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_023": {
+      "tasks": [
+        {
+          "taskName": "Requirement Backward Compatibility",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Replication",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Index Integrity and Security",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component IndexWriter",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_024": {
+      "tasks": [
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Analyzer Pipeline",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Backward Compatibility",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Query Parser",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_025": {
+      "tasks": [
+        {
+          "taskName": "Requirement Backward Compatibility",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Replication",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Index Integrity and Security",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Merge Policy",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_026": {
+      "tasks": [
+        {
+          "taskName": "Component IndexWriter",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Near-Real-Time Search",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Analyzer Pipeline",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_027": {
+      "tasks": [
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_lucene_028": {
+      "tasks": [
+        {
+          "taskName": "Test Task A - IndexWriter Overview",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - Lucene Query Safety",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Search Scalability",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    }
+  },
+  "task_details": {
+    "task_details": null,
+    "Likert Scale": null,
+    "Component IndexWriter": {
+      "description": "As a developer working on Apache Lucene, your task is to understand the design decisions behind the IndexWriter component. You want to study the indexing pipeline, commit flow, and segment lifecycle in IndexWriter and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of IndexWriter, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of IndexWriter?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in IndexWriter to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in IndexWriter, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Component Query Parser": {
+      "description": "As a developer working on Apache Lucene, your task is to understand the design decisions behind the Query Parser component. You want to study how Query Parser turns user syntax into executable search structures and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of Query Parser, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of Query Parser?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Query Parser to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in Query Parser, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Component Merge Policy": {
+      "description": "As a developer working on Apache Lucene, your task is to understand the design decisions behind the Merge Policy component. You want to study how Lucene selects, schedules, and applies segment merges and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of Merge Policy, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of Merge Policy?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Merge Policy to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in Merge Policy, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Component Block Join": {
+      "description": "As a developer working on Apache Lucene, your task is to understand the design decisions behind the Block Join component. You want to study how Lucene models and queries relationships across grouped documents and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of Block Join, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of Block Join?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Block Join to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in Block Join, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Component Analyzer Pipeline": {
+      "description": "As a developer working on Apache Lucene, your task is to understand the design decisions behind the Analyzer Pipeline component. You want to study how analyzers, token filters, and normalization steps shape indexing and search behavior and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of Analyzer Pipeline, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of Analyzer Pipeline?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Analyzer Pipeline to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in Analyzer Pipeline, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Component Replication": {
+      "description": "As a developer working on Apache Lucene, your task is to understand the design decisions behind the Replication component. You want to study how Lucene replicates index files and coordinates index distribution and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of Replication, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of Replication?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Replication to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in Replication, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Index Integrity and Security": {
+      "description": "index integrity, corruption handling, and safe file access are critical requirements in Apache Lucene. Your task is to explore the architectural decisions that Apache Lucene uses to address Index Integrity and Security.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache Lucene that are responsible for Index Integrity and Security?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache Lucene to implement Index Integrity and Security?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache Lucene to achieve Index Integrity and Security?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Recoverability": {
+      "description": "recoverability after failed writes or partial commits is an important requirement in Apache Lucene. Your task is to explore the architectural decisions that Apache Lucene uses to address Recoverability.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache Lucene that are responsible for Recoverability?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache Lucene to implement Recoverability?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache Lucene to achieve Recoverability?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Scalability": {
+      "description": "scalability for large indexes and high query throughput is a key requirement in Apache Lucene. Your task is to explore the architectural decisions that Apache Lucene uses to address Scalability.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache Lucene that are responsible for Scalability?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache Lucene to implement Scalability?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache Lucene to achieve Scalability?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Near-Real-Time Search": {
+      "description": "near-real-time search freshness is an important requirement in Apache Lucene. Your task is to explore the architectural decisions that Apache Lucene uses to address Near-Real-Time Search.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache Lucene that are responsible for Near-Real-Time Search?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache Lucene to implement Near-Real-Time Search?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache Lucene to achieve Near-Real-Time Search?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Query Safety": {
+      "description": "safe handling of complex or malformed queries is a core requirement in Apache Lucene. Your task is to explore the architectural decisions that Apache Lucene uses to address Query Safety.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache Lucene that are responsible for Query Safety?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache Lucene to implement Query Safety?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache Lucene to achieve Query Safety?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Backward Compatibility": {
+      "description": "backward compatibility across index formats and upgrades is a recurring requirement in Apache Lucene. Your task is to explore the architectural decisions that Apache Lucene uses to address Backward Compatibility.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache Lucene that are responsible for Backward Compatibility?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache Lucene to implement Backward Compatibility?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache Lucene to achieve Backward Compatibility?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Test Task A - IndexWriter Overview": {
+      "description": "TEST TASK: This is a test task for system validation. Explore the IndexWriter component in Apache Lucene.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "TEST: What are the main components and responsibilities of IndexWriter?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "TEST: Which quality attributes matter most for IndexWriter?",
+          "design_decision": {
+            "property": true
+          }
+        }
+      }
+    },
+    "Test Task B - Lucene Query Safety": {
+      "description": "TEST TASK: This is a test task for system validation. Explore query parsing and defensive handling in Lucene in Apache Lucene.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "TEST: Which architectural elements handle query parsing and validation in Lucene?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "TEST: Which quality attributes matter for safe query handling in Lucene?",
+          "design_decision": {
+            "property": true
+          }
+        }
+      }
+    },
+    "Test Task C - Search Scalability": {
+      "description": "TEST TASK: This is a test task for system validation. Explore Lucene scalability mechanisms in Apache Lucene.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "TEST: Which architectural elements support Lucene scalability?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "TEST: Which quality attributes matter for Lucene scalability?",
+          "design_decision": {
+            "property": true
+          }
+        }
+      }
+    }
+  }
+}

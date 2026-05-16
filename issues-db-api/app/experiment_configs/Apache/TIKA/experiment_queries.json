@@ -1,0 +1,2179 @@
+{
+  "generated_at": "2026-05-07T08:39:33.359513+00:00",
+  "repo": "Apache",
+  "project": "TIKA",
+  "project_name": "Apache Tika",
+  "model_id": "648ee4526b3fde4b1b33e099",
+  "version_id": "648f1f6f6b3fde4b1b3429cf",
+  "tasks": {
+    "Component AutoDetectParser": {
+      "repo": "Apache",
+      "project": "TIKA",
+      "project_name": "Apache Tika",
+      "questions": {
+        "question1": {
+          "query": "TIKA Component AutoDetectParser AutoDetectParser detection parser metadata extraction architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component AutoDetectParser AutoDetectParser detection parser metadata extraction architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component AutoDetectParser AutoDetectParser detection parser metadata extraction architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component AutoDetectParser AutoDetectParser detection parser metadata extraction architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "TIKA Component AutoDetectParser AutoDetectParser detection parser metadata extraction quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component AutoDetectParser AutoDetectParser detection parser metadata extraction quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component AutoDetectParser AutoDetectParser detection parser metadata extraction quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component AutoDetectParser AutoDetectParser detection parser metadata extraction quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "TIKA Component AutoDetectParser AutoDetectParser detection parser metadata extraction quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component AutoDetectParser AutoDetectParser detection parser metadata extraction quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component AutoDetectParser AutoDetectParser detection parser metadata extraction quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component AutoDetectParser AutoDetectParser detection parser metadata extraction quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "TIKA Component AutoDetectParser AutoDetectParser detection parser metadata extraction technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component AutoDetectParser AutoDetectParser detection parser metadata extraction technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component AutoDetectParser AutoDetectParser detection parser metadata extraction technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component AutoDetectParser AutoDetectParser detection parser metadata extraction technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component MIME Detection": {
+      "repo": "Apache",
+      "project": "TIKA",
+      "project_name": "Apache Tika",
+      "questions": {
+        "question1": {
+          "query": "TIKA Component MIME Detection MIME detection magic media type metadata architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component MIME Detection MIME detection magic media type metadata architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component MIME Detection MIME detection magic media type metadata architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component MIME Detection MIME detection magic media type metadata architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "TIKA Component MIME Detection MIME detection magic media type metadata quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component MIME Detection MIME detection magic media type metadata quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component MIME Detection MIME detection magic media type metadata quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component MIME Detection MIME detection magic media type metadata quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "TIKA Component MIME Detection MIME detection magic media type metadata quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component MIME Detection MIME detection magic media type metadata quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component MIME Detection MIME detection magic media type metadata quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component MIME Detection MIME detection magic media type metadata quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "TIKA Component MIME Detection MIME detection magic media type metadata technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component MIME Detection MIME detection magic media type metadata technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component MIME Detection MIME detection magic media type metadata technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component MIME Detection MIME detection magic media type metadata technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component OCR Integration": {
+      "repo": "Apache",
+      "project": "TIKA",
+      "project_name": "Apache Tika",
+      "questions": {
+        "question1": {
+          "query": "TIKA Component OCR Integration OCR Tesseract integration text extraction pipeline architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component OCR Integration OCR Tesseract integration text extraction pipeline architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component OCR Integration OCR Tesseract integration text extraction pipeline architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component OCR Integration OCR Tesseract integration text extraction pipeline architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "TIKA Component OCR Integration OCR Tesseract integration text extraction pipeline quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component OCR Integration OCR Tesseract integration text extraction pipeline quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component OCR Integration OCR Tesseract integration text extraction pipeline quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component OCR Integration OCR Tesseract integration text extraction pipeline quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "TIKA Component OCR Integration OCR Tesseract integration text extraction pipeline quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component OCR Integration OCR Tesseract integration text extraction pipeline quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component OCR Integration OCR Tesseract integration text extraction pipeline quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component OCR Integration OCR Tesseract integration text extraction pipeline quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "TIKA Component OCR Integration OCR Tesseract integration text extraction pipeline technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component OCR Integration OCR Tesseract integration text extraction pipeline technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component OCR Integration OCR Tesseract integration text extraction pipeline technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component OCR Integration OCR Tesseract integration text extraction pipeline technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component Recursive Metadata Parser": {
+      "repo": "Apache",
+      "project": "TIKA",
+      "project_name": "Apache Tika",
+      "questions": {
+        "question1": {
+          "query": "TIKA Component Recursive Metadata Parser recursive parser embedded metadata containers documents architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component Recursive Metadata Parser recursive parser embedded metadata containers documents architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Recursive Metadata Parser recursive parser embedded metadata containers documents architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Recursive Metadata Parser recursive parser embedded metadata containers documents architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "TIKA Component Recursive Metadata Parser recursive parser embedded metadata containers documents quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component Recursive Metadata Parser recursive parser embedded metadata containers documents quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Recursive Metadata Parser recursive parser embedded metadata containers documents quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Recursive Metadata Parser recursive parser embedded metadata containers documents quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "TIKA Component Recursive Metadata Parser recursive parser embedded metadata containers documents quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component Recursive Metadata Parser recursive parser embedded metadata containers documents quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Recursive Metadata Parser recursive parser embedded metadata containers documents quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Recursive Metadata Parser recursive parser embedded metadata containers documents quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "TIKA Component Recursive Metadata Parser recursive parser embedded metadata containers documents technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component Recursive Metadata Parser recursive parser embedded metadata containers documents technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Recursive Metadata Parser recursive parser embedded metadata containers documents technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Recursive Metadata Parser recursive parser embedded metadata containers documents technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component Parser Framework": {
+      "repo": "Apache",
+      "project": "TIKA",
+      "project_name": "Apache Tika",
+      "questions": {
+        "question1": {
+          "query": "TIKA Component Parser Framework parser framework delegation fallback interfaces dispatch architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component Parser Framework parser framework delegation fallback interfaces dispatch architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Parser Framework parser framework delegation fallback interfaces dispatch architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Parser Framework parser framework delegation fallback interfaces dispatch architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "TIKA Component Parser Framework parser framework delegation fallback interfaces dispatch quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component Parser Framework parser framework delegation fallback interfaces dispatch quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Parser Framework parser framework delegation fallback interfaces dispatch quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Parser Framework parser framework delegation fallback interfaces dispatch quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "TIKA Component Parser Framework parser framework delegation fallback interfaces dispatch quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component Parser Framework parser framework delegation fallback interfaces dispatch quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Parser Framework parser framework delegation fallback interfaces dispatch quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Parser Framework parser framework delegation fallback interfaces dispatch quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "TIKA Component Parser Framework parser framework delegation fallback interfaces dispatch technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component Parser Framework parser framework delegation fallback interfaces dispatch technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Parser Framework parser framework delegation fallback interfaces dispatch technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Parser Framework parser framework delegation fallback interfaces dispatch technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component Content Handlers": {
+      "repo": "Apache",
+      "project": "TIKA",
+      "project_name": "Apache Tika",
+      "questions": {
+        "question1": {
+          "query": "TIKA Component Content Handlers content handler SAX streaming filtering output architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component Content Handlers content handler SAX streaming filtering output architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Content Handlers content handler SAX streaming filtering output architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Content Handlers content handler SAX streaming filtering output architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "TIKA Component Content Handlers content handler SAX streaming filtering output quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component Content Handlers content handler SAX streaming filtering output quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Content Handlers content handler SAX streaming filtering output quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Content Handlers content handler SAX streaming filtering output quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "TIKA Component Content Handlers content handler SAX streaming filtering output quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component Content Handlers content handler SAX streaming filtering output quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Content Handlers content handler SAX streaming filtering output quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Content Handlers content handler SAX streaming filtering output quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "TIKA Component Content Handlers content handler SAX streaming filtering output technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Component Content Handlers content handler SAX streaming filtering output technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Content Handlers content handler SAX streaming filtering output technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Component Content Handlers content handler SAX streaming filtering output technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Safe Parsing and Security": {
+      "repo": "Apache",
+      "project": "TIKA",
+      "project_name": "Apache Tika",
+      "questions": {
+        "question1": {
+          "query": "TIKA Requirement Safe Parsing and Security safe parsing security sandbox limits untrusted architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Requirement Safe Parsing and Security safe parsing security sandbox limits untrusted architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Safe Parsing and Security safe parsing security sandbox limits untrusted architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Safe Parsing and Security safe parsing security sandbox limits untrusted architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "TIKA Requirement Safe Parsing and Security safe parsing security sandbox limits untrusted quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Requirement Safe Parsing and Security safe parsing security sandbox limits untrusted quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Safe Parsing and Security safe parsing security sandbox limits untrusted quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Safe Parsing and Security safe parsing security sandbox limits untrusted quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "TIKA Requirement Safe Parsing and Security safe parsing security sandbox limits untrusted technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Requirement Safe Parsing and Security safe parsing security sandbox limits untrusted technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Safe Parsing and Security safe parsing security sandbox limits untrusted technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Safe Parsing and Security safe parsing security sandbox limits untrusted technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Recoverability": {
+      "repo": "Apache",
+      "project": "TIKA",
+      "project_name": "Apache Tika",
+      "questions": {
+        "question1": {
+          "query": "TIKA Requirement Recoverability recoverability malformed exceptions fallback robustness architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Requirement Recoverability recoverability malformed exceptions fallback robustness architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Recoverability recoverability malformed exceptions fallback robustness architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Recoverability recoverability malformed exceptions fallback robustness architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "TIKA Requirement Recoverability recoverability malformed exceptions fallback robustness quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Requirement Recoverability recoverability malformed exceptions fallback robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Recoverability recoverability malformed exceptions fallback robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Recoverability recoverability malformed exceptions fallback robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "TIKA Requirement Recoverability recoverability malformed exceptions fallback robustness technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Requirement Recoverability recoverability malformed exceptions fallback robustness technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Recoverability recoverability malformed exceptions fallback robustness technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Recoverability recoverability malformed exceptions fallback robustness technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Scalability": {
+      "repo": "Apache",
+      "project": "TIKA",
+      "project_name": "Apache Tika",
+      "questions": {
+        "question1": {
+          "query": "TIKA Requirement Scalability scalability batch extraction streaming memory throughput architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Requirement Scalability scalability batch extraction streaming memory throughput architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Scalability scalability batch extraction streaming memory throughput architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Scalability scalability batch extraction streaming memory throughput architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "TIKA Requirement Scalability scalability batch extraction streaming memory throughput quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Requirement Scalability scalability batch extraction streaming memory throughput quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Scalability scalability batch extraction streaming memory throughput quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Scalability scalability batch extraction streaming memory throughput quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "TIKA Requirement Scalability scalability batch extraction streaming memory throughput technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Requirement Scalability scalability batch extraction streaming memory throughput technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Scalability scalability batch extraction streaming memory throughput technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Scalability scalability batch extraction streaming memory throughput technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Extensibility": {
+      "repo": "Apache",
+      "project": "TIKA",
+      "project_name": "Apache Tika",
+      "questions": {
+        "question1": {
+          "query": "TIKA Requirement Extensibility extensibility parser plugins detectors modularity registry architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Requirement Extensibility extensibility parser plugins detectors modularity registry architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Extensibility extensibility parser plugins detectors modularity registry architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Extensibility extensibility parser plugins detectors modularity registry architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "TIKA Requirement Extensibility extensibility parser plugins detectors modularity registry quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Requirement Extensibility extensibility parser plugins detectors modularity registry quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Extensibility extensibility parser plugins detectors modularity registry quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Extensibility extensibility parser plugins detectors modularity registry quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "TIKA Requirement Extensibility extensibility parser plugins detectors modularity registry technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Requirement Extensibility extensibility parser plugins detectors modularity registry technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Extensibility extensibility parser plugins detectors modularity registry technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Extensibility extensibility parser plugins detectors modularity registry technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Detection Accuracy": {
+      "repo": "Apache",
+      "project": "TIKA",
+      "project_name": "Apache Tika",
+      "questions": {
+        "question1": {
+          "query": "TIKA Requirement Detection Accuracy detection accuracy MIME heuristics metadata signatures architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Requirement Detection Accuracy detection accuracy MIME heuristics metadata signatures architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Detection Accuracy detection accuracy MIME heuristics metadata signatures architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Detection Accuracy detection accuracy MIME heuristics metadata signatures architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "TIKA Requirement Detection Accuracy detection accuracy MIME heuristics metadata signatures quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Requirement Detection Accuracy detection accuracy MIME heuristics metadata signatures quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Detection Accuracy detection accuracy MIME heuristics metadata signatures quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Detection Accuracy detection accuracy MIME heuristics metadata signatures quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "TIKA Requirement Detection Accuracy detection accuracy MIME heuristics metadata signatures technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Requirement Detection Accuracy detection accuracy MIME heuristics metadata signatures technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Detection Accuracy detection accuracy MIME heuristics metadata signatures technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Detection Accuracy detection accuracy MIME heuristics metadata signatures technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Upgrade Compatibility": {
+      "repo": "Apache",
+      "project": "TIKA",
+      "project_name": "Apache Tika",
+      "questions": {
+        "question1": {
+          "query": "TIKA Requirement Upgrade Compatibility upgrade compatibility dependencies behavior migration architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Requirement Upgrade Compatibility upgrade compatibility dependencies behavior migration architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Upgrade Compatibility upgrade compatibility dependencies behavior migration architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Upgrade Compatibility upgrade compatibility dependencies behavior migration architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "TIKA Requirement Upgrade Compatibility upgrade compatibility dependencies behavior migration quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Requirement Upgrade Compatibility upgrade compatibility dependencies behavior migration quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Upgrade Compatibility upgrade compatibility dependencies behavior migration quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Upgrade Compatibility upgrade compatibility dependencies behavior migration quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "TIKA Requirement Upgrade Compatibility upgrade compatibility dependencies behavior migration technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Requirement Upgrade Compatibility upgrade compatibility dependencies behavior migration technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Upgrade Compatibility upgrade compatibility dependencies behavior migration technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Requirement Upgrade Compatibility upgrade compatibility dependencies behavior migration technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Test Task A - AutoDetectParser Overview": {
+      "repo": "Apache",
+      "project": "TIKA",
+      "project_name": "Apache Tika",
+      "questions": {
+        "question1": {
+          "query": "TIKA Test Task A - AutoDetectParser Overview AutoDetectParser architecture components quality architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Test Task A - AutoDetectParser Overview AutoDetectParser architecture components quality architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Test Task A - AutoDetectParser Overview AutoDetectParser architecture components quality architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Test Task A - AutoDetectParser Overview AutoDetectParser architecture components quality architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "TIKA Test Task A - AutoDetectParser Overview AutoDetectParser architecture components quality quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Test Task A - AutoDetectParser Overview AutoDetectParser architecture components quality quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Test Task A - AutoDetectParser Overview AutoDetectParser architecture components quality quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Test Task A - AutoDetectParser Overview AutoDetectParser architecture components quality quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        }
+      }
+    },
+    "Test Task B - Tika Security": {
+      "repo": "Apache",
+      "project": "TIKA",
+      "project_name": "Apache Tika",
+      "questions": {
+        "question1": {
+          "query": "TIKA Test Task B - Tika Security Tika security safe parsing sandbox robustness architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Test Task B - Tika Security Tika security safe parsing sandbox robustness architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Test Task B - Tika Security Tika security safe parsing sandbox robustness architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Test Task B - Tika Security Tika security safe parsing sandbox robustness architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "TIKA Test Task B - Tika Security Tika security safe parsing sandbox robustness quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Test Task B - Tika Security Tika security safe parsing sandbox robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Test Task B - Tika Security Tika security safe parsing sandbox robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Test Task B - Tika Security Tika security safe parsing sandbox robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        }
+      }
+    },
+    "Test Task C - Extraction Scalability": {
+      "repo": "Apache",
+      "project": "TIKA",
+      "project_name": "Apache Tika",
+      "questions": {
+        "question1": {
+          "query": "TIKA Test Task C - Extraction Scalability Tika scalability streaming memory throughput architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Test Task C - Extraction Scalability Tika scalability streaming memory throughput architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Test Task C - Extraction Scalability Tika scalability streaming memory throughput architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Test Task C - Extraction Scalability Tika scalability streaming memory throughput architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "TIKA Test Task C - Extraction Scalability Tika scalability streaming memory throughput quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Test Task C - Extraction Scalability Tika scalability streaming memory throughput quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Test Task C - Extraction Scalability Tika scalability streaming memory throughput quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "TIKA"
+              ]
+            },
+            "query": "TIKA Test Task C - Extraction Scalability Tika scalability streaming memory throughput quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

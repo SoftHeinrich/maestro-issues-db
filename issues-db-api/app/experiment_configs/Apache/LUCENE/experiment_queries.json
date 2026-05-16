@@ -1,0 +1,2179 @@
+{
+  "generated_at": "2026-05-07T08:39:33.384788+00:00",
+  "repo": "Apache",
+  "project": "LUCENE",
+  "project_name": "Apache Lucene",
+  "model_id": "648ee4526b3fde4b1b33e099",
+  "version_id": "648f1f6f6b3fde4b1b3429cf",
+  "tasks": {
+    "Component IndexWriter": {
+      "repo": "Apache",
+      "project": "LUCENE",
+      "project_name": "Apache Lucene",
+      "questions": {
+        "question1": {
+          "query": "LUCENE Component IndexWriter IndexWriter segments flush commit merge architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component IndexWriter IndexWriter segments flush commit merge architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component IndexWriter IndexWriter segments flush commit merge architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component IndexWriter IndexWriter segments flush commit merge architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "LUCENE Component IndexWriter IndexWriter segments flush commit merge quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component IndexWriter IndexWriter segments flush commit merge quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component IndexWriter IndexWriter segments flush commit merge quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component IndexWriter IndexWriter segments flush commit merge quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "LUCENE Component IndexWriter IndexWriter segments flush commit merge quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component IndexWriter IndexWriter segments flush commit merge quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component IndexWriter IndexWriter segments flush commit merge quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component IndexWriter IndexWriter segments flush commit merge quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "LUCENE Component IndexWriter IndexWriter segments flush commit merge technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component IndexWriter IndexWriter segments flush commit merge technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component IndexWriter IndexWriter segments flush commit merge technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component IndexWriter IndexWriter segments flush commit merge technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component Query Parser": {
+      "repo": "Apache",
+      "project": "LUCENE",
+      "project_name": "Apache Lucene",
+      "questions": {
+        "question1": {
+          "query": "LUCENE Component Query Parser QueryParser syntax parser query analysis architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component Query Parser QueryParser syntax parser query analysis architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Query Parser QueryParser syntax parser query analysis architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Query Parser QueryParser syntax parser query analysis architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "LUCENE Component Query Parser QueryParser syntax parser query analysis quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component Query Parser QueryParser syntax parser query analysis quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Query Parser QueryParser syntax parser query analysis quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Query Parser QueryParser syntax parser query analysis quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "LUCENE Component Query Parser QueryParser syntax parser query analysis quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component Query Parser QueryParser syntax parser query analysis quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Query Parser QueryParser syntax parser query analysis quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Query Parser QueryParser syntax parser query analysis quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "LUCENE Component Query Parser QueryParser syntax parser query analysis technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component Query Parser QueryParser syntax parser query analysis technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Query Parser QueryParser syntax parser query analysis technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Query Parser QueryParser syntax parser query analysis technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component Merge Policy": {
+      "repo": "Apache",
+      "project": "LUCENE",
+      "project_name": "Apache Lucene",
+      "questions": {
+        "question1": {
+          "query": "LUCENE Component Merge Policy MergePolicy segments merge tiered performance architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component Merge Policy MergePolicy segments merge tiered performance architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Merge Policy MergePolicy segments merge tiered performance architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Merge Policy MergePolicy segments merge tiered performance architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "LUCENE Component Merge Policy MergePolicy segments merge tiered performance quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component Merge Policy MergePolicy segments merge tiered performance quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Merge Policy MergePolicy segments merge tiered performance quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Merge Policy MergePolicy segments merge tiered performance quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "LUCENE Component Merge Policy MergePolicy segments merge tiered performance quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component Merge Policy MergePolicy segments merge tiered performance quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Merge Policy MergePolicy segments merge tiered performance quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Merge Policy MergePolicy segments merge tiered performance quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "LUCENE Component Merge Policy MergePolicy segments merge tiered performance technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component Merge Policy MergePolicy segments merge tiered performance technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Merge Policy MergePolicy segments merge tiered performance technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Merge Policy MergePolicy segments merge tiered performance technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component Block Join": {
+      "repo": "Apache",
+      "project": "LUCENE",
+      "project_name": "Apache Lucene",
+      "questions": {
+        "question1": {
+          "query": "LUCENE Component Block Join BlockJoin documents parent child query architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component Block Join BlockJoin documents parent child query architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Block Join BlockJoin documents parent child query architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Block Join BlockJoin documents parent child query architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "LUCENE Component Block Join BlockJoin documents parent child query quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component Block Join BlockJoin documents parent child query quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Block Join BlockJoin documents parent child query quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Block Join BlockJoin documents parent child query quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "LUCENE Component Block Join BlockJoin documents parent child query quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component Block Join BlockJoin documents parent child query quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Block Join BlockJoin documents parent child query quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Block Join BlockJoin documents parent child query quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "LUCENE Component Block Join BlockJoin documents parent child query technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component Block Join BlockJoin documents parent child query technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Block Join BlockJoin documents parent child query technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Block Join BlockJoin documents parent child query technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component Analyzer Pipeline": {
+      "repo": "Apache",
+      "project": "LUCENE",
+      "project_name": "Apache Lucene",
+      "questions": {
+        "question1": {
+          "query": "LUCENE Component Analyzer Pipeline Analyzer tokenizer filters stemming normalization architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component Analyzer Pipeline Analyzer tokenizer filters stemming normalization architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Analyzer Pipeline Analyzer tokenizer filters stemming normalization architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Analyzer Pipeline Analyzer tokenizer filters stemming normalization architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "LUCENE Component Analyzer Pipeline Analyzer tokenizer filters stemming normalization quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component Analyzer Pipeline Analyzer tokenizer filters stemming normalization quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Analyzer Pipeline Analyzer tokenizer filters stemming normalization quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Analyzer Pipeline Analyzer tokenizer filters stemming normalization quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "LUCENE Component Analyzer Pipeline Analyzer tokenizer filters stemming normalization quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component Analyzer Pipeline Analyzer tokenizer filters stemming normalization quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Analyzer Pipeline Analyzer tokenizer filters stemming normalization quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Analyzer Pipeline Analyzer tokenizer filters stemming normalization quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "LUCENE Component Analyzer Pipeline Analyzer tokenizer filters stemming normalization technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component Analyzer Pipeline Analyzer tokenizer filters stemming normalization technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Analyzer Pipeline Analyzer tokenizer filters stemming normalization technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Analyzer Pipeline Analyzer tokenizer filters stemming normalization technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component Replication": {
+      "repo": "Apache",
+      "project": "LUCENE",
+      "project_name": "Apache Lucene",
+      "questions": {
+        "question1": {
+          "query": "LUCENE Component Replication replication NRT files copy distribution architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component Replication replication NRT files copy distribution architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Replication replication NRT files copy distribution architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Replication replication NRT files copy distribution architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "LUCENE Component Replication replication NRT files copy distribution quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component Replication replication NRT files copy distribution quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Replication replication NRT files copy distribution quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Replication replication NRT files copy distribution quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "LUCENE Component Replication replication NRT files copy distribution quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component Replication replication NRT files copy distribution quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Replication replication NRT files copy distribution quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Replication replication NRT files copy distribution quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "LUCENE Component Replication replication NRT files copy distribution technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Component Replication replication NRT files copy distribution technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Replication replication NRT files copy distribution technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Component Replication replication NRT files copy distribution technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Index Integrity and Security": {
+      "repo": "Apache",
+      "project": "LUCENE",
+      "project_name": "Apache Lucene",
+      "questions": {
+        "question1": {
+          "query": "LUCENE Requirement Index Integrity and Security integrity corruption checksums locking security architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Index Integrity and Security integrity corruption checksums locking security architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Index Integrity and Security integrity corruption checksums locking security architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Index Integrity and Security integrity corruption checksums locking security architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "LUCENE Requirement Index Integrity and Security integrity corruption checksums locking security quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Index Integrity and Security integrity corruption checksums locking security quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Index Integrity and Security integrity corruption checksums locking security quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Index Integrity and Security integrity corruption checksums locking security quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "LUCENE Requirement Index Integrity and Security integrity corruption checksums locking security technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Index Integrity and Security integrity corruption checksums locking security technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Index Integrity and Security integrity corruption checksums locking security technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Index Integrity and Security integrity corruption checksums locking security technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Recoverability": {
+      "repo": "Apache",
+      "project": "LUCENE",
+      "project_name": "Apache Lucene",
+      "questions": {
+        "question1": {
+          "query": "LUCENE Requirement Recoverability recoverability commit rollback crash durability architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Recoverability recoverability commit rollback crash durability architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Recoverability recoverability commit rollback crash durability architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Recoverability recoverability commit rollback crash durability architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "LUCENE Requirement Recoverability recoverability commit rollback crash durability quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Recoverability recoverability commit rollback crash durability quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Recoverability recoverability commit rollback crash durability quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Recoverability recoverability commit rollback crash durability quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "LUCENE Requirement Recoverability recoverability commit rollback crash durability technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Recoverability recoverability commit rollback crash durability technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Recoverability recoverability commit rollback crash durability technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Recoverability recoverability commit rollback crash durability technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Scalability": {
+      "repo": "Apache",
+      "project": "LUCENE",
+      "project_name": "Apache Lucene",
+      "questions": {
+        "question1": {
+          "query": "LUCENE Requirement Scalability scalability large index throughput performance segments architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Scalability scalability large index throughput performance segments architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Scalability scalability large index throughput performance segments architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Scalability scalability large index throughput performance segments architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "LUCENE Requirement Scalability scalability large index throughput performance segments quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Scalability scalability large index throughput performance segments quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Scalability scalability large index throughput performance segments quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Scalability scalability large index throughput performance segments quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "LUCENE Requirement Scalability scalability large index throughput performance segments technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Scalability scalability large index throughput performance segments technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Scalability scalability large index throughput performance segments technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Scalability scalability large index throughput performance segments technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Near-Real-Time Search": {
+      "repo": "Apache",
+      "project": "LUCENE",
+      "project_name": "Apache Lucene",
+      "questions": {
+        "question1": {
+          "query": "LUCENE Requirement Near-Real-Time Search NRT reopen refresh latency searcher architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Near-Real-Time Search NRT reopen refresh latency searcher architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Near-Real-Time Search NRT reopen refresh latency searcher architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Near-Real-Time Search NRT reopen refresh latency searcher architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "LUCENE Requirement Near-Real-Time Search NRT reopen refresh latency searcher quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Near-Real-Time Search NRT reopen refresh latency searcher quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Near-Real-Time Search NRT reopen refresh latency searcher quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Near-Real-Time Search NRT reopen refresh latency searcher quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "LUCENE Requirement Near-Real-Time Search NRT reopen refresh latency searcher technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Near-Real-Time Search NRT reopen refresh latency searcher technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Near-Real-Time Search NRT reopen refresh latency searcher technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Near-Real-Time Search NRT reopen refresh latency searcher technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Query Safety": {
+      "repo": "Apache",
+      "project": "LUCENE",
+      "project_name": "Apache Lucene",
+      "questions": {
+        "question1": {
+          "query": "LUCENE Requirement Query Safety query safety parser escaping limits robustness architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Query Safety query safety parser escaping limits robustness architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Query Safety query safety parser escaping limits robustness architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Query Safety query safety parser escaping limits robustness architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "LUCENE Requirement Query Safety query safety parser escaping limits robustness quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Query Safety query safety parser escaping limits robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Query Safety query safety parser escaping limits robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Query Safety query safety parser escaping limits robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "LUCENE Requirement Query Safety query safety parser escaping limits robustness technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Query Safety query safety parser escaping limits robustness technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Query Safety query safety parser escaping limits robustness technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Query Safety query safety parser escaping limits robustness technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Backward Compatibility": {
+      "repo": "Apache",
+      "project": "LUCENE",
+      "project_name": "Apache Lucene",
+      "questions": {
+        "question1": {
+          "query": "LUCENE Requirement Backward Compatibility backward compatibility codec upgrade format migration architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Backward Compatibility backward compatibility codec upgrade format migration architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Backward Compatibility backward compatibility codec upgrade format migration architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Backward Compatibility backward compatibility codec upgrade format migration architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "LUCENE Requirement Backward Compatibility backward compatibility codec upgrade format migration quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Backward Compatibility backward compatibility codec upgrade format migration quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Backward Compatibility backward compatibility codec upgrade format migration quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Backward Compatibility backward compatibility codec upgrade format migration quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "LUCENE Requirement Backward Compatibility backward compatibility codec upgrade format migration technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Backward Compatibility backward compatibility codec upgrade format migration technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Backward Compatibility backward compatibility codec upgrade format migration technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Requirement Backward Compatibility backward compatibility codec upgrade format migration technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Test Task A - IndexWriter Overview": {
+      "repo": "Apache",
+      "project": "LUCENE",
+      "project_name": "Apache Lucene",
+      "questions": {
+        "question1": {
+          "query": "LUCENE Test Task A - IndexWriter Overview IndexWriter architecture components quality architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Test Task A - IndexWriter Overview IndexWriter architecture components quality architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Test Task A - IndexWriter Overview IndexWriter architecture components quality architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Test Task A - IndexWriter Overview IndexWriter architecture components quality architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "LUCENE Test Task A - IndexWriter Overview IndexWriter architecture components quality quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Test Task A - IndexWriter Overview IndexWriter architecture components quality quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Test Task A - IndexWriter Overview IndexWriter architecture components quality quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Test Task A - IndexWriter Overview IndexWriter architecture components quality quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        }
+      }
+    },
+    "Test Task B - Lucene Query Safety": {
+      "repo": "Apache",
+      "project": "LUCENE",
+      "project_name": "Apache Lucene",
+      "questions": {
+        "question1": {
+          "query": "LUCENE Test Task B - Lucene Query Safety Lucene query parser validation security robustness architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Test Task B - Lucene Query Safety Lucene query parser validation security robustness architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Test Task B - Lucene Query Safety Lucene query parser validation security robustness architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Test Task B - Lucene Query Safety Lucene query parser validation security robustness architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "LUCENE Test Task B - Lucene Query Safety Lucene query parser validation security robustness quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Test Task B - Lucene Query Safety Lucene query parser validation security robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Test Task B - Lucene Query Safety Lucene query parser validation security robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Test Task B - Lucene Query Safety Lucene query parser validation security robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        }
+      }
+    },
+    "Test Task C - Search Scalability": {
+      "repo": "Apache",
+      "project": "LUCENE",
+      "project_name": "Apache Lucene",
+      "questions": {
+        "question1": {
+          "query": "LUCENE Test Task C - Search Scalability Lucene scalability segments throughput performance architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Test Task C - Search Scalability Lucene scalability segments throughput performance architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Test Task C - Search Scalability Lucene scalability segments throughput performance architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Test Task C - Search Scalability Lucene scalability segments throughput performance architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "LUCENE Test Task C - Search Scalability Lucene scalability segments throughput performance quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Test Task C - Search Scalability Lucene scalability segments throughput performance quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Test Task C - Search Scalability Lucene scalability segments throughput performance quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "LUCENE"
+              ]
+            },
+            "query": "LUCENE Test Task C - Search Scalability Lucene scalability segments throughput performance quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

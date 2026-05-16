@@ -1,0 +1,2179 @@
+{
+  "generated_at": "2026-05-07T08:39:33.469966+00:00",
+  "repo": "Apache",
+  "project": "MAPREDUCE",
+  "project_name": "Apache MapReduce",
+  "model_id": "648ee4526b3fde4b1b33e099",
+  "version_id": "648f1f6f6b3fde4b1b3429cf",
+  "tasks": {
+    "Component ApplicationMaster": {
+      "repo": "Apache",
+      "project": "MAPREDUCE",
+      "project_name": "Apache MapReduce",
+      "questions": {
+        "question1": {
+          "query": "MAPREDUCE Component ApplicationMaster ApplicationMaster job lifecycle task coordination retry scheduling architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component ApplicationMaster ApplicationMaster job lifecycle task coordination retry scheduling architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component ApplicationMaster ApplicationMaster job lifecycle task coordination retry scheduling architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component ApplicationMaster ApplicationMaster job lifecycle task coordination retry scheduling architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "MAPREDUCE Component ApplicationMaster ApplicationMaster job lifecycle task coordination retry scheduling quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component ApplicationMaster ApplicationMaster job lifecycle task coordination retry scheduling quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component ApplicationMaster ApplicationMaster job lifecycle task coordination retry scheduling quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component ApplicationMaster ApplicationMaster job lifecycle task coordination retry scheduling quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "MAPREDUCE Component ApplicationMaster ApplicationMaster job lifecycle task coordination retry scheduling quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component ApplicationMaster ApplicationMaster job lifecycle task coordination retry scheduling quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component ApplicationMaster ApplicationMaster job lifecycle task coordination retry scheduling quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component ApplicationMaster ApplicationMaster job lifecycle task coordination retry scheduling quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "MAPREDUCE Component ApplicationMaster ApplicationMaster job lifecycle task coordination retry scheduling technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component ApplicationMaster ApplicationMaster job lifecycle task coordination retry scheduling technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component ApplicationMaster ApplicationMaster job lifecycle task coordination retry scheduling technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component ApplicationMaster ApplicationMaster job lifecycle task coordination retry scheduling technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component InputFormat": {
+      "repo": "Apache",
+      "project": "MAPREDUCE",
+      "project_name": "Apache MapReduce",
+      "questions": {
+        "question1": {
+          "query": "MAPREDUCE Component InputFormat InputFormat RecordReader splits input tasks architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component InputFormat InputFormat RecordReader splits input tasks architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component InputFormat InputFormat RecordReader splits input tasks architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component InputFormat InputFormat RecordReader splits input tasks architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "MAPREDUCE Component InputFormat InputFormat RecordReader splits input tasks quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component InputFormat InputFormat RecordReader splits input tasks quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component InputFormat InputFormat RecordReader splits input tasks quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component InputFormat InputFormat RecordReader splits input tasks quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "MAPREDUCE Component InputFormat InputFormat RecordReader splits input tasks quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component InputFormat InputFormat RecordReader splits input tasks quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component InputFormat InputFormat RecordReader splits input tasks quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component InputFormat InputFormat RecordReader splits input tasks quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "MAPREDUCE Component InputFormat InputFormat RecordReader splits input tasks technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component InputFormat InputFormat RecordReader splits input tasks technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component InputFormat InputFormat RecordReader splits input tasks technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component InputFormat InputFormat RecordReader splits input tasks technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component Shuffle and Sort": {
+      "repo": "Apache",
+      "project": "MAPREDUCE",
+      "project_name": "Apache MapReduce",
+      "questions": {
+        "question1": {
+          "query": "MAPREDUCE Component Shuffle and Sort shuffle sort intermediate data reducers network architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component Shuffle and Sort shuffle sort intermediate data reducers network architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component Shuffle and Sort shuffle sort intermediate data reducers network architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component Shuffle and Sort shuffle sort intermediate data reducers network architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "MAPREDUCE Component Shuffle and Sort shuffle sort intermediate data reducers network quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component Shuffle and Sort shuffle sort intermediate data reducers network quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component Shuffle and Sort shuffle sort intermediate data reducers network quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component Shuffle and Sort shuffle sort intermediate data reducers network quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "MAPREDUCE Component Shuffle and Sort shuffle sort intermediate data reducers network quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component Shuffle and Sort shuffle sort intermediate data reducers network quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component Shuffle and Sort shuffle sort intermediate data reducers network quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component Shuffle and Sort shuffle sort intermediate data reducers network quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "MAPREDUCE Component Shuffle and Sort shuffle sort intermediate data reducers network technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component Shuffle and Sort shuffle sort intermediate data reducers network technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component Shuffle and Sort shuffle sort intermediate data reducers network technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component Shuffle and Sort shuffle sort intermediate data reducers network technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component OutputCommitter": {
+      "repo": "Apache",
+      "project": "MAPREDUCE",
+      "project_name": "Apache MapReduce",
+      "questions": {
+        "question1": {
+          "query": "MAPREDUCE Component OutputCommitter OutputCommitter commit atomic output cleanup failure architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component OutputCommitter OutputCommitter commit atomic output cleanup failure architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component OutputCommitter OutputCommitter commit atomic output cleanup failure architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component OutputCommitter OutputCommitter commit atomic output cleanup failure architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "MAPREDUCE Component OutputCommitter OutputCommitter commit atomic output cleanup failure quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component OutputCommitter OutputCommitter commit atomic output cleanup failure quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component OutputCommitter OutputCommitter commit atomic output cleanup failure quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component OutputCommitter OutputCommitter commit atomic output cleanup failure quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "MAPREDUCE Component OutputCommitter OutputCommitter commit atomic output cleanup failure quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component OutputCommitter OutputCommitter commit atomic output cleanup failure quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component OutputCommitter OutputCommitter commit atomic output cleanup failure quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component OutputCommitter OutputCommitter commit atomic output cleanup failure quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "MAPREDUCE Component OutputCommitter OutputCommitter commit atomic output cleanup failure technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component OutputCommitter OutputCommitter commit atomic output cleanup failure technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component OutputCommitter OutputCommitter commit atomic output cleanup failure technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component OutputCommitter OutputCommitter commit atomic output cleanup failure technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component Speculative Execution": {
+      "repo": "Apache",
+      "project": "MAPREDUCE",
+      "project_name": "Apache MapReduce",
+      "questions": {
+        "question1": {
+          "query": "MAPREDUCE Component Speculative Execution speculative execution stragglers backup tasks performance heuristics architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component Speculative Execution speculative execution stragglers backup tasks performance heuristics architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component Speculative Execution speculative execution stragglers backup tasks performance heuristics architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component Speculative Execution speculative execution stragglers backup tasks performance heuristics architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "MAPREDUCE Component Speculative Execution speculative execution stragglers backup tasks performance heuristics quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component Speculative Execution speculative execution stragglers backup tasks performance heuristics quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component Speculative Execution speculative execution stragglers backup tasks performance heuristics quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component Speculative Execution speculative execution stragglers backup tasks performance heuristics quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "MAPREDUCE Component Speculative Execution speculative execution stragglers backup tasks performance heuristics quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component Speculative Execution speculative execution stragglers backup tasks performance heuristics quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component Speculative Execution speculative execution stragglers backup tasks performance heuristics quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component Speculative Execution speculative execution stragglers backup tasks performance heuristics quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "MAPREDUCE Component Speculative Execution speculative execution stragglers backup tasks performance heuristics technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component Speculative Execution speculative execution stragglers backup tasks performance heuristics technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component Speculative Execution speculative execution stragglers backup tasks performance heuristics technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component Speculative Execution speculative execution stragglers backup tasks performance heuristics technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Component TaskAttempt": {
+      "repo": "Apache",
+      "project": "MAPREDUCE",
+      "project_name": "Apache MapReduce",
+      "questions": {
+        "question1": {
+          "query": "MAPREDUCE Component TaskAttempt TaskAttempt retry execution failure state architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component TaskAttempt TaskAttempt retry execution failure state architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component TaskAttempt TaskAttempt retry execution failure state architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component TaskAttempt TaskAttempt retry execution failure state architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "MAPREDUCE Component TaskAttempt TaskAttempt retry execution failure state quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component TaskAttempt TaskAttempt retry execution failure state quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component TaskAttempt TaskAttempt retry execution failure state quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component TaskAttempt TaskAttempt retry execution failure state quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "MAPREDUCE Component TaskAttempt TaskAttempt retry execution failure state quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component TaskAttempt TaskAttempt retry execution failure state quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component TaskAttempt TaskAttempt retry execution failure state quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component TaskAttempt TaskAttempt retry execution failure state quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question4": {
+          "query": "MAPREDUCE Component TaskAttempt TaskAttempt retry execution failure state technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component TaskAttempt TaskAttempt retry execution failure state technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component TaskAttempt TaskAttempt retry execution failure state technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Component TaskAttempt TaskAttempt retry execution failure state technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Output Security and Integrity": {
+      "repo": "Apache",
+      "project": "MAPREDUCE",
+      "project_name": "Apache MapReduce",
+      "questions": {
+        "question1": {
+          "query": "MAPREDUCE Requirement Output Security and Integrity integrity output commit security consistency architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement Output Security and Integrity integrity output commit security consistency architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Output Security and Integrity integrity output commit security consistency architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Output Security and Integrity integrity output commit security consistency architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "MAPREDUCE Requirement Output Security and Integrity integrity output commit security consistency quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement Output Security and Integrity integrity output commit security consistency quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Output Security and Integrity integrity output commit security consistency quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Output Security and Integrity integrity output commit security consistency quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "MAPREDUCE Requirement Output Security and Integrity integrity output commit security consistency technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement Output Security and Integrity integrity output commit security consistency technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Output Security and Integrity integrity output commit security consistency technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Output Security and Integrity integrity output commit security consistency technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Recoverability": {
+      "repo": "Apache",
+      "project": "MAPREDUCE",
+      "project_name": "Apache MapReduce",
+      "questions": {
+        "question1": {
+          "query": "MAPREDUCE Requirement Recoverability recoverability failure retry fault tolerance job recovery architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement Recoverability recoverability failure retry fault tolerance job recovery architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Recoverability recoverability failure retry fault tolerance job recovery architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Recoverability recoverability failure retry fault tolerance job recovery architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "MAPREDUCE Requirement Recoverability recoverability failure retry fault tolerance job recovery quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement Recoverability recoverability failure retry fault tolerance job recovery quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Recoverability recoverability failure retry fault tolerance job recovery quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Recoverability recoverability failure retry fault tolerance job recovery quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "MAPREDUCE Requirement Recoverability recoverability failure retry fault tolerance job recovery technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement Recoverability recoverability failure retry fault tolerance job recovery technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Recoverability recoverability failure retry fault tolerance job recovery technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Recoverability recoverability failure retry fault tolerance job recovery technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Scalability": {
+      "repo": "Apache",
+      "project": "MAPREDUCE",
+      "project_name": "Apache MapReduce",
+      "questions": {
+        "question1": {
+          "query": "MAPREDUCE Requirement Scalability scalability cluster parallelism large dataset throughput architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement Scalability scalability cluster parallelism large dataset throughput architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Scalability scalability cluster parallelism large dataset throughput architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Scalability scalability cluster parallelism large dataset throughput architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "MAPREDUCE Requirement Scalability scalability cluster parallelism large dataset throughput quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement Scalability scalability cluster parallelism large dataset throughput quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Scalability scalability cluster parallelism large dataset throughput quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Scalability scalability cluster parallelism large dataset throughput quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "MAPREDUCE Requirement Scalability scalability cluster parallelism large dataset throughput technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement Scalability scalability cluster parallelism large dataset throughput technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Scalability scalability cluster parallelism large dataset throughput technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Scalability scalability cluster parallelism large dataset throughput technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Data Locality": {
+      "repo": "Apache",
+      "project": "MAPREDUCE",
+      "project_name": "Apache MapReduce",
+      "questions": {
+        "question1": {
+          "query": "MAPREDUCE Requirement Data Locality data locality scheduling placement network performance architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement Data Locality data locality scheduling placement network performance architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Data Locality data locality scheduling placement network performance architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Data Locality data locality scheduling placement network performance architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "MAPREDUCE Requirement Data Locality data locality scheduling placement network performance quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement Data Locality data locality scheduling placement network performance quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Data Locality data locality scheduling placement network performance quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Data Locality data locality scheduling placement network performance quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "MAPREDUCE Requirement Data Locality data locality scheduling placement network performance technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement Data Locality data locality scheduling placement network performance technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Data Locality data locality scheduling placement network performance technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Data Locality data locality scheduling placement network performance technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Safe Execution": {
+      "repo": "Apache",
+      "project": "MAPREDUCE",
+      "project_name": "Apache MapReduce",
+      "questions": {
+        "question1": {
+          "query": "MAPREDUCE Requirement Safe Execution safe execution isolation sandbox user jobs robustness architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement Safe Execution safe execution isolation sandbox user jobs robustness architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Safe Execution safe execution isolation sandbox user jobs robustness architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Safe Execution safe execution isolation sandbox user jobs robustness architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "MAPREDUCE Requirement Safe Execution safe execution isolation sandbox user jobs robustness quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement Safe Execution safe execution isolation sandbox user jobs robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Safe Execution safe execution isolation sandbox user jobs robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Safe Execution safe execution isolation sandbox user jobs robustness quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "MAPREDUCE Requirement Safe Execution safe execution isolation sandbox user jobs robustness technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement Safe Execution safe execution isolation sandbox user jobs robustness technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Safe Execution safe execution isolation sandbox user jobs robustness technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Safe Execution safe execution isolation sandbox user jobs robustness technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Requirement Upgrade Compatibility": {
+      "repo": "Apache",
+      "project": "MAPREDUCE",
+      "project_name": "Apache MapReduce",
+      "questions": {
+        "question1": {
+          "query": "MAPREDUCE Requirement Upgrade Compatibility upgrade compatibility API behavior migration architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement Upgrade Compatibility upgrade compatibility API behavior migration architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Upgrade Compatibility upgrade compatibility API behavior migration architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Upgrade Compatibility upgrade compatibility API behavior migration architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "MAPREDUCE Requirement Upgrade Compatibility upgrade compatibility API behavior migration quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement Upgrade Compatibility upgrade compatibility API behavior migration quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Upgrade Compatibility upgrade compatibility API behavior migration quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Upgrade Compatibility upgrade compatibility API behavior migration quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        },
+        "question3": {
+          "query": "MAPREDUCE Requirement Upgrade Compatibility upgrade compatibility API behavior migration technologies libraries mechanisms implementation rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement Upgrade Compatibility upgrade compatibility API behavior migration technologies libraries mechanisms implementation rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Upgrade Compatibility upgrade compatibility API behavior migration technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Requirement Upgrade Compatibility upgrade compatibility API behavior migration technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": true,
+              "property": null
+            }
+          }
+        }
+      }
+    },
+    "Test Task A - ApplicationMaster Overview": {
+      "repo": "Apache",
+      "project": "MAPREDUCE",
+      "project_name": "Apache MapReduce",
+      "questions": {
+        "question1": {
+          "query": "MAPREDUCE Test Task A - ApplicationMaster Overview ApplicationMaster architecture components quality architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Test Task A - ApplicationMaster Overview ApplicationMaster architecture components quality architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Test Task A - ApplicationMaster Overview ApplicationMaster architecture components quality architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Test Task A - ApplicationMaster Overview ApplicationMaster architecture components quality architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "MAPREDUCE Test Task A - ApplicationMaster Overview ApplicationMaster architecture components quality quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Test Task A - ApplicationMaster Overview ApplicationMaster architecture components quality quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Test Task A - ApplicationMaster Overview ApplicationMaster architecture components quality quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Test Task A - ApplicationMaster Overview ApplicationMaster architecture components quality quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        }
+      }
+    },
+    "Test Task B - MapReduce Reliability": {
+      "repo": "Apache",
+      "project": "MAPREDUCE",
+      "project_name": "Apache MapReduce",
+      "questions": {
+        "question1": {
+          "query": "MAPREDUCE Test Task B - MapReduce Reliability MapReduce reliability failure retry fault tolerance architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Test Task B - MapReduce Reliability MapReduce reliability failure retry fault tolerance architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Test Task B - MapReduce Reliability MapReduce reliability failure retry fault tolerance architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Test Task B - MapReduce Reliability MapReduce reliability failure retry fault tolerance architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "MAPREDUCE Test Task B - MapReduce Reliability MapReduce reliability failure retry fault tolerance quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Test Task B - MapReduce Reliability MapReduce reliability failure retry fault tolerance quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Test Task B - MapReduce Reliability MapReduce reliability failure retry fault tolerance quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Test Task B - MapReduce Reliability MapReduce reliability failure retry fault tolerance quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        }
+      }
+    },
+    "Test Task C - Job Scalability": {
+      "repo": "Apache",
+      "project": "MAPREDUCE",
+      "project_name": "Apache MapReduce",
+      "questions": {
+        "question1": {
+          "query": "MAPREDUCE Test Task C - Job Scalability MapReduce scalability parallelism throughput cluster architecture components connectors rationale",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Test Task C - Job Scalability MapReduce scalability parallelism throughput cluster architecture components connectors rationale",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Test Task C - Job Scalability MapReduce scalability parallelism throughput cluster architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Test Task C - Job Scalability MapReduce scalability parallelism throughput cluster architecture components connectors rationale",
+            "num_results": 10,
+            "predictions": {
+              "existence": true,
+              "executive": null,
+              "property": null
+            }
+          }
+        },
+        "question2": {
+          "query": "MAPREDUCE Test Task C - Job Scalability MapReduce scalability parallelism throughput cluster quality attributes tactics patterns tradeoffs",
+          "archrag_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Test Task C - Job Scalability MapReduce scalability parallelism throughput cluster quality attributes tactics patterns tradeoffs",
+            "num_results": 10
+          },
+          "pylucene_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Test Task C - Job Scalability MapReduce scalability parallelism throughput cluster quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": null
+            }
+          },
+          "pylucene_rerank_request": {
+            "database_url": "http://issues-db-api:8000",
+            "model_id": "648ee4526b3fde4b1b33e099",
+            "version_id": "648f1f6f6b3fde4b1b3429cf",
+            "repos_and_projects": {
+              "Apache": [
+                "MAPREDUCE"
+              ]
+            },
+            "query": "MAPREDUCE Test Task C - Job Scalability MapReduce scalability parallelism throughput cluster quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "predictions": {
+              "existence": null,
+              "executive": null,
+              "property": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

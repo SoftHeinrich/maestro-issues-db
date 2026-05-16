@@ -1,0 +1,4917 @@
+{
+  "debug": true,
+  "repo": "Apache",
+  "project": "MAPREDUCE",
+  "project_name": "Apache MapReduce",
+  "passwords": {
+    "mock_mapreduce_001": "mock_mapreduce_001",
+    "mock_mapreduce_002": "mock_mapreduce_002",
+    "mock_mapreduce_003": "mock_mapreduce_003",
+    "mock_mapreduce_004": "mock_mapreduce_004",
+    "mock_mapreduce_005": "mock_mapreduce_005",
+    "mock_mapreduce_006": "mock_mapreduce_006",
+    "mock_mapreduce_007": "mock_mapreduce_007",
+    "mock_mapreduce_008": "mock_mapreduce_008",
+    "mock_mapreduce_009": "mock_mapreduce_009",
+    "mock_mapreduce_010": "mock_mapreduce_010",
+    "mock_mapreduce_011": "mock_mapreduce_011",
+    "mock_mapreduce_012": "mock_mapreduce_012",
+    "mock_mapreduce_013": "mock_mapreduce_013",
+    "mock_mapreduce_014": "mock_mapreduce_014",
+    "mock_mapreduce_015": "mock_mapreduce_015",
+    "mock_mapreduce_016": "mock_mapreduce_016",
+    "mock_mapreduce_017": "mock_mapreduce_017",
+    "mock_mapreduce_018": "mock_mapreduce_018",
+    "mock_mapreduce_019": "mock_mapreduce_019",
+    "mock_mapreduce_020": "mock_mapreduce_020",
+    "mock_mapreduce_021": "mock_mapreduce_021",
+    "mock_mapreduce_022": "mock_mapreduce_022",
+    "mock_mapreduce_023": "mock_mapreduce_023",
+    "mock_mapreduce_024": "mock_mapreduce_024",
+    "mock_mapreduce_025": "mock_mapreduce_025",
+    "mock_mapreduce_026": "mock_mapreduce_026",
+    "mock_mapreduce_027": "mock_mapreduce_027",
+    "mock_mapreduce_028": "mock_mapreduce_028"
+  },
+  "student_data": {
+    "mock_mapreduce_001": {
+      "tasks": [
+        {
+          "taskName": "Component ApplicationMaster",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Data Locality",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Speculative Execution",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_002": {
+      "tasks": [
+        {
+          "taskName": "Component InputFormat",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Safe Execution",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component TaskAttempt",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Output Security and Integrity",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_003": {
+      "tasks": [
+        {
+          "taskName": "Requirement Data Locality",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component ApplicationMaster",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component OutputCommitter",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_004": {
+      "tasks": [
+        {
+          "taskName": "Requirement Safe Execution",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component InputFormat",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Shuffle and Sort",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_005": {
+      "tasks": [
+        {
+          "taskName": "Component Shuffle and Sort",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component ApplicationMaster",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Data Locality",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_006": {
+      "tasks": [
+        {
+          "taskName": "Component OutputCommitter",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Output Security and Integrity",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component InputFormat",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Safe Execution",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_007": {
+      "tasks": [
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Shuffle and Sort",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Data Locality",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component TaskAttempt",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_008": {
+      "tasks": [
+        {
+          "taskName": "Requirement Output Security and Integrity",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component OutputCommitter",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Safe Execution",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Speculative Execution",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_009": {
+      "tasks": [
+        {
+          "taskName": "Component Speculative Execution",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Upgrade Compatibility",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Shuffle and Sort",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_010": {
+      "tasks": [
+        {
+          "taskName": "Component TaskAttempt",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component OutputCommitter",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Upgrade Compatibility",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_011": {
+      "tasks": [
+        {
+          "taskName": "Requirement Upgrade Compatibility",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component TaskAttempt",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Output Security and Integrity",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component ApplicationMaster",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_012": {
+      "tasks": [
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Speculative Execution",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Upgrade Compatibility",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component InputFormat",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_013": {
+      "tasks": [
+        {
+          "taskName": "Component ApplicationMaster",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Data Locality",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Speculative Execution",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_014": {
+      "tasks": [
+        {
+          "taskName": "Component InputFormat",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Safe Execution",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component TaskAttempt",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Output Security and Integrity",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_015": {
+      "tasks": [
+        {
+          "taskName": "Requirement Data Locality",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component ApplicationMaster",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component OutputCommitter",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_016": {
+      "tasks": [
+        {
+          "taskName": "Requirement Safe Execution",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component InputFormat",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Shuffle and Sort",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_017": {
+      "tasks": [
+        {
+          "taskName": "Component Shuffle and Sort",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component ApplicationMaster",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Data Locality",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_018": {
+      "tasks": [
+        {
+          "taskName": "Component OutputCommitter",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Output Security and Integrity",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component InputFormat",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Safe Execution",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_019": {
+      "tasks": [
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Shuffle and Sort",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Data Locality",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component TaskAttempt",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_020": {
+      "tasks": [
+        {
+          "taskName": "Requirement Output Security and Integrity",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component OutputCommitter",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Safe Execution",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Speculative Execution",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_021": {
+      "tasks": [
+        {
+          "taskName": "Component Speculative Execution",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Upgrade Compatibility",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Shuffle and Sort",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_022": {
+      "tasks": [
+        {
+          "taskName": "Component TaskAttempt",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component OutputCommitter",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Upgrade Compatibility",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_023": {
+      "tasks": [
+        {
+          "taskName": "Requirement Upgrade Compatibility",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component TaskAttempt",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Output Security and Integrity",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component ApplicationMaster",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_024": {
+      "tasks": [
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Speculative Execution",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Upgrade Compatibility",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component InputFormat",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_025": {
+      "tasks": [
+        {
+          "taskName": "Requirement Upgrade Compatibility",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component TaskAttempt",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Output Security and Integrity",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Shuffle and Sort",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_026": {
+      "tasks": [
+        {
+          "taskName": "Component ApplicationMaster",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Data Locality",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Component Speculative Execution",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_027": {
+      "tasks": [
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "mock_mapreduce_028": {
+      "tasks": [
+        {
+          "taskName": "Test Task A - ApplicationMaster Overview",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - MapReduce Reliability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Job Scalability",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    }
+  },
+  "task_details": {
+    "task_details": null,
+    "Likert Scale": null,
+    "Component ApplicationMaster": {
+      "description": "TEST-LIVE-EDIT: As a developer working on Apache MapReduce, your task is to understand the design decisions behind the ApplicationMaster component. You want to study how the MapReduce ApplicationMaster coordinates jobs, tasks, and retries and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of ApplicationMaster, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of ApplicationMaster?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in ApplicationMaster to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in ApplicationMaster, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Component InputFormat": {
+      "description": "As a developer working on Apache MapReduce, your task is to understand the design decisions behind the InputFormat component. You want to study how InputFormat and RecordReader partition data and expose records to tasks and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of InputFormat, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of InputFormat?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in InputFormat to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in InputFormat, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Component Shuffle and Sort": {
+      "description": "As a developer working on Apache MapReduce, your task is to understand the design decisions behind the Shuffle and Sort component. You want to study how MapReduce moves intermediate data and organizes it for reducers and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of Shuffle and Sort, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of Shuffle and Sort?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Shuffle and Sort to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in Shuffle and Sort, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Component OutputCommitter": {
+      "description": "As a developer working on Apache MapReduce, your task is to understand the design decisions behind the OutputCommitter component. You want to study how OutputCommitter handles atomic output publication and cleanup and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of OutputCommitter, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of OutputCommitter?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in OutputCommitter to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in OutputCommitter, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Component Speculative Execution": {
+      "description": "As a developer working on Apache MapReduce, your task is to understand the design decisions behind the Speculative Execution component. You want to study how speculative execution detects stragglers and launches backup attempts and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of Speculative Execution, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of Speculative Execution?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Speculative Execution to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in Speculative Execution, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Component TaskAttempt": {
+      "description": "As a developer working on Apache MapReduce, your task is to understand the design decisions behind the TaskAttempt component. You want to study how task attempts are tracked, retried, and isolated during execution and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the components and connectors of TaskAttempt, and what rationale is given for those architectural choices?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "Which quality attributes are considered in the design of TaskAttempt?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in TaskAttempt to satisfy those quality attributes?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question4": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are used in TaskAttempt, and what rationale is given for selecting them?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Output Security and Integrity": {
+      "description": "output integrity and safe publication are central requirements in Apache MapReduce. Your task is to explore the architectural decisions that Apache MapReduce uses to address Output Security and Integrity.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache MapReduce that are responsible for Output Security and Integrity?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache MapReduce to implement Output Security and Integrity?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache MapReduce to achieve Output Security and Integrity?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Recoverability": {
+      "description": "recoverability from task, node, and job failures is a major requirement in Apache MapReduce. Your task is to explore the architectural decisions that Apache MapReduce uses to address Recoverability.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache MapReduce that are responsible for Recoverability?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache MapReduce to implement Recoverability?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache MapReduce to achieve Recoverability?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Scalability": {
+      "description": "scalability across large clusters and large input datasets is a key requirement in Apache MapReduce. Your task is to explore the architectural decisions that Apache MapReduce uses to address Scalability.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache MapReduce that are responsible for Scalability?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache MapReduce to implement Scalability?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache MapReduce to achieve Scalability?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Data Locality": {
+      "description": "data locality is an important requirement in Apache MapReduce. Your task is to explore the architectural decisions that Apache MapReduce uses to address Data Locality.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache MapReduce that are responsible for Data Locality?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache MapReduce to implement Data Locality?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache MapReduce to achieve Data Locality?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Safe Execution": {
+      "description": "safe execution of user jobs and task isolation are core requirements in Apache MapReduce. Your task is to explore the architectural decisions that Apache MapReduce uses to address Safe Execution.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache MapReduce that are responsible for Safe Execution?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache MapReduce to implement Safe Execution?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache MapReduce to achieve Safe Execution?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Requirement Upgrade Compatibility": {
+      "description": "upgrade compatibility across job APIs and cluster behavior is an important requirement in Apache MapReduce. Your task is to explore the architectural decisions that Apache MapReduce uses to address Upgrade Compatibility.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "What are the architectural components and connectors in Apache MapReduce that are responsible for Upgrade Compatibility?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "What architectural tactics or patterns are used in Apache MapReduce to implement Upgrade Compatibility?",
+          "design_decision": {
+            "property": true
+          }
+        },
+        "question3": {
+          "type": "executive",
+          "description": "Which technologies, libraries, or mechanisms are integrated into Apache MapReduce to achieve Upgrade Compatibility?",
+          "design_decision": {
+            "executive": true
+          }
+        }
+      }
+    },
+    "Test Task A - ApplicationMaster Overview": {
+      "description": "TEST TASK: This is a test task for system validation. Explore the ApplicationMaster component in Apache MapReduce.-TEST-LIVE-UPDATE",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "TEST: LIVE_UPD_2 What are the main components and responsibilities of the MapReduce ApplicationMaster?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "TEST: Which quality attributes matter for the ApplicationMaster?",
+          "design_decision": {
+            "property": true
+          }
+        }
+      }
+    },
+    "Test Task B - MapReduce Reliability": {
+      "description": "TEST TASK: This is a test task for system validation. Explore failure handling in MapReduce in Apache MapReduce.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "TEST: Which architectural elements support failure handling in MapReduce?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "TEST: Which quality attributes matter for MapReduce reliability?",
+          "design_decision": {
+            "property": true
+          }
+        }
+      }
+    },
+    "Test Task C - Job Scalability": {
+      "description": "TEST TASK: This is a test task for system validation. Explore MapReduce scalability mechanisms in Apache MapReduce.",
+      "questions": {
+        "question1": {
+          "type": "existence",
+          "description": "TEST: Which architectural elements support scalability in MapReduce?",
+          "design_decision": {
+            "existence": true
+          }
+        },
+        "question2": {
+          "type": "property",
+          "description": "TEST: Which quality attributes matter for MapReduce scalability?",
+          "design_decision": {
+            "property": true
+          }
+        }
+      }
+    }
+  }
+}
