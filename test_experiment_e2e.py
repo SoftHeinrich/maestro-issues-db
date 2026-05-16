@@ -5,7 +5,7 @@ Flow:
 1. Discover available experiment projects.
 2. Fetch Lucene mock tasks from the project-specific config.
 3. Run one PyLucene search and one archRag search.
-4. Submit ratings back into the Lucene project config.
+4. Submit ratings into the PostgreSQL-backed legacy experiment store.
 5. Verify the saved metadata is still scoped to the selected project.
 
 Run:

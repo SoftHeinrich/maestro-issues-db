@@ -2,6 +2,7 @@ import os
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from .dependencies import initialize_database_state
 from .routers import (
     tags,
     issue_data,
@@ -26,6 +27,11 @@ import uvicorn
 CORS_ORIGINS = os.environ.get("CORS_ORIGINS", "https://maestro.localhost:4269,https://localhost:4269,https://127.0.0.1:4269").split(",")
 
 app = FastAPI(root_path="/issues-db-api")
+
+
+@app.on_event("startup")
+def initialize_app_state():
+    initialize_database_state()
 
 app.add_middleware(
     CORSMiddleware,

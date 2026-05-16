@@ -62,7 +62,7 @@ services:
       - CORS_ORIGINS=${CORS_ORIGINS:-https://maestro.localhost:4269}
       - DOCKER=True
       - DEBUG=FALSE
-      - ISSUES_DB_LOCAL_PROXY_URL=http://host.docker.internal:18118
+      - ISSUES_DB_LOCAL_PROXY_URL=${MAESTRO_LOCAL_PROXY_URL:-http://host.docker.internal:8118}
       - ISSUES_DB_PROXY_STATE_PATH=/python-docker/runtime/proxy_settings.json
     labels:
       - "traefik.enable=true"

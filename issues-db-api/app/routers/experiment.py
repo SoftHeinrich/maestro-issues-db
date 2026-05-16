@@ -5,7 +5,8 @@ Supports two experiment types:
 - "single": Between-subjects blinded design (one system per task)
 - "dual": Within-subjects blinded side-by-side (both systems, random column assignment)
 
-Data stored in MongoDB `experiment_sessions` and `experiment_tasks` collections.
+Data stored in MongoDB `experiment_sessions` for the newer session API and
+PostgreSQL `experiment_ratings` for legacy browser rating submissions.
 
 Also includes legacy file-based endpoints from Ajay's experiment (POST /tasks,
 POST /submit-ratings, POST /gpt4-response, POST /logs).
@@ -15,7 +16,8 @@ import hashlib
 import json
 import os
 import random
-from datetime import datetime
+import threading
+from datetime import datetime, timezone
 
 from dotenv import load_dotenv
 from fastapi import APIRouter, Depends, HTTPException, status
@@ -29,8 +31,16 @@ load_dotenv()
 router = APIRouter(prefix="/experiment", tags=["experiment"])
 
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb://localhost:27017")
+POSTGRES_DB = os.environ.get("POSTGRES_DB", "issues")
+POSTGRES_USER = os.environ.get("POSTGRES_USER", "postgres")
+POSTGRES_PASSWORD = os.environ.get("POSTGRES_PASSWORD", "pass")
+POSTGRES_HOST = os.environ.get(
+    "POSTGRES_HOST",
+    "psql" if os.environ.get("DOCKER", False) else "localhost",
+)
+POSTGRES_PORT = int(os.environ.get("POSTGRES_PORT", "5432"))
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", os.environ.get("OPEN_AI_API_KEY", ""))
-LOCAL_PROXY_URL = os.environ.get("ISSUES_DB_LOCAL_PROXY_URL", "http://host.docker.internal:18118").strip()
+LOCAL_PROXY_URL = os.environ.get("ISSUES_DB_LOCAL_PROXY_URL", "http://host.docker.internal:8118").strip()
 PROXY_STATE_PATH = os.environ.get(
     "ISSUES_DB_PROXY_STATE_PATH",
     os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "runtime", "proxy_settings.json"),
@@ -49,6 +59,8 @@ _PROXY_ENV_KEYS = [
 ]
 _proxy_enabled = False
 _proxy_url = LOCAL_PROXY_URL
+_legacy_results_table_lock = threading.Lock()
+_legacy_results_table_ready = False
 
 SYSTEMS = ["pylucene_rerank", "archrag"]
 DEFAULT_EXPERIMENT_REPO = "Apache"
@@ -69,20 +81,234 @@ def _get_db():
     return client["MaestroExperiment"]
 
 
-def _legacy_results_collection():
-    collection = _get_db()["legacy_experiment_results"]
-    collection.create_index(
-        [
-            ("repo", 1),
-            ("project", 1),
-            ("matriculationNumber", 1),
-            ("taskId", 1),
-            ("questionKey", 1),
-            ("created_at", 1),
-        ],
-        name="legacy_lookup_idx",
+def _get_legacy_results_connection():
+    try:
+        import psycopg2
+    except ImportError as exc:
+        raise RuntimeError(
+            "psycopg2-binary must be installed to persist experiment ratings in PostgreSQL."
+        ) from exc
+
+    conn = psycopg2.connect(
+        dbname=POSTGRES_DB,
+        user=POSTGRES_USER,
+        password=POSTGRES_PASSWORD,
+        host=POSTGRES_HOST,
+        port=POSTGRES_PORT,
     )
-    return collection
+    _ensure_legacy_results_table(conn)
+    return conn
+
+
+def _ensure_legacy_results_table(conn) -> None:
+    global _legacy_results_table_ready
+    if _legacy_results_table_ready:
+        return
+
+    with _legacy_results_table_lock:
+        if _legacy_results_table_ready:
+            return
+
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                CREATE TABLE IF NOT EXISTS experiment_ratings (
+                    id BIGSERIAL PRIMARY KEY,
+                    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+                    repo TEXT NOT NULL,
+                    project TEXT NOT NULL,
+                    project_name TEXT NOT NULL,
+                    matriculation_number TEXT NOT NULL,
+                    task_id TEXT NOT NULL,
+                    question_key TEXT NOT NULL,
+                    search_query TEXT NOT NULL,
+                    engine TEXT NOT NULL,
+                    rerank_engine BOOLEAN NOT NULL DEFAULT FALSE,
+                    gpt BOOLEAN NOT NULL DEFAULT FALSE,
+                    config_hash TEXT NOT NULL,
+                    ratings JSONB NOT NULL
+                )
+                """
+            )
+            cur.execute(
+                """
+                CREATE INDEX IF NOT EXISTS idx_experiment_ratings_lookup
+                ON experiment_ratings (
+                    repo,
+                    project,
+                    matriculation_number,
+                    task_id,
+                    question_key,
+                    created_at,
+                    id
+                )
+                """
+            )
+        conn.commit()
+        _legacy_results_table_ready = True
+
+
+def _legacy_result_filter_columns() -> Dict[str, str]:
+    return {
+        "repo": "repo",
+        "project": "project",
+        "matriculationNumber": "matriculation_number",
+        "taskId": "task_id",
+        "questionKey": "question_key",
+    }
+
+
+def _build_legacy_results_where_clause(filters: Dict[str, Any]) -> tuple[str, list[Any]]:
+    clauses: List[str] = []
+    params: List[Any] = []
+    for key, column in _legacy_result_filter_columns().items():
+        value = filters.get(key)
+        if value is None:
+            continue
+        clauses.append(f"{column} = %s")
+        params.append(value)
+    return " AND ".join(clauses), params
+
+
+def _legacy_result_record_to_dict(record: Dict[str, Any]) -> Dict[str, Any]:
+    ratings = record.get("ratings")
+    if isinstance(ratings, str):
+        ratings = json.loads(ratings)
+    return {
+        "_id": str(record["id"]),
+        "repo": record["repo"],
+        "project": record["project"],
+        "project_name": record["project_name"],
+        "matriculationNumber": record["matriculation_number"],
+        "taskId": record["task_id"],
+        "questionKey": record["question_key"],
+        "searchQuery": record["search_query"],
+        "engine": record["engine"],
+        "rerank_engine": record["rerank_engine"],
+        "gpt": record["gpt"],
+        "config_hash": record["config_hash"],
+        "ratings": ratings,
+        "created_at": record["created_at"],
+    }
+
+
+def _insert_legacy_result(result: Dict[str, Any]) -> Dict[str, Any]:
+    from psycopg2.extras import Json, RealDictCursor
+
+    conn = _get_legacy_results_connection()
+    try:
+        with conn.cursor(cursor_factory=RealDictCursor) as cur:
+            cur.execute(
+                """
+                INSERT INTO experiment_ratings (
+                    repo,
+                    project,
+                    project_name,
+                    matriculation_number,
+                    task_id,
+                    question_key,
+                    search_query,
+                    engine,
+                    rerank_engine,
+                    gpt,
+                    config_hash,
+                    ratings,
+                    created_at
+                ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                RETURNING
+                    id,
+                    repo,
+                    project,
+                    project_name,
+                    matriculation_number,
+                    task_id,
+                    question_key,
+                    search_query,
+                    engine,
+                    rerank_engine,
+                    gpt,
+                    config_hash,
+                    ratings,
+                    created_at
+                """,
+                (
+                    result["repo"],
+                    result["project"],
+                    result["project_name"],
+                    result["matriculationNumber"],
+                    result["taskId"],
+                    result["questionKey"],
+                    result["searchQuery"],
+                    result["engine"],
+                    result["rerank_engine"],
+                    result["gpt"],
+                    result["config_hash"],
+                    Json(result["ratings"]),
+                    result["created_at"],
+                ),
+            )
+            row = cur.fetchone()
+        conn.commit()
+        return _legacy_result_record_to_dict(row)
+    finally:
+        conn.close()
+
+
+def _find_legacy_results(
+    filters: Dict[str, Any],
+    *,
+    limit: Optional[int] = None,
+) -> List[Dict[str, Any]]:
+    from psycopg2.extras import RealDictCursor
+
+    conn = _get_legacy_results_connection()
+    try:
+        query = """
+            SELECT
+                id,
+                repo,
+                project,
+                project_name,
+                matriculation_number,
+                task_id,
+                question_key,
+                search_query,
+                engine,
+                rerank_engine,
+                gpt,
+                config_hash,
+                ratings,
+                created_at
+            FROM experiment_ratings
+        """
+        where_clause, params = _build_legacy_results_where_clause(filters)
+        if where_clause:
+            query += f" WHERE {where_clause}"
+        query += " ORDER BY created_at ASC, id ASC"
+        if limit is not None:
+            query += " LIMIT %s"
+            params.append(limit)
+
+        with conn.cursor(cursor_factory=RealDictCursor) as cur:
+            cur.execute(query, params)
+            rows = cur.fetchall()
+        return [_legacy_result_record_to_dict(row) for row in rows]
+    finally:
+        conn.close()
+
+
+def _count_legacy_results(filters: Dict[str, Any]) -> int:
+    conn = _get_legacy_results_connection()
+    try:
+        query = "SELECT COUNT(*) FROM experiment_ratings"
+        where_clause, params = _build_legacy_results_where_clause(filters)
+        if where_clause:
+            query += f" WHERE {where_clause}"
+        with conn.cursor() as cur:
+            cur.execute(query, params)
+            return int(cur.fetchone()[0])
+    finally:
+        conn.close()
 
 
 def _read_proxy_state() -> dict | None:
@@ -408,7 +634,7 @@ def create_session(req: CreateSessionRequest):
     session = {
         "participant_id": req.participant_id,
         "experiment_type": req.experiment_type,
-        "created_at": datetime.utcnow().isoformat(),
+        "created_at": datetime.now(timezone.utc).isoformat(),
         "config_hash": _config_hash(task_defs),
         "system_assignments": system_assignments,
         "tasks": tasks,
@@ -454,7 +680,7 @@ def submit_results(session_id: str, req: SubmitResultsRequest):
         "question_key": req.question_key,
         "query": req.query,
         "use_gpt_keywords": req.use_gpt_keywords,
-        "timestamp": req.timestamp or datetime.utcnow().isoformat(),
+        "timestamp": req.timestamp or datetime.now(timezone.utc).isoformat(),
     }
 
     if session["experiment_type"] == "single":
@@ -538,7 +764,7 @@ def export_data(token=Depends(validate_token)):
     task_defs = _load_task_definitions()
     export = {
         "sessions": [_serialize_session(s) for s in sessions],
-        "exported_at": datetime.utcnow().isoformat(),
+        "exported_at": datetime.now(timezone.utc).isoformat(),
         "current_config_hash": _config_hash(task_defs) if task_defs else None,
     }
     return export
@@ -612,7 +838,7 @@ def export_legacy_results(
     limit: int = 1000,
     token=Depends(validate_token),
 ):
-    """Export persisted legacy experiment submissions from MongoDB."""
+    """Export persisted legacy experiment submissions from PostgreSQL."""
     filters: Dict[str, Any] = {}
     if repo:
         filters["repo"] = repo
@@ -626,14 +852,11 @@ def export_legacy_results(
         filters["questionKey"] = question_key
 
     capped_limit = max(1, min(limit, 10000))
-    collection = _legacy_results_collection()
-    total = collection.count_documents(filters)
-    rows = list(
-        collection.find(filters).sort("created_at", 1).limit(capped_limit)
-    )
+    total = _count_legacy_results(filters)
+    rows = _find_legacy_results(filters, limit=capped_limit)
 
     return {
-        "exported_at": datetime.utcnow().isoformat(),
+        "exported_at": datetime.now(timezone.utc).isoformat(),
         "filters": filters,
         "limit": capped_limit,
         "returned": len(rows),
@@ -728,13 +951,13 @@ def _load_legacy_results(
     project: str,
     matriculation_number: str,
 ) -> Dict[str, Dict[str, List[Dict[str, Any]]]]:
-    rows = _legacy_results_collection().find(
+    rows = _find_legacy_results(
         {
             "repo": repo,
             "project": project,
             "matriculationNumber": matriculation_number,
         }
-    ).sort("created_at", 1)
+    )
 
     results: Dict[str, Dict[str, List[Dict[str, Any]]]] = {}
     for row in rows:
@@ -900,9 +1123,9 @@ def save_result(result_data: SaveResult):
         "gpt": gpt,
         "config_hash": _config_hash(data),
         "ratings": ratings,
-        "created_at": datetime.utcnow(),
+        "created_at": datetime.now(timezone.utc),
     }
-    _legacy_results_collection().insert_one(solution)
+    _insert_legacy_result(solution)
     return {"success": "Result saved successfully"}
 
 @router.post("/gpt4-response")
