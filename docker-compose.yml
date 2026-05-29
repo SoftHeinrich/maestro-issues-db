@@ -59,7 +59,6 @@ services:
       - ../archRag/.env
       - ../.env
     environment:
-      - MONGO_URL=${MONGO_URL}
       - CORS_ORIGINS=${CORS_ORIGINS:-https://maestro.localhost:4269}
       - DOCKER=True
       - DEBUG=FALSE
