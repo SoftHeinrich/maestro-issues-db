@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 
-from app.config import SECRET_KEY
+from app.settings import SECRET_KEY
 from app.dependencies import users_collection
 from fastapi import APIRouter, Depends, HTTPException, status, Request, Response
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm, OAuth2

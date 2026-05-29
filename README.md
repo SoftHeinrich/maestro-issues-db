@@ -17,23 +17,22 @@ The Mongo archives can be downloaded from [Zenodo](https://zenodo.org/record/837
 cd maestro-project/maestro-issues-db/
 ```
 
-Generate your API secret key:
+Set the API secret key in the shared project `.env`:
 
-```bash
-openssl rand -hex 32
+```env
+SECRET_KEY=SECRET_FROM_OPENSSL
 ```
 
-Create the config file:
+The admin credentials are configured via environment variables in the shared
+project `.env`:
 
-```bash
-nano issues-db-api/app/config.py
+```env
+MAESTRO_ADMIN_USERNAME=admin
+MAESTRO_ADMIN_PASSWORD=choose-a-strong-password
 ```
 
-Add the following content:
-
-```python
-SECRET_KEY = 'SECRET_FROM_OPENSSL'
-```
+`start.sh` will generate `SECRET_KEY` if missing and create the first admin
+user from these values if no users exist.
 
 Start the services:
 
