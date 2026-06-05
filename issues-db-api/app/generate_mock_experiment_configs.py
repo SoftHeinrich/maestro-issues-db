@@ -28,6 +28,12 @@ VERSION_ID = "648f1f6f6b3fde4b1b3429cf"
 DEFAULT_REPO = "Apache"
 DEFAULT_PROJECT = "HDFS"
 DEBUG_USER_ID = "mock_user_000"
+ARCHRAG_VARIANTS = [
+    {"engine": "archrag", "rerank_engine": False, "gpt": False},
+    {"engine": "archrag", "rerank_engine": True, "gpt": False},
+    {"engine": "archrag", "rerank_engine": False, "gpt": True},
+    {"engine": "archrag", "rerank_engine": True, "gpt": True},
+]
 
 HDFS_COMPONENT_TASKS = [
     "Component DataNode",
@@ -838,6 +844,14 @@ def _build_project_queries(
                     "project": project,
                     "query": query,
                     "num_results": 10,
+                    "add_boost": False,
+                },
+                "archrag_add_boost_request": {
+                    "repo": repo,
+                    "project": project,
+                    "query": query,
+                    "num_results": 10,
+                    "add_boost": True,
                 },
                 "pylucene_request": {
                     "database_url": "http://issues-db-api:8000",
@@ -868,6 +882,13 @@ def _build_project_queries(
         "version_id": VERSION_ID,
         "tasks": query_tasks,
     }
+
+
+def _assignment_config(template_config: dict, task_index: int, question_index: int) -> dict:
+    config = deepcopy(template_config)
+    if config.get("engine") == "archrag":
+        return deepcopy(ARCHRAG_VARIANTS[(task_index + question_index) % len(ARCHRAG_VARIANTS)])
+    return config
 
 
 def _build_mock_student_data(
@@ -904,7 +925,7 @@ def _build_mock_student_data(
             for question_index, qkey in enumerate(real_questions):
                 if template_question_items:
                     _, q_config = template_question_items[question_index % len(template_question_items)]
-                    question_configs[qkey] = deepcopy(q_config)
+                    question_configs[qkey] = _assignment_config(q_config, task_index, question_index)
                 else:
                     question_configs[qkey] = {
                         "engine": "pylucene",

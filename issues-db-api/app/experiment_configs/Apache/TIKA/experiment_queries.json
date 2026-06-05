@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T07:54:56.386623+00:00",
+  "generated_at": "2026-06-05T12:27:12.917667+00:00",
   "repo": "Apache",
   "project": "TIKA",
   "project_name": "Apache Tika",
@@ -17,7 +17,15 @@
             "repo": "Apache",
             "project": "TIKA",
             "query": "TIKA Detect document type Detect document type architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Detect document type Detect document type architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -60,7 +68,15 @@
             "repo": "Apache",
             "project": "TIKA",
             "query": "TIKA Detect document type Detect document type quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Detect document type Detect document type quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -103,7 +119,15 @@
             "repo": "Apache",
             "project": "TIKA",
             "query": "TIKA Detect document type Detect document type technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Detect document type Detect document type technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -153,7 +177,15 @@
             "repo": "Apache",
             "project": "TIKA",
             "query": "TIKA Extensibility requirement Extensibility requirement architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Extensibility requirement Extensibility requirement architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -196,7 +228,15 @@
             "repo": "Apache",
             "project": "TIKA",
             "query": "TIKA Extensibility requirement Extensibility requirement quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Extensibility requirement Extensibility requirement quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -239,7 +279,15 @@
             "repo": "Apache",
             "project": "TIKA",
             "query": "TIKA Extensibility requirement Extensibility requirement technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Extensibility requirement Extensibility requirement technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -289,7 +337,15 @@
             "repo": "Apache",
             "project": "TIKA",
             "query": "TIKA Parse document Parse document architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Parse document Parse document architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -332,7 +388,15 @@
             "repo": "Apache",
             "project": "TIKA",
             "query": "TIKA Parse document Parse document quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Parse document Parse document quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -375,7 +439,15 @@
             "repo": "Apache",
             "project": "TIKA",
             "query": "TIKA Parse document Parse document technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Parse document Parse document technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -425,7 +497,15 @@
             "repo": "Apache",
             "project": "TIKA",
             "query": "TIKA Performance requirement Performance requirement architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Performance requirement Performance requirement architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -468,7 +548,15 @@
             "repo": "Apache",
             "project": "TIKA",
             "query": "TIKA Performance requirement Performance requirement quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Performance requirement Performance requirement quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -511,7 +599,15 @@
             "repo": "Apache",
             "project": "TIKA",
             "query": "TIKA Performance requirement Performance requirement technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "TIKA",
+            "query": "TIKA Performance requirement Performance requirement technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",

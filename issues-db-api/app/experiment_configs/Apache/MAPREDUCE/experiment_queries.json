@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T07:54:56.392871+00:00",
+  "generated_at": "2026-06-05T12:27:12.923920+00:00",
   "repo": "Apache",
   "project": "MAPREDUCE",
   "project_name": "Apache MapReduce",
@@ -17,7 +17,15 @@
             "repo": "Apache",
             "project": "MAPREDUCE",
             "query": "MAPREDUCE Component \"Client core\" Component \"Client core\" architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component \"Client core\" Component \"Client core\" architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -60,7 +68,15 @@
             "repo": "Apache",
             "project": "MAPREDUCE",
             "query": "MAPREDUCE Component \"Client core\" Component \"Client core\" quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component \"Client core\" Component \"Client core\" quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -103,7 +119,15 @@
             "repo": "Apache",
             "project": "MAPREDUCE",
             "query": "MAPREDUCE Component \"Client core\" Component \"Client core\" technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Component \"Client core\" Component \"Client core\" technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -153,7 +177,15 @@
             "repo": "Apache",
             "project": "MAPREDUCE",
             "query": "MAPREDUCE Requirement security of \"Client core\" Requirement security of \"Client core\" architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement security of \"Client core\" Requirement security of \"Client core\" architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -196,7 +228,15 @@
             "repo": "Apache",
             "project": "MAPREDUCE",
             "query": "MAPREDUCE Requirement security of \"Client core\" Requirement security of \"Client core\" quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement security of \"Client core\" Requirement security of \"Client core\" quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -239,7 +279,15 @@
             "repo": "Apache",
             "project": "MAPREDUCE",
             "query": "MAPREDUCE Requirement security of \"Client core\" Requirement security of \"Client core\" technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "MAPREDUCE",
+            "query": "MAPREDUCE Requirement security of \"Client core\" Requirement security of \"Client core\" technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T07:54:56.389545+00:00",
+  "generated_at": "2026-06-05T12:27:12.920471+00:00",
   "repo": "Apache",
   "project": "LUCENE",
   "project_name": "Apache Lucene",
@@ -17,7 +17,15 @@
             "repo": "Apache",
             "project": "LUCENE",
             "query": "LUCENE Codecs components Codecs components architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Codecs components Codecs components architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -60,7 +68,15 @@
             "repo": "Apache",
             "project": "LUCENE",
             "query": "LUCENE Codecs components Codecs components quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Codecs components Codecs components quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -103,7 +119,15 @@
             "repo": "Apache",
             "project": "LUCENE",
             "query": "LUCENE Codecs components Codecs components technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Codecs components Codecs components technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -153,7 +177,15 @@
             "repo": "Apache",
             "project": "LUCENE",
             "query": "LUCENE Requirement Performance by Codecs Requirement Performance by Codecs architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Performance by Codecs Requirement Performance by Codecs architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -196,7 +228,15 @@
             "repo": "Apache",
             "project": "LUCENE",
             "query": "LUCENE Requirement Performance by Codecs Requirement Performance by Codecs quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Performance by Codecs Requirement Performance by Codecs quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -239,7 +279,15 @@
             "repo": "Apache",
             "project": "LUCENE",
             "query": "LUCENE Requirement Performance by Codecs Requirement Performance by Codecs technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "LUCENE",
+            "query": "LUCENE Requirement Performance by Codecs Requirement Performance by Codecs technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",

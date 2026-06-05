@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T08:39:33.348345+00:00",
+  "generated_at": "2026-06-05T12:27:12.911647+00:00",
   "repo": "Apache",
   "project": "HDFS",
   "project_name": "Hadoop HDFS",
@@ -17,7 +17,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component DataNode DataNode architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component DataNode DataNode architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -60,7 +68,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component DataNode DataNode quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component DataNode DataNode quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -103,7 +119,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component DataNode DataNode quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component DataNode DataNode quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -146,7 +170,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component DataNode DataNode technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component DataNode DataNode technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -196,7 +228,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component NameNode NameNode architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component NameNode NameNode architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -239,7 +279,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component NameNode NameNode quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component NameNode NameNode quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -282,7 +330,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component NameNode NameNode quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component NameNode NameNode quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -325,7 +381,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component NameNode NameNode technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component NameNode NameNode technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -375,7 +439,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component DiskBalancer DiskBalancer architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component DiskBalancer DiskBalancer architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -418,7 +490,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component DiskBalancer DiskBalancer quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component DiskBalancer DiskBalancer quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -461,7 +541,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component DiskBalancer DiskBalancer quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component DiskBalancer DiskBalancer quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -504,7 +592,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component DiskBalancer DiskBalancer technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component DiskBalancer DiskBalancer technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -554,7 +650,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component BlockManagement BlockManagement architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component BlockManagement BlockManagement architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -597,7 +701,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component BlockManagement BlockManagement quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component BlockManagement BlockManagement quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -640,7 +752,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component BlockManagement BlockManagement quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component BlockManagement BlockManagement quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -683,7 +803,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component BlockManagement BlockManagement technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component BlockManagement BlockManagement technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -733,7 +861,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component Tools Tools architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component Tools Tools architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -776,7 +912,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component Tools Tools quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component Tools Tools quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -819,7 +963,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component Tools Tools quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component Tools Tools quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -862,7 +1014,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component Tools Tools technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component Tools Tools technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -912,7 +1072,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component Qjournal Qjournal architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component Qjournal Qjournal architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -955,7 +1123,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component Qjournal Qjournal quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component Qjournal Qjournal quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -998,7 +1174,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component Qjournal Qjournal quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component Qjournal Qjournal quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1041,7 +1225,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Component Qjournal Qjournal technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Component Qjournal Qjournal technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1091,7 +1283,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Requirement File Permissions and Security File Permissions and Security architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Requirement File Permissions and Security File Permissions and Security architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1134,7 +1334,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Requirement File Permissions and Security File Permissions and Security quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Requirement File Permissions and Security File Permissions and Security quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1177,7 +1385,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Requirement File Permissions and Security File Permissions and Security technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Requirement File Permissions and Security File Permissions and Security technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1227,7 +1443,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Requirement Recoverability Recoverability architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Requirement Recoverability Recoverability architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1270,7 +1494,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Requirement Recoverability Recoverability quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Requirement Recoverability Recoverability quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1313,7 +1545,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Requirement Recoverability Recoverability technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Requirement Recoverability Recoverability technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1363,7 +1603,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Requirement Scalability Scalability architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Requirement Scalability Scalability architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1406,7 +1654,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Requirement Scalability Scalability quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Requirement Scalability Scalability quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1449,7 +1705,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Requirement Scalability Scalability technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Requirement Scalability Scalability technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1499,7 +1763,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Requirement Rack Awareness Rack Awareness architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Requirement Rack Awareness Rack Awareness architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1542,7 +1814,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Requirement Rack Awareness Rack Awareness quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Requirement Rack Awareness Rack Awareness quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1585,7 +1865,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Requirement Rack Awareness Rack Awareness technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Requirement Rack Awareness Rack Awareness technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1635,7 +1923,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Requirement Safe Mode Safe Mode architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Requirement Safe Mode Safe Mode architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1678,7 +1974,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Requirement Safe Mode Safe Mode quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Requirement Safe Mode Safe Mode quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1721,7 +2025,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Requirement Safe Mode Safe Mode technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Requirement Safe Mode Safe Mode technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1771,7 +2083,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Requirement Upgrade and Rollback Upgrade and Rollback architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Requirement Upgrade and Rollback Upgrade and Rollback architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1814,7 +2134,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Requirement Upgrade and Rollback Upgrade and Rollback quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Requirement Upgrade and Rollback Upgrade and Rollback quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1857,7 +2185,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Requirement Upgrade and Rollback Upgrade and Rollback technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Requirement Upgrade and Rollback Upgrade and Rollback technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1907,7 +2243,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Test Task A - DataNode Overview Test Task A DataNode Overview architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Test Task A - DataNode Overview Test Task A DataNode Overview architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -1950,7 +2294,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Test Task A - DataNode Overview Test Task A DataNode Overview quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Test Task A - DataNode Overview Test Task A DataNode Overview quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -2000,7 +2352,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Test Task B - HDFS Security Test Task B HDFS Security architecture components connectors rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Test Task B - HDFS Security Test Task B HDFS Security architecture components connectors rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -2043,7 +2403,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Test Task B - HDFS Security Test Task B HDFS Security technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Test Task B - HDFS Security Test Task B HDFS Security technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -2093,7 +2461,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Test Task C - Scalability Test Task C Scalability quality attributes tactics patterns tradeoffs",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Test Task C - Scalability Test Task C Scalability quality attributes tactics patterns tradeoffs",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
@@ -2136,7 +2512,15 @@
             "repo": "Apache",
             "project": "HDFS",
             "query": "HDFS Test Task C - Scalability Test Task C Scalability technologies libraries mechanisms implementation rationale",
-            "num_results": 10
+            "num_results": 10,
+            "add_boost": false
+          },
+          "archrag_add_boost_request": {
+            "repo": "Apache",
+            "project": "HDFS",
+            "query": "HDFS Test Task C - Scalability Test Task C Scalability technologies libraries mechanisms implementation rationale",
+            "num_results": 10,
+            "add_boost": true
           },
           "pylucene_request": {
             "database_url": "http://issues-db-api:8000",
