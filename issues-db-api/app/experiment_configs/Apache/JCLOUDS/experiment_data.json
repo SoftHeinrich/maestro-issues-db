@@ -1501,13 +1501,13 @@
           "solutions": {},
           "questions": {
             "question1": {
-              "engine": "pylucene",
+              "engine": "archrag",
               "rerank_engine": false,
               "gpt": false
             },
             "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
+              "engine": "archrag",
+              "rerank_engine": true,
               "gpt": false
             },
             "question3": {
@@ -1525,19 +1525,19 @@
           "solutions": {},
           "questions": {
             "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
+              "engine": "archrag",
+              "rerank_engine": true,
               "gpt": true
             },
             "question2": {
-              "engine": "pylucene",
+              "engine": "archrag",
               "rerank_engine": false,
               "gpt": false
             },
             "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
             }
           }
         }

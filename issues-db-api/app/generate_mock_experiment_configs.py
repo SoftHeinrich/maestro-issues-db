@@ -891,6 +891,16 @@ def _assignment_config(template_config: dict, task_index: int, question_index: i
     return config
 
 
+def _debug_archrag_tasks(tasks: list[dict]) -> list[dict]:
+    debug_tasks = deepcopy(tasks)
+    variant_index = 0
+    for task in debug_tasks:
+        for qkey in task.get("questions", {}):
+            task["questions"][qkey] = deepcopy(ARCHRAG_VARIANTS[variant_index % len(ARCHRAG_VARIANTS)])
+            variant_index += 1
+    return debug_tasks
+
+
 def _build_mock_student_data(
     project: str,
     project_name: str,
@@ -941,7 +951,7 @@ def _build_mock_student_data(
                 "questions": question_configs,
             })
         if not all_project_tasks:
-            all_project_tasks = deepcopy(tasks)
+            all_project_tasks = _debug_archrag_tasks(tasks)
         student_data[student_id] = {"tasks": tasks}
 
     passwords[DEBUG_USER_ID] = DEBUG_USER_ID
