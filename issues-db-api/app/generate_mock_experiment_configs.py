@@ -899,6 +899,55 @@ def _debug_archrag_tasks(tasks: list[dict]) -> list[dict]:
     return debug_tasks
 
 
+def _apply_archrag_variants_to_tasks(tasks: list[dict]) -> list[dict]:
+    next_variant = 0
+    updated_tasks = deepcopy(tasks)
+    for task in updated_tasks:
+        for qkey, q_config in task.get("questions", {}).items():
+            if q_config.get("engine") == "archrag":
+                task["questions"][qkey] = deepcopy(ARCHRAG_VARIANTS[next_variant % len(ARCHRAG_VARIANTS)])
+                next_variant += 1
+    return updated_tasks
+
+
+def _all_debug_tasks(
+    repo: str,
+    project: str,
+    project_name: str,
+    task_details: dict,
+) -> list[dict]:
+    tasks = []
+    for task_name, task_definition in task_details.items():
+        if task_name in {"task_details", "Likert Scale"}:
+            continue
+        questions = {
+            qkey: deepcopy(ARCHRAG_VARIANTS[index % len(ARCHRAG_VARIANTS)])
+            for index, qkey in enumerate((task_definition.get("questions") or {}).keys())
+        }
+        tasks.append({
+            "taskName": task_name,
+            "repo": repo,
+            "project": project,
+            "project_name": project_name,
+            "solutions": {},
+            "questions": questions,
+        })
+    return tasks
+
+
+def _add_debug_user(
+    project_payload: dict,
+    repo: str,
+    project: str,
+    project_name: str,
+    task_details: dict,
+) -> None:
+    project_payload.setdefault("passwords", {})[DEBUG_USER_ID] = DEBUG_USER_ID
+    project_payload.setdefault("student_data", {})[DEBUG_USER_ID] = {
+        "tasks": _all_debug_tasks(repo, project, project_name, task_details),
+    }
+
+
 def _build_mock_student_data(
     project: str,
     project_name: str,
@@ -1020,6 +1069,11 @@ def main():
             project_payload["project"] = project
             project_payload["project_name"] = project_name
             task_details = project_payload["task_details"]
+            for student_payload in project_payload.get("student_data", {}).values():
+                student_payload["tasks"] = _apply_archrag_variants_to_tasks(
+                    student_payload.get("tasks", [])
+                )
+            _add_debug_user(project_payload, repo, project, project_name, task_details)
         else:
             task_details = _build_project_task_details(
                 project,

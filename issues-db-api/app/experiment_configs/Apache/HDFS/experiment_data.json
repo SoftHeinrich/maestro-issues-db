@@ -108,7 +108,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -186,7 +186,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question3": {
@@ -212,7 +212,7 @@
             },
             "question3": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question4": {
@@ -265,7 +265,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -374,7 +374,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question3": {
@@ -411,7 +411,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -478,7 +478,7 @@
             },
             "question3": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question4": {
@@ -499,7 +499,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question3": {
@@ -546,7 +546,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -603,7 +603,7 @@
             },
             "question3": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question4": {
@@ -640,7 +640,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -655,7 +655,7 @@
             },
             "question4": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -692,7 +692,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -791,7 +791,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question3": {
@@ -812,7 +812,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -838,7 +838,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -921,7 +921,7 @@
             },
             "question4": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -942,7 +942,7 @@
             },
             "question3": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -995,7 +995,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -1036,7 +1036,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question3": {
@@ -1062,7 +1062,7 @@
             },
             "question3": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question4": {
@@ -1130,7 +1130,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -1224,7 +1224,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -1276,7 +1276,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -1328,7 +1328,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question3": {
@@ -1370,7 +1370,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -1422,7 +1422,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -1516,7 +1516,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -1537,7 +1537,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -1568,7 +1568,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -1625,7 +1625,7 @@
             },
             "question3": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -1662,7 +1662,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -1693,7 +1693,7 @@
             },
             "question3": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question4": {
@@ -1725,7 +1725,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -1792,7 +1792,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question3": {
@@ -1844,7 +1844,7 @@
             },
             "question3": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -1871,7 +1871,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -1943,7 +1943,7 @@
             },
             "question3": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -2006,7 +2006,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -2079,7 +2079,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question3": {
@@ -2110,7 +2110,7 @@
             },
             "question3": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -2163,7 +2163,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -2204,7 +2204,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question3": {
@@ -2230,7 +2230,7 @@
             },
             "question3": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question4": {
@@ -2309,7 +2309,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -2402,7 +2402,7 @@
             },
             "question3": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question4": {
@@ -2455,7 +2455,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -2590,7 +2590,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -2642,7 +2642,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question3": {
@@ -2720,7 +2720,7 @@
             },
             "question4": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -2747,7 +2747,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -2819,7 +2819,7 @@
             },
             "question4": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -2851,7 +2851,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -2893,7 +2893,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -2981,7 +2981,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question3": {
@@ -3039,7 +3039,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -3101,7 +3101,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -3153,7 +3153,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question3": {
@@ -3185,7 +3185,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -3268,7 +3268,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -3320,7 +3320,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -3398,7 +3398,7 @@
             },
             "question3": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question4": {
@@ -3435,7 +3435,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -3477,7 +3477,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -3523,7 +3523,7 @@
             },
             "question3": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -3581,7 +3581,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -3612,7 +3612,7 @@
             },
             "question2": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -3685,7 +3685,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -3732,7 +3732,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -3769,7 +3769,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -3837,7 +3837,7 @@
           "questions": {
             "question1": {
               "engine": "archrag",
-              "rerank_engine": false,
+              "rerank_engine": true,
               "gpt": false
             },
             "question2": {
@@ -3894,7 +3894,386 @@
             },
             "question2": {
               "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "mock_user_000": {
+      "tasks": [
+        {
+          "taskName": "Component DataNode",
+          "repo": "Apache",
+          "project": "HDFS",
+          "project_name": "Hadoop HDFS",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
               "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component NameNode",
+          "repo": "Apache",
+          "project": "HDFS",
+          "project_name": "Hadoop HDFS",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component DiskBalancer",
+          "repo": "Apache",
+          "project": "HDFS",
+          "project_name": "Hadoop HDFS",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component BlockManagement",
+          "repo": "Apache",
+          "project": "HDFS",
+          "project_name": "Hadoop HDFS",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Tools",
+          "repo": "Apache",
+          "project": "HDFS",
+          "project_name": "Hadoop HDFS",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Component Qjournal",
+          "repo": "Apache",
+          "project": "HDFS",
+          "project_name": "Hadoop HDFS",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question4": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement File Permissions and Security",
+          "repo": "Apache",
+          "project": "HDFS",
+          "project_name": "Hadoop HDFS",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Recoverability",
+          "repo": "Apache",
+          "project": "HDFS",
+          "project_name": "Hadoop HDFS",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Scalability",
+          "repo": "Apache",
+          "project": "HDFS",
+          "project_name": "Hadoop HDFS",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Rack Awareness",
+          "repo": "Apache",
+          "project": "HDFS",
+          "project_name": "Hadoop HDFS",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Safe Mode",
+          "repo": "Apache",
+          "project": "HDFS",
+          "project_name": "Hadoop HDFS",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Upgrade and Rollback",
+          "repo": "Apache",
+          "project": "HDFS",
+          "project_name": "Hadoop HDFS",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task A - DataNode Overview",
+          "repo": "Apache",
+          "project": "HDFS",
+          "project_name": "Hadoop HDFS",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task B - HDFS Security",
+          "repo": "Apache",
+          "project": "HDFS",
+          "project_name": "Hadoop HDFS",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Test Task C - Scalability",
+          "repo": "Apache",
+          "project": "HDFS",
+          "project_name": "Hadoop HDFS",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
               "gpt": false
             }
           }
@@ -4463,7 +4842,8 @@
     "st6348": "st6348",
     "test001": "test001",
     "test002": "test002",
-    "test003": "test003"
+    "test003": "test003",
+    "mock_user_000": "mock_user_000"
   },
   "repo": "Apache",
   "project": "HDFS",
