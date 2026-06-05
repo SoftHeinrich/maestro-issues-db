@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+import re
 from copy import deepcopy
 from datetime import datetime, timezone
 
@@ -14,10 +15,19 @@ PROJECTS = [
     ("Apache", "YARN", "Apache YARN"),
 ]
 
+REAL_PROJECT_NAMES = {
+    "Apache Tika": ("Apache", "TIKA", "Apache Tika"),
+    "Apache JClouds": ("Apache", "JCLOUDS", "Apache jclouds"),
+    "Apache Hadoop Yarn": ("Apache", "YARN", "Apache YARN"),
+    "Apache Lucene": ("Apache", "LUCENE", "Apache Lucene"),
+    "Apache Hadoop Mapreduce": ("Apache", "MAPREDUCE", "Apache MapReduce"),
+}
+
 MODEL_ID = "648ee4526b3fde4b1b33e099"
 VERSION_ID = "648f1f6f6b3fde4b1b3429cf"
 DEFAULT_REPO = "Apache"
 DEFAULT_PROJECT = "HDFS"
+DEBUG_USER_ID = "mock_user_000"
 
 HDFS_COMPONENT_TASKS = [
     "Component DataNode",
@@ -500,6 +510,115 @@ def _canonical_task_name(task_name: str) -> str:
     return task_name
 
 
+def _clean_markdown_text(text: str) -> str:
+    text = re.sub(r"^\s*#+\s*", "", text.strip())
+    text = re.sub(r"\*\*(.*?)\*\*", r"\1", text)
+    text = re.sub(r"\*(.*?)\*", r"\1", text)
+    text = text.replace("“", "\"").replace("”", "\"")
+    return text.strip()
+
+
+def _project_key(project_title: str) -> str | None:
+    normalized = _clean_markdown_text(project_title)
+    project = REAL_PROJECT_NAMES.get(normalized)
+    if project is None:
+        return None
+    return project[1]
+
+
+def _question_type(heading: str) -> str | None:
+    normalized = _clean_markdown_text(heading).lower()
+    if normalized in {"existence", "property", "executive"}:
+        return normalized
+    return None
+
+
+def _parse_real_task_markdown(markdown_path: str, instructions: dict) -> dict[str, dict]:
+    if not markdown_path or not os.path.exists(markdown_path):
+        return {}
+
+    with open(markdown_path, "r") as handle:
+        lines = handle.readlines()
+
+    tasks_by_project: dict[str, dict] = {}
+    current_project: str | None = None
+    current_task_name: str | None = None
+    current_task: dict | None = None
+    current_question_type: str | None = None
+    collecting_scenario = False
+    scenario_lines: list[str] = []
+
+    def finish_task() -> None:
+        nonlocal current_task_name, current_task, scenario_lines
+        if not current_project or not current_task_name or not current_task:
+            return
+        description = " ".join(part for part in scenario_lines if part).strip()
+        if description:
+            current_task["description"] = description
+        tasks_by_project.setdefault(current_project, {
+            "task_details": instructions.get("task_details"),
+            "Likert Scale": instructions.get("Likert Scale"),
+        })[current_task_name] = current_task
+        current_task_name = None
+        current_task = None
+        scenario_lines = []
+
+    for raw_line in lines:
+        line = raw_line.strip()
+        if not line:
+            continue
+
+        project_match = re.match(r"^\**Project\s+(.+?)\**$", line)
+        if project_match:
+            finish_task()
+            current_project = _project_key(project_match.group(1))
+            collecting_scenario = False
+            current_question_type = None
+            continue
+
+        task_match = re.match(r"^\**Task:\s*(.+?)\**\s*$", line)
+        if task_match and current_project:
+            finish_task()
+            current_task_name = _clean_markdown_text(task_match.group(1))
+            current_task = {"description": "", "questions": {}}
+            collecting_scenario = False
+            current_question_type = None
+            continue
+
+        if not current_task:
+            continue
+
+        scenario_match = re.match(r"^\**Scenario:\**\s*(.*)$", line)
+        if scenario_match:
+            collecting_scenario = True
+            scenario_text = _clean_markdown_text(scenario_match.group(1))
+            if scenario_text:
+                scenario_lines.append(scenario_text)
+            continue
+
+        question_heading = _question_type(line)
+        if question_heading:
+            collecting_scenario = False
+            current_question_type = question_heading
+            continue
+
+        question_match = re.match(r"^Question\s+\d+:\s*(.+)$", line)
+        if question_match and current_question_type:
+            qkey = f"question{len(current_task['questions']) + 1}"
+            current_task["questions"][qkey] = {
+                "type": current_question_type,
+                "description": _clean_markdown_text(question_match.group(1)),
+                "design_decision": _design_decision(current_question_type),
+            }
+            continue
+
+        if collecting_scenario:
+            scenario_lines.append(_clean_markdown_text(line))
+
+    finish_task()
+    return tasks_by_project
+
+
 def _design_decision(question_type: str) -> dict:
     if question_type == "existence":
         return {"existence": True}
@@ -609,7 +728,15 @@ def _build_test_task(project_name: str, test_task: dict) -> dict:
     }
 
 
-def _build_project_task_details(project: str, project_name: str, instructions: dict) -> dict:
+def _build_project_task_details(
+    project: str,
+    project_name: str,
+    instructions: dict,
+    real_tasks_by_project: dict[str, dict] | None = None,
+) -> dict:
+    if real_tasks_by_project and project in real_tasks_by_project:
+        return real_tasks_by_project[project]
+
     catalog = PROJECT_TASK_CATALOGS[project]
     task_details = {
         "task_details": instructions.get("task_details"),
@@ -743,28 +870,61 @@ def _build_project_queries(
     }
 
 
-def _build_mock_student_data(project: str, project_name: str, hdfs_template: dict) -> tuple[dict, dict]:
-    task_mapping = _build_project_task_mapping(project)
+def _build_mock_student_data(
+    project: str,
+    project_name: str,
+    hdfs_template: dict,
+    task_details: dict | None = None,
+) -> tuple[dict, dict]:
+    real_task_names = [
+        task_name
+        for task_name in (task_details or {})
+        if task_name not in {"task_details", "Likert Scale"}
+    ]
+    task_mapping = None if real_task_names else _build_project_task_mapping(project)
     student_data = {}
     passwords = {}
 
     template_students = list(hdfs_template.get("student_data", {}).items())
+    all_project_tasks: list[dict] = []
     for index, (_, template_student) in enumerate(template_students, start=1):
         student_id = f"mock_{project.lower()}_{index:03d}"
         passwords[student_id] = student_id
 
         tasks = []
-        for template_task in template_student.get("tasks", []):
-            mapped_name = task_mapping[template_task["taskName"]]
+        template_tasks = template_student.get("tasks", [])
+        source_tasks = real_task_names or [template_task["taskName"] for template_task in template_tasks]
+        for task_index, source_task_name in enumerate(source_tasks):
+            template_task = template_tasks[task_index % len(template_tasks)] if template_tasks else {}
+            mapped_name = source_task_name if task_mapping is None else task_mapping[source_task_name]
+            question_configs = {}
+            real_questions = (task_details or {}).get(mapped_name, {}).get("questions", {})
+            template_question_configs = template_task.get("questions", {})
+            template_question_items = list(template_question_configs.items())
+            for question_index, qkey in enumerate(real_questions):
+                if template_question_items:
+                    _, q_config = template_question_items[question_index % len(template_question_items)]
+                    question_configs[qkey] = deepcopy(q_config)
+                else:
+                    question_configs[qkey] = {
+                        "engine": "pylucene",
+                        "rerank_engine": False,
+                        "gpt": False,
+                    }
             tasks.append({
                 "taskName": mapped_name,
                 "repo": "Apache",
                 "project": project,
                 "project_name": project_name,
                 "solutions": {},
-                "questions": deepcopy(template_task.get("questions", {})),
+                "questions": question_configs,
             })
+        if not all_project_tasks:
+            all_project_tasks = deepcopy(tasks)
         student_data[student_id] = {"tasks": tasks}
+
+    passwords[DEBUG_USER_ID] = DEBUG_USER_ID
+    student_data[DEBUG_USER_ID] = {"tasks": all_project_tasks}
 
     return student_data, passwords
 
@@ -783,10 +943,15 @@ def main():
         "--project-configs-dir",
         default=os.path.join(os.path.dirname(__file__), "experiment_configs"),
     )
+    parser.add_argument(
+        "--real-tasks-path",
+        default=os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", "5proj", "Search tasks.md")),
+    )
     args = parser.parse_args()
 
     with open(args.tasks_path, "r") as handle:
         instructions = json.load(handle)
+    real_tasks_by_project = _parse_real_task_markdown(args.real_tasks_path, instructions)
 
     hdfs_template = _load_hdfs_template(os.path.dirname(__file__))
 
@@ -806,7 +971,11 @@ def main():
     generated_data = {
         "debug": True,
         "passwords": {},
-        "student_data": {},
+        "student_data": {
+            DEBUG_USER_ID: {
+                "tasks": [],
+            },
+        },
         "task_details": generated_tasks,
     }
 
@@ -823,8 +992,18 @@ def main():
             project_payload["project_name"] = project_name
             task_details = project_payload["task_details"]
         else:
-            task_details = _build_project_task_details(project, project_name, instructions)
-            student_data, passwords = _build_mock_student_data(project, project_name, hdfs_template)
+            task_details = _build_project_task_details(
+                project,
+                project_name,
+                instructions,
+                real_tasks_by_project,
+            )
+            student_data, passwords = _build_mock_student_data(
+                project,
+                project_name,
+                hdfs_template,
+                task_details,
+            )
             project_payload = {
                 "debug": True,
                 "repo": repo,
@@ -835,7 +1014,14 @@ def main():
                 "task_details": task_details,
             }
             generated_data["passwords"].update(passwords)
-            generated_data["student_data"].update(student_data)
+            for student_id, student_payload in student_data.items():
+                if student_id == DEBUG_USER_ID:
+                    generated_data["student_data"][DEBUG_USER_ID]["tasks"].extend(
+                        deepcopy(student_payload.get("tasks", []))
+                    )
+                else:
+                    generated_data["student_data"][student_id] = student_payload
+            generated_data["passwords"][DEBUG_USER_ID] = DEBUG_USER_ID
 
         project_queries = _build_project_queries(repo, project, project_name, task_details)
 

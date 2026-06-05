@@ -31,13 +31,14 @@
     "mock_jclouds_025": "mock_jclouds_025",
     "mock_jclouds_026": "mock_jclouds_026",
     "mock_jclouds_027": "mock_jclouds_027",
-    "mock_jclouds_028": "mock_jclouds_028"
+    "mock_jclouds_028": "mock_jclouds_028",
+    "mock_user_000": "mock_user_000"
   },
   "student_data": {
     "mock_jclouds_001": {
       "tasks": [
         {
-          "taskName": "Component BlobStore API",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -57,16 +58,11 @@
               "engine": "archrag",
               "rerank_engine": false,
               "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         },
         {
-          "taskName": "Requirement Provider Portability",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -83,116 +79,6 @@
               "gpt": false
             },
             "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Component Authentication",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Recoverability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": true
@@ -204,7 +90,7 @@
     "mock_jclouds_002": {
       "tasks": [
         {
-          "taskName": "Component ComputeService",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -224,16 +110,11 @@
               "engine": "archrag",
               "rerank_engine": false,
               "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
             }
           }
         },
         {
-          "taskName": "Requirement Safe Defaults",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -253,116 +134,6 @@
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Component Endpoint Resolution",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Credential Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         }
@@ -371,7 +142,7 @@
     "mock_jclouds_003": {
       "tasks": [
         {
-          "taskName": "Requirement Provider Portability",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -395,7 +166,7 @@
           }
         },
         {
-          "taskName": "Component BlobStore API",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -415,121 +186,6 @@
               "engine": "pylucene",
               "rerank_engine": true,
               "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Recoverability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Component Provider Metadata",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         }
@@ -538,7 +194,7 @@
     "mock_jclouds_004": {
       "tasks": [
         {
-          "taskName": "Requirement Safe Defaults",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -562,7 +218,7 @@
           }
         },
         {
-          "taskName": "Component ComputeService",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -582,121 +238,6 @@
               "engine": "archrag",
               "rerank_engine": false,
               "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Component Retry and Backoff",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         }
@@ -705,7 +246,7 @@
     "mock_jclouds_005": {
       "tasks": [
         {
-          "taskName": "Component Retry and Backoff",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -725,16 +266,11 @@
               "engine": "archrag",
               "rerank_engine": false,
               "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
             }
           }
         },
         {
-          "taskName": "Requirement Scalability",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -754,116 +290,6 @@
               "engine": "archrag",
               "rerank_engine": false,
               "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Component BlobStore API",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question3": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question4": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Provider Portability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         }
@@ -872,7 +298,7 @@
     "mock_jclouds_006": {
       "tasks": [
         {
-          "taskName": "Component Provider Metadata",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -892,16 +318,11 @@
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
             }
           }
         },
         {
-          "taskName": "Requirement Credential Security",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -921,116 +342,6 @@
               "engine": "archrag",
               "rerank_engine": false,
               "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Component ComputeService",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Safe Defaults",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         }
@@ -1039,7 +350,7 @@
     "mock_jclouds_007": {
       "tasks": [
         {
-          "taskName": "Requirement Scalability",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -1063,7 +374,7 @@
           }
         },
         {
-          "taskName": "Component Retry and Backoff",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -1080,121 +391,6 @@
               "gpt": true
             },
             "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question4": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Provider Portability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Component Endpoint Resolution",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": true
@@ -1206,7 +402,7 @@
     "mock_jclouds_008": {
       "tasks": [
         {
-          "taskName": "Requirement Credential Security",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -1230,7 +426,7 @@
           }
         },
         {
-          "taskName": "Component Provider Metadata",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -1250,121 +446,6 @@
               "engine": "archrag",
               "rerank_engine": false,
               "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Safe Defaults",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Component Authentication",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         }
@@ -1373,7 +454,7 @@
     "mock_jclouds_009": {
       "tasks": [
         {
-          "taskName": "Component Authentication",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -1393,16 +474,11 @@
               "engine": "pylucene",
               "rerank_engine": true,
               "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
             }
           }
         },
         {
-          "taskName": "Requirement Upgrade Compatibility",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -1422,116 +498,6 @@
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Component Retry and Backoff",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         }
@@ -1540,7 +506,7 @@
     "mock_jclouds_010": {
       "tasks": [
         {
-          "taskName": "Component Endpoint Resolution",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -1560,16 +526,11 @@
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": true
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
             }
           }
         },
         {
-          "taskName": "Requirement Recoverability",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -1586,116 +547,6 @@
               "gpt": false
             },
             "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Component Provider Metadata",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Upgrade Compatibility",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": true
@@ -1707,7 +558,7 @@
     "mock_jclouds_011": {
       "tasks": [
         {
-          "taskName": "Requirement Upgrade Compatibility",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -1731,7 +582,7 @@
           }
         },
         {
-          "taskName": "Component Endpoint Resolution",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -1751,121 +602,6 @@
               "engine": "pylucene",
               "rerank_engine": true,
               "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Credential Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Component BlobStore API",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question4": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         }
@@ -1874,7 +610,7 @@
     "mock_jclouds_012": {
       "tasks": [
         {
-          "taskName": "Requirement Recoverability",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -1898,7 +634,7 @@
           }
         },
         {
-          "taskName": "Component Authentication",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -1918,121 +654,6 @@
               "engine": "pylucene",
               "rerank_engine": true,
               "gpt": false
-            },
-            "question4": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Upgrade Compatibility",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question3": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Component ComputeService",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question3": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         }
@@ -2041,7 +662,7 @@
     "mock_jclouds_013": {
       "tasks": [
         {
-          "taskName": "Component BlobStore API",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -2061,16 +682,11 @@
               "engine": "pylucene",
               "rerank_engine": true,
               "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         },
         {
-          "taskName": "Requirement Provider Portability",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -2090,116 +706,6 @@
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Component Authentication",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Recoverability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         }
@@ -2208,7 +714,7 @@
     "mock_jclouds_014": {
       "tasks": [
         {
-          "taskName": "Component ComputeService",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -2228,16 +734,11 @@
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": true
-            },
-            "question4": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
             }
           }
         },
         {
-          "taskName": "Requirement Safe Defaults",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -2257,116 +758,6 @@
               "engine": "archrag",
               "rerank_engine": false,
               "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Component Endpoint Resolution",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Credential Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question3": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         }
@@ -2375,7 +766,7 @@
     "mock_jclouds_015": {
       "tasks": [
         {
-          "taskName": "Requirement Provider Portability",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -2399,7 +790,7 @@
           }
         },
         {
-          "taskName": "Component BlobStore API",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -2419,121 +810,6 @@
               "engine": "archrag",
               "rerank_engine": false,
               "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Recoverability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Component Provider Metadata",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         }
@@ -2542,7 +818,7 @@
     "mock_jclouds_016": {
       "tasks": [
         {
-          "taskName": "Requirement Safe Defaults",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -2566,7 +842,7 @@
           }
         },
         {
-          "taskName": "Component ComputeService",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -2586,121 +862,6 @@
               "engine": "archrag",
               "rerank_engine": false,
               "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Component Retry and Backoff",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         }
@@ -2709,7 +870,7 @@
     "mock_jclouds_017": {
       "tasks": [
         {
-          "taskName": "Component Retry and Backoff",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -2729,16 +890,11 @@
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": true
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
             }
           }
         },
         {
-          "taskName": "Requirement Scalability",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -2758,116 +914,6 @@
               "engine": "pylucene",
               "rerank_engine": true,
               "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Component BlobStore API",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question3": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Provider Portability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         }
@@ -2876,7 +922,7 @@
     "mock_jclouds_018": {
       "tasks": [
         {
-          "taskName": "Component Provider Metadata",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -2896,16 +942,11 @@
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         },
         {
-          "taskName": "Requirement Credential Security",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -2922,116 +963,6 @@
               "gpt": false
             },
             "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Component ComputeService",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Safe Defaults",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": true
@@ -3043,7 +974,7 @@
     "mock_jclouds_019": {
       "tasks": [
         {
-          "taskName": "Requirement Scalability",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -3067,7 +998,7 @@
           }
         },
         {
-          "taskName": "Component Retry and Backoff",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -3087,121 +1018,6 @@
               "engine": "archrag",
               "rerank_engine": false,
               "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Provider Portability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Component Endpoint Resolution",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question4": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         }
@@ -3210,7 +1026,7 @@
     "mock_jclouds_020": {
       "tasks": [
         {
-          "taskName": "Requirement Credential Security",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -3234,7 +1050,7 @@
           }
         },
         {
-          "taskName": "Component Provider Metadata",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -3254,121 +1070,6 @@
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": false
-            },
-            "question4": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Safe Defaults",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question3": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Component Authentication",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         }
@@ -3377,7 +1078,7 @@
     "mock_jclouds_021": {
       "tasks": [
         {
-          "taskName": "Component Authentication",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -3397,16 +1098,11 @@
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
             }
           }
         },
         {
-          "taskName": "Requirement Upgrade Compatibility",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -3423,116 +1119,6 @@
               "gpt": true
             },
             "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Component Retry and Backoff",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": true
@@ -3544,7 +1130,7 @@
     "mock_jclouds_022": {
       "tasks": [
         {
-          "taskName": "Component Endpoint Resolution",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -3564,16 +1150,11 @@
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
             }
           }
         },
         {
-          "taskName": "Requirement Recoverability",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -3590,116 +1171,6 @@
               "gpt": false
             },
             "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Component Provider Metadata",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Upgrade Compatibility",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": true
@@ -3711,7 +1182,7 @@
     "mock_jclouds_023": {
       "tasks": [
         {
-          "taskName": "Requirement Upgrade Compatibility",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -3735,7 +1206,7 @@
           }
         },
         {
-          "taskName": "Component Endpoint Resolution",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -3752,121 +1223,6 @@
               "gpt": false
             },
             "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question4": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Credential Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Component BlobStore API",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": true
@@ -3878,7 +1234,7 @@
     "mock_jclouds_024": {
       "tasks": [
         {
-          "taskName": "Requirement Recoverability",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -3902,7 +1258,7 @@
           }
         },
         {
-          "taskName": "Component Authentication",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -3922,121 +1278,6 @@
               "engine": "archrag",
               "rerank_engine": false,
               "gpt": false
-            },
-            "question4": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Upgrade Compatibility",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Component ComputeService",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         }
@@ -4045,7 +1286,7 @@
     "mock_jclouds_025": {
       "tasks": [
         {
-          "taskName": "Requirement Upgrade Compatibility",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -4069,7 +1310,7 @@
           }
         },
         {
-          "taskName": "Component Endpoint Resolution",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -4089,121 +1330,6 @@
               "engine": "archrag",
               "rerank_engine": false,
               "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Credential Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Component Retry and Backoff",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question4": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
             }
           }
         }
@@ -4212,7 +1338,7 @@
     "mock_jclouds_026": {
       "tasks": [
         {
-          "taskName": "Component BlobStore API",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -4232,16 +1358,11 @@
               "engine": "pylucene",
               "rerank_engine": true,
               "gpt": false
-            },
-            "question4": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
             }
           }
         },
         {
-          "taskName": "Requirement Provider Portability",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -4258,116 +1379,6 @@
               "gpt": false
             },
             "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Component Authentication",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            },
-            "question4": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Recoverability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task A - BlobStore Overview",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": true
@@ -4379,7 +1390,7 @@
     "mock_jclouds_027": {
       "tasks": [
         {
-          "taskName": "Test Task A - BlobStore Overview",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -4394,44 +1405,35 @@
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": true
-            }
-          }
-        },
-        {
-          "taskName": "Test Task B - jclouds Security",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "pylucene",
-              "rerank_engine": false,
-              "gpt": false
             },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
-          "repo": "Apache",
-          "project": "JCLOUDS",
-          "project_name": "Apache jclouds",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
+            "question3": {
               "engine": "pylucene",
               "rerank_engine": true,
-              "gpt": true
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Support of Portability among providers",
+          "repo": "Apache",
+          "project": "JCLOUDS",
+          "project_name": "Apache jclouds",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
             }
           }
         }
@@ -4440,7 +1442,7 @@
     "mock_jclouds_028": {
       "tasks": [
         {
-          "taskName": "Test Task A - BlobStore Overview",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -4455,11 +1457,16 @@
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
             }
           }
         },
         {
-          "taskName": "Test Task B - jclouds Security",
+          "taskName": "Support of Portability among providers",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -4474,11 +1481,20 @@
               "engine": "pylucene",
               "rerank_engine": false,
               "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
             }
           }
-        },
+        }
+      ]
+    },
+    "mock_user_000": {
+      "tasks": [
         {
-          "taskName": "Test Task C - Multi-Cloud Scalability",
+          "taskName": "Support Microsoft Azure blob store",
           "repo": "Apache",
           "project": "JCLOUDS",
           "project_name": "Apache jclouds",
@@ -4490,9 +1506,38 @@
               "gpt": false
             },
             "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
               "engine": "archrag",
               "rerank_engine": false,
               "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Support of Portability among providers",
+          "repo": "Apache",
+          "project": "JCLOUDS",
+          "project_name": "Apache jclouds",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": false,
+              "gpt": true
             }
           }
         }
@@ -4502,413 +1547,54 @@
   "task_details": {
     "task_details": null,
     "Likert Scale": null,
-    "Component BlobStore API": {
-      "description": "As a developer working on Apache jclouds, your task is to understand the design decisions behind the BlobStore API component. You want to study how BlobStore presents a portable storage abstraction across providers and understand the underlying architectural structure, tradeoffs, and implementation choices.",
+    "Support Microsoft Azure blob store": {
+      "description": "JCloud is a Java library that supports working with different cloud providers, specially compute services and blob stores. One provider is Microsoft Azure. JClouds supports dealing with the blob store of Microsoft Azure. Your task is to explore architectural design decisions related to this functionality.",
       "questions": {
         "question1": {
           "type": "existence",
-          "description": "What are the components and connectors of BlobStore API, and what rationale is given for those architectural choices?",
+          "description": "What are the architectural components and connectors in Apache JCloud that supports Microsoft Azure blob store? Briefly name and describe each component, determine their type (physical or logical), determine  how they are connected, and how they achieve the requirements.",
           "design_decision": {
             "existence": true
           }
         },
         "question2": {
           "type": "property",
-          "description": "Which quality attributes are considered in the design of BlobStore API?",
-          "design_decision": {
-            "property": true
-          }
-        },
-        "question3": {
-          "type": "property",
-          "description": "What architectural tactics or patterns are used in BlobStore API to satisfy those quality attributes?",
-          "design_decision": {
-            "property": true
-          }
-        },
-        "question4": {
-          "type": "executive",
-          "description": "Which technologies, libraries, or mechanisms are used in BlobStore API, and what rationale is given for selecting them?",
-          "design_decision": {
-            "executive": true
-          }
-        }
-      }
-    },
-    "Component ComputeService": {
-      "description": "As a developer working on Apache jclouds, your task is to understand the design decisions behind the ComputeService component. You want to study how ComputeService models machine lifecycle operations across cloud providers and understand the underlying architectural structure, tradeoffs, and implementation choices.",
-      "questions": {
-        "question1": {
-          "type": "existence",
-          "description": "What are the components and connectors of ComputeService, and what rationale is given for those architectural choices?",
-          "design_decision": {
-            "existence": true
-          }
-        },
-        "question2": {
-          "type": "property",
-          "description": "Which quality attributes are considered in the design of ComputeService?",
-          "design_decision": {
-            "property": true
-          }
-        },
-        "question3": {
-          "type": "property",
-          "description": "What architectural tactics or patterns are used in ComputeService to satisfy those quality attributes?",
-          "design_decision": {
-            "property": true
-          }
-        },
-        "question4": {
-          "type": "executive",
-          "description": "Which technologies, libraries, or mechanisms are used in ComputeService, and what rationale is given for selecting them?",
-          "design_decision": {
-            "executive": true
-          }
-        }
-      }
-    },
-    "Component Retry and Backoff": {
-      "description": "As a developer working on Apache jclouds, your task is to understand the design decisions behind the Retry and Backoff component. You want to study how jclouds structures retry policies, fallback handlers, and error recovery and understand the underlying architectural structure, tradeoffs, and implementation choices.",
-      "questions": {
-        "question1": {
-          "type": "existence",
-          "description": "What are the components and connectors of Retry and Backoff, and what rationale is given for those architectural choices?",
-          "design_decision": {
-            "existence": true
-          }
-        },
-        "question2": {
-          "type": "property",
-          "description": "Which quality attributes are considered in the design of Retry and Backoff?",
-          "design_decision": {
-            "property": true
-          }
-        },
-        "question3": {
-          "type": "property",
-          "description": "What architectural tactics or patterns are used in Retry and Backoff to satisfy those quality attributes?",
-          "design_decision": {
-            "property": true
-          }
-        },
-        "question4": {
-          "type": "executive",
-          "description": "Which technologies, libraries, or mechanisms are used in Retry and Backoff, and what rationale is given for selecting them?",
-          "design_decision": {
-            "executive": true
-          }
-        }
-      }
-    },
-    "Component Provider Metadata": {
-      "description": "As a developer working on Apache jclouds, your task is to understand the design decisions behind the Provider Metadata component. You want to study how provider capabilities, defaults, and API mappings are represented and understand the underlying architectural structure, tradeoffs, and implementation choices.",
-      "questions": {
-        "question1": {
-          "type": "existence",
-          "description": "What are the components and connectors of Provider Metadata, and what rationale is given for those architectural choices?",
-          "design_decision": {
-            "existence": true
-          }
-        },
-        "question2": {
-          "type": "property",
-          "description": "Which quality attributes are considered in the design of Provider Metadata?",
-          "design_decision": {
-            "property": true
-          }
-        },
-        "question3": {
-          "type": "property",
-          "description": "What architectural tactics or patterns are used in Provider Metadata to satisfy those quality attributes?",
-          "design_decision": {
-            "property": true
-          }
-        },
-        "question4": {
-          "type": "executive",
-          "description": "Which technologies, libraries, or mechanisms are used in Provider Metadata, and what rationale is given for selecting them?",
-          "design_decision": {
-            "executive": true
-          }
-        }
-      }
-    },
-    "Component Authentication": {
-      "description": "As a developer working on Apache jclouds, your task is to understand the design decisions behind the Authentication component. You want to study how jclouds handles credential acquisition, signing, and request authentication and understand the underlying architectural structure, tradeoffs, and implementation choices.",
-      "questions": {
-        "question1": {
-          "type": "existence",
-          "description": "What are the components and connectors of Authentication, and what rationale is given for those architectural choices?",
-          "design_decision": {
-            "existence": true
-          }
-        },
-        "question2": {
-          "type": "property",
-          "description": "Which quality attributes are considered in the design of Authentication?",
-          "design_decision": {
-            "property": true
-          }
-        },
-        "question3": {
-          "type": "property",
-          "description": "What architectural tactics or patterns are used in Authentication to satisfy those quality attributes?",
-          "design_decision": {
-            "property": true
-          }
-        },
-        "question4": {
-          "type": "executive",
-          "description": "Which technologies, libraries, or mechanisms are used in Authentication, and what rationale is given for selecting them?",
-          "design_decision": {
-            "executive": true
-          }
-        }
-      }
-    },
-    "Component Endpoint Resolution": {
-      "description": "As a developer working on Apache jclouds, your task is to understand the design decisions behind the Endpoint Resolution component. You want to study how jclouds resolves providers, regions, and endpoints across deployments and understand the underlying architectural structure, tradeoffs, and implementation choices.",
-      "questions": {
-        "question1": {
-          "type": "existence",
-          "description": "What are the components and connectors of Endpoint Resolution, and what rationale is given for those architectural choices?",
-          "design_decision": {
-            "existence": true
-          }
-        },
-        "question2": {
-          "type": "property",
-          "description": "Which quality attributes are considered in the design of Endpoint Resolution?",
-          "design_decision": {
-            "property": true
-          }
-        },
-        "question3": {
-          "type": "property",
-          "description": "What architectural tactics or patterns are used in Endpoint Resolution to satisfy those quality attributes?",
-          "design_decision": {
-            "property": true
-          }
-        },
-        "question4": {
-          "type": "executive",
-          "description": "Which technologies, libraries, or mechanisms are used in Endpoint Resolution, and what rationale is given for selecting them?",
-          "design_decision": {
-            "executive": true
-          }
-        }
-      }
-    },
-    "Requirement Credential Security": {
-      "description": "credential security and request signing are central requirements in Apache jclouds. Your task is to explore the architectural decisions that Apache jclouds uses to address Credential Security.",
-      "questions": {
-        "question1": {
-          "type": "existence",
-          "description": "What are the architectural components and connectors in Apache jclouds that are responsible for Credential Security?",
-          "design_decision": {
-            "existence": true
-          }
-        },
-        "question2": {
-          "type": "property",
-          "description": "What architectural tactics or patterns are used in Apache jclouds to implement Credential Security?",
+          "description": "What solutions (e.g., patterns or tactics) are implemented to support quality attributes in Apache JCloud to support Microsoft Azure blob store? Mention the considered quality attributes and describe the solutions applied, and how they achieve the requirements.",
           "design_decision": {
             "property": true
           }
         },
         "question3": {
           "type": "executive",
-          "description": "Which technologies, libraries, or mechanisms are integrated into Apache jclouds to achieve Credential Security?",
+          "description": "Which tools and technologies are integrated to handle Apache JCloud to support Microsoft Azure blob store? Mention the technologies and tools, their associated components, rationale, and how they achieve the requirements.",
           "design_decision": {
             "executive": true
           }
         }
       }
     },
-    "Requirement Recoverability": {
-      "description": "recoverability from provider errors, timeouts, and partial failures is an important requirement in Apache jclouds. Your task is to explore the architectural decisions that Apache jclouds uses to address Recoverability.",
+    "Support of Portability among providers": {
+      "description": "JCloud is a Java library that supports working with different cloud providers to store data in the cloud, specially compute services and blob stores. Microsoft Azure blob is One provider from many that are supported. JClouds supports the portability quality attribute, such that developers could change providers without significant changes in their code. Your task is to explore architectural design decisions related to portability.",
       "questions": {
         "question1": {
           "type": "existence",
-          "description": "What are the architectural components and connectors in Apache jclouds that are responsible for Recoverability?",
+          "description": "What are the architectural components and connectors in Apache JCloud that supports portability of JCloud for different storage providers including Microsoft Azure blob? Briefly name and describe each component, determine their type (physical or logical), determine  how they are connected, and how they achieve the requirements.",
           "design_decision": {
             "existence": true
           }
         },
         "question2": {
           "type": "property",
-          "description": "What architectural tactics or patterns are used in Apache jclouds to implement Recoverability?",
+          "description": "What solutions (e.g., patterns or tactics) are implemented to support the portability quality attribute in Apache JCloud beyond Microsoft Azure blob store? Mention the considered quality attributes and describe the solutions applied, and how they achieve the requirements.",
           "design_decision": {
             "property": true
           }
         },
         "question3": {
           "type": "executive",
-          "description": "Which technologies, libraries, or mechanisms are integrated into Apache jclouds to achieve Recoverability?",
+          "description": "Which tools and technologies are integrated to handle Apache JCloud to support portability among different storage providers? Mention the technologies and tools, their associated components, rationale, and how they achieve the requirements.",
           "design_decision": {
             "executive": true
-          }
-        }
-      }
-    },
-    "Requirement Scalability": {
-      "description": "scalability across large cloud resource sets and concurrent API calls is a key requirement in Apache jclouds. Your task is to explore the architectural decisions that Apache jclouds uses to address Scalability.",
-      "questions": {
-        "question1": {
-          "type": "existence",
-          "description": "What are the architectural components and connectors in Apache jclouds that are responsible for Scalability?",
-          "design_decision": {
-            "existence": true
-          }
-        },
-        "question2": {
-          "type": "property",
-          "description": "What architectural tactics or patterns are used in Apache jclouds to implement Scalability?",
-          "design_decision": {
-            "property": true
-          }
-        },
-        "question3": {
-          "type": "executive",
-          "description": "Which technologies, libraries, or mechanisms are integrated into Apache jclouds to achieve Scalability?",
-          "design_decision": {
-            "executive": true
-          }
-        }
-      }
-    },
-    "Requirement Provider Portability": {
-      "description": "provider portability across clouds is a defining requirement in Apache jclouds. Your task is to explore the architectural decisions that Apache jclouds uses to address Provider Portability.",
-      "questions": {
-        "question1": {
-          "type": "existence",
-          "description": "What are the architectural components and connectors in Apache jclouds that are responsible for Provider Portability?",
-          "design_decision": {
-            "existence": true
-          }
-        },
-        "question2": {
-          "type": "property",
-          "description": "What architectural tactics or patterns are used in Apache jclouds to implement Provider Portability?",
-          "design_decision": {
-            "property": true
-          }
-        },
-        "question3": {
-          "type": "executive",
-          "description": "Which technologies, libraries, or mechanisms are integrated into Apache jclouds to achieve Provider Portability?",
-          "design_decision": {
-            "executive": true
-          }
-        }
-      }
-    },
-    "Requirement Safe Defaults": {
-      "description": "safe default behavior across providers is an important requirement in Apache jclouds. Your task is to explore the architectural decisions that Apache jclouds uses to address Safe Defaults.",
-      "questions": {
-        "question1": {
-          "type": "existence",
-          "description": "What are the architectural components and connectors in Apache jclouds that are responsible for Safe Defaults?",
-          "design_decision": {
-            "existence": true
-          }
-        },
-        "question2": {
-          "type": "property",
-          "description": "What architectural tactics or patterns are used in Apache jclouds to implement Safe Defaults?",
-          "design_decision": {
-            "property": true
-          }
-        },
-        "question3": {
-          "type": "executive",
-          "description": "Which technologies, libraries, or mechanisms are integrated into Apache jclouds to achieve Safe Defaults?",
-          "design_decision": {
-            "executive": true
-          }
-        }
-      }
-    },
-    "Requirement Upgrade Compatibility": {
-      "description": "upgrade compatibility across providers and API revisions is a recurring requirement in Apache jclouds. Your task is to explore the architectural decisions that Apache jclouds uses to address Upgrade Compatibility.",
-      "questions": {
-        "question1": {
-          "type": "existence",
-          "description": "What are the architectural components and connectors in Apache jclouds that are responsible for Upgrade Compatibility?",
-          "design_decision": {
-            "existence": true
-          }
-        },
-        "question2": {
-          "type": "property",
-          "description": "What architectural tactics or patterns are used in Apache jclouds to implement Upgrade Compatibility?",
-          "design_decision": {
-            "property": true
-          }
-        },
-        "question3": {
-          "type": "executive",
-          "description": "Which technologies, libraries, or mechanisms are integrated into Apache jclouds to achieve Upgrade Compatibility?",
-          "design_decision": {
-            "executive": true
-          }
-        }
-      }
-    },
-    "Test Task A - BlobStore Overview": {
-      "description": "TEST TASK: This is a test task for system validation. Explore the BlobStore component in Apache jclouds.",
-      "questions": {
-        "question1": {
-          "type": "existence",
-          "description": "TEST: What are the main components and responsibilities of BlobStore?",
-          "design_decision": {
-            "existence": true
-          }
-        },
-        "question2": {
-          "type": "property",
-          "description": "TEST: Which quality attributes matter for BlobStore portability?",
-          "design_decision": {
-            "property": true
-          }
-        }
-      }
-    },
-    "Test Task B - jclouds Security": {
-      "description": "TEST TASK: This is a test task for system validation. Explore credential handling in jclouds in Apache jclouds.",
-      "questions": {
-        "question1": {
-          "type": "existence",
-          "description": "TEST: Which architectural elements support credential handling and secure requests in jclouds?",
-          "design_decision": {
-            "existence": true
-          }
-        },
-        "question2": {
-          "type": "property",
-          "description": "TEST: Which quality attributes matter for jclouds security?",
-          "design_decision": {
-            "property": true
-          }
-        }
-      }
-    },
-    "Test Task C - Multi-Cloud Scalability": {
-      "description": "TEST TASK: This is a test task for system validation. Explore jclouds scalability mechanisms in Apache jclouds.",
-      "questions": {
-        "question1": {
-          "type": "existence",
-          "description": "TEST: Which architectural elements support scalable multi-cloud operations in jclouds?",
-          "design_decision": {
-            "existence": true
-          }
-        },
-        "question2": {
-          "type": "property",
-          "description": "TEST: Which quality attributes matter for scalability in jclouds?",
-          "design_decision": {
-            "property": true
           }
         }
       }
