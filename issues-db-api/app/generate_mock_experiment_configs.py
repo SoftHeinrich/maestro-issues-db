@@ -31,8 +31,6 @@ DEBUG_USER_ID = "mock_user_000"
 ARCHRAG_VARIANTS = [
     {"engine": "archrag", "rerank_engine": False, "gpt": False},
     {"engine": "archrag", "rerank_engine": True, "gpt": False},
-    {"engine": "archrag", "rerank_engine": False, "gpt": True},
-    {"engine": "archrag", "rerank_engine": True, "gpt": True},
 ]
 
 HDFS_COMPONENT_TASKS = [

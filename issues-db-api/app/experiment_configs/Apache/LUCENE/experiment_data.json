@@ -57,7 +57,7 @@
             "question3": {
               "engine": "archrag",
               "rerank_engine": false,
-              "gpt": true
+              "gpt": false
             }
           }
         },
@@ -109,7 +109,7 @@
             "question3": {
               "engine": "archrag",
               "rerank_engine": false,
-              "gpt": true
+              "gpt": false
             }
           }
         },
@@ -128,7 +128,7 @@
             "question2": {
               "engine": "archrag",
               "rerank_engine": false,
-              "gpt": true
+              "gpt": false
             },
             "question3": {
               "engine": "pylucene",
@@ -237,7 +237,7 @@
             "question3": {
               "engine": "archrag",
               "rerank_engine": true,
-              "gpt": true
+              "gpt": false
             }
           }
         }
@@ -265,7 +265,7 @@
             "question3": {
               "engine": "archrag",
               "rerank_engine": false,
-              "gpt": true
+              "gpt": false
             }
           }
         },
@@ -289,7 +289,7 @@
             "question3": {
               "engine": "archrag",
               "rerank_engine": true,
-              "gpt": true
+              "gpt": false
             }
           }
         }
@@ -341,7 +341,7 @@
             "question3": {
               "engine": "archrag",
               "rerank_engine": true,
-              "gpt": true
+              "gpt": false
             }
           }
         }
@@ -421,7 +421,7 @@
             "question3": {
               "engine": "archrag",
               "rerank_engine": false,
-              "gpt": true
+              "gpt": false
             }
           }
         },
@@ -445,7 +445,7 @@
             "question3": {
               "engine": "archrag",
               "rerank_engine": true,
-              "gpt": true
+              "gpt": false
             }
           }
         }
@@ -544,7 +544,7 @@
             "question2": {
               "engine": "archrag",
               "rerank_engine": false,
-              "gpt": true
+              "gpt": false
             },
             "question3": {
               "engine": "pylucene",
@@ -577,7 +577,7 @@
             "question3": {
               "engine": "archrag",
               "rerank_engine": false,
-              "gpt": true
+              "gpt": false
             }
           }
         },
@@ -629,7 +629,7 @@
             "question3": {
               "engine": "archrag",
               "rerank_engine": false,
-              "gpt": true
+              "gpt": false
             }
           }
         },
@@ -700,7 +700,7 @@
             "question2": {
               "engine": "archrag",
               "rerank_engine": false,
-              "gpt": true
+              "gpt": false
             },
             "question3": {
               "engine": "pylucene",
@@ -757,7 +757,7 @@
             "question3": {
               "engine": "archrag",
               "rerank_engine": true,
-              "gpt": true
+              "gpt": false
             }
           }
         }
@@ -804,12 +804,12 @@
             "question2": {
               "engine": "archrag",
               "rerank_engine": false,
-              "gpt": true
+              "gpt": false
             },
             "question3": {
               "engine": "archrag",
               "rerank_engine": true,
-              "gpt": true
+              "gpt": false
             }
           }
         }
@@ -856,12 +856,12 @@
             "question2": {
               "engine": "archrag",
               "rerank_engine": false,
-              "gpt": true
+              "gpt": false
             },
             "question3": {
               "engine": "archrag",
               "rerank_engine": true,
-              "gpt": true
+              "gpt": false
             }
           }
         }
@@ -1017,7 +1017,7 @@
             "question3": {
               "engine": "archrag",
               "rerank_engine": true,
-              "gpt": true
+              "gpt": false
             }
           }
         }
@@ -1277,7 +1277,7 @@
             "question3": {
               "engine": "archrag",
               "rerank_engine": true,
-              "gpt": true
+              "gpt": false
             }
           }
         }
@@ -1305,7 +1305,7 @@
             "question3": {
               "engine": "archrag",
               "rerank_engine": false,
-              "gpt": true
+              "gpt": false
             }
           }
         },
@@ -1329,7 +1329,7 @@
             "question3": {
               "engine": "archrag",
               "rerank_engine": true,
-              "gpt": true
+              "gpt": false
             }
           }
         }
@@ -1428,7 +1428,7 @@
             "question2": {
               "engine": "archrag",
               "rerank_engine": false,
-              "gpt": true
+              "gpt": false
             },
             "question3": {
               "engine": "pylucene",
@@ -1461,7 +1461,7 @@
             "question3": {
               "engine": "archrag",
               "rerank_engine": false,
-              "gpt": true
+              "gpt": false
             }
           }
         },
@@ -1513,7 +1513,7 @@
             "question3": {
               "engine": "archrag",
               "rerank_engine": false,
-              "gpt": true
+              "gpt": false
             }
           }
         },
@@ -1527,7 +1527,7 @@
             "question1": {
               "engine": "archrag",
               "rerank_engine": true,
-              "gpt": true
+              "gpt": false
             },
             "question2": {
               "engine": "archrag",
