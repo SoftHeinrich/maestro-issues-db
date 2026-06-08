@@ -1,9 +1,49 @@
 {
-  "debug": true,
+  "debug": false,
   "repo": "Apache",
   "project": "YARN",
   "project_name": "Apache YARN",
   "passwords": {
+    "G10M2": "G10M2",
+    "G10M4": "G10M4",
+    "G10M5": "G10M5",
+    "G11M3": "G11M3",
+    "G11M4": "G11M4",
+    "G11M5": "G11M5",
+    "G11M6": "G11M6",
+    "G12M1": "G12M1",
+    "G12M2": "G12M2",
+    "G12M3": "G12M3",
+    "G13M1": "G13M1",
+    "G13M2": "G13M2",
+    "G13M5": "G13M5",
+    "G14M1": "G14M1",
+    "G15M4": "G15M4",
+    "G15M5": "G15M5",
+    "G1M2": "G1M2",
+    "G1M3": "G1M3",
+    "G1M4": "G1M4",
+    "G1M5": "G1M5",
+    "G2M1": "G2M1",
+    "G2M5": "G2M5",
+    "G3M1": "G3M1",
+    "G3M2": "G3M2",
+    "G3M4": "G3M4",
+    "G4M1": "G4M1",
+    "G4M5": "G4M5",
+    "G4M6": "G4M6",
+    "G5M1": "G5M1",
+    "G5M2": "G5M2",
+    "G5M4": "G5M4",
+    "G5M5": "G5M5",
+    "G6M4": "G6M4",
+    "G7M1": "G7M1",
+    "G8M1": "G8M1",
+    "G8M2": "G8M2",
+    "G8M5": "G8M5",
+    "G9M1": "G9M1",
+    "G9M5": "G9M5",
+    "mock_user_000": "mock_user_000",
     "mock_yarn_001": "mock_yarn_001",
     "mock_yarn_002": "mock_yarn_002",
     "mock_yarn_003": "mock_yarn_003",
@@ -31,10 +71,2089 @@
     "mock_yarn_025": "mock_yarn_025",
     "mock_yarn_026": "mock_yarn_026",
     "mock_yarn_027": "mock_yarn_027",
-    "mock_yarn_028": "mock_yarn_028",
-    "mock_user_000": "mock_user_000"
+    "mock_yarn_028": "mock_yarn_028"
   },
   "student_data": {
+    "G10M2": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G10M4": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G10M5": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G11M3": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G11M4": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G11M5": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G11M6": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G12M1": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G12M2": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G12M3": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G13M1": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G13M2": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G13M5": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G14M1": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G15M4": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G15M5": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G1M2": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G1M3": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G1M4": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G1M5": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G2M1": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G2M5": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G3M1": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G3M2": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G3M4": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G4M1": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G4M5": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G4M6": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G5M1": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G5M2": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G5M4": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G5M5": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G6M4": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G7M1": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G8M1": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G8M2": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G8M5": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G9M1": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G9M5": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "mock_user_000": {
+      "tasks": [
+        {
+          "taskName": "Component \"Resource manager scheduler\"",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance",
+          "repo": "Apache",
+          "project": "YARN",
+          "project_name": "Apache YARN",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
     "mock_yarn_001": {
       "tasks": [
         {
@@ -1486,58 +3605,6 @@
               "engine": "pylucene",
               "rerank_engine": true,
               "gpt": true
-            }
-          }
-        }
-      ]
-    },
-    "mock_user_000": {
-      "tasks": [
-        {
-          "taskName": "Component \"Resource manager scheduler\"",
-          "repo": "Apache",
-          "project": "YARN",
-          "project_name": "Apache YARN",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            }
-          }
-        },
-        {
-          "taskName": "Requirement Performance",
-          "repo": "Apache",
-          "project": "YARN",
-          "project_name": "Apache YARN",
-          "solutions": {},
-          "questions": {
-            "question1": {
-              "engine": "archrag",
-              "rerank_engine": true,
-              "gpt": false
-            },
-            "question2": {
-              "engine": "archrag",
-              "rerank_engine": false,
-              "gpt": false
-            },
-            "question3": {
-              "engine": "archrag",
-              "rerank_engine": true,
-              "gpt": false
             }
           }
         }

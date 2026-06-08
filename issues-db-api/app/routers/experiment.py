@@ -126,8 +126,15 @@ def _ensure_legacy_results_table(conn) -> None:
                     rerank_engine BOOLEAN NOT NULL DEFAULT FALSE,
                     gpt BOOLEAN NOT NULL DEFAULT FALSE,
                     config_hash TEXT NOT NULL,
+                    export_string TEXT,
                     ratings JSONB NOT NULL
                 )
+                """
+            )
+            cur.execute(
+                """
+                ALTER TABLE experiment_ratings
+                ADD COLUMN IF NOT EXISTS export_string TEXT
                 """
             )
             cur.execute(
@@ -187,6 +194,7 @@ def _legacy_result_record_to_dict(record: Dict[str, Any]) -> Dict[str, Any]:
         "rerank_engine": record["rerank_engine"],
         "gpt": record["gpt"],
         "config_hash": record["config_hash"],
+        "export_string": record.get("export_string"),
         "ratings": ratings,
         "created_at": record["created_at"],
     }
@@ -212,9 +220,10 @@ def _insert_legacy_result(result: Dict[str, Any]) -> Dict[str, Any]:
                     rerank_engine,
                     gpt,
                     config_hash,
+                    export_string,
                     ratings,
                     created_at
-                ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                 RETURNING
                     id,
                     repo,
@@ -228,6 +237,7 @@ def _insert_legacy_result(result: Dict[str, Any]) -> Dict[str, Any]:
                     rerank_engine,
                     gpt,
                     config_hash,
+                    export_string,
                     ratings,
                     created_at
                 """,
@@ -243,6 +253,7 @@ def _insert_legacy_result(result: Dict[str, Any]) -> Dict[str, Any]:
                     result["rerank_engine"],
                     result["gpt"],
                     result["config_hash"],
+                    result.get("export_string"),
                     Json(result["ratings"]),
                     result["created_at"],
                 ),
@@ -277,6 +288,7 @@ def _find_legacy_results(
                 rerank_engine,
                 gpt,
                 config_hash,
+                export_string,
                 ratings,
                 created_at
             FROM experiment_ratings
@@ -894,6 +906,7 @@ class SaveResult(BaseModel):
     questionKey: str
     searchQuery: str
     ratings: List[LegacyRating]
+    export_string: Optional[str] = None
     repo: Optional[str] = None
     project: Optional[str] = None
 
@@ -963,7 +976,8 @@ def _load_legacy_results(
     for row in rows:
         task_id = row["taskId"]
         question_key = row["questionKey"]
-        entry = {k: v for k, v in row.items() if k not in {"_id", "matriculationNumber", "created_at"}}
+        entry = {k: v for k, v in row.items() if k not in {"_id", "matriculationNumber"}}
+        entry["solution_source"] = "persisted"
         results.setdefault(task_id, {}).setdefault(question_key, []).append(entry)
     return results
 
@@ -973,9 +987,17 @@ def _merge_solutions(
     persisted_solutions: Dict[str, List[Dict[str, Any]]] | None,
 ) -> Dict[str, List[Dict[str, Any]]]:
     merged: Dict[str, List[Dict[str, Any]]] = {}
-    for source in (base_solutions or {}, persisted_solutions or {}):
+    for source_name, source in (
+        ("seed", base_solutions or {}),
+        ("persisted", persisted_solutions or {}),
+    ):
         for question_key, entries in source.items():
-            merged.setdefault(question_key, []).extend(list(entries))
+            normalized_entries = []
+            for entry in entries:
+                normalized_entry = dict(entry)
+                normalized_entry.setdefault("solution_source", source_name)
+                normalized_entries.append(normalized_entry)
+            merged.setdefault(question_key, []).extend(normalized_entries)
     return merged
 
 
@@ -1084,6 +1106,10 @@ def save_result(result_data: SaveResult):
     question_key = result_data.questionKey
     search_query = result_data.searchQuery
     ratings = [{"issue_id": r.issue_id, "rating": str(r.rating)} for r in result_data.ratings]
+    export_string = result_data.export_string or ", ".join(
+        f"({index + 1},{rating['issue_id']},{rating['rating']})"
+        for index, rating in enumerate(ratings)
+    )
 
     engine = "pylucene"
     rerank_engine = False
@@ -1122,6 +1148,7 @@ def save_result(result_data: SaveResult):
         "rerank_engine": rerank_engine,
         "gpt": gpt,
         "config_hash": _config_hash(data),
+        "export_string": export_string,
         "ratings": ratings,
         "created_at": datetime.now(timezone.utc),
     }

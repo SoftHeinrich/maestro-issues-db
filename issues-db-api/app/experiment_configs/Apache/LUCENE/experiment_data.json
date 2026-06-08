@@ -1,9 +1,50 @@
 {
-  "debug": true,
+  "debug": false,
   "repo": "Apache",
   "project": "LUCENE",
   "project_name": "Apache Lucene",
   "passwords": {
+    "G10M1": "G10M1",
+    "G10M5": "G10M5",
+    "G11M3": "G11M3",
+    "G11M4": "G11M4",
+    "G12M2": "G12M2",
+    "G12M4": "G12M4",
+    "G13M1": "G13M1",
+    "G13M2": "G13M2",
+    "G13M3": "G13M3",
+    "G14M1": "G14M1",
+    "G14M2": "G14M2",
+    "G14M4": "G14M4",
+    "G15M1": "G15M1",
+    "G15M3": "G15M3",
+    "G15M5": "G15M5",
+    "G1M2": "G1M2",
+    "G1M4": "G1M4",
+    "G2M2": "G2M2",
+    "G2M4": "G2M4",
+    "G2M5": "G2M5",
+    "G3M1": "G3M1",
+    "G3M2": "G3M2",
+    "G3M3": "G3M3",
+    "G4M1": "G4M1",
+    "G4M2": "G4M2",
+    "G4M3": "G4M3",
+    "G4M6": "G4M6",
+    "G5M1": "G5M1",
+    "G5M5": "G5M5",
+    "G6M3": "G6M3",
+    "G6M4": "G6M4",
+    "G6M5": "G6M5",
+    "G7M2": "G7M2",
+    "G7M3": "G7M3",
+    "G7M4": "G7M4",
+    "G8M1": "G8M1",
+    "G8M2": "G8M2",
+    "G8M3": "G8M3",
+    "G8M5": "G8M5",
+    "G9M1": "G9M1",
+    "G9M2": "G9M2",
     "mock_lucene_001": "mock_lucene_001",
     "mock_lucene_002": "mock_lucene_002",
     "mock_lucene_003": "mock_lucene_003",
@@ -35,6 +76,2138 @@
     "mock_user_000": "mock_user_000"
   },
   "student_data": {
+    "G10M1": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G10M5": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G11M3": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G11M4": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G12M2": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G12M4": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G13M1": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G13M2": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G13M3": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G14M1": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G14M2": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G14M4": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G15M1": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G15M3": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G15M5": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G1M2": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G1M4": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G2M2": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G2M4": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G2M5": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G3M1": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G3M2": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G3M3": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G4M1": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G4M2": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G4M3": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G4M6": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G5M1": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G5M5": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G6M3": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G6M4": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G6M5": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G7M2": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G7M3": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G7M4": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G8M1": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G8M2": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G8M3": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G8M5": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G9M1": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G9M2": {
+      "tasks": [
+        {
+          "taskName": "Codecs components",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement Performance by Codecs",
+          "repo": "Apache",
+          "project": "LUCENE",
+          "project_name": "Apache Lucene",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
     "mock_lucene_001": {
       "tasks": [
         {

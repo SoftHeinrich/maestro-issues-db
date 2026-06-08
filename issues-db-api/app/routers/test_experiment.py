@@ -41,6 +41,7 @@ fake_authentication.validate_token = validate_token
 sys.modules["app.routers.authentication"] = fake_authentication
 
 experiment = importlib.import_module("app.routers.experiment")
+REAL_FIND_LEGACY_RESULTS = experiment._find_legacy_results
 
 experiment_test_app = FastAPI()
 experiment_test_app.include_router(experiment.router)
@@ -411,6 +412,7 @@ class TestLegacyTasks:
         assert datanode["task_details"] == "Use at least two queries before finalizing ratings."
         assert datanode["lekert_scale"]["5"] == "Very Relevant"
         assert datanode["solutions"]["question1"][0]["searchQuery"] == "seed query"
+        assert datanode["solutions"]["question1"][0]["solution_source"] == "seed"
 
         assert namenode["questions"]["question1"]["engine"] == "archrag"
         assert namenode["questions"]["question1"]["gpt"] is True
@@ -428,8 +430,66 @@ class TestLegacyTasks:
 
 
 class TestLegacyPersistence:
+    def test_find_legacy_results_selects_export_string_column(self, monkeypatch):
+        captured: dict[str, object] = {}
+
+        class Cursor:
+            def __enter__(self):
+                return self
+
+            def __exit__(self, exc_type, exc, tb):
+                return False
+
+            def execute(self, query, params):
+                captured["query"] = query
+                captured["params"] = params
+
+            def fetchall(self):
+                return [
+                    {
+                        "id": 1,
+                        "repo": "Apache",
+                        "project": "HDFS",
+                        "project_name": "Hadoop HDFS",
+                        "matriculation_number": "student1",
+                        "task_id": "Component DataNode",
+                        "question_key": "question1",
+                        "search_query": "persisted query",
+                        "engine": "pylucene",
+                        "rerank_engine": True,
+                        "gpt": False,
+                        "config_hash": "cfg",
+                        "export_string": "(1,HDFS-1,5)",
+                        "ratings": [{"issue_id": "HDFS-1", "rating": "5"}],
+                        "created_at": datetime.now(timezone.utc),
+                    }
+                ]
+
+        class Connection:
+            def cursor(self, cursor_factory=None):
+                return Cursor()
+
+            def close(self):
+                return None
+
+        fake_psycopg2 = types.ModuleType("psycopg2")
+        fake_extras = types.ModuleType("psycopg2.extras")
+        fake_extras.RealDictCursor = object
+        fake_psycopg2.extras = fake_extras
+        monkeypatch.setitem(sys.modules, "psycopg2", fake_psycopg2)
+        monkeypatch.setitem(sys.modules, "psycopg2.extras", fake_extras)
+        monkeypatch.setattr(experiment, "_get_legacy_results_connection", lambda: Connection())
+
+        rows = REAL_FIND_LEGACY_RESULTS({"repo": "Apache", "project": "HDFS"})
+
+        assert "export_string" in captured["query"]
+        assert rows[0]["export_string"] == "(1,HDFS-1,5)"
+
     def test_submit_ratings_persists_postgres_row_and_reloads_into_tasks(self, experiment_env):
-        response = _post_legacy_rating(searchQuery="persisted query")
+        response = _post_legacy_rating(
+            searchQuery="persisted query",
+            export_string="(1,HDFS-1,5)",
+        )
         assert response.status_code == 200
 
         stored = list(experiment_env.legacy_results)
@@ -440,6 +500,7 @@ class TestLegacyPersistence:
         assert stored[0]["engine"] == "pylucene"
         assert stored[0]["rerank_engine"] is True
         assert stored[0]["gpt"] is False
+        assert stored[0]["export_string"] == "(1,HDFS-1,5)"
         assert stored[0]["ratings"][0]["rating"] == "5"
 
         tasks = client.post(
@@ -450,6 +511,9 @@ class TestLegacyPersistence:
 
         solutions = datanode["solutions"]["question1"]
         assert [item["searchQuery"] for item in solutions] == ["seed query", "persisted query"]
+        assert solutions[1]["solution_source"] == "persisted"
+        assert solutions[1]["export_string"] == "(1,HDFS-1,5)"
+        assert solutions[1]["created_at"] is not None
 
     def test_duplicate_submissions_are_stored_as_distinct_rows(self, experiment_env):
         first = _post_legacy_rating(searchQuery="same-query", ratings=[{"issue_id": "HDFS-1", "rating": 2}])
@@ -467,6 +531,7 @@ class TestLegacyPersistence:
         same_query = [row for row in results if row["searchQuery"] == "same-query"]
         assert len(same_query) == 2
         assert [row["ratings"][0]["rating"] for row in same_query] == ["2", "5"]
+        assert [row["export_string"] for row in same_query] == ["(1,HDFS-1,2)", "(1,HDFS-1,5)"]
 
     def test_reload_then_change_rating_keeps_both_versions(self):
         first_load = client.post(

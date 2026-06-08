@@ -1,9 +1,43 @@
 {
-  "debug": true,
+  "debug": false,
   "repo": "Apache",
   "project": "MAPREDUCE",
   "project_name": "Apache MapReduce",
   "passwords": {
+    "G10M3": "G10M3",
+    "G11M1": "G11M1",
+    "G11M2": "G11M2",
+    "G12M4": "G12M4",
+    "G12M5": "G12M5",
+    "G13M2": "G13M2",
+    "G13M3": "G13M3",
+    "G13M4": "G13M4",
+    "G14M1": "G14M1",
+    "G14M2": "G14M2",
+    "G14M3": "G14M3",
+    "G15M1": "G15M1",
+    "G15M2": "G15M2",
+    "G15M3": "G15M3",
+    "G1M1": "G1M1",
+    "G1M3": "G1M3",
+    "G2M2": "G2M2",
+    "G2M3": "G2M3",
+    "G3M3": "G3M3",
+    "G4M1": "G4M1",
+    "G4M2": "G4M2",
+    "G4M3": "G4M3",
+    "G4M4": "G4M4",
+    "G6M1": "G6M1",
+    "G6M2": "G6M2",
+    "G6M5": "G6M5",
+    "G7M5": "G7M5",
+    "G8M2": "G8M2",
+    "G8M3": "G8M3",
+    "G8M4": "G8M4",
+    "G9M1": "G9M1",
+    "G9M2": "G9M2",
+    "G9M3": "G9M3",
+    "G9M4": "G9M4",
     "mock_mapreduce_001": "mock_mapreduce_001",
     "mock_mapreduce_002": "mock_mapreduce_002",
     "mock_mapreduce_003": "mock_mapreduce_003",
@@ -35,6 +69,1774 @@
     "mock_user_000": "mock_user_000"
   },
   "student_data": {
+    "G10M3": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G11M1": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G11M2": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G12M4": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G12M5": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G13M2": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G13M3": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G13M4": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G14M1": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G14M2": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G14M3": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G15M1": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G15M2": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G15M3": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G1M1": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G1M3": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G2M2": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G2M3": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G3M3": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G4M1": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G4M2": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G4M3": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G4M4": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G6M1": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G6M2": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G6M5": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G7M5": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G8M2": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G8M3": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G8M4": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G9M1": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G9M2": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": true,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
+    "G9M3": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question2": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            },
+            "question3": {
+              "engine": "pylucene",
+              "rerank_engine": true,
+              "gpt": true
+            }
+          }
+        }
+      ]
+    },
+    "G9M4": {
+      "tasks": [
+        {
+          "taskName": "Component \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        },
+        {
+          "taskName": "Requirement security of \"Client core\"",
+          "repo": "Apache",
+          "project": "MAPREDUCE",
+          "project_name": "Apache MapReduce",
+          "solutions": {},
+          "questions": {
+            "question1": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question2": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            },
+            "question3": {
+              "engine": "archrag",
+              "rerank_engine": false,
+              "gpt": false
+            }
+          }
+        }
+      ]
+    },
     "mock_mapreduce_001": {
       "tasks": [
         {
